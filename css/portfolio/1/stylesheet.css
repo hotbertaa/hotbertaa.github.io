@@ -38,7 +38,7 @@ src: local("Anton Regular"), local("Anton-Regular"), url("/images/fonts/anton/an
   to { width: 100%; } }
 .overlay .loader.bar { background-color: #444444; }
 
-.overlay .loader.bar:before { background-color: #F28823; }
+.overlay .loader.bar:before { background-color: #efa837; }
 
 .loader.lg, .overlay { background: -moz-linear-gradient(45deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%); background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgba(0, 0, 0, 0.6)), color-stop(100%, rgba(0, 0, 0, 0.6))); background: -webkit-linear-gradient(45deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%); background: -o-linear-gradient(45deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%); background: -ms-linear-gradient(45deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%); background: linear-gradient(45deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#99000', endColorstr='#99000'); /* For IE 5.5 - 7*/ -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#99000', endColorstr='#99000')"; /* For IE 8*/ }
 
@@ -449,11 +449,11 @@ footer nav, .scrollup footer nav { bottom: -127px !important; }
 
 @media only screen and (min-width: 993px) { .scrollz #wrap > header, .scrolly #wrap > header { top: -150px; }
   body #wrap.scrollr > header .logo a { width: 250px; height: 100px; transition: width .5s ease, height .5s ease; } }
-.shimmer { margin: 0; display: inline-block; color: white; background: #fbd6b3 -webkit-gradient(linear, 100% 0, 0 0, from(#fbd6b3), color-stop(0.5, #ffffff), to(#fbd6b3)); background-position: -4rem top; /*50px*/ background-repeat: no-repeat; -webkit-background-clip: text; -webkit-text-fill-color: transparent; -webkit-animation-name: shimmer; -webkit-animation-duration: 2.2s; -webkit-animation-iteration-count: infinite; -webkit-background-size: 4rem 100%; /*50px*/ }
+.shimmer { margin: 0; display: inline-block; color: white; background: #fae6c5 -webkit-gradient(linear, 100% 0, 0 0, from(#fae6c5), color-stop(0.5, #ffffff), to(#fae6c5)); background-position: -4rem top; /*50px*/ background-repeat: no-repeat; -webkit-background-clip: text; -webkit-text-fill-color: transparent; -webkit-animation-name: shimmer; -webkit-animation-duration: 2.2s; -webkit-animation-iteration-count: infinite; -webkit-background-size: 4rem 100%; /*50px*/ }
 
-.shimmer .icn { -webkit-text-fill-color: #fbd6b3; }
+.shimmer .icn { -webkit-text-fill-color: #fae6c5; }
 
-#head #title .shimmer { color: #F28823; background: #F28823 -webkit-gradient(linear, 100% 0, 0 0, from(#F28823), color-stop(0.5, #fbd6b3), to(#F28823)); }
+#head #title .shimmer { color: #efa837; background: #efa837 -webkit-gradient(linear, 100% 0, 0 0, from(#efa837), color-stop(0.5, #fae6c5), to(#efa837)); }
 
 @-webkit-keyframes shimmer { 0% { background-position: -4rem top;
     /*50px*/ }
