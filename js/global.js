@@ -1,4 +1,4 @@
-function(){
+/*function(){
 var lastScrollTop = 0;
 $(window).on('scroll',function(e){
         $('.autohide').show();
@@ -38,7 +38,7 @@ $(window).on('scroll',function(e){
 		//}, false);
     
 });
-}
+}*/
 
 $('.scrollTo').on('click', function(){
     //$('html,body').animate({scrollTop: $($(this).attr('href')).offset().top},500);
