@@ -478,6 +478,7 @@ z-index: 1;
 @media only screen and (max-width: 992px) {
 
 ////////////////////////////////////////////////////////////////////////////////////
+section:after,
 section:before{
 height: 100px;
 }
@@ -488,6 +489,7 @@ height: 100px;
 @media only screen and (max-width: 768px) {
 
 ////////////////////////////////////////////////////////////////////////////////////
+section:after,
 section:before{
 height: 80px;
 }
@@ -503,6 +505,7 @@ bottom: 67%;
 @media only screen and (max-width: 576px) {
 
 ////////////////////////////////////////////////////////////////////////////////////
+section:after,
 section:before{
 height: 60px;
 }

@@ -15,7 +15,7 @@ body .btn-outline-light:hover { color: #0e6585 !important; }
 
 body .btn-light { color: #e2f5fc !important; }
 
-body, #head .text-muted, #head { color: #07303f !important; }
+footer nav .top, body, #head .text-muted, #head { color: #07303f !important; }
 
 header nav a { color: #0e6585; }
 
@@ -42,6 +42,8 @@ body, header, #head { background-color: #e2f5fc; }
 #intro .row .col-md:nth-child(3) .img { background-color: #F0774E; }
 
 #intro .row .col-md:nth-child(4) .img { background-color: #4C5459; }
+
+footer nav .top { background-color: #FFF; }
 
 #intro #cards .img { background-position: 50%; }
 
