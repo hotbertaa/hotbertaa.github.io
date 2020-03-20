@@ -1,9 +1,9 @@
 /* CSS - Peter Roper */
 #wrap.page-index > header { background: #e2f5fc !important; }
 
-#head .text-muted, #head { color: #041f28 !important; }
+#head .text-muted, #head { color: #020d11 !important; }
 
-header .logo a { color: #222222; }
+header .logo a { color: #020d11; }
 
 #intro, #intro .text-muted { color: #FFF !important; }
 
