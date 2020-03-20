@@ -418,7 +418,7 @@ header .linkedin .icn { background-size: 100% auto !important; -ms-interpolation
 
 #skills .row li .col-auto:after { content: ''; position: absolute; width: 10px; height: 100%; margin-bottom: -1px; bottom: 0; z-index: 10; }
 
-#skills .row li .col-auto { background-color: #07303f; }
+#skills .row li .col-auto { color: #FFF; background-color: #07303f; }
 
 #skills .row li { color: #1599ca; background-color: #FFF; }
 
