@@ -1,7 +1,7 @@
 /* CSS - Peter Roper */
 #wrap.page-index > header { background: #e2f5fc !important; }
 
-#head .text-muted, #head { color: #07303f !important; }
+body, #head .text-muted, #head { color: #07303f !important; }
 
 header nav a { color: #0e6585; }
 
@@ -16,6 +16,8 @@ header .logo a { color: #07303f; }
 body, header, #head { background-color: #e2f5fc; }
 
 #branding { background-color: #774dab; }
+
+.card-header { background-color: #b4e5f7; }
 
 #skills .icon, #skills { background-color: #efa837; }
 
