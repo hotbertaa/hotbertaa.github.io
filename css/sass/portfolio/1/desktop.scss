@@ -5,8 +5,8 @@ $style: dark;
 $ver: 1;
 
 @import "build/theme.scss";
-@import "../../../build/settings.scss";
+@import "../../settings.scss";
 //////////////////////////////////////////////////
-@import "../../../api/templateBootstrap1/desktop.scss";
+@import "../../bootstrap1/desktop.scss";
 
 @import "build/desktop.scss";
