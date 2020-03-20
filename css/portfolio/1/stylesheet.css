@@ -458,7 +458,7 @@ footer nav, .scrollup footer nav { bottom: -127px !important; }
 
 .scrollr #header > .row > .col:nth-child(2) { display: block !important; }
 
-#head .display-3, #head .h1, #head .lead, #head .row { position: relative; opacity: 0; }
+#head .display-3, #head .h3, #head .lead, #head .row { position: relative; opacity: 0; }
 
 #head .h3, #head .lead { left: -100px; }
 
