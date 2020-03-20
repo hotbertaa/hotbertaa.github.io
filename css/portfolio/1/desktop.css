@@ -33,7 +33,7 @@ footer nav, .scrollup footer nav { bottom: -127px !important; }
 
 .loaded #head #title b:nth-child(3) { transition-delay: .9s; }
 
-.page-index #header > .row > .col:nth-child(2), .page-index #header > .row > .col:nth-child(3) > .row > col:nth-child(1) { display: none !important; }
+.page-index #header > .row > .col:nth-child(2), .page-index #header > .row > .col:nth-child(3) > .row > .col:nth-child(1) { display: none !important; }
 
 @media only screen and (min-width: 993px) { .scrollz #wrap > header, .scrolly #wrap > header { top: -150px; }
   body #wrap.scrollr > header .logo a { width: 250px; height: 100px; transition: width .5s ease, height .5s ease; } }
