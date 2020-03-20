@@ -379,6 +379,8 @@ header { position: fixed; background: 0 !important; }
 
 .page-index #head { padding-top: 36px; }
 
+header .linkedin .icn { background-size: 100% auto !important; -ms-interpolation-mode: bicubic; image-rendering: optimizeQuality; }
+
 .icon { line-height: 1; margin: -95px 0 15px -48px; display: inline-block; position: absolute; }
 
 .icon .icn { width: 60px !important; height: 60px !important; line-height: 60px !important; font-size: 60px !important; }

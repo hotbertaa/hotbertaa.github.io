@@ -16,3 +16,6 @@ background: 0!important;
 .page-index #head{
 padding-top: 36px;
 }
+header .linkedin .icn{
+@include backgroundSize();
+}
