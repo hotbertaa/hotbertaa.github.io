@@ -1,83 +1,18 @@
-/*
-Error: Undefined variable: "$highlightBg10".
-        on line 29 of /Users/hotbertaa/Documents/GitHub/hotbertaa.github.io/css/sass/portfolio/1/build/desktop.scss
+#header > .row > .col:nth-child(2), #header > .row > .col:nth-child(3) > .row > .col:nth-child(1) a { display: none !important; }
 
-24: 
-25: .shimmer {
-26: margin: 0;
-27: display: inline-block;
-28: color:white;
-29: background: lighten($highlightBg10,30%) -webkit-gradient(linear, 100% 0, 0 0, from(lighten($highlightBg10,30%)), color-stop(0.5, #ffffff), to(lighten($highlightBg10,30%)));
-30: background-position: -4rem top; /*50px*\/
-31: background-repeat: no-repeat;
-32: -webkit-background-clip: text;
-33: -webkit-text-fill-color: transparent;
-34: -webkit-animation-name: shimmer;
+.scrollr #header > .row > .col:nth-child(2) { display: block !important; }
 
-Backtrace:
-/Users/hotbertaa/Documents/GitHub/hotbertaa.github.io/css/sass/portfolio/1/build/desktop.scss:29
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/script/tree/variable.rb:49:in `_perform'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/script/tree/node.rb:50:in `perform'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/script/tree/funcall.rb:182:in `perform_arg'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/script/tree/funcall.rb:129:in `block in _perform'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/script/tree/funcall.rb:129:in `each'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/script/tree/funcall.rb:129:in `each_with_index'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/script/tree/funcall.rb:129:in `each'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/script/tree/funcall.rb:129:in `map'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/script/tree/funcall.rb:129:in `_perform'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/script/tree/node.rb:50:in `perform'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/script/tree/list_literal.rb:75:in `block in _perform'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/script/tree/list_literal.rb:75:in `map'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/script/tree/list_literal.rb:75:in `_perform'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/script/tree/node.rb:50:in `perform'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:398:in `visit_prop'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `visit'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `block in with_base'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/stack.rb:135:in `with_frame'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `with_base'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `visit'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:440:in `block (2 levels) in visit_rule'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:440:in `map'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:440:in `block in visit_rule'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:438:in `visit_rule'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `visit'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `block in with_base'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/stack.rb:135:in `with_frame'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `with_base'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `visit'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in `map'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `block in visit'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `visit'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:157:in `visit'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:10:in `visit'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/root_node.rb:36:in `css_tree'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/root_node.rb:20:in `render'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/engine.rb:290:in `render'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:464:in `update_stylesheet'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:209:in `each'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:443:in `on_file_changed'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:320:in `block in watch'
-/Library/Ruby/Gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/event/config.rb:23:in `call'
-/Library/Ruby/Gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:115:in `_process_changes'
-/Library/Ruby/Gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:19:in `block in loop_for'
-/Library/Ruby/Gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop'
-/Library/Ruby/Gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop_for'
-/Library/Ruby/Gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:84:in `_wait_for_changes'
-/Library/Ruby/Gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:42:in `block in setup'
-/Library/Ruby/Gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/internals/thread_pool.rb:6:in `block in add'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Undefined variable: \"$highlightBg10\".\A         on line 29 of /Users/hotbertaa/Documents/GitHub/hotbertaa.github.io/css/sass/portfolio/1/build/desktop.scss\A \A 24: \A 25: .shimmer {\A 26: margin: 0;\A 27: display: inline-block;\A 28: color:white;\A 29: background: lighten($highlightBg10,30%) -webkit-gradient(linear, 100% 0, 0 0, from(lighten($highlightBg10,30%)), color-stop(0.5, #ffffff), to(lighten($highlightBg10,30%)));\A 30: background-position: -4rem top; /*50px*/\A 31: background-repeat: no-repeat;\A 32: -webkit-background-clip: text;\A 33: -webkit-text-fill-color: transparent;\A 34: -webkit-animation-name: shimmer;"; }
+#head .display-3, #head .h1, #head .lead, #head .row { position: relative; left: -100px; opacity: 0; }
+
+.loaded #head .display-3, .loaded #head .h1, .loaded #head .lead, .loaded #head .row { transition: left .5s ease, opacity .5s ease; left: 0; opacity: 1; }
+
+.loaded #head .display-3 { transition-delay: 0.2s; }
+
+.loaded #head .h1 { transition-delay: 0.4s; }
+
+.loaded #head .lead { transition-delay: 0.6s; }
+
+.loaded #head .row { transition-delay: 0.8s; }
+
+@media only screen and (min-width: 993px) { .scrollz #wrap > header, .scrolly #wrap > header { top: -150px; }
+  body #wrap.scrollr > header .logo a { width: 250px; height: 100px; transition: width .5s ease, height .5s ease; } }
