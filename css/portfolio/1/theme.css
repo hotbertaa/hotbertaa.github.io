@@ -21,7 +21,7 @@ header nav a { color: #0e6585; }
 
 header .logo a { color: #07303f; }
 
-#subhead, #intro, #intro .text-muted { color: #FFF !important; }
+#subhead, #subhead a, #intro, #intro .text-muted { color: #FFF !important; }
 
 #head .h3, #head .h3 .text-muted { color: #774dab !important; }
 
