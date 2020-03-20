@@ -1,5 +1,6 @@
+function(){
 var lastScrollTop = 0;
-    $(window).on('scroll',function(e){
+$(window).on('scroll',function(e){
         $('.autohide').show();
 
 
@@ -16,7 +17,8 @@ var lastScrollTop = 0;
         $('body').removeClass("scrolly").addClass("scrollz");
       } 
       //else {
-      if (_scroll >= 1){} else {
+      if (_scroll >= 1){
+      } else {
             $('body').removeClass("scrollx").removeClass("scrolly").removeClass("scrollz");
             $("#wrap").removeClass("scrollr");  
       }
@@ -35,7 +37,8 @@ var lastScrollTop = 0;
     lastScrollTop = st;
 		//}, false);
     
-    });
+});
+}
 
 $('.scrollTo').on('click', function(){
     //$('html,body').animate({scrollTop: $($(this).attr('href')).offset().top},500);
