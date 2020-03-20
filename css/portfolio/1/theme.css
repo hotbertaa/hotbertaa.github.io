@@ -1,68 +1,86 @@
-/* CSS - Peter Roper */
-.text-muted { color: initial !important; opacity: 0.65; }
+/*
+Error: Invalid CSS after "...eBg10, $color2:": expected mixin argument, was "$$bodyCl10);"
+        on line 128 of /Users/hotbertaa/Documents/GitHub/hotbertaa.github.io/css/sass/portfolio/1/build/styles.scss
+        from line 12 of /Users/hotbertaa/Documents/GitHub/hotbertaa.github.io/css/sass/portfolio/1/theme.scss
 
-body .btn-primary { color: #0e6585 !important; background-color: #efa837 !important; border-color: #efa837 !important; }
+123: }
+124: .scrollr header nav{
+125: @include gradientHorzLin2($color1:$headerBg9, $color2:$headerBg11);
+126: }
+127: #skills{
+128: @include gradientVertLin($color1:$pluginTitleBg10, $color2:$$bodyCl10);
+129: }
+130: ///////////////////////////////////////////////////////
+131: section .bg:after{
+132: background: -moz-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,0.01) 1%, rgba(255,255,255,1) 100%);
+133: background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(255,255,255,0.01) 1%,rgba(255,255,255,1) 100%);
 
-body #head .btn-primary { border-color: #e19112 !important; }
-
-body .btn-primary:hover { color: #0e6585 !important; background-color: #e19112 !important; border-color: #e19112 !important; }
-
-body .btn-outline-primary { color: #0e6585 !important; border-color: #efa837 !important; }
-
-body .btn-outline-primary:hover { color: #0e6585 !important; background-color: #efa837 !important; border-color: #efa837 !important; }
-
-body .btn-outline-light:hover { color: #0e6585 !important; }
-
-body .btn-light { color: #e2f5fc !important; }
-
-body, #head .text-muted, #head { color: #07303f !important; }
-
-header nav a { color: #0e6585; }
-
-header .logo a { color: #07303f; }
-
-#subhead, #subhead a, #intro, #intro .text-muted { color: #FFF !important; }
-
-#head .h3, #head .h3 .text-muted { color: #774dab !important; }
-
-#skills, #skills .text-muted, #skills .icon { color: #FFF !important; }
-
-body, header, #head { background-color: #e2f5fc; }
-
-#branding { background-color: #774dab; }
-
-.card-header { background-color: #b4e5f7; }
-
-#subhead, #skills .icon { background-color: #1599ca; }
-
-#intro .row .col-md:nth-child(1) .img { background-color: #222A2F; }
-
-#intro .row .col-md:nth-child(2) .img { background-color: #000; }
-
-#intro .row .col-md:nth-child(3) .img { background-color: #F0774E; }
-
-#intro .row .col-md:nth-child(4) .img { background-color: #4C5459; }
-
-#intro #cards .img { background-position: 50%; }
-
-#intro #cards .col-md:nth-child(3) .img { background-position: 100% 50%; }
-
-#intro #cards .img { background-repeat: no-repeat; }
-
-header #header > .row > nav:before, header nav { background: 0; filter: none; }
-
-#intro { background: -moz-linear-gradient(left, #774dab 0%, #222 100%); background: -webkit-gradient(linear, left top, right top, color-stop(0%, #774dab), color-stop(100%, #222)); background: -webkit-linear-gradient(left, #774dab 0%, #222 100%); background: -o-linear-gradient(left, #774dab 0%, #222 100%); background: -ms-linear-gradient(left, #774dab 0%, #222 100%); background: linear-gradient(to right, #774dab 0%, #222 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#774dab', endColorstr='#222',GradientType=1 ); }
-
-.scrollr header nav { background: -moz-linear-gradient(left, #b4e5f7 0%, #e2f5fc 100%); background: -webkit-gradient(linear, left top, right top, color-stop(0%, #b4e5f7), color-stop(100%, #e2f5fc)); background: -webkit-linear-gradient(left, #b4e5f7 0%, #e2f5fc 100%); background: -o-linear-gradient(left, #b4e5f7 0%, #e2f5fc 100%); background: -ms-linear-gradient(left, #b4e5f7 0%, #e2f5fc 100%); background: linear-gradient(to right, #b4e5f7 0%, #e2f5fc 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4e5f7', endColorstr='#e2f5fc',GradientType=1 ); }
-
-#skills { background: -moz-linear-gradient(top, #1599ca 0%, #10769c 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #1599ca), color-stop(100%, #10769c)); background: -webkit-linear-gradient(top, #1599ca 0%, #10769c 100%); background: -o-linear-gradient(top, #1599ca 0%, #10769c 100%); background: -ms-linear-gradient(top, #1599ca 0%, #10769c 100%); background: linear-gradient(top, #1599ca 0%, #10769c 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1599ca', endColorstr='#10769c',GradientType=0 ); }
-
-section .bg:after { background: -moz-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.01) 1%, white 100%); background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.01) 1%, white 100%); background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.01) 1%, white 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=0 ); }
-
-#intro:after { background-image: linear-gradient(to right bottom, transparent 50%, #1599ca 50%, #1599ca 0%); }
-
-#intro:before { background-image: linear-gradient(to left top, transparent 50%, #FFF 50%, #FFF 0%); }
-
-#skills:before { background-image: linear-gradient(to left top, transparent 50%, #FFF 50%, #FFF 0%); }
-
-.scrollr header #header > .row > nav:before { background-image: linear-gradient(to left top, transparent 50%, #e2f5fc 50%, #e2f5fc 0%); }
+Backtrace:
+/Users/hotbertaa/Documents/GitHub/hotbertaa.github.io/css/sass/portfolio/1/build/styles.scss:128
+/Users/hotbertaa/Documents/GitHub/hotbertaa.github.io/css/sass/portfolio/1/theme.scss:12
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308:in `expected'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/script/lexer.rb:240:in `expected!'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/script/parser.rb:855:in `assert_expr'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/script/parser.rb:700:in `block in arglist'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/script/parser.rb:904:in `without_stop_at'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/script/parser.rb:691:in `arglist'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/script/parser.rb:687:in `mixin_arglist'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/script/parser.rb:108:in `parse_mixin_include_arglist'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1164:in `sass_script'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:251:in `include_directive'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:234:in `special_directive'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:209:in `directive'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:708:in `block_child'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:697:in `block_contents'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:689:in `block'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:681:in `ruleset'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:707:in `block_child'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:700:in `block_contents'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:137:in `stylesheet'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:41:in `parse'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/engine.rb:414:in `_to_tree'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/engine.rb:321:in `to_tree'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:323:in `block in visit_import'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/stack.rb:88:in `block in with_import'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/stack.rb:135:in `with_frame'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/stack.rb:88:in `with_import'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:322:in `visit_import'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `block in with_base'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/stack.rb:135:in `with_frame'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `with_base'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in `map'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:157:in `visit'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:10:in `visit'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/root_node.rb:36:in `css_tree'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/root_node.rb:20:in `render'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/engine.rb:290:in `render'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:464:in `update_stylesheet'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:209:in `each'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:443:in `on_file_changed'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:320:in `block in watch'
+/Library/Ruby/Gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/event/config.rb:23:in `call'
+/Library/Ruby/Gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:115:in `_process_changes'
+/Library/Ruby/Gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:19:in `block in loop_for'
+/Library/Ruby/Gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop'
+/Library/Ruby/Gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop_for'
+/Library/Ruby/Gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:84:in `_wait_for_changes'
+/Library/Ruby/Gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:42:in `block in setup'
+/Library/Ruby/Gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/internals/thread_pool.rb:6:in `block in add'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"...eBg10, $color2:\": expected mixin argument, was \"$$bodyCl10);\"\A         on line 128 of /Users/hotbertaa/Documents/GitHub/hotbertaa.github.io/css/sass/portfolio/1/build/styles.scss\A         from line 12 of /Users/hotbertaa/Documents/GitHub/hotbertaa.github.io/css/sass/portfolio/1/theme.scss\A \A 123: }\A 124: .scrollr header nav{\A 125: @include gradientHorzLin2($color1:$headerBg9, $color2:$headerBg11);\A 126: }\A 127: #skills{\A 128: @include gradientVertLin($color1:$pluginTitleBg10, $color2:$$bodyCl10);\A 129: }\A 130: ///////////////////////////////////////////////////////\A 131: section .bg:after{\A 132: background: -moz-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,0.01) 1%, rgba(255,255,255,1) 100%);\A 133: background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(255,255,255,0.01) 1%,rgba(255,255,255,1) 100%);"; }
