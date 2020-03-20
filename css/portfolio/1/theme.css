@@ -13,7 +13,7 @@ header .logo a { color: #07303f; }
 
 #skills, #skills .text-muted, #skills .icon { color: #FFF !important; }
 
-header, #head { background-color: #e2f5fc; }
+body, header, #head { background-color: #e2f5fc; }
 
 #branding { background-color: #774dab; }
 
