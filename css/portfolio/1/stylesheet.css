@@ -391,7 +391,7 @@ header { position: fixed; background: 0 !important; }
 
 #head:after { display: none; }
 
-#head:before { content: ''; height: auto !important; opacity: 0.15; position: absolute; top: 0; left: 0; right: 0; bottom: 0; z-index: 0; background-image: url(/images/bg.jpg); background-repeat: repeat-x; display: block; }
+#head:before { content: ''; height: auto !important; opacity: 0.1; position: absolute; top: 0; left: 0; right: 0; bottom: 0; z-index: 0; background-image: url(/images/bg.jpg); background-repeat: repeat-x; display: block; }
 
 .page-index #intro { padding-top: 80px; padding-bottom: 80px; }
 
