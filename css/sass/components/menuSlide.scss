@@ -1,0 +1,59 @@
+#menu{
+width: 0%;
+position: fixed!important;
+top: 0;
+left: 0;
+bottom: 0;
+z-index: 350;
+}
+#menu .s{
+height: 100%;
+padding: 40px;
+box-sizing: border-box;
+}
+#menu .close{
+position: absolute;
+top: 0;
+right: 0;
+}
+#menu .h{
+margin: 0 0 5px 0;
+}
+#menu li a{
+padding: 3px 8px 4px 8px;
+border-width: 0 0 1px 0;
+border-style: dotted;
+display: block;
+}
+#menu li a:hover{
+margin: 0 0 1px 0;
+border: 0;
+}
+#menu .socialLinks li a{
+padding: 0;
+}
+.slide-menu .overlay,
+#menu .s{
+display: none;
+}
+.slide-menu .overlay{
+z-index: 200;
+}
+////////////////////////////////////////////////////////////////////////////////////
+// SCROLLBAR
+////////////////////////////////////////////////////////////////////////////////////
+#menu .s::-webkit-scrollbar{
+width: 10px;
+padding: 0 0 0 1px;
+}
+#menu .s::-webkit-scrollbar-thumb{
+border-width: 0 0 0 1px;
+border-style: solid;
+}
+#menu .s{
+overflow-y: auto;
+overflow-x: hidden;
+-webkit-overflow-scrolling: touch;
+overflow: -moz-scrollbars-vertical; 
+white-space: nowrap;
+}

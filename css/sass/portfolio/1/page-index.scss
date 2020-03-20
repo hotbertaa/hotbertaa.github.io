@@ -1,0 +1,12 @@
+$sub: default;
+$brand: geronigo;
+$template: template1;
+$style: dark;
+$ver: 1;
+
+@import "build/theme.scss";
+@import "../../settings.scss";
+//////////////////////////////////////////////////
+@import "../../bootstrap1/index.scss";
+
+@import "../../.bootstrap1/stylesIndex.scss";

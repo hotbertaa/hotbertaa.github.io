@@ -1,0 +1,418 @@
+/* CSS - Peter Roper */
+/////////////////////////////////////////////////////////////////////////////////////
+// body //
+$bodyBg11: lighten($bodyBg10, 10%);
+$bodyBg12: lighten($bodyBg10, 20%);
+$bodyBg13: lighten($bodyBg10, 30%);
+$bodyBg9a: darken($bodyBg10, 5%);
+$bodyBg9: darken($bodyBg10, 10%);
+$bodyBr10: lighten($bodyBg10, 10%);
+/////////////////////////////////////////////////////////////////////////////////////
+// header //
+$headerCl9: darken($headerCl10, 10%);
+$headerCl8: darken($headerCl10, 20%); 
+$headerCl7: darken($headerCl10, 30%); 
+$headerBg9: darken($headerBg10, 10%);
+$headerBr10: $headerBg10;
+$headerBr11: lighten($headerBg10,10%);
+/////////////////////////////////////////////////////////////////////////////////////
+// subhead //
+$subheadBg8: darken($subheadBg10, 20%);
+$subheadBg9: darken($subheadBg10, 10%);
+$subheadBg12: lighten($subheadBg11, 5%);
+$subheadBg13: lighten($subheadBg11, 10%);
+$subheadBr10: $subheadBg10;
+$subheadBr11: lighten($subheadBr10, 10%);
+$subheadBr12: lighten($subheadBr10, 20%);
+$subheadBr9: darken($subheadBr10, 10%);
+$subheadBr8: darken($subheadBr10, 20%);
+/////////////////////////////////////////////////////////////////////////////////////
+// menu //
+$menuCl12: lighten($menuCl10, 20%);
+$menuCl11: lighten($menuCl10, 10%);
+$menuCl9: darken($menuCl10, 10%);
+$menuCl8: darken($menuCl10, 20%);
+$menuBg12: lighten($menuBg11, 10%);
+$menuBg13: lighten($menuBg11, 20%);
+$menuBg9: darken($menuBg10, 10%);
+$menuBr10: lighten($menuBg10, 10%);
+$menuBr11: lighten($menuBg10, 10%);
+$menuBr12: lighten($menuBg10, 20%);
+$menuBr9: darken($menuBg10, 10%);
+$menuBr8: darken($menuBg10, 20%);
+$menuSelBg12: lighten($menuSelBg11, 10%);
+$menuSelBg9a: darken($menuSelBg10, 5%);
+$menuSelBg9: darken($menuSelBg10, 10%);
+$menuSelBg8: darken($menuSelBg10, 20%);
+$menuSelBr10: lighten($menuSelBg10, 10%);
+$menuSelBr11: lighten($menuSelBr10, 10%);
+$menuSelBr12: lighten($menuSelBr10, 20%);
+$menuSelBr9: darken($menuSelBr10, 10%);
+$menuSelBr8: darken($menuSelBr10, 20%);
+/////////////////////////////////////////////////////////////////////////////////////
+// footer //
+$footerCl10: lighten($footerBg10, 70%);
+@if $style == light and $template != venue7a and $template != corporate and $template != layout2 and $template != layout3 and $template != layout6 and $template != layout7 and $template != layout10 and $template != blog and $template != booker and $template != happy and $brand != corpze and $brand != surfscool and $brand != geronigox { $footerCl10: darken($footerBg10, 50%); } 
+$footerCl11: lighten($footerCl10, 10%);
+$footerCl12: lighten($footerCl10, 20%);
+$footerCl13: lighten($footerCl10, 30%);
+$footerCl9: darken($footerCl10, 20%);
+$footerBg12: lighten($footerBg10, 20%);
+$footerBg11: lighten($footerBg10, 10%);
+$footerBg9: darken($footerBg10, 10%);
+$footerBr9: darken($footerBg10, 10%);
+$footerBr10: lighten($footerBg10, 10%);
+$footerBr11: lighten($footerBg10, 20%);
+/////////////////////////////////////////////////////////////////////////////////////
+// plugin //
+$pluginTitleBg12: lighten($pluginTitleBg11, 10%);
+$pluginTitleBg13: lighten($pluginTitleBg11, 20%);
+$pluginTitleBg9: darken($pluginTitleBg10, 10%);
+$pluginTitleBr10: lighten($pluginTitleBg10, 10%);
+$pluginTitleBr11: lighten($pluginTitleBg10, 20%);
+$pluginTitleBr9: darken($pluginTitleBg10, 10%);
+$pluginTitleBr8: darken($pluginTitleBg10, 20%);
+/////////////////////////////////////////////////////////////////////////////////////
+// plugin //
+@if $template != grunge and $template != scratch and $template != roll and $template != happy and $template != layout1 and $template != layout2 and $template != layout3 and $template != layout5 and $template != layout6 and $template != layout7 and $template != blog and $template != booker and $template != api and $template != template1 {
+$pluginCl10: lighten($pluginBg10, 80%);
+@if $style == light and $template != layout7 and $template != layout1 and $template != api and $template != template1 { $pluginCl10: darken($pluginBg10, 50%); } 
+}
+$pluginCl11: lighten($pluginCl10, 10%);
+$pluginCl12: lighten($pluginCl10, 20%);
+$pluginCl9: darken($pluginCl10, 10%);
+$pluginCl8: darken($pluginCl10, 20%);
+$pluginBg10a: lighten($pluginBg10, 2%); // used for venue formats
+$pluginBg10b: lighten($pluginBg10, 4%); // used for venue formats
+$pluginBg10c: lighten($pluginBg10, 6%); // used for venue formats
+$pluginBg10d: lighten($pluginBg10, 8%); // used for venue formats
+$pluginBg11: lighten($pluginBg10, 10%);
+$pluginBg12: lighten($pluginBg10, 20%);
+$pluginBg13: lighten($pluginBg10, 30%);
+$pluginBg9: darken($pluginBg10, 10%);
+$pluginBg8: darken($pluginBg10, 20%);
+$pluginBg7: darken($pluginBg10, 30%);
+$pluginBg6: darken($pluginBg10, 40%);
+$pluginBr10: lighten($pluginBg10, 10%);
+$pluginBr11: lighten($pluginBg10, 20%);
+$pluginBr9: darken($pluginBg10, 10%);
+$pluginBr8: darken($pluginBg10, 20%);
+$pluginBr5: darken($pluginBg10, 50%);
+/////////////////////////////////////////////////////////////////////////////////////
+// button //
+$buttonBg11: lighten($buttonBg10, 10%);
+$buttonBg12: lighten($buttonBg10, 20%);
+$buttonBg9: darken($buttonBg10, 10%);
+$buttonBr10: $buttonBg10;
+$buttonBr9: darken($buttonBr10, 10%);
+/////////////////////////////////////////////////////////////////////////////////////
+// price badge //
+$priceBg11: lighten($priceBg10, 10%);
+$priceBg12: lighten($priceBg10, 20%);
+$priceBr10: $priceBg10;
+/////////////////////////////////////////////////////////////////////////////////////
+// highlight //
+$highlightBg16: lighten($highlightBg10, 60%);
+$highlightBg15: lighten($highlightBg10, 50%);
+$highlightBg11: lighten($highlightBg10, 10%);
+$highlightBg9: darken($highlightBg10, 10%);
+/////////////////////////////////////////////////////////////////////////////////////
+// voucher //
+//$voucherCl10: $headerCl10;
+$voucherCl11: $headerCl11;
+$voucherCl9: $headerCl9;
+$voucherBg11: lighten($voucherBg10, 10%);
+$voucherBg9: darken($voucherBg10, 10%);
+$voucherBr10: lighten($voucherBg10, 10%);
+$voucherBr11: lighten($voucherBr10, 10%);
+/////////////////////////////////////////////////////////////////////////////////////
+// voucher price //
+$voucherPriceBg11: lighten($voucherPriceBg10, 10%);
+$voucherPriceBg9: darken($voucherPriceBg10, 10%);
+/////////////////////////////////////////////////////////////////////////////////////
+// mixins : transparency //
+/////////////////////////////////////////////////////////////////////////////////////
+$opacity: 0.5;
+@mixin transparency($color1:$pluginBg11, $color2:$pluginBg10, $opacity:$opacity) {
+$color3: '#{$color1}';
+@if $color3 == 'white' {
+$color3: '#FFFFFF';
+}
+@if $color3 == 'black' {
+$color3: '#000000';
+}
+$new: '99';
+$index: 2;
+$color3: str-insert($color3, $new , $index);
+background: -moz-linear-gradient(45deg, rgba(red($color1), green($color1), blue($color1),$opacity) 0%, rgba(red($color2), green($color2), blue($color2),$opacity) 100%);
+background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,rgba(red($color1), green($color1), blue($color1),$opacity)), color-stop(100%,rgba(red($color2), green($color2), blue($color2),$opacity)));
+background: -webkit-linear-gradient(45deg, rgba(red($color1), green($color1), blue($color1),$opacity) 0%, rgba(red($color2), green($color2), blue($color2),$opacity) 100%);
+background: -o-linear-gradient(45deg, rgba(red($color1), green($color1), blue($color1),$opacity) 0%, rgba(red($color2), green($color2), blue($color2),$opacity) 100%);
+background: -ms-linear-gradient(45deg, rgba(red($color1), green($color1), blue($color1),$opacity) 0%, rgba(red($color2), green($color2), blue($color2),$opacity) 100%);
+background: linear-gradient(45deg, rgba(red($color1), green($color1), blue($color1),$opacity) 0%, rgba(red($color2), green($color2), blue($color2),$opacity) 100%);
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#{$color3}', endColorstr='#{$color3}'); /* For IE 5.5 - 7*/
+-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#{$color3}', endColorstr='#{$color3}')"; /* For IE 8*/
+}
+@mixin transparencyHorz($color1:$pluginBg11, $color2:$pluginBg10, $opacity:$opacity) {
+$color3: '#{$color1}';
+@if $color3 == 'white' {
+$color3: '#FFFFFF';
+}
+@if $color3 == 'black' {
+$color3: '#000000';
+}
+$new: '99';
+$index: 2;
+$color3: str-insert($color3, $new , $index);
+background: -moz-linear-gradient(45deg, rgba(red($color1), green($color1), blue($color1),$opacity) 0%, rgba(red($color2), green($color2), blue($color2),0.8) 100%);
+background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,rgba(red($color1), green($color1), blue($color1),$opacity)), color-stop(100%,rgba(red($color2), green($color2), blue($color2),0.8)));
+background: -webkit-linear-gradient(45deg, rgba(red($color1), green($color1), blue($color1),$opacity) 0%, rgba(red($color2), green($color2), blue($color2),0.8) 100%);
+background: -o-linear-gradient(45deg, rgba(red($color1), green($color1), blue($color1),$opacity) 0%, rgba(red($color2), green($color2), blue($color2),0.8) 100%);
+background: -ms-linear-gradient(45deg, rgba(red($color1), green($color1), blue($color1),$opacity) 0%, rgba(red($color2), green($color2), blue($color2),0.8) 100%);
+background: linear-gradient(45deg, rgba(red($color1), green($color1), blue($color1),$opacity) 0%, rgba(red($color2), green($color2), blue($color2),0.8) 100%);
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#{$color3}', endColorstr='#{$color3}'); /* For IE 5.5 - 7*/
+-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#{$color3}', endColorstr='#{$color3}')"; /* For IE 8*/
+}
+
+
+@mixin transparencyVert($color1:$pluginBg11, $color2:$pluginBg10, $opacity:$opacity) {
+$color3: '#{$color1}';
+@if $color3 == 'white' {
+$color3: '#FFFFFF';
+}
+@if $color3 == 'black' {
+$color3: '#000000';
+}
+$new: '99';
+$index: 2;
+$color3: str-insert($color3, $new , $index);
+background: -moz-linear-gradient(top, rgba(red($color1), green($color1), blue($color1),$opacity) 0%, rgba(red($color2), green($color2), blue($color2),0.8) 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(red($color1), green($color1), blue($color1),$opacity) 0%), color-stop(100%,rgba(red($color2), green($color2), blue($color2),0.8)));
+background: -webkit-linear-gradient(top, rgba(red($color1), green($color1), blue($color1),$opacity) 0% 0%,rgba(red($color2), green($color2), blue($color2),0.8) 100%);
+background: -o-linear-gradient(top, rgba(red($color1), green($color1), blue($color1),$opacity) 0% 0%,rgba(red($color2), green($color2), blue($color2),0.8) 100%);
+background: -ms-linear-gradient(top, rgba(red($color1), green($color1), blue($color1),$opacity) 0% 0%,rgba(red($color2), green($color2), blue($color2),0.8) 100%);
+background: linear-gradient(top, rgba(red($color1), green($color1), blue($color1),$opacity) 0% 0%,rgba(red($color2), green($color2), blue($color2),0.8) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#{$color3}', endColorstr='#{$color3}',GradientType=0 );
+-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#{$color3}', endColorstr='#{$color3}')"; /* For IE 8*/
+}
+/////////////////////////////////////////////////////////////////////////////////////
+// mixins : gradients //
+/////////////////////////////////////////////////////////////////////////////////////
+@mixin gradientHorzLin($color1:$pluginBg11, $color2:$pluginBg10) {
+background: -moz-linear-gradient(left, $color1 0%, $color2 50%, $color1 100%);
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,$color1), color-stop(50%,$color2), color-stop(100%,$color1));
+background: -webkit-linear-gradient(left, $color1 0%,$color2 50%,$color1 100%);
+background: -o-linear-gradient(left, $color1 0%,$color2 50%,$color1 100%);
+background: -ms-linear-gradient(left, $color1 0%,$color2 50%,$color1 100%);
+background: linear-gradient(to right, $color1 0%,$color2 50%,$color1 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#{$color1}', endColorstr='$color1',GradientType=1 );
+}
+@mixin gradientHorzLin2($color1:$pluginBg11, $color2:$pluginBg10) {
+background: -moz-linear-gradient(left, $color1 0%,  $color2 100%);
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,$color1), color-stop(100%,$color2));
+background: -webkit-linear-gradient(left, $color1 0%,$color2 100%);
+background: -o-linear-gradient(left, $color1 0%,$color2 100%);
+background: -ms-linear-gradient(left, $color1 0%,$color2 100%);
+background: linear-gradient(to right, $color1 0%,$color2 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#{$color1}', endColorstr='#{$color2}',GradientType=1 );
+}
+
+@mixin gradientHorzLin3($color1:$pluginBg11, $color2:$pluginBg10) {
+background: -moz-linear-gradient(left, $color1 0%,  $color2 20%);
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,$color1), color-stop(20%,$color2));
+background: -webkit-linear-gradient(left, $color1 0%,$color2 20%);
+background: -o-linear-gradient(left, $color1 0%,$color2 20%);
+background: -ms-linear-gradient(left, $color1 0%,$color2 20%);
+background: linear-gradient(to right, $color1 0%,$color2 20%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#{$color1}', endColorstr='#{$color2}',GradientType=1 );
+}
+@mixin gradientVertLin($color1:$pluginBg11, $color2:$pluginBg10) {
+background: -moz-linear-gradient(top, $color1 0%, $color2 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,$color1), color-stop(100%,$color2));
+background: -webkit-linear-gradient(top, $color1 0%,$color2 100%);
+background: -o-linear-gradient(top, $color1 0%,$color2 100%);
+background: -ms-linear-gradient(top, $color1 0%,$color2 100%);
+background: linear-gradient(top, $color1 0%,$color2 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#{$color1}', endColorstr='#{$color2}',GradientType=0 );
+}
+@mixin gradientVertLin2($color1:$pluginBg11, $color2:$pluginBg10) {
+background: -moz-linear-gradient(top, $color1 50%, $color2 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(50%,$color1), color-stop(100%,$color2));
+background: -webkit-linear-gradient(top, $color1 50%,$color2 100%);
+background: -o-linear-gradient(top, $color1 50%,$color2 100%);
+background: -ms-linear-gradient(top, $color1 50%,$color2 100%);
+background: linear-gradient(top, $color1 50%,$color2 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#{$color1}', endColorstr='#{$color2}',GradientType=0 );
+}
+@mixin gradientMultiVertLin($color1:$pluginBg9, $color2:$pluginBg10, $color3:$pluginBg11, $color4:$pluginBg12) {
+background: -moz-linear-gradient(top, $color1 0%, $color2 10%, $color3 40%, $color4 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,$color1), color-stop(10%,$color2), color-stop(40%,$color3), color-stop(100%,$color4));
+background: -webkit-linear-gradient(top, $color1 0%,$color2 10%,$color3 40%,$color4 100%);
+background: -o-linear-gradient(top, $color1 0%,$color2 10%,$color3 40%,$color4 100%);
+background: -ms-linear-gradient(top, $color1 0%,$color2 10%,$color3 40%,$color4 100%);
+background: linear-gradient(top, $color1 0%,$color2 10%,$color3 40%,$color4 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#{$color1}', endColorstr='#{$color4}',GradientType=0 );
+}
+@mixin gradientMulti2VertLin($color1:$pluginBg9, $color2:$pluginBg10) {
+background: -moz-linear-gradient(top, $color1 0%, $color2 20%, $color1 40%);
+background: -webkit-gradient(linear, 0% 0%, 0% 100%, from($color1), color-stop(0.1, $color2), color-stop(0.4, $color1));
+background: -webkit-linear-gradient(top, $color1 0%,$color2 20%,$color1 40%);
+background: -o-linear-gradient(top, $color1 0%,$color2 20%,$color1 40%);
+background: -ms-linear-gradient(top, $color1 0%,$color2 20%,$color1 40%);
+background: linear-gradient(top, $color1 0%,$color2 20%,$color1 40%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#{$color2}', endColorstr='#{$color1}',GradientType=0 );
+}
+@mixin gradientMulti3VertLin($color1:$pluginBg9, $color2:$pluginBg10) {
+background: -moz-linear-gradient(top, $color1 0%, $color2 25%, $color1 65%);
+background: -webkit-gradient(linear, 0% 0%, 0% 100%, from($color1), color-stop(0.25, $color2), color-stop(0.65, $color1));
+background: -webkit-linear-gradient(top, $color1 0%,$color2 25%,$color1 65%);
+background: -o-linear-gradient(top, $color1 0%,$color2 25%,$color1 65%);
+background: -ms-linear-gradient(top, $color1 0%,$color2 25%,$color1 65%);
+background: linear-gradient(top, $color1 0%,$color2 25%,$color1 65%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#{$color2}', endColorstr='#{$color1}',GradientType=0 );
+}
+@mixin gradientMulti4VertLin($color1:$pluginBg9, $color2:$pluginBg10) {
+background: -moz-linear-gradient(top, $color1 0%, $color2 50%, $color1 100%);
+background: -webkit-gradient(linear, 0% 0%, 0% 100%, from($color1), color-stop(0.50, $color2), color-stop(1, $color1));
+background: -webkit-linear-gradient(top, $color1 0%,$color2 50%,$color1 100%);
+background: -o-linear-gradient(top, $color1 0%,$color2 50%,$color1 100%);
+background: -ms-linear-gradient(top, $color1 0%,$color2 50%,$color1 100%);
+background: linear-gradient(top, $color1 0%,$color2 50%,$color1 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#{$color2}', endColorstr='#{$color1}',GradientType=0 );
+}
+@mixin gradientDiagLin($color1:$pluginBg11, $color2:$pluginBg10) {
+background: -moz-linear-gradient(-45deg, $color1 0%, $color2 100%); 
+background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,$color1), color-stop(100%,$color2)); 
+background: -webkit-linear-gradient(-45deg, $color1 0%,$color2 100%); 
+background: -o-linear-gradient(-45deg, $color1 0%,$color2 100%);
+background: -ms-linear-gradient(-45deg, $color1 0%,$color2 100%);
+background: linear-gradient(-45deg, $color1 0%,$color2 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#{$color1}', endColorstr='#{$color2}',GradientType=1 );
+}
+@mixin gradientDiagLin2($color1:$pluginBg11, $color2:$pluginBg10) {
+background: -moz-linear-gradient(45deg, $color1 0%, $color2 30%); 
+background: -webkit-gradient(linear, right top, left bottom, color-stop(0%,$color1), color-stop(30%,$color2)); 
+background: -webkit-linear-gradient(45deg, $color1 0%,$color2 30%); 
+background: -o-linear-gradient(45deg, $color1 0%,$color2 30%);
+background: -ms-linear-gradient(45deg, $color1 0%,$color2 30%);
+background: linear-gradient(45deg, $color1 0%,$color2 30%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#{$color1}', endColorstr='#{$color2}',GradientType=1 );
+}
+@mixin gradientMultiDiagLin($color1:$pluginBg9, $color2:$pluginBg10) {
+background: -moz-linear-gradient(45deg, $color1 0%, $color2 50%, $color1 100%);
+background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,$color1), color-stop(50%,$color2), color-stop(100%,$color1));
+background: -webkit-linear-gradient(45deg, $color1 0%,$color2 50%,$color1 100%);
+background: -o-linear-gradient(45deg, $color1 0%,$color2 50%,$color1 100%);
+background: -ms-linear-gradient(45deg, $color1 0%,$color2 50%,$color1 100%);
+background: linear-gradient(45deg, $color1 0%,$color2 50%,$color1 100%);
+}
+@mixin gradientRadialTop($color1:$pluginBg11, $color2:$pluginBg10) {
+background: -o-radial-gradient(center, ellipse cover, $color1 0%,$color2 100%);
+background: radial-gradient(ellipse at center, $color1 0%,$color2 100%);
+background: -webkit-gradient(radial, 50% 20%, 60% 80%, from($color1), to($color2));
+background: -webkit-radial-gradient(50% 20%, 60% 80%, $color1, $color2);
+background: -moz-radial-gradient(50% 20%, 60% 80%, $color1, $color2);
+background: -ms-radial-gradient(50% 20%, 60% 80%, $color1, $color2);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#{$color1}', endColorstr='#{$color2}',GradientType=1 );
+}
+@mixin gradientRadialRight($color1:$pluginBg11, $color2:$pluginBg10) {
+background: -o-radial-gradient(center, ellipse cover, $color1 0%,$color2 100%);
+background: radial-gradient(ellipse at center, $color1 0%,$color2 100%);
+background: -webkit-gradient(radial, 80% 40%, 60% 80%, from($color1), to($color2));
+background: -webkit-radial-gradient(80% 40%, 60% 80%, $color1, $color2);
+background: -moz-radial-gradient(80% 40%, 60% 80%, $color1, $color2);
+background: -ms-radial-gradient(80% 40%, 60% 80%, $color1, $color2);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#{$color1}', endColorstr='#{$color2}',GradientType=1 );
+}
+@mixin gradientRadial($color1:$pluginBg11, $color2:$pluginBg10) {
+background: -moz-radial-gradient(center, ellipse cover, $color1 0%, $color2 100%);
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,$color1), color-stop(100%,$color2));
+background: -webkit-radial-gradient(center, ellipse cover, $color1 0%,$color2 100%);
+background: -o-radial-gradient(center, ellipse cover, $color1 0%,$color2 100%);
+background: -ms-radial-gradient(center, ellipse cover, $color1 0%,$color2 100%);
+background: radial-gradient(ellipse at center, $color1 0%,$color2 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$color1', endColorstr='$color2',GradientType=1 );
+}
+/////////////////////////////////////////////////////////////////////////////////////
+// mixins : box shadow //
+/////////////////////////////////////////////////////////////////////////////////////
+$boxShadow: $bodyBg9;
+@if $style == light and $template != multi and $template != guide { $boxShadow: $menuBg9; }
+@mixin boxShadow($inset: outset, $hor:0px, $ver:0px, $x:0px, $shadow:5px, $color:$boxShadow) {
+@if $inset == outset {
+-webkit-box-shadow: $hor $ver $shadow $x $color;
+-moz-box-shadow: $hor $ver $shadow $x $color;
+box-shadow: $hor $ver $shadow $x $color;
+} @else {
+-webkit-box-shadow: $inset $hor $ver $shadow $x $color;
+-moz-box-shadow: $inset $hor $ver $shadow $x $color;
+box-shadow: $inset $hor $ver $shadow $x $color;
+}
+}
+/////////////////////////////////////////////////////////////////////////////////////
+// mixins : opacity //
+/////////////////////////////////////////////////////////////////////////////////////
+@mixin opacity($var: 75,$var2: 0.75) {
+@if $var == 100 {
+//filter:alpha(opacity=100);
+-moz-opacity:1;
+-khtml-opacity:1;
+opacity:1;
+} @else {
+//filter:alpha(opacity=$var);
+-moz-opacity:$var2;
+-khtml-opacity:$var2;
+opacity:$var2;
+}
+}
+/////////////////////////////////////////////////////////////////////////////////////
+// mixins : background repeat //
+/////////////////////////////////////////////////////////////////////////////////////
+@mixin backgroundRepeat($var: no-repeat) {
+background-repeat: $var;
+}
+/////////////////////////////////////////////////////////////////////////////////////
+// mixins : background position //
+/////////////////////////////////////////////////////////////////////////////////////
+@mixin backgroundPosition($hor: 0, $ver: 0) {
+background-position: $hor $ver;
+}
+/////////////////////////////////////////////////////////////////////////////////////
+// mixins : background size//
+/////////////////////////////////////////////////////////////////////////////////////
+@mixin backgroundSize($hor: 100%, $ver: auto) {
+background-size: $hor $ver!important;
+-ms-interpolation-mode: bicubic;
+image-rendering: optimizeQuality;
+}
+/////////////////////////////////////////////////////////////////////////////////////
+// mixins : radius //
+/////////////////////////////////////////////////////////////////////////////////////
+@mixin borderRadius($var:5px, $tl:5px, $tr:5px, $bl:5px, $br:5px) {
+@if $tl == 0 or $tr == 0 or $bl == 0 or $br == 0 {
+@if $tl == 0 {
+border-top-left-radius: 0px;
+-moz-border-radius-topleft:0px; 
+-webkit-border-top-left-radius:0px;
+}
+@if $tr == 0 {
+border-top-right-radius: 0px;
+-moz-border-radius-topright:0px; 
+-webkit-border-top-right-radius:0px;
+}
+@if $bl == 0 {
+border-bottom-left-radius: 0px;
+-moz-border-radius-bottomleft:0px; 
+-webkit-border-bottom-left-radius:0px;
+}
+@if $br == 0 {
+border-bottom-right-radius: 0px;
+-moz-border-radius-bottomright:0px; 
+-webkit-border-bottom-right-radius:0px;
+}
+} @else {
+border-radius: $var;
+-moz-border-radius: $var; 
+-webkit-border-radius: $var;
+}
+}

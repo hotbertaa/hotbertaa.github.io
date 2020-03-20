@@ -1,0 +1,109 @@
+.overlay{
+position: fixed!important;
+left: 0;
+top: 0;
+right: 0;
+bottom: 0;
+z-index: 300;
+}
+////////////////////////////////////////////////////////////////////////////////////
+// LOADER PULSE
+////////////////////////////////////////////////////////////////////////////////////
+.noImg{
+position: relative;
+}
+.noImg p{
+position: absolute;
+left: 0;
+right: 0;
+bottom: 50%;
+margin: 0 0 -50px 0;
+}
+////////////////////////////////////////////////////////////////////////////////////
+// LOADER WHEEL :: INLINE
+////////////////////////////////////////////////////////////////////////////////////
+.inlineLoader {
+margin: 0 0 15px 0;
+}
+.inlineLoader p{
+margin: 0 0 0 10px;
+}
+.inlineLoader p,
+.inlineLoader .loader{
+display: inline-block;
+vertical-align: middle;
+}
+////////////////////////////////////////////////////////////////////////////////////
+// LOADER WHEEL :: SMALL
+////////////////////////////////////////////////////////////////////////////////////
+.loader.wheel.sm,
+.scroll .loader.wheel{
+width: 25px!important;
+height: 25px!important;
+margin: 0 auto!important;
+}
+.loader.wheel.sm:after,
+.scroll .loader.wheel:after{
+width: 80%;
+height: 80%;
+}
+.scroll p{
+margin: 5px 0 0 0;
+}
+.scroll.load .loader.wheel{
+display: block;
+}
+.scroll .loader.wheel,
+.scroll.load .icn{
+display: none;
+}
+////////////////////////////////////////////////////////////////////////////////////
+// LOADER BAR
+////////////////////////////////////////////////////////////////////////////////////
+.overlay .loader.bar{
+height: 5px;
+position: fixed;
+bottom: 59px;
+left: 0;
+right: 0;
+}
+.overlay .loader.bar:before{
+content: '';
+width: 10%;
+height: 100%;
+display: block;
+text-decoration: none;
+animation-name: flash;
+animation-duration: 1s;
+animation-timing-function: linear;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+animation-play-state: running;
+}
+@keyframes flash{
+from{width: 10%;}
+to{ width: 100%; }
+}
+
+////////////////////////////////////////////
+.overlay .loader.bar{
+background-color: $pluginBg10;
+}
+////////////////////////////////////////////
+.overlay .loader.bar:before{
+background-color: $highlightBg10;
+}
+.loader.lg,
+.overlay{
+@if $brand == geronigo {
+@include transparency($color1:#000,$color2:#000,$opacity:0.60);
+} @else if $brand == adventurecards {
+@include transparency($color1:#000,$color2:#000,$opacity:0.80);
+} @else if $template == template4 {
+@include transparency($color1:$subheadBg10,$color2:$subheadBg10,$opacity:0.80);
+} @else if $sub == act {
+@include transparency($color1:$subheadBg10,$color2:$subheadBg10,$opacity:0.60);
+} @else {
+@include transparency($color1:$subheadBg8,$color2:$subheadBg8,$opacity:0.80);
+}
+}

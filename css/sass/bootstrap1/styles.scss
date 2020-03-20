@@ -1,0 +1,486 @@
+.icon{
+color: $bodyBg10;
+background-color: $bodyCl10;
+}
+#regions .icon{
+color: $bodyCl10;
+background-color: $bodyBg10;
+}
+#book .icon{
+color: $bodyCl10;
+background-color: $bodyBg11;
+}
+#intro #prices .col span{
+color: $highlightBg10;
+}
+.page-vouchers #regions .icon{
+color: $bodyBg10;
+background-color: $bodyCl10;
+}
+////////////////////////////////////////////
+.overlay .loader.bar{
+background-color: $menuBg9;
+}
+////////////////////////////////////////////
+.overlay .loader.bar:before{
+background-color: $highlightBg10;
+}
+header #READMORE.selected:after,
+.loader.lg,
+.overlay{
+@include transparency($color1:$menuBg10,$color2:$menuBg10,$opacity:0.60);
+}
+#menu .s::-webkit-scrollbar{
+background-color: $headerBg9;
+}
+#menu .s::-webkit-scrollbar-thumb{
+background-color: $headerBg11;
+border-color: $headerBg9;
+}
+////////////////////////////////////////////
+.cmHead.voucher a{
+color: $pluginCl10;
+background-color: $pluginBg10;
+}
+////////////////////////////////////////////
+#reviews cite{
+color: $highlightBg10;
+}
+#reviews #title .icn{
+color: $highlightCl10;
+background-color: $highlightBg10;
+}
+////////////////////////////////////////////////////////////////////////////////////////////////////
+// CARD
+////////////////////////////////////////////////////////////////////////////////////////////////////
+.card-header:hover,
+.card-header{
+color: $headerCl10;
+}
+.card-header{
+background-color: darken($headerBg11,5%);
+border-color: $headerBg11;
+}
+.card-body{ 
+background-color: $pluginTitleBg10;
+}
+.card-body,
+.card-body a{
+color: $pluginTitleCl10;
+}
+.card-body a{
+border-color: $pluginTitleBg9!important;
+}
+////////////////////////////////////////////////////////////////////////////////////////////////////
+// BUTTONS
+////////////////////////////////////////////////////////////////////////////////////////////////////
+body .btn-primary{
+color: $buttonCl10!important;
+background-color: $buttonBg10!important;
+border-color: $buttonBg10!important;
+}
+body #head .btn-primary{
+border-color: $buttonBg9!important;
+}
+body .btn-primary:hover{
+color: $buttonCl10!important;
+background-color: $buttonBg9!important;
+border-color: $buttonBg9!important;
+}
+body .btn-outline-primary{
+color: $buttonBg10!important;
+border-color: $buttonBg10!important;
+}
+body .btn-outline-primary:hover{
+color: $buttonCl10!important;
+background-color: $buttonBg10!important;
+border-color: $buttonBg10!important;
+}
+body .btn-light{
+color: $bodyBg10!important;
+}
+////////////////////////////////////////////////////////////////////////////////////////////////////
+// COLORS
+////////////////////////////////////////////////////////////////////////////////////////////////////
+#content .text-muted,
+body{
+color: $bodyCl10!important;
+}
+#book .lead,
+#book,
+#search #autocompleteLoc a,
+header #READMORE .READMORECONTENTjs a .icn,
+footer nav .top{
+@if $style == dark {
+color: $bodyBg10!important;
+} @else {
+color: $bodyCl10!important;
+}
+}
+//////////////////////////////////////////////////
+header nav a{
+color: $menuSelCl10;
+}
+//////////////////////////////////////////////////
+#head2,
+header #hotline a,
+header #READMORE .READMOREjs div,
+header #READMORE .READMOREjs .icn,
+footer nav .fab a,
+footer nav .fab,
+#searchWin #search #autocompleteLoc a,
+#search form input,
+#menu .close,
+#menu,
+#menu a,
+#menu .text-muted,
+header #mobimenu a,
+header nav > .row:first-of-type a{
+color: $headerCl10!important;
+}
+//////////////////////////////////////////////////
+footer a:hover,
+footer{
+color: $footerCl12;
+}
+footer a{
+color: $footerCl10;
+}
+//////////////////////////////////////////////////
+#regions .count,
+footer nav a{
+color: $highlightCl10;
+}
+#regions #map .icn{
+color: $highlightBg10;
+}
+//////////////////////////////////////////////////
+#tabs #subhead .olp a{
+color: $pluginTitleCl10!important;
+}
+//////////////////////////////////////////////////
+.bc a,
+#subhead,
+#subhead .back,
+#regions,
+#regions .text-muted,
+#regions .order-lg-1 a,
+#regions .order-lg-10 a,
+#head .text-muted,
+#head,
+#search #autocompleteLoc a:hover,
+.window,
+header #READMORE .READMORECONTENTjs a{
+color: #FFF!important;
+}
+//////////////////////////////////////////////////
+.text-muted{
+color: initial!important;
+opacity: 0.65;
+}
+//////////////////////////////////////////////////
+#search form input::-webkit-input-placeholder{
+color: #FFF;
+}
+#search form input:-moz-placeholder{ 
+color: #FFF;
+}
+#search form input::-moz-placeholder{ 
+color: #FFF;
+}
+#search form input:-ms-input-placeholder{  
+color: #FFF;
+}
+////////////////////////////////////////////////////////////////////////////////////////////////////
+// BORDERS
+////////////////////////////////////////////////////////////////////////////////////////////////////
+#search form .search{
+border-color: $headerBg11;
+}
+#subhead{
+border-color: lighten($headerBg9,5%);
+}
+//////////////////////////////////////////////////
+#subhead .olp{
+border-color: $pluginTitleBg11;
+}
+//////////////////////////////////////////////////
+#subhead .olp .selected a,
+#subhead .olp .tab-selected a{
+border-color: $headerBg10;
+}
+////////////////////////////////////////////////////////////////////////////////////////////////////
+// TRIANGLES
+////////////////////////////////////////////////////////////////////////////////////////////////////
+header > .row > nav .current:after{
+border-color: #FFF;
+border-left-color: transparent;
+border-right-color: transparent;
+}
+header #READMORE .READMOREjs div,
+header #READMORE .icn,
+footer nav .fab div{
+border-color: $bodyBg10;
+}
+.page-terms #content .h3{
+border-color: $bodyBg9;
+}
+//////////////////////////////////////////////////
+header #header > .row > nav:before {
+background-image: linear-gradient(to left top, transparent 50%, $headerBg10 50%, $headerBg10 0%);
+}
+#head2 .bg:before{
+@if $style == dark {
+background-image: linear-gradient(to left top, transparent 50%, $headerBg11 50%,  $headerBg11 0%);
+} @else {
+background-image: linear-gradient(to left top, transparent 50%, $headerBg10 50%,  $headerBg10 0%);
+}
+}
+.page-vouchers #faqs section:before,
+#regions:before,
+#book:before{
+background-image: linear-gradient(to left top, transparent 50%, $bodyBg10 50%,  $bodyBg10 0%);
+}
+#head2:after,
+#head:after{
+background-image: linear-gradient(to right bottom, transparent 50%, $bodyBg10 50%, $bodyBg10 0%);
+}
+.page-vouchers #book:before,
+.page-voucher #book:before,
+.page-basket #book:before,
+.page-index #book:before{
+@if $style == dark {
+background-image: linear-gradient(to left top, transparent 50%, $bodyBg11 50%,  $bodyBg11 0%);
+} @else {
+background-image: linear-gradient(to left top, transparent 50%, $subheadBg11 50%,  $subheadBg11 0%);
+}
+}
+#head .wp > .row:before,
+#head #indexSearch:before{
+background-image: linear-gradient(to left bottom, transparent 50%, #FFF 50%, #FFF 0%);
+}
+#head .wp > .row:after,
+#head #indexSearch:after{
+background-image: linear-gradient(to right bottom, transparent 50%, #FFF 50%, #FFF 0%);
+}
+////////////////////////////////////////////////////////////////////////////////////////////////////
+// BACKGROUNDS
+////////////////////////////////////////////////////////////////////////////////////////////////////
+//#head,
+.page-index section#intro,
+body{
+background-color: $bodyBg10;
+}
+#regions{
+@if $style == dark {
+background-color: $bodyBg11;
+} @else {
+background-color: $subheadBg11;
+}
+}
+//////////////////////////////////////////////////
+#head2{
+@if $style == dark {
+background-color: $headerBg11;
+} @else {
+background-color: $headerBg10;
+}
+}
+section#intro,
+#head,
+footer nav .fab div{
+background-color: $headerBg10;
+}
+header #hotline{
+background-color: $headerBg9;
+}
+//////////////////////////////////////////////////
+#regions .count,
+footer nav #main,
+footer nav #sub{
+background-color: $highlightBg10;
+}
+//////////////////////////////////////////////////
+#subhead{
+@if $style == dark {
+background-color: $subheadBg10;
+} @else {
+background-color: $highlightBg9;
+}
+}
+//////////////////////////////////////////////////
+footer{
+background-color: $footerBg10;
+}
+//////////////////////////////////////////////////
+#subhead .olp .selected a,
+#subhead .olp .tab-selected a{
+background-color: $pluginTitleBg11;
+}
+#subhead #olp-wp,
+#subhead .olp{
+background-color: $pluginTitleBg10;
+}
+//////////////////////////////////////////////////
+#book{
+@if $style == dark {
+background-color: #FFF;
+} @else {
+background-color: $pluginBg10;
+}
+}
+header #READMORE .READMORECONTENTjs a .icn,
+footer nav .top{
+background-color: #FFF;
+}
+//////////////////////////////////////////////////
+header{
+background-color: $headerBg10;
+}
+//////////////////////////////////////////////////
+#search #autocompleteLoc a:hover{
+background-color: #007bff;
+}
+////////////////////////////////////////////////////////////////////////////////////////////////////
+// GRADIENTS
+////////////////////////////////////////////////////////////////////////////////////////////////////
+header #header > .row > .col:nth-child(2){
+@include gradientHorzLin2($color1:$headerBg11, $color2:$headerBg10);
+}
+header #header > .row > nav{
+@if $style == dark {
+@include gradientHorzLin2($color1:lighten($headerBg9,5%), $color2:$headerBg10);
+} @else {
+@include gradientHorzLin2($color1:$headerBg9, $color2:$headerBg11);
+}
+}
+#book .bg:after{
+background: -moz-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%);
+background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%);
+background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=0 );
+}
+#intro .bg:after{
+background: -moz-linear-gradient(top, rgba(62,103,22,0) 0%, rgba(62,103,22,1) 100%);
+background: -webkit-linear-gradient(top, rgba(62,103,22,0) 0%,rgba(62,103,22,1) 100%);
+background: linear-gradient(to bottom, rgba(62,103,22,0) 0%,rgba(62,103,22,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#003e6716', endColorstr='#3e6716',GradientType=0 );
+}
+#regions .bg:after{
+background: -moz-linear-gradient(top, rgba(34,42,47,0) 0%, rgba(34,42,47,1) 100%);
+background: -webkit-linear-gradient(top, rgba(34,42,47,0) 0%,rgba(34,42,47,1) 100%);
+background: linear-gradient(to bottom, rgba(34,42,47,0) 0%,rgba(34,42,47,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00222a2f', endColorstr='#222a2f',GradientType=0 );
+}
+.page-index #intro .bg:after{
+background: -moz-linear-gradient(top, rgba(9,30,10,0) 0%, rgba(9,30,10,1) 100%);
+background: -webkit-linear-gradient(top, rgba(9,30,10,0) 0%,rgba(9,30,10,1) 100%);
+background: linear-gradient(to bottom, rgba(9,30,10,0) 0%,rgba(9,30,10,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00091e0a', endColorstr='#091e0a',GradientType=0 );
+}
+#subhead:before{
+background: -moz-linear-gradient(left, rgba(222,222,222,0) 0%, rgba(222,222,222,1) 100%);
+background: -webkit-linear-gradient(left, rgba(222,222,222,0) 0%,rgba(222,222,222,1) 100%);
+background: linear-gradient(to right, rgba(222,222,222,0) 0%,rgba(222,222,222,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00dedede', endColorstr='#dedede',GradientType=1 );
+}
+////////////////////////////////////////////////////////////////////////////////////////////////////
+// POSITION
+////////////////////////////////////////////////////////////////////////////////////////////////////
+#map .img,
+#intro .bg,
+#regions .bg,
+#book .bg{
+background-position: 50% 0;
+}
+section .bg,
+.logo a{
+background-position: 50%;
+}
+////////////////////////////////////////////////////////////////////////////////////////////////////
+// REPEAT
+////////////////////////////////////////////////////////////////////////////////////////////////////
+section.bg,
+.logo a{
+background-repeat: no-repeat;
+}
+////////////////////////////////////////////////////////////////////////////////////////////////////
+// TRANSPARENCIES
+////////////////////////////////////////////////////////////////////////////////////////////////////
+#bc{
+@include transparency($color1:$subheadBg9,$color2:$subheadBg9,$opacity:0.60);
+}
+.overlay,
+.window,
+header #READMORE.selected:after,
+#menu{
+@include transparency($color1:$headerBg9,$color2:$headerBg9,$opacity:0.90);
+}
+////////////////////////////////////////////////////////////////////////////////////////////////////
+// BOX SHADOW
+////////////////////////////////////////////////////////////////////////////////////////////////////
+footer nav .top,
+header #READMORE .READMORECONTENTjs .icn,
+.scrollr #subhead,
+.scrollr footer nav #main .fab div,
+.scrollr header{
+box-shadow: 0 10px 15px -3px rgba(0,0,0,.1), 0 4px 6px -2px rgba(0,0,0,.05);
+}
+.scrollr footer nav #sub{
+box-shadow: 0 -10px 15px 3px rgba(0,0,0,.1), 0 -4px 6px 2px rgba(0,0,0,.05);
+}
+////////////////////////////////////////////////////////////////////////////////////////////////////
+// BORDER RADIUS
+////////////////////////////////////////////////////////////////////////////////////////////////////
+#searchWin #autocompleteLoc a{
+@include borderRadius($var: 3px);
+}
+////////////////////////////////////////////////////////////////////////////////////
+
+@media only screen and (min-width: 993px) {
+
+////////////////////////////////////////////////////////////////////////////////////
+#menu section nav{
+background: $headerBg10!important;
+}
+#menu header{
+background: 0!important;
+}
+////////////////////////////////////////////////////////////////////////////////////
+}
+////////////////////////////////////////////////////////////////////////////////////
+
+@media only screen and (max-width: 992px) {
+
+////////////////////////////////////////////////////////////////////////////////////
+#menu header .popup{
+border-color: $headerBg11; 
+}
+#menu header .popup{
+background-color: lighten($headerBg9,5%); 
+}
+////////////////////////////////////////////////////////////////////////////////////
+}
+////////////////////////////////////////////////////////////////////////////////////
+
+@media only screen and (max-width: 768px) {
+
+////////////////////////////////////////////////////////////////////////////////////
+#head2 .bg:before{
+background-image: linear-gradient(to right bottom, transparent 50%, $headerBg10 50%,  $headerBg10 0%);
+}
+
+#search form .search{
+background-color: lighten($headerBg9,5%);
+}
+//#wrap > header{
+//background: -moz-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(0,0,0,0.99) 1%, rgba(0,0,0,0) 100%);
+//background: -webkit-linear-gradient(top, rgba(0,0,0,1) 0%,rgba(0,0,0,0.99) 1%,rgba(0,0,0,0) 100%);
+//background: linear-gradient(to bottom, rgba(0,0,0,1) 0%,rgba(0,0,0,0.99) 1%,rgba(0,0,0,0) 100%);
+//filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#00000000',GradientType=0 );
+//}
+.logo a{
+background-position: 50%;
+}
+////////////////////////////////////////////////////////////////////////////////////
+}
