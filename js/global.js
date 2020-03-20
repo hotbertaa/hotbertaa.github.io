@@ -2,7 +2,6 @@ var lastScrollTop = 0;
     $(window).on('scroll',function(e){
         $('.autohide').show();
 
-        if($('#adventureWin').length > 0 || $('#actWin').length > 0 || $('#venueWin').length > 0 || $('#venWin').length > 0){ } else {
 
       var _scroll = $(window).scrollTop();   
       //if (_scroll >= 1){
@@ -21,7 +20,7 @@ var lastScrollTop = 0;
             $('body').removeClass("scrollx").removeClass("scrolly").removeClass("scrollz");
             $("#wrap").removeClass("scrollr");  
       }
-      }
+
     	
     	
 		//element.addEventListener("scroll", function(){ 
