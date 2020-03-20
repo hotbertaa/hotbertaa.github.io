@@ -59,21 +59,21 @@ footer nav, .scrollup footer nav { bottom: -127px !important; }
 
 .loaded #head .row { transition-delay: 0.4s; }
 
-#intro .row .col { position: relative; bottom: -20px; opacity: 0; }
+#intro .row .col-md { position: relative; bottom: -20px; opacity: 0; }
 
-.loaded #intro .row .col { transition: bottom .5s ease, opacity .5s ease; bottom: 0; opacity: 1; }
+.loaded #intro .row .col-md { transition: bottom .5s ease, opacity .5s ease; bottom: 0; opacity: 1; }
 
-.loaded #intro .row .col:nth-child(1) { transition-delay: 0.5s; }
+.loaded #intro .row .col-md:nth-child(1) { transition-delay: 0.5s; }
 
-.loaded #intro .row .col:nth-child(2) { transition-delay: 0.6s; }
+.loaded #intro .row .col-md:nth-child(2) { transition-delay: 0.6s; }
 
-.loaded #intro .row .col:nth-child(3) { transition-delay: 0.7s; }
+.loaded #intro .row .col-md:nth-child(3) { transition-delay: 0.7s; }
 
-.loaded #intro .row .col:nth-child(4) { transition-delay: 0.8s; }
+.loaded #intro .row .col-md:nth-child(4) { transition-delay: 0.8s; }
 
-.loaded #intro .row .col:nth-child(5) { transition-delay: 0.9s; }
+.loaded #intro .row .col-md:nth-child(5) { transition-delay: 0.9s; }
 
-.loaded #intro .row .col:nth-child(6) { transition-delay: 1s; }
+.loaded #intro .row .col-md:nth-child(6) { transition-delay: 1s; }
 
 @media only screen and (min-width: 993px) { .scrollz #wrap > header, .scrolly #wrap > header { top: -150px; }
   body #wrap.scrollr > header .logo a { width: 250px; height: 100px; transition: width .5s ease, height .5s ease; } }
