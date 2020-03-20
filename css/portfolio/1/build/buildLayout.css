@@ -1,3 +1,5 @@
 .logo a { width: auto !important; height: auto !important; }
 
 header .logo a small { display: block; }
+
+#header nav a { letterspacing: 2pt; }
