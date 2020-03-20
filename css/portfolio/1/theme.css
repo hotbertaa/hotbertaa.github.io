@@ -203,3 +203,5 @@ header .logo a { color: #222222; }
 #intro:after { background-image: linear-gradient(to right bottom, transparent 50%, #efa837 50%, #efa837 0%); }
 
 #intro:before { background-image: linear-gradient(to left top, transparent 50%, #FFF 50%, #FFF 0%); }
+
+#skills:before { background-image: linear-gradient(to left top, transparent 50%, #FFF 50%, #FFF 0%); }
