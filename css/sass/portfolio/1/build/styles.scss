@@ -30,6 +30,7 @@ color: $highlightCl10!important;
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 // BACKGROUND COLOR
 ////////////////////////////////////////////////////////////////////////////////////////////////////
+header,
 #head{
 background-color: $bodyBg10;
 }
@@ -72,6 +73,10 @@ background-repeat: no-repeat;
 #intro{
 @include gradientHorzLin2($color1:$subheadBg10, $color2:#222);
 }
+
+header nav{
+@include gradientHorzLin2($color1:$headerBg9, $color2:$headerBg11);
+}
 ///////////////////////////////////////////////////////
 section .bg:after{
 background: -moz-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,0.01) 1%, rgba(255,255,255,1) 100%);
@@ -90,4 +95,7 @@ background-image: linear-gradient(to left top, transparent 50%, #FFF 50%, #FFF 0
 }
 #skills:before{
 background-image: linear-gradient(to left top, transparent 50%, #FFF 50%, #FFF 0%);
+}
+header #header > .row > nav:before{
+background-image: linear-gradient(to left top, transparent 50%, $headerBg10 50%, $headerBg10 0%);
 }

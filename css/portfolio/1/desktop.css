@@ -1,5 +1,5 @@
 /* CSS - Peter Roper */
-body #wrap.scrollr > header { transition: background .5s ease; background: #86d5f2 !important; }
+body #wrap.scrollr > header { transition: background .5s ease; background: #e2f5fc !important; }
 
 .scrollz #wrap > header, .scrolly #wrap > header { transition: top .5s ease; top: -110px; }
 
