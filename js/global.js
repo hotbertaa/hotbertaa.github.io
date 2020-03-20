@@ -39,6 +39,39 @@ $(window).on('scroll',function(e){
     
 });
 }*/
+
+function canUseWebP() {
+    var elem = document.createElement('canvas');
+
+    if (!!(elem.getContext && elem.getContext('2d'))) {
+        // was able or not to get WebP representation
+        return elem.toDataURL('image/webp').indexOf('data:image/webp') == 0;
+    }
+
+    // very old browser like IE 8, canvas not supported
+    return false;
+}
+
+$(function(){
+if(canUseWebP()){
+     $('body').addClass('webp').removeClass('nowebp');
+}else{
+     $('body').addClass('nowebp').removeClass('webp');
+}
+});
+
+(function($){
+  'use strict';
+    $(window).on('load', function () {
+        /*if ($(".pre-loader").length > 0){
+            $(".pre-loader").fadeOut("slow");
+        }
+        */
+        $('body').removeClass('noscript');
+        setTimeout(function(){ $('body').addClass('loaded'); },400);
+    });
+})(jQuery)
+
 function(){
 
 $('.scrollTo').on('click', function(){
