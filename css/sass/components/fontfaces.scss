@@ -8,7 +8,7 @@ src: url(https://fonts.gstatic.com/s/materialicons/v38/flUhRq6tzZclQEJ-Vdg-IuiaD
 font-feature-settings: 'liga';
 }
 //////////////////////////////////////////////////
-//@if $brand == xxx {
+@if $brand == xxx {
 //////////////////////////////////////////////////
 @font-face{
 font-family: Roboto;
@@ -39,5 +39,5 @@ url('/images/fonts/anton/anton-v11-latin-regular.ttf') format('truetype'), /* Sa
 url('/images/fonts/anton/anton-v11-latin-regular.svg#Anton') format('svg'); /* Legacy iOS */
 }
 //////////////////////////////////////////////////
-//}
+}
 //////////////////////////////////////////////////
