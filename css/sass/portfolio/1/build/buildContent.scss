@@ -120,11 +120,11 @@ padding-top: 80px;
 display: block;
 }
 
-#skills .row .li .icn{
+#skills .row li .col:nth-child(1){
 padding-right: 20px!important;
 position: relative;
 }
-#skills .row .li .icn:after{
+#skills .row li .col:nth-child(1):after{
 content: '';
 position: absolute;
 width: 10px;
@@ -134,10 +134,10 @@ bottom: 0;
 z-index: 10;
 }
 
-#skills .row .li .icn{
+#skills .row li .col:nth-child(1){
 background-color: $bodyCl10;
 }
-#skills .row .li{
+#skills .row li{
 color: $pluginTitleBg10;
 background-color: $pluginTitleCl10;
 }
