@@ -1,21 +1,21 @@
 /*
-Error: Undefined variable: "$bodyCl10".
-        on line 11 of /Users/hotbertaa/Documents/GitHub/hotbertaa.github.io/css/sass/portfolio/1/build/styles.scss
+Error: Undefined variable: "$buttonCl10".
+        on line 9 of /Users/hotbertaa/Documents/GitHub/hotbertaa.github.io/css/sass/portfolio/1/build/styles.scss
 
-6: // COLOR
+4: }
+5: ////////////////////////////////////////////////////////////////////////////////////////////////////
+6: // BUTTONS
 7: ////////////////////////////////////////////////////////////////////////////////////////////////////
-8: body,
-9: #head .text-muted,
-10: #head{
-11: color: $bodyCl10!important;
+8: body .btn-primary{
+9: color: $buttonCl10!important;
+10: background-color: $buttonBg10!important;
+11: border-color: $buttonBg10!important;
 12: }
-13: header nav a{
-14: color: $menuCl10;
-15: }
-16: header .logo a{
+13: body #head .btn-primary{
+14: border-color: $buttonBg9!important;
 
 Backtrace:
-/Users/hotbertaa/Documents/GitHub/hotbertaa.github.io/css/sass/portfolio/1/build/styles.scss:11
+/Users/hotbertaa/Documents/GitHub/hotbertaa.github.io/css/sass/portfolio/1/build/styles.scss:9
 /Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/script/tree/variable.rb:49:in `_perform'
 /Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/script/tree/node.rb:50:in `perform'
 /Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/script/tree/list_literal.rb:75:in `block in _perform'
@@ -72,4 +72,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$bodyCl10\".\A         on line 11 of /Users/hotbertaa/Documents/GitHub/hotbertaa.github.io/css/sass/portfolio/1/build/styles.scss\A \A 6: // COLOR\A 7: ////////////////////////////////////////////////////////////////////////////////////////////////////\A 8: body,\A 9: #head .text-muted,\A 10: #head{\A 11: color: $bodyCl10!important;\A 12: }\A 13: header nav a{\A 14: color: $menuCl10;\A 15: }\A 16: header .logo a{"; }
+  content: "Error: Undefined variable: \"$buttonCl10\".\A         on line 9 of /Users/hotbertaa/Documents/GitHub/hotbertaa.github.io/css/sass/portfolio/1/build/styles.scss\A \A 4: }\A 5: ////////////////////////////////////////////////////////////////////////////////////////////////////\A 6: // BUTTONS\A 7: ////////////////////////////////////////////////////////////////////////////////////////////////////\A 8: body .btn-primary{\A 9: color: $buttonCl10!important;\A 10: background-color: $buttonBg10!important;\A 11: border-color: $buttonBg10!important;\A 12: }\A 13: body #head .btn-primary{\A 14: border-color: $buttonBg9!important;"; }

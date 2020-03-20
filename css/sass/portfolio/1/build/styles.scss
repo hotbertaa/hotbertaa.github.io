@@ -3,6 +3,34 @@ color: initial!important;
 opacity: 0.65;
 }
 ////////////////////////////////////////////////////////////////////////////////////////////////////
+// BUTTONS
+////////////////////////////////////////////////////////////////////////////////////////////////////
+body .btn-primary{
+color: $buttonCl10!important;
+background-color: $buttonBg10!important;
+border-color: $buttonBg10!important;
+}
+body #head .btn-primary{
+border-color: $buttonBg9!important;
+}
+body .btn-primary:hover{
+color: $buttonCl10!important;
+background-color: $buttonBg9!important;
+border-color: $buttonBg9!important;
+}
+body .btn-outline-primary{
+color: $buttonBg10!important;
+border-color: $buttonBg10!important;
+}
+body .btn-outline-primary:hover{
+color: $buttonCl10!important;
+background-color: $buttonBg10!important;
+border-color: $buttonBg10!important;
+}
+body .btn-light{
+color: $bodyBg10!important;
+}
+////////////////////////////////////////////////////////////////////////////////////////////////////
 // COLOR
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 body,
