@@ -176,6 +176,8 @@ footer nav .top, header #READMORE .READMORECONTENTjs .icn, .scrollr #subhead, .s
 
 header .logo a { color: #222222; }
 
+#intro, #intro .text-muted { color: #FFF !important; }
+
 #head .h3, #head .h3 .text-muted { color: #774dab !important; }
 
 #skills, #skills .text-muted, #skills .icon { color: #FFF !important; }
@@ -194,7 +196,7 @@ header .logo a { color: #222222; }
 
 #intro .row .col-md:nth-child(2) .img { background-position: 50%; background-repeat: no-repeat; }
 
-#intro { background: -moz-linear-gradient(left, #774dab 0%, #EDEDED 100%); background: -webkit-gradient(linear, left top, right top, color-stop(0%, #774dab), color-stop(100%, #EDEDED)); background: -webkit-linear-gradient(left, #774dab 0%, #EDEDED 100%); background: -o-linear-gradient(left, #774dab 0%, #EDEDED 100%); background: -ms-linear-gradient(left, #774dab 0%, #EDEDED 100%); background: linear-gradient(to right, #774dab 0%, #EDEDED 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#774dab', endColorstr='#EDEDED',GradientType=1 ); }
+#intro { background: -moz-linear-gradient(left, #774dab 0%, #222222 100%); background: -webkit-gradient(linear, left top, right top, color-stop(0%, #774dab), color-stop(100%, #222222)); background: -webkit-linear-gradient(left, #774dab 0%, #222222 100%); background: -o-linear-gradient(left, #774dab 0%, #222222 100%); background: -ms-linear-gradient(left, #774dab 0%, #222222 100%); background: linear-gradient(to right, #774dab 0%, #222222 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#774dab', endColorstr='#222222',GradientType=1 ); }
 
 #intro:after { background-image: linear-gradient(to right bottom, transparent 50%, #F28823 50%, #F28823 0%); }
 
