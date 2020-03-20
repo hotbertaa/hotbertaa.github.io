@@ -3,7 +3,7 @@
 $light: #FFF;
 $dark: #000;
 $darker: darken($dark,15%);
-$header: #774dab;
+$header: darken(#e2f5fc,35%);
 $footer: #000000;
 
 $highlight: #F28823;
@@ -32,7 +32,7 @@ $headerCl10: #222222;
 $headerCl11: lighten($pluginBg10, 70%);
 $headerCl12: lighten($headerCl11, 10%);
 $headerBg10: $header;
-$headerBg11: lighten($headerBg10,10%);
+$headerBg11: #e2f5fc;
 /////////////////////////////////////////////////////////////////////////////////////
 // footer //
 $footerBg10: $footer;
