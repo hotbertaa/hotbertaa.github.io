@@ -448,6 +448,8 @@ footer nav, .scrollup footer nav { bottom: -127px !important; }
 
 .loaded #head #title b:nth-child(3) { transition-delay: .9s; }
 
+header > .row > .col:nth-child(2), header > .row > .col:nth-child(3) > .row > col:nth-child(1) { display: none !important; }
+
 @media only screen and (min-width: 993px) { .scrollz #wrap > header, .scrolly #wrap > header { top: -150px; }
   body #wrap.scrollr > header .logo a { width: 250px; height: 100px; transition: width .5s ease, height .5s ease; } }
 .shimmer { margin: 0; display: inline-block; color: white; background: #fae6c5 -webkit-gradient(linear, 100% 0, 0 0, from(#fae6c5), color-stop(0.5, #ffffff), to(#fae6c5)); background-position: -4rem top; /*50px*/ background-repeat: no-repeat; -webkit-background-clip: text; -webkit-text-fill-color: transparent; -webkit-animation-name: shimmer; -webkit-animation-duration: 2.2s; -webkit-animation-iteration-count: infinite; -webkit-background-size: 4rem 100%; /*50px*/ }
