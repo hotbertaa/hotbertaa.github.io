@@ -62,18 +62,18 @@ padding-bottom: 10%!important;
 #intro .row .col-md:nth-child(2) .img{
 @include backgroundSize($hor:auto,$ver:75%);
 }
-#intro{
+.page-index #intro{
 padding-top: 80px;
 padding-bottom: 80px;
 }
-#intro:after,
-#intro:before{
+.page-index #intro:after,
+.page-index #intro:before{
 display: block;
 }
 #intro > div{
 z-index: 10!important;
 }
-#intro #cards{
+.page-index #intro #cards{
 margin-top: -25%;
 }
 #intro #cards .img{

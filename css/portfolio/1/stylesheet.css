@@ -390,13 +390,13 @@ header .logo a small { display: block; }
 @media only screen and (min-width: 769px) { body .page-index #head { padding-bottom: 10% !important; } }
 #intro .row .col-md:nth-child(2) .img { background-size: auto 75% !important; -ms-interpolation-mode: bicubic; image-rendering: optimizeQuality; }
 
-#intro { padding-top: 80px; padding-bottom: 80px; }
+.page-index #intro { padding-top: 80px; padding-bottom: 80px; }
 
-#intro:after, #intro:before { display: block; }
+.page-index #intro:after, .page-index #intro:before { display: block; }
 
 #intro > div { z-index: 10 !important; }
 
-#intro #cards { margin-top: -25%; }
+.page-index #intro #cards { margin-top: -25%; }
 
 #intro #cards .img { padding-bottom: 58%; }
 
