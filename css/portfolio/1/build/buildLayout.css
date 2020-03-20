@@ -2,7 +2,7 @@
 
 header .logo a small { display: block; }
 
-#header nav a { letterspacing: 2pt; }
+#header nav a { letter-spacing: 2pt; }
 
 header { position: fixed; background: 0 !important; }
 

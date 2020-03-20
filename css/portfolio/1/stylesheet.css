@@ -373,7 +373,7 @@ header #READMORE .READMORECONTENTjs small { font-size: 60%; }
 
 header .logo a small { display: block; }
 
-#header nav a { letterspacing: 2pt; }
+#header nav a { letter-spacing: 2pt; }
 
 header { position: fixed; background: 0 !important; }
 
@@ -416,6 +416,8 @@ header { position: fixed; background: 0 !important; }
 .page-about #skills { padding-top: 80px; }
 
 .page-about #skills:before { display: block; }
+
+#skills .row .li { color: #1599ca; background-color: #FFF; }
 
 footer nav, .display-3, .h1, .h2, .h3, .h4, .h5, header nav { text-transform: inherit !important; }
 
