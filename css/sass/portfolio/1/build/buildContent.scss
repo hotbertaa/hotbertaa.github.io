@@ -79,10 +79,10 @@ padding-bottom: 58%;
 display: block;
 }
 
-#intro .row .col-md:nth-child(1) .img{
+#intro #cards .col-md:nth-child(1) .img{
 @include backgroundSize($hor:auto,$ver:75%);
 }
-#intro .row .col-md:nth-child(2) .img{
+#intro #cards .col-md:nth-child(2) .img{
 @include backgroundSize($hor:auto,$ver:75%);
 }
 ////////////////////////////////////////////////////////////////////////////////////
