@@ -6,7 +6,7 @@
 
 #head .h3, #head .lead { left: -100px; }
 
-.loaded #head .display-3 { top: -100px; }
+#head .display-3 { top: -100px; }
 
 #head .row { bottom: -50px; }
 
