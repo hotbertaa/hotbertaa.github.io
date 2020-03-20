@@ -460,15 +460,15 @@ footer nav, .scrollup footer nav { bottom: -127px !important; }
 
 #head .display-3, #head .h1, #head .lead, #head .row { position: relative; left: -100px; opacity: 0; }
 
-.loaded #head .display-3, .loaded #head .h1, .loaded #head .lead, .loaded #head .row { transition: left .5s ease, opacity .5s ease; left: 0; opacity: 1; }
+.loaded #head .display-3, .loaded #head .h, .loaded #head .lead, .loaded #head .row { transition: left .5s ease, opacity .5s ease; left: 0; opacity: 1; }
 
-.loaded #head .display-3 { transition-delay: 0.2s; }
+.loaded #head .display-3 { transition-delay: 0.1s; }
 
-.loaded #head .h1 { transition-delay: 0.4s; }
+.loaded #head .h { transition-delay: 0.2s; }
 
-.loaded #head .lead { transition-delay: 0.6s; }
+.loaded #head .lead { transition-delay: 0.3s; }
 
-.loaded #head .row { transition-delay: 0.8s; }
+.loaded #head .row { transition-delay: 0.4s; }
 
 @media only screen and (min-width: 993px) { .scrollz #wrap > header, .scrolly #wrap > header { top: -150px; }
   body #wrap.scrollr > header .logo a { width: 250px; height: 100px; transition: width .5s ease, height .5s ease; } }
