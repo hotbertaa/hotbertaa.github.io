@@ -1,13 +1,13 @@
 /* CSS - Peter Roper */
-.icon { color: #EDEDED; background-color: #222222; }
+.icon { color: #e2f5fc; background-color: #222222; }
 
-#regions .icon { color: #222222; background-color: #EDEDED; }
+#regions .icon { color: #222222; background-color: #e2f5fc; }
 
 #book .icon { color: #222222; background-color: white; }
 
 #intro #prices .col span { color: #F28823; }
 
-.page-vouchers #regions .icon { color: #EDEDED; background-color: #222222; }
+.page-vouchers #regions .icon { color: #e2f5fc; background-color: #222222; }
 
 .overlay .loader.bar { background-color: #1b3618; }
 
@@ -45,11 +45,11 @@ body .btn-outline-primary { color: #F28823 !important; border-color: #F28823 !im
 
 body .btn-outline-primary:hover { color: #FFF !important; background-color: #F28823 !important; border-color: #F28823 !important; }
 
-body .btn-light { color: #EDEDED !important; }
+body .btn-light { color: #e2f5fc !important; }
 
 #content .text-muted, body { color: #222222 !important; }
 
-#book .lead, #book, #search #autocompleteLoc a, header #READMORE .READMORECONTENTjs a .icn, footer nav .top { color: #EDEDED !important; }
+#book .lead, #book, #search #autocompleteLoc a, header #READMORE .READMORECONTENTjs a .icn, footer nav .top { color: #e2f5fc !important; }
 
 header nav a { color: #FFFFFF; }
 
@@ -87,17 +87,17 @@ footer a { color: #b3b3b3; }
 
 header > .row > nav .current:after { border-color: #FFF; border-left-color: transparent; border-right-color: transparent; }
 
-header #READMORE .READMOREjs div, header #READMORE .icn, footer nav .fab div { border-color: #EDEDED; }
+header #READMORE .READMOREjs div, header #READMORE .icn, footer nav .fab div { border-color: #e2f5fc; }
 
-.page-terms #content .h3 { border-color: #d4d4d4; }
+.page-terms #content .h3 { border-color: #b4e5f7; }
 
 header #header > .row > nav:before { background-image: linear-gradient(to left top, transparent 50%, #FFFFFF 50%, #FFFFFF 0%); }
 
 #head2 .bg:before { background-image: linear-gradient(to left top, transparent 50%, white 50%, white 0%); }
 
-.page-vouchers #faqs section:before, #regions:before, #book:before { background-image: linear-gradient(to left top, transparent 50%, #EDEDED 50%, #EDEDED 0%); }
+.page-vouchers #faqs section:before, #regions:before, #book:before { background-image: linear-gradient(to left top, transparent 50%, #e2f5fc 50%, #e2f5fc 0%); }
 
-#head2:after, #head:after { background-image: linear-gradient(to right bottom, transparent 50%, #EDEDED 50%, #EDEDED 0%); }
+#head2:after, #head:after { background-image: linear-gradient(to right bottom, transparent 50%, #e2f5fc 50%, #e2f5fc 0%); }
 
 .page-vouchers #book:before, .page-voucher #book:before, .page-basket #book:before, .page-index #book:before { background-image: linear-gradient(to left top, transparent 50%, white 50%, white 0%); }
 
@@ -105,7 +105,7 @@ header #header > .row > nav:before { background-image: linear-gradient(to left t
 
 #head .wp > .row:after, #head #indexSearch:after { background-image: linear-gradient(to right bottom, transparent 50%, #FFF 50%, #FFF 0%); }
 
-.page-index section#intro, body { background-color: #EDEDED; }
+.page-index section#intro, body { background-color: #e2f5fc; }
 
 #regions { background-color: white; }
 
