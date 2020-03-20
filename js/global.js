@@ -1,4 +1,4 @@
-$(function(){
+//$(function(){
 
 //element.addEventListener("scroll", function(){ 
 var st = $(window).scrollTop(); 
@@ -32,7 +32,7 @@ if(_scroll >= 1){} else {
   $("#wrap").removeClass("scrollr");  
 }
 
-});
+//});
 
 $('.scrollTo').on('click', function(){
     //$('html,body').animate({scrollTop: $($(this).attr('href')).offset().top},500);
