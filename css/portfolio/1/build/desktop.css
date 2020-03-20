@@ -4,13 +4,13 @@
 
 #head .display-3, #head .h1, #head .lead, #head .row { position: relative; opacity: 0; }
 
-#head .h1, #head .lead { left: -100px; }
+#head .h3, #head .lead { left: -100px; }
 
-.loaded #head .display-3 { top: -50px; }
+.loaded #head .display-3 { top: -100px; }
 
 #head .row { bottom: -50px; }
 
-.loaded #head .h, .loaded #head .lead { transition: left .5s ease, opacity .5s ease; left: 0; opacity: 1; }
+.loaded #head .h3, .loaded #head .lead { transition: left .5s ease, opacity .5s ease; left: 0; opacity: 1; }
 
 .loaded #head .display-3 { transition: top .5s ease, opacity .5s ease; top: 0; opacity: 1; }
 
@@ -18,7 +18,7 @@
 
 .loaded #head .display-3 { transition-delay: 0.1s; }
 
-.loaded #head .h { transition-delay: 0.2s; }
+.loaded #head .h3 { transition-delay: 0.2s; }
 
 .loaded #head .lead { transition-delay: 0.3s; }
 
