@@ -1,21 +1,21 @@
 /*
 Error: Undefined variable: "$highlightBg10".
-        on line 26 of /Users/hotbertaa/Documents/GitHub/hotbertaa.github.io/css/sass/portfolio/1/build/desktop.scss
+        on line 29 of /Users/hotbertaa/Documents/GitHub/hotbertaa.github.io/css/sass/portfolio/1/build/desktop.scss
 
-21: 
-22: .shimmer {
-23: margin: 0;
-24: display: inline-block;
-25: color:white;
-26: background: lighten($highlightBg10,30%) -webkit-gradient(linear, 100% 0, 0 0, from(lighten($highlightBg10,30%)), color-stop(0.5, #ffffff), to(lighten($highlightBg10,30%)));
-27: background-position: -4rem top; /*50px*\/
-28: background-repeat: no-repeat;
-29: -webkit-background-clip: text;
-30: -webkit-text-fill-color: transparent;
-31: -webkit-animation-name: shimmer;
+24: 
+25: .shimmer {
+26: margin: 0;
+27: display: inline-block;
+28: color:white;
+29: background: lighten($highlightBg10,30%) -webkit-gradient(linear, 100% 0, 0 0, from(lighten($highlightBg10,30%)), color-stop(0.5, #ffffff), to(lighten($highlightBg10,30%)));
+30: background-position: -4rem top; /*50px*\/
+31: background-repeat: no-repeat;
+32: -webkit-background-clip: text;
+33: -webkit-text-fill-color: transparent;
+34: -webkit-animation-name: shimmer;
 
 Backtrace:
-/Users/hotbertaa/Documents/GitHub/hotbertaa.github.io/css/sass/portfolio/1/build/desktop.scss:26
+/Users/hotbertaa/Documents/GitHub/hotbertaa.github.io/css/sass/portfolio/1/build/desktop.scss:29
 /Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/script/tree/variable.rb:49:in `_perform'
 /Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/script/tree/node.rb:50:in `perform'
 /Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/script/tree/funcall.rb:182:in `perform_arg'
@@ -80,4 +80,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$highlightBg10\".\A         on line 26 of /Users/hotbertaa/Documents/GitHub/hotbertaa.github.io/css/sass/portfolio/1/build/desktop.scss\A \A 21: \A 22: .shimmer {\A 23: margin: 0;\A 24: display: inline-block;\A 25: color:white;\A 26: background: lighten($highlightBg10,30%) -webkit-gradient(linear, 100% 0, 0 0, from(lighten($highlightBg10,30%)), color-stop(0.5, #ffffff), to(lighten($highlightBg10,30%)));\A 27: background-position: -4rem top; /*50px*/\A 28: background-repeat: no-repeat;\A 29: -webkit-background-clip: text;\A 30: -webkit-text-fill-color: transparent;\A 31: -webkit-animation-name: shimmer;"; }
+  content: "Error: Undefined variable: \"$highlightBg10\".\A         on line 29 of /Users/hotbertaa/Documents/GitHub/hotbertaa.github.io/css/sass/portfolio/1/build/desktop.scss\A \A 24: \A 25: .shimmer {\A 26: margin: 0;\A 27: display: inline-block;\A 28: color:white;\A 29: background: lighten($highlightBg10,30%) -webkit-gradient(linear, 100% 0, 0 0, from(lighten($highlightBg10,30%)), color-stop(0.5, #ffffff), to(lighten($highlightBg10,30%)));\A 30: background-position: -4rem top; /*50px*/\A 31: background-repeat: no-repeat;\A 32: -webkit-background-clip: text;\A 33: -webkit-text-fill-color: transparent;\A 34: -webkit-animation-name: shimmer;"; }
