@@ -458,9 +458,19 @@ footer nav, .scrollup footer nav { bottom: -127px !important; }
 
 .scrollr #header > .row > .col:nth-child(2) { display: block !important; }
 
-#head .display-3, #head .h1, #head .lead, #head .row { position: relative; left: -100px; opacity: 0; }
+#head .display-3, #head .h1, #head .lead, #head .row { position: relative; opacity: 0; }
 
-.loaded #head .display-3, .loaded #head .h, .loaded #head .lead, .loaded #head .row { transition: left .5s ease, opacity .5s ease; left: 0; opacity: 1; }
+#head .h1, #head .lead { left: -100px; }
+
+.loaded #head .display-3 { top: -50px; }
+
+#head .row { bottom: -50px; }
+
+.loaded #head .h, .loaded #head .lead { transition: left .5s ease, opacity .5s ease; left: 0; opacity: 1; }
+
+.loaded #head .display-3 { transition: top .5s ease, opacity .5s ease; top: 0; opacity: 1; }
+
+.loaded #head .row { transition: bottom .5s ease, opacity .5s ease; bottom: 0; opacity: 1; }
 
 .loaded #head .display-3 { transition-delay: 0.1s; }
 
