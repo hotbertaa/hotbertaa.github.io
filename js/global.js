@@ -39,6 +39,7 @@ $(window).on('scroll',function(e){
     
 });
 }*/
+function(){
 
 $('.scrollTo').on('click', function(){
     //$('html,body').animate({scrollTop: $($(this).attr('href')).offset().top},500);
@@ -56,3 +57,5 @@ $('.scrollTo').on('click', function(){
         return false;
     }
 });
+
+}
