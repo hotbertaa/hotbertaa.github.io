@@ -121,7 +121,7 @@ header nav{
 }
 
 #skills{
-@include gradientVerLin($color1:$pluginTitleBg10, $color2:$pluginTitleBg9);
+@include gradientVertLin($color1:$pluginTitleBg10, $color2:$pluginTitleBg9);
 }
 ///////////////////////////////////////////////////////
 section .bg:after{
