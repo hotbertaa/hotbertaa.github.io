@@ -375,6 +375,10 @@ header .logo a small { display: block; }
 
 #header nav a { letterspacing: 2pt; }
 
+.page-index header { position: fixed; background: 0; }
+
+.page-index #head { padding-top: 36px; }
+
 .icon { line-height: 1; margin: -95px 0 15px -48px; display: inline-block; position: absolute; }
 
 .icon .icn { width: 60px !important; height: 60px !important; line-height: 60px !important; font-size: 60px !important; }
@@ -387,7 +391,7 @@ header .logo a small { display: block; }
 
 #head:after { display: none; }
 
-#head:before { content: ''; height: auto !important; opacity: 0.2; position: absolute; top: 0; left: 0; right: 0; bottom: 0; z-index: 0; background-image: url(/images/bg.jpg); background-repeat: repeat-x; display: block; }
+#head:before { content: ''; height: auto !important; opacity: 0.1 0.5; position: absolute; top: 0; left: 0; right: 0; bottom: 0; z-index: 0; background-image: url(/images/bg.jpg); background-repeat: repeat-x; display: block; }
 
 .page-index #intro { padding-top: 80px; padding-bottom: 80px; }
 

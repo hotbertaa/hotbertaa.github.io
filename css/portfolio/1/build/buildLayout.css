@@ -3,3 +3,7 @@
 header .logo a small { display: block; }
 
 #header nav a { letterspacing: 2pt; }
+
+.page-index header { position: fixed; background: 0; }
+
+.page-index #head { padding-top: 36px; }
