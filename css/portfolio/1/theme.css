@@ -190,7 +190,7 @@ header .logo a { color: #222222; }
 
 #intro #cards .img { background-repeat: no-repeat; }
 
-#intro { background: -moz-linear-gradient(left, #774dab 0%, #094257 100%); background: -webkit-gradient(linear, left top, right top, color-stop(0%, #774dab), color-stop(100%, #094257)); background: -webkit-linear-gradient(left, #774dab 0%, #094257 100%); background: -o-linear-gradient(left, #774dab 0%, #094257 100%); background: -ms-linear-gradient(left, #774dab 0%, #094257 100%); background: linear-gradient(to right, #774dab 0%, #094257 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#774dab', endColorstr='#094257',GradientType=1 ); }
+#intro { background: -moz-linear-gradient(left, #774dab 0%, #222 100%); background: -webkit-gradient(linear, left top, right top, color-stop(0%, #774dab), color-stop(100%, #222)); background: -webkit-linear-gradient(left, #774dab 0%, #222 100%); background: -o-linear-gradient(left, #774dab 0%, #222 100%); background: -ms-linear-gradient(left, #774dab 0%, #222 100%); background: linear-gradient(to right, #774dab 0%, #222 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#774dab', endColorstr='#222',GradientType=1 ); }
 
 section .bg:after { background: -moz-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.01) 1%, white 100%); background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.01) 1%, white 100%); background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.01) 1%, white 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=0 ); }
 
