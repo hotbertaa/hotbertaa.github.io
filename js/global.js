@@ -1,4 +1,4 @@
-/*function(){
+$(function(){
 var lastScrollTop = 0;
 $(window).on('scroll',function(e){
         $('.autohide').show();
@@ -38,7 +38,26 @@ $(window).on('scroll',function(e){
 		//}, false);
     
 });
-}*/
+
+
+$('.scrollTo').on('click', function(){
+    //$('html,body').animate({scrollTop: $($(this).attr('href')).offset().top},500);
+    $('.scrollTo').removeClass('selected');
+    $(this).addClass('selected');
+    if($(this).parents('.window').length > 0 ){ 
+        return true;
+    } else {
+    	if($($(this).attr('href')).length > 0){
+        $('html,body').animate({scrollTop: $($(this).attr('href')).offset().top -80 }, 'slow');
+        //$('html,body').animate({scrollTop: $($(this).attr('href')).offset().top -210 }, 'slow');
+    	}else{
+        	console.log($(this).attr('href')+ ' is missing');
+    	}
+        return false;
+    }
+});
+
+});
 
 function canUseWebP() {
     var elem = document.createElement('canvas');
@@ -71,24 +90,3 @@ if(canUseWebP()){
         setTimeout(function(){ $('body').addClass('loaded'); },400);
     });
 })(jQuery)
-
-function(){
-
-$('.scrollTo').on('click', function(){
-    //$('html,body').animate({scrollTop: $($(this).attr('href')).offset().top},500);
-    $('.scrollTo').removeClass('selected');
-    $(this).addClass('selected');
-    if($(this).parents('.window').length > 0 ){ 
-        return true;
-    } else {
-    	if($($(this).attr('href')).length > 0){
-        $('html,body').animate({scrollTop: $($(this).attr('href')).offset().top -80 }, 'slow');
-        //$('html,body').animate({scrollTop: $($(this).attr('href')).offset().top -210 }, 'slow');
-    	}else{
-        	console.log($(this).attr('href')+ ' is missing');
-    	}
-        return false;
-    }
-});
-
-}
