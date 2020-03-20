@@ -40,5 +40,7 @@
 
 .loaded #intro .row .col-md:nth-child(6) { transition-delay: 1s; }
 
+.loaded #intro .row .col-md a:hover { transform: scale(1.1); }
+
 @media only screen and (min-width: 993px) { .scrollz #wrap > header, .scrolly #wrap > header { top: -150px; }
   body #wrap.scrollr > header .logo a { width: 250px; height: 100px; transition: width .5s ease, height .5s ease; } }

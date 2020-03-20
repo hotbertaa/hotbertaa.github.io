@@ -84,6 +84,10 @@ transition-delay: 0.9s;
 .loaded #intro .row .col-md:nth-child(6){
 transition-delay: 1s;
 }
+
+.loaded #intro .row .col-md a:hover{
+transform: scale(1.1);
+}
 ////////////////////////////////////////////////////////////////////////////////////
 
 @media only screen and (min-width: 993px) {
