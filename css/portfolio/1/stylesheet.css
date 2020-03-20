@@ -389,9 +389,6 @@ header .logo a small { display: block; }
 
 #head:after { display: none; }
 
-.page-index #head { padding-top: 0% !important; padding-bottom: 0% !important; }
-
-@media only screen and (min-width: 769px) { body .page-index #head { padding-bottom: 0% !important; } }
 .page-index #intro { padding-top: 80px; padding-bottom: 80px; }
 
 .page-index #intro:after, .page-index #intro:before { display: block; }
