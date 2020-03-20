@@ -59,9 +59,6 @@ padding-bottom: 0%!important;
 // INTRO
 
 ////////////////////////////////////////////////////////////////////////////////////
-#intro .row .col-md:nth-child(2) .img{
-@include backgroundSize($hor:auto,$ver:75%);
-}
 .page-index #intro{
 padding-top: 80px;
 padding-bottom: 80px;
@@ -77,7 +74,16 @@ z-index: 10!important;
 margin-top: -25%;
 }
 #intro #cards .img{
+@include backgroundSize();
 padding-bottom: 58%;
+display: block;
+}
+
+#intro .row .col-md:nth-child(1) .img{
+@include backgroundSize($hor:auto,$ver:75%);
+}
+#intro .row .col-md:nth-child(2) .img{
+@include backgroundSize($hor:auto,$ver:75%);
 }
 ////////////////////////////////////////////////////////////////////////////////////
 

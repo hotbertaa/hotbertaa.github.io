@@ -390,8 +390,6 @@ header .logo a small { display: block; }
 .page-index #head { padding-top: 0% !important; padding-bottom: 0% !important; }
 
 @media only screen and (min-width: 769px) { body .page-index #head { padding-bottom: 0% !important; } }
-#intro .row .col-md:nth-child(2) .img { background-size: auto 75% !important; -ms-interpolation-mode: bicubic; image-rendering: optimizeQuality; }
-
 .page-index #intro { padding-top: 80px; padding-bottom: 80px; }
 
 .page-index #intro:after, .page-index #intro:before { display: block; }
@@ -400,7 +398,11 @@ header .logo a small { display: block; }
 
 .page-index #intro #cards { margin-top: -25%; }
 
-#intro #cards .img { padding-bottom: 58%; }
+#intro #cards .img { background-size: 100% auto !important; -ms-interpolation-mode: bicubic; image-rendering: optimizeQuality; padding-bottom: 58%; display: block; }
+
+#intro .row .col-md:nth-child(1) .img { background-size: auto 75% !important; -ms-interpolation-mode: bicubic; image-rendering: optimizeQuality; }
+
+#intro .row .col-md:nth-child(2) .img { background-size: auto 75% !important; -ms-interpolation-mode: bicubic; image-rendering: optimizeQuality; }
 
 #skills .icon { line-height: 1; margin: -95px 0 0 -48px; display: inline-block; position: absolute; }
 
