@@ -1,17 +1,21 @@
 /*
-Error: Undefined variable: "$headerBg10".
-        on line 2 of /Users/hotbertaa/Documents/GitHub/hotbertaa.github.io/css/sass/portfolio/1/build/styles.scss
+Error: Undefined variable: "$bodyCl10".
+        on line 11 of /Users/hotbertaa/Documents/GitHub/hotbertaa.github.io/css/sass/portfolio/1/build/styles.scss
 
-1:  #wrap.page-index > header{
-2: background: $headerBg10!important;
-3: }
-4: ////////////////////////////////////////////////////////////////////////////////////////////////////
-5: // COLOR
-6: ////////////////////////////////////////////////////////////////////////////////////////////////////
-7: body,
+6: // COLOR
+7: ////////////////////////////////////////////////////////////////////////////////////////////////////
+8: body,
+9: #head .text-muted,
+10: #head{
+11: color: $bodyCl10!important;
+12: }
+13: header nav a{
+14: color: $menuCl10;
+15: }
+16: header .logo a{
 
 Backtrace:
-/Users/hotbertaa/Documents/GitHub/hotbertaa.github.io/css/sass/portfolio/1/build/styles.scss:2
+/Users/hotbertaa/Documents/GitHub/hotbertaa.github.io/css/sass/portfolio/1/build/styles.scss:11
 /Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/script/tree/variable.rb:49:in `_perform'
 /Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/script/tree/node.rb:50:in `perform'
 /Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/script/tree/list_literal.rb:75:in `block in _perform'
@@ -68,4 +72,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$headerBg10\".\A         on line 2 of /Users/hotbertaa/Documents/GitHub/hotbertaa.github.io/css/sass/portfolio/1/build/styles.scss\A \A 1:  #wrap.page-index > header{\A 2: background: $headerBg10!important;\A 3: }\A 4: ////////////////////////////////////////////////////////////////////////////////////////////////////\A 5: // COLOR\A 6: ////////////////////////////////////////////////////////////////////////////////////////////////////\A 7: body,"; }
+  content: "Error: Undefined variable: \"$bodyCl10\".\A         on line 11 of /Users/hotbertaa/Documents/GitHub/hotbertaa.github.io/css/sass/portfolio/1/build/styles.scss\A \A 6: // COLOR\A 7: ////////////////////////////////////////////////////////////////////////////////////////////////////\A 8: body,\A 9: #head .text-muted,\A 10: #head{\A 11: color: $bodyCl10!important;\A 12: }\A 13: header nav a{\A 14: color: $menuCl10;\A 15: }\A 16: header .logo a{"; }
