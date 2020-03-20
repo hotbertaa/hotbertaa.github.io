@@ -75,9 +75,6 @@ display: block;
 #intro > div{
 z-index: 10!important;
 }
-.page-index #intro #cards{
-margin-top: -25%;
-}
 #intro #cards .img{
 @include backgroundSize();
 padding-bottom: 58%;
@@ -94,6 +91,15 @@ display: block;
 @include backgroundSize($hor:auto,$ver:90%);
 }
 ////////////////////////////////////////////////////////////////////////////////////
+
+@media only screen and (min-width: 768px) {
+
+////////////////////////////////////////////////////////////////////////////////////
+.page-index #intro #cards{
+margin-top: -25%;
+}
+////////////////////////////////////////////////////////////////////////////////////
+}
 
 
 
