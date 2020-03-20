@@ -35,15 +35,15 @@ header #READMORE.selected:after, .loader.lg, .overlay { background: -moz-linear-
 
 .card-body a { border-color: #c5c5c5 !important; }
 
-body .btn-primary { color: #FFF !important; background-color: #F28823 !important; border-color: #F28823 !important; }
+body .btn-primary { color: #FFF !important; background-color: #168bfc !important; border-color: #168bfc !important; }
 
-body #head .btn-primary { border-color: #d56f0d !important; }
+body #head .btn-primary { border-color: #0371dc !important; }
 
-body .btn-primary:hover { color: #FFF !important; background-color: #d56f0d !important; border-color: #d56f0d !important; }
+body .btn-primary:hover { color: #FFF !important; background-color: #0371dc !important; border-color: #0371dc !important; }
 
-body .btn-outline-primary { color: #F28823 !important; border-color: #F28823 !important; }
+body .btn-outline-primary { color: #168bfc !important; border-color: #168bfc !important; }
 
-body .btn-outline-primary:hover { color: #FFF !important; background-color: #F28823 !important; border-color: #F28823 !important; }
+body .btn-outline-primary:hover { color: #FFF !important; background-color: #168bfc !important; border-color: #168bfc !important; }
 
 body .btn-light { color: #000 !important; }
 
