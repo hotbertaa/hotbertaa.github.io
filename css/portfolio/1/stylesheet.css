@@ -387,6 +387,8 @@ header .logo a small { display: block; }
 
 #head:after { display: none; }
 
+#head:before { content: ''; opacity: 0.1; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background-image: url(images/bg.jpg); background-repeat: repeat-x; }
+
 .page-index #intro { padding-top: 80px; padding-bottom: 80px; }
 
 .page-index #intro:after, .page-index #intro:before { display: block; }
