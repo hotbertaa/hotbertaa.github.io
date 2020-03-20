@@ -1,17 +1,17 @@
 /* CSS - Peter Roper */
 .text-muted { color: initial !important; opacity: 0.65; }
 
-body .btn-primary { color: #07303f !important; background-color: #efa837 !important; border-color: #efa837 !important; }
+body .btn-primary { color: #1599ca !important; background-color: #efa837 !important; border-color: #efa837 !important; }
 
 body #head .btn-primary { border-color: #e19112 !important; }
 
-body .btn-primary:hover { color: #07303f !important; background-color: #e19112 !important; border-color: #e19112 !important; }
+body .btn-primary:hover { color: #1599ca !important; background-color: #e19112 !important; border-color: #e19112 !important; }
 
-body .btn-outline-primary { color: #efa837 !important; border-color: #efa837 !important; }
+body .btn-outline-primary { color: #1599ca !important; border-color: #efa837 !important; }
 
-body .btn-outline-primary:hover { color: #07303f !important; background-color: #efa837 !important; border-color: #efa837 !important; }
+body .btn-outline-primary:hover { color: #1599ca !important; background-color: #efa837 !important; border-color: #efa837 !important; }
 
-body .btn-outline-light:hover { color: #07303f !important; }
+body .btn-outline-light:hover { color: #1599ca !important; }
 
 body .btn-light { color: #e2f5fc !important; }
 
