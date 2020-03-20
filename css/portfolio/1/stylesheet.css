@@ -417,6 +417,12 @@ header { position: fixed; background: 0 !important; }
 
 .page-about #skills:before { display: block; }
 
+#skills .row .li .icn { padding-right: 20px !important; position: relative; }
+
+#skills .row .li .icn:after { content: ''; position: absolute; width: 10px; height: 100%; margin-bottom: -1px; bottom: 0; z-index: 10; }
+
+#skills .row .li .icn { background-color: #07303f; }
+
 #skills .row .li { color: #1599ca; background-color: #FFF; }
 
 footer nav, .display-3, .h1, .h2, .h3, .h4, .h5, header nav { text-transform: inherit !important; }
