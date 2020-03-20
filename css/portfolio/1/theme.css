@@ -182,6 +182,8 @@ header .logo a { color: #222222; }
 
 #skills, #skills .text-muted, #skills .icon { color: #FFF !important; }
 
+#head { background-color: #e2f5fc; }
+
 #branding { background-color: #774dab; }
 
 #skills .icon, #skills { background-color: #efa837; }

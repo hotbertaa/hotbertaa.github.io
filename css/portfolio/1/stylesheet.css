@@ -402,7 +402,7 @@ header .logo a small { display: block; }
 
 #intro #cards .img { background-size: 100% auto !important; -ms-interpolation-mode: bicubic; image-rendering: optimizeQuality; padding-bottom: 58%; display: block; }
 
-#intro #cards .col-md:nth-child(1) .img { background-size: auto 75% !important; -ms-interpolation-mode: bicubic; image-rendering: optimizeQuality; }
+#intro #cards .col-md:nth-child(1) .img { background-size: auto 90% !important; -ms-interpolation-mode: bicubic; image-rendering: optimizeQuality; }
 
 #intro #cards .col-md:nth-child(2) .img { background-size: auto 75% !important; -ms-interpolation-mode: bicubic; image-rendering: optimizeQuality; }
 
