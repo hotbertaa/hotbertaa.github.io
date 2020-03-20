@@ -15,12 +15,12 @@ $plugin: #DEDEDE;
 
 /////////////////////////////////////////////////////////////////////////////////////
 // body //
-$bodyCl10: darken(#e2f5fc,80%);
+$bodyCl10: darken($header,80%);
 $bodyBg10: #e2f5fc;
 /////////////////////////////////////////////////////////////////////////////////////
 // plugin //
-$pluginTitleCl10: $dark;
-$pluginTitleBg10: #DEDEDE;
+$pluginTitleCl10: #FFF;
+$pluginTitleBg10: darken($header,50%);
 $pluginTitleBg11: lighten($pluginTitleBg10,10%);
 $pluginCl10: $bodyCl10;
 //$pluginBg10: darken($light,15%);

@@ -76,9 +76,8 @@ background-color: $subheadBg10;
 background-color: $headerBg9;
 }
 ///////////////////////////////////////////////////////
-#skills .icon,
-#skills{
-background-color: $highlightBg10;
+#skills .icon{
+background-color: $pluginTitleBg10;
 }
 ///////////////////////////////////////////////////////
 #intro .row .col-md:nth-child(1) .img{
@@ -119,6 +118,10 @@ filter: none;
 
 header nav{
 @include gradientHorzLin2($color1:$headerBg9, $color2:$headerBg11);
+}
+
+#skills{
+@include gradientVerLin($color1:$pluginTitleBg10, $color2:$pluginTitleBg9);
 }
 ///////////////////////////////////////////////////////
 section .bg:after{
