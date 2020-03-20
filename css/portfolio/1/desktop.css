@@ -1,49 +1,63 @@
-/* CSS - Peter Roper */
-body #wrap.scrollr > header { transition: background .5s ease; background: #FFFFFF !important; }
+/*
+Error: Undefined variable: "$highlightBg10".
+        on line 53 of /Users/hotbertaa/Documents/GitHub/hotbertaa.github.io/css/sass/portfolio/1/build/theme.scss
+        from line 7 of /Users/hotbertaa/Documents/GitHub/hotbertaa.github.io/css/sass/portfolio/1/desktop.scss
 
-.scrollz #wrap > header, .scrolly #wrap > header { transition: top .5s ease; top: -110px; }
-
-.scrollup #wrap > header, .scrollup.scrollz #wrap > header, .scrollup.scrolly #wrap > header { transition: top .5s ease; top: 0px; }
-
-footer nav, .scrollup footer nav { bottom: -127px !important; }
-
-.scrollup footer nav { transition: bottom .5s ease; }
-
-.scrolldown.scrolly footer nav, .scrolldown.scrollz footer nav { transition: bottom .5s ease; bottom: 0px !important; }
-
-.cmHead { opacity: 0; bottom: -62px; }
-
-.scrollup .cmHead { transition: bottom .5s ease, opacity .5s ease; opacity: 0; bottom: -62px; }
-
-.scrolldown.scrolly .cmHead { transition: bottom .5s ease, opacity .5s ease; bottom: 10px; opacity: 1; }
-
-@media only screen and (max-width: 768px) { .scrolldown.scrolly .cmHead { bottom: 69px; }
-  .scrolldown.scrolly .page-venues .cmHead, .scrolldown.scrolly .page-locations .cmHead, .scrolldown.scrolly .page-venue .cmHead { bottom: 10px; } }
-#head #title { opacity: 0; position: relative; bottom: -20px; }
-
-#head #title b { opacity: 0; position: relative; left: -20px !important; }
-
-.loaded #head #title { transition: bottom .5s ease, opacity .5s ease; bottom: 0 !important; opacity: 1; }
-
-.loaded #head #title b { transition: left .5s ease, opacity .5s ease; left: 0 !important; opacity: 1; }
-
-.loaded #head #title b:nth-child(1) { transition-delay: .5s; }
-
-.loaded #head #title b:nth-child(2) { transition-delay: .7s; }
-
-.loaded #head #title b:nth-child(3) { transition-delay: .9s; }
-
-@media only screen and (min-width: 993px) { .scrollz #wrap > header, .scrolly #wrap > header { top: -150px; }
-  body #wrap.scrollr > header .logo a { width: 250px; height: 100px; transition: width .5s ease, height .5s ease; } }
-.shimmer { margin: 0; display: inline-block; color: white; background: #fbd6b3 -webkit-gradient(linear, 100% 0, 0 0, from(#fbd6b3), color-stop(0.5, #ffffff), to(#fbd6b3)); background-position: -4rem top; /*50px*/ background-repeat: no-repeat; -webkit-background-clip: text; -webkit-text-fill-color: transparent; -webkit-animation-name: shimmer; -webkit-animation-duration: 2.2s; -webkit-animation-iteration-count: infinite; -webkit-background-size: 4rem 100%; /*50px*/ }
-
-.shimmer .icn { -webkit-text-fill-color: #fbd6b3; }
-
-#head #title .shimmer { color: #F28823; background: #F28823 -webkit-gradient(linear, 100% 0, 0 0, from(#F28823), color-stop(0.5, #fbd6b3), to(#F28823)); }
-
-@-webkit-keyframes shimmer { 0% { background-position: -4rem top;
-    /*50px*/ }
-  70% { background-position: 12.5rem top;
-    /*200px*/ }
-  100% { background-position: 12.5rem top;
-    /*200px*/ } }
+Backtrace:
+/Users/hotbertaa/Documents/GitHub/hotbertaa.github.io/css/sass/portfolio/1/build/theme.scss:53
+/Users/hotbertaa/Documents/GitHub/hotbertaa.github.io/css/sass/portfolio/1/desktop.scss:7
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/script/tree/variable.rb:49:in `_perform'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/script/tree/node.rb:50:in `perform'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:478:in `visit_variable'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `block in with_base'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/stack.rb:135:in `with_frame'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `with_base'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:325:in `block (2 levels) in visit_import'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:325:in `map'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:325:in `block in visit_import'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/stack.rb:88:in `block in with_import'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/stack.rb:135:in `with_frame'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/stack.rb:88:in `with_import'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:322:in `visit_import'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `block in with_base'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/stack.rb:135:in `with_frame'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `with_base'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in `map'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:157:in `visit'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:10:in `visit'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/root_node.rb:36:in `css_tree'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/root_node.rb:20:in `render'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/engine.rb:290:in `render'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:464:in `update_stylesheet'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:209:in `each'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:443:in `on_file_changed'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:320:in `block in watch'
+/Library/Ruby/Gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/event/config.rb:23:in `call'
+/Library/Ruby/Gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:115:in `_process_changes'
+/Library/Ruby/Gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:19:in `block in loop_for'
+/Library/Ruby/Gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop'
+/Library/Ruby/Gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop_for'
+/Library/Ruby/Gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:84:in `_wait_for_changes'
+/Library/Ruby/Gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:42:in `block in setup'
+/Library/Ruby/Gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/internals/thread_pool.rb:6:in `block in add'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined variable: \"$highlightBg10\".\A         on line 53 of /Users/hotbertaa/Documents/GitHub/hotbertaa.github.io/css/sass/portfolio/1/build/theme.scss\A         from line 7 of /Users/hotbertaa/Documents/GitHub/hotbertaa.github.io/css/sass/portfolio/1/desktop.scss"; }
