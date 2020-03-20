@@ -149,7 +149,7 @@ background-image: linear-gradient(to left top, transparent 50%, #FFF 50%, #FFF 0
 .scrollr header #header > .row > nav:before{
 background-image: linear-gradient(to left top, transparent 50%, $headerBg10 50%, $headerBg10 0%);
 }
-#skills .row .li .icn:after{
+#skills .row li .col-auto:after{{
 background-image: linear-gradient(to left top, transparent 50%, #FFF 50%, #FFF 0%);
 }
 ////////////////////////////////////////////////////////////////////////////////////////////////////
