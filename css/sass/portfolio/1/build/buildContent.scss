@@ -80,13 +80,13 @@ display: block;
 }
 
 #intro #cards .col-md:nth-child(1) .img{
-@include backgroundSize($hor:auto,$ver:80%);
+@include backgroundSize($hor:auto,$ver:85%);
 }
 #intro #cards .col-md:nth-child(2) .img{
 @include backgroundSize($hor:auto,$ver:75%);
 }
 #intro #cards .col-md:nth-child(3) .img{
-@include backgroundSize($hor:auto,$ver:85%);
+@include backgroundSize($hor:auto,$ver:90%);
 }
 ////////////////////////////////////////////////////////////////////////////////////
 
