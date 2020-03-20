@@ -119,7 +119,7 @@ filter: none;
 // GRADIENTS
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 #intro{
-@include gradientHorzLin2($color1:$subheadBg10, $color2:#222);
+@include gradientHorzLin2($color1:$subheadBg10, $color2:$bodyCl10);
 }
 .scrollr header nav{
 @include gradientHorzLin2($color1:$headerBg9, $color2:$headerBg11);
