@@ -406,7 +406,6 @@ header .linkedin .icn { background-size: 100% auto !important; -ms-interpolation
 
 @media only screen and (min-width: 769px) { .page-index #intro #cards { margin-top: -25%; }
   .page-index #intro { padding-top: 80px; padding-bottom: 80px; } }
-@media only screen and (max-width: 768px) { .page-index #intro:before { display: none; } }
 #skills .icon { line-height: 1; margin: -95px 0 0 -48px; display: inline-block; position: absolute; }
 
 .page-index #skills .icon { margin-top: -125px; }
