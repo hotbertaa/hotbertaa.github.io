@@ -172,7 +172,7 @@ footer nav .top, header #READMORE .READMORECONTENTjs .icn, .scrollr #subhead, .s
   .logo a { background-position: 50%; } }
 #wrap.page-index > header { background: #FFFFFF !important; }
 
-#head .text-muted, #head { color: #EDEDED !important; }
+#head .text-muted, #head { color: #222222 !important; }
 
 header .logo a { color: #222222; }
 
