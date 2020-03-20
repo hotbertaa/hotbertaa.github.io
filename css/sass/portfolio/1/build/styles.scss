@@ -125,7 +125,7 @@ filter: none;
 @include gradientHorzLin2($color1:$headerBg9, $color2:$headerBg11);
 }
 #skills{
-@include gradientVertLin($color1:$pluginTitleBg10, $color2:$$bodyCl10);
+@include gradientVertLin($color1:$pluginTitleBg10, $color2:$bodyCl10);
 }
 ///////////////////////////////////////////////////////
 section .bg:after{
