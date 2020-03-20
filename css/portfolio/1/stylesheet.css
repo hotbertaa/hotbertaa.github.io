@@ -1,13 +1,5 @@
 /* CSS - Peter Roper */
 @font-face { font-family: 'Material Icons'; font-style: normal; font-weight: 400; font-display: swap; src: url(https://fonts.gstatic.com/s/materialicons/v38/flUhRq6tzZclQEJ-Vdg-IuiaDsNY.eot) format("eot"), url(https://fonts.gstatic.com/s/materialicons/v38/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2) format("woff2"), url(https://fonts.gstatic.com/s/materialicons/v38/flUhRq6tzZclQEJ-Vdg-IuiaDsNa.woff) format("woff"), url(https://fonts.gstatic.com/s/materialicons/v38/flUhRq6tzZclQEJ-Vdg-IuiaDsNZ.ttf) format("ttf"); font-feature-settings: 'liga'; }
-@font-face { font-family: Roboto; font-display: swap; src: local("Roboto"), local("Roboto-Black"), url("/images/fonts/roboto/roboto-v20-latin-900.woff2") format("woff2"), url("/images/fonts/roboto/roboto-v20-latin-900.woff") format("woff"), url("/images/fonts/roboto/Roboto-Black.ttf") format("truetype");
-  /* Safari, Android, iOS */ }
-@font-face { font-family: Poppins; font-display: swap; src: local("Poppins Regular"), local("Poppins-Regular"), url("/images/fonts/poppins/poppins-v9-latin-regular.woff2") format("woff2"), url("/images/fonts/poppins/poppins-v9-latin-regular.woff") format("woff"), url("/images/fonts/poppins/Poppins-Regular.ttf") format("truetype");
-  /* Safari, Android, iOS */ }
-@font-face { font-family: 'Anton'; font-style: normal; font-display: swap; src: url("/images/fonts/anton/anton-v11-latin-regular.eot");
-  /* IE9 Compat Modes */
-src: local("Anton Regular"), local("Anton-Regular"), url("/images/fonts/anton/anton-v11-latin-regular.eot?#iefix") format("embedded-opentype"), url("/images/fonts/anton/anton-v11-latin-regular.woff2") format("woff2"), url("/images/fonts/anton/anton-v11-latin-regular.woff") format("woff"), url("/images/fonts/anton/anton-v11-latin-regular.ttf") format("truetype"), url("/images/fonts/anton/anton-v11-latin-regular.svg#Anton") format("svg");
-  /* Legacy iOS */ }
 .overlay { position: fixed !important; left: 0; top: 0; right: 0; bottom: 0; z-index: 300; }
 
 .noImg { position: relative; }
@@ -419,11 +411,11 @@ header .linkedin .icn { background-size: 100% auto !important; -ms-interpolation
 
 .page-about #skills:before { display: block; }
 
-#skills .row li .col:nth-child(1) { padding-right: 20px !important; position: relative; }
+#skills .row li .col-auto { padding-right: 20px !important; position: relative; }
 
-#skills .row li .col:nth-child(1):after { content: ''; position: absolute; width: 10px; height: 100%; margin-bottom: -1px; bottom: 0; z-index: 10; }
+#skills .row li .col-auto:after { content: ''; position: absolute; width: 10px; height: 100%; margin-bottom: -1px; bottom: 0; z-index: 10; }
 
-#skills .row li .col:nth-child(1) { background-color: #07303f; }
+#skills .row li .col-auto { background-color: #07303f; }
 
 #skills .row li { color: #1599ca; background-color: #FFF; }
 

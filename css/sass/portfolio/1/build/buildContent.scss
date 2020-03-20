@@ -120,11 +120,11 @@ padding-top: 80px;
 display: block;
 }
 
-#skills .row li .col:nth-child(1){
+#skills .row li .col-auto{
 padding-right: 20px!important;
 position: relative;
 }
-#skills .row li .col:nth-child(1):after{
+#skills .row li .col-auto:after{
 content: '';
 position: absolute;
 width: 10px;
@@ -134,7 +134,7 @@ bottom: 0;
 z-index: 10;
 }
 
-#skills .row li .col:nth-child(1){
+#skills .row li .col-auto{
 background-color: $bodyCl10;
 }
 #skills .row li{
