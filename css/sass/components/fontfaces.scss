@@ -8,7 +8,7 @@ src: url(https://fonts.gstatic.com/s/materialicons/v38/flUhRq6tzZclQEJ-Vdg-IuiaD
 font-feature-settings: 'liga';
 }
 //////////////////////////////////////////////////
-__@if $brand == xxx {
+//@if $brand == xxx {
 //////////////////////////////////////////////////
 @font-face{
 font-family: Roboto;
