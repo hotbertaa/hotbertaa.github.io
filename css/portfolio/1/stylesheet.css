@@ -290,7 +290,7 @@ section .bg { background-size: 100% auto !important; -ms-interpolation-mode: bic
 
 #intro { position: relative; }
 
-#intro .container-lg { padding-top: 10% !important; position: relative; z-index: 1; }
+.page-index #intro .container-lg { padding-top: 10% !important; position: relative; z-index: 1; }
 
 @media only screen and (max-width: 768px) { #intro .container-lg { padding-top: 30% !important; }
   .page-index #intro .bg { bottom: 70%; } }
