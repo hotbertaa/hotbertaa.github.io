@@ -15,7 +15,7 @@ body .btn-outline-light:hover { color: #0e6585 !important; }
 
 body .btn-light { color: #e2f5fc !important; }
 
-footer nav .top, body, #head .text-muted, #head { color: #07303f !important; }
+#skills .row li, footer nav .top, body, #head .text-muted, #head { color: #07303f !important; }
 
 header nav a { color: #0e6585; }
 
@@ -25,13 +25,19 @@ header .logo a { color: #07303f; }
 
 header .logo a small, #head .h3, #head .h3 .text-muted { color: #774dab !important; }
 
+#skills .row li .col-auto { color: #FFF; }
+
 #skills, #skills .text-muted, #skills .icon { color: #FFF !important; }
 
 body, header, #head { background-color: #e2f5fc; }
 
+#skills .row li .col-auto { background-color: #07303f; }
+
 #branding { background-color: #774dab; }
 
 .card-header { background-color: #b4e5f7; }
+
+#skills .row li { background-color: #FFF; }
 
 #subhead, #skills .icon { background-color: #1599ca; }
 
