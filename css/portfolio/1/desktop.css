@@ -77,7 +77,7 @@ footer nav, .scrollup footer nav { bottom: -127px !important; }
 
 #intro .row .col-md a { transition: all .2s ease-in-out; }
 
-#intro .row .col-md a:hover { transform: scale(1.1); }
+#intro .row .col-md a:hover { transform: scale(1.05); }
 
 @media only screen and (min-width: 993px) { .scrollz #wrap > header, .scrolly #wrap > header { top: -150px; }
   body #wrap.scrollr > header .logo a { width: 250px; height: 100px; transition: width .5s ease, height .5s ease; } }

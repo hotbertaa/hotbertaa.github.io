@@ -172,8 +172,6 @@ header #READMORE.selected .READMORECONTENTjs { display: block; }
 
 header #READMORE.selected:after { content: ''; position: fixed; top: 0; left: 0; right: 0; bottom: 0; z-index: 500; }
 
-@media only screen and (max-width: 768px) { header .logo a { width: 100%; height: 70px; background-size: auto 90% !important; -ms-interpolation-mode: bicubic; image-rendering: optimizeQuality; }
-  header .logo { margin-right: 68px; } }
 footer nav #sub { display: none; }
 
 footer nav a .icn { width: 32px; height: 32px; line-height: 32px; font-size: 32px; margin: 0 auto; }
@@ -503,7 +501,7 @@ footer nav, .scrollup footer nav { bottom: -127px !important; }
 
 #intro .row .col-md a { transition: all .2s ease-in-out; }
 
-#intro .row .col-md a:hover { transform: scale(1.1); }
+#intro .row .col-md a:hover { transform: scale(1.05); }
 
 @media only screen and (min-width: 993px) { .scrollz #wrap > header, .scrolly #wrap > header { top: -150px; }
   body #wrap.scrollr > header .logo a { width: 250px; height: 100px; transition: width .5s ease, height .5s ease; } }
