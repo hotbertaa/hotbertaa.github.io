@@ -87,7 +87,24 @@ $('#menu .close').on('click ', function() {
 	return false;
 });
 
+var w = Math.max(document.documentElement.clientWidth, window.innerWidth || 0)
+var h = Math.max(document.documentElement.clientHeight, window.innerHeight || 0)
+var d = $(document).scrollTop();
+
+$.each($("section"),function(){
+    p = $(this).position();
+    //vertical
+    if (p.top > h + d || p.top > h - d){
+       $(this).addClass('offscreen');
+    }
+    //horizontal
+    if (p.left < 0 - $(this).width() || p.left > w){
+       $(this).addClass('offscreen');
+    }
 });
+
+});
+
 
 function canUseWebP() {
     var elem = document.createElement('canvas');
