@@ -81,6 +81,12 @@ $('.menuLink').on('click ', function() {
   return false;
 });
 
+$('.menuLink .close').on('click ', function() {
+	$('#menu .s, .slide-menu .overlay').fadeOut(250); 
+  $('#menu').removeClass('open'); 
+	return false;
+});
+
 });
 
 function canUseWebP() {
