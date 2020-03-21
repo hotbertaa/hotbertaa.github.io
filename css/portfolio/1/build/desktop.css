@@ -28,17 +28,17 @@
 
 .loaded #intro .row .col { transition: bottom .5s ease, opacity .5s ease; bottom: 0; opacity: 1; }
 
-.loaded #intro .row .col-md:nth-child(1) { transition-delay: 0.5s; }
+.loaded #intro .row .col:nth-child(1) { transition-delay: 0.5s; }
 
-.loaded #intro .row .col-md:nth-child(2) { transition-delay: 0.6s; }
+.loaded #intro .row .col:nth-child(2) { transition-delay: 0.6s; }
 
-.loaded #intro .row .col-md:nth-child(3) { transition-delay: 0.7s; }
+.loaded #intro .row .col:nth-child(3) { transition-delay: 0.7s; }
 
-.loaded #intro .row .col-md:nth-child(4) { transition-delay: 0.8s; }
+.loaded #intro .row .col:nth-child(4) { transition-delay: 0.8s; }
 
-.loaded #intro .row .col-md:nth-child(5) { transition-delay: 0.9s; }
+.loaded #intro .row .col:nth-child(5) { transition-delay: 0.9s; }
 
-.loaded #intro .row .col-md:nth-child(6) { transition-delay: 1s; }
+.loaded #intro .row .col:nth-child(6) { transition-delay: 1s; }
 
 #intro .row .col a { transition: all .2s ease-in-out; }
 
