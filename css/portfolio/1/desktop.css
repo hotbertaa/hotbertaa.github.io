@@ -1,83 +1,69 @@
-/* CSS - Peter Roper */
-body #wrap.scrollr > header { transition: background .5s ease; background: #e2f5fc !important; }
+/*
+Error: Invalid CSS after "$highlightBg10": expected selector or at-rule, was ": $highlight;"
+        on line 64 of /Users/hotbertaa/Documents/GitHub/hotbertaa.github.io/css/sass/portfolio/1/build/theme.scss
+        from line 7 of /Users/hotbertaa/Documents/GitHub/hotbertaa.github.io/css/sass/portfolio/1/desktop.scss
 
-.scrollz #wrap > header, .scrolly #wrap > header { transition: top .5s ease; top: -110px; }
+59: $priceCl10: #FFF;
+60: $priceBg10: $contrast;
+61: /////////////////////////////////////////////////////////////////////////////////////
+62: // highlight //
+63: $highlightCl10: darken($header,65%)
+64: $highlightBg10: $highlight;
+65: /////////////////////////////////////////////////////////////////////////////////////
+66: // voucher //
+67: $voucherCl10: $headerCl10;
+68: $voucherBg10: $buttonBg10;
+69: /////////////////////////////////////////////////////////////////////////////////////
 
-.scrollup #wrap > header, .scrollup.scrollz #wrap > header, .scrollup.scrolly #wrap > header { transition: top .5s ease; top: 0px; }
-
-footer nav, .scrollup footer nav { bottom: -127px !important; }
-
-.scrollup footer nav { transition: bottom .5s ease; }
-
-.scrolldown.scrolly footer nav, .scrolldown.scrollz footer nav { transition: bottom .5s ease; bottom: 0px !important; }
-
-.cmHead { opacity: 0; bottom: -62px; }
-
-.scrollup .cmHead { transition: bottom .5s ease, opacity .5s ease; opacity: 0; bottom: -62px; }
-
-.scrolldown.scrolly .cmHead { transition: bottom .5s ease, opacity .5s ease; bottom: 10px; opacity: 1; }
-
-@media only screen and (max-width: 768px) { .scrolldown.scrolly .cmHead { bottom: 69px; }
-  .scrolldown.scrolly .page-venues .cmHead, .scrolldown.scrolly .page-locations .cmHead, .scrolldown.scrolly .page-venue .cmHead { bottom: 10px; } }
-#head #title { opacity: 0; position: relative; bottom: -20px; }
-
-#head #title b { opacity: 0; position: relative; left: -20px !important; }
-
-.loaded #head #title { transition: bottom .5s ease, opacity .5s ease; bottom: 0 !important; opacity: 1; }
-
-.loaded #head #title b { transition: left .5s ease, opacity .5s ease; left: 0 !important; opacity: 1; }
-
-.loaded #head #title b:nth-child(1) { transition-delay: .5s; }
-
-.loaded #head #title b:nth-child(2) { transition-delay: .7s; }
-
-.loaded #head #title b:nth-child(3) { transition-delay: .9s; }
-
-#header > .row > .col:nth-child(2), #header > .row > .col:nth-child(3) > .row > .col:nth-child(1) a { display: none !important; }
-
-.scrollr #header > .row > .col:nth-child(2) { display: block !important; }
-
-#head .display-3, #head .h3, #head .lead, #head .row { position: relative; opacity: 0; }
-
-#head .h3, #head .lead { left: -100px; }
-
-#head .display-3 { top: -100px; }
-
-#head .row { bottom: -50px; }
-
-.loaded #head .h3, .loaded #head .lead { transition: left .5s ease, opacity .5s ease; left: 0; opacity: 1; }
-
-.loaded #head .display-3 { transition: top .5s ease, opacity .5s ease; top: 0; opacity: 1; }
-
-.loaded #head .row { transition: bottom .5s ease, opacity .5s ease; bottom: 0; opacity: 1; }
-
-.loaded #head .display-3 { transition-delay: 0.1s; }
-
-.loaded #head .h3 { transition-delay: 0.2s; }
-
-.loaded #head .lead { transition-delay: 0.3s; }
-
-.loaded #head .row { transition-delay: 0.4s; }
-
-#intro .row .col { position: relative; bottom: -20px; opacity: 0; }
-
-.loaded #intro .row .col { transition: bottom .5s ease, opacity .5s ease; bottom: 0; opacity: 1; }
-
-.loaded #intro .row .col-md:nth-child(1) { transition-delay: 0.5s; }
-
-.loaded #intro .row .col-md:nth-child(2) { transition-delay: 0.6s; }
-
-.loaded #intro .row .col-md:nth-child(3) { transition-delay: 0.7s; }
-
-.loaded #intro .row .col-md:nth-child(4) { transition-delay: 0.8s; }
-
-.loaded #intro .row .col-md:nth-child(5) { transition-delay: 0.9s; }
-
-.loaded #intro .row .col-md:nth-child(6) { transition-delay: 1s; }
-
-#intro .row .col a { transition: all .2s ease-in-out; }
-
-#intro .row .col a:hover { transform: scale(1.05); }
-
-@media only screen and (min-width: 993px) { .scrollz #wrap > header, .scrolly #wrap > header { top: -150px; }
-  body #wrap.scrollr > header .logo a { width: 250px; height: 100px; transition: width .5s ease, height .5s ease; } }
+Backtrace:
+/Users/hotbertaa/Documents/GitHub/hotbertaa.github.io/css/sass/portfolio/1/build/theme.scss:64
+/Users/hotbertaa/Documents/GitHub/hotbertaa.github.io/css/sass/portfolio/1/desktop.scss:7
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308:in `expected'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1238:in `expected'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:42:in `parse'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/engine.rb:414:in `_to_tree'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/engine.rb:321:in `to_tree'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:323:in `block in visit_import'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/stack.rb:88:in `block in with_import'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/stack.rb:135:in `with_frame'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/stack.rb:88:in `with_import'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:322:in `visit_import'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `block in with_base'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/stack.rb:135:in `with_frame'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `with_base'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in `map'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:157:in `visit'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:10:in `visit'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/root_node.rb:36:in `css_tree'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/root_node.rb:20:in `render'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/engine.rb:290:in `render'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:464:in `update_stylesheet'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:209:in `each'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:443:in `on_file_changed'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:320:in `block in watch'
+/Library/Ruby/Gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/event/config.rb:23:in `call'
+/Library/Ruby/Gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:115:in `_process_changes'
+/Library/Ruby/Gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:19:in `block in loop_for'
+/Library/Ruby/Gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop'
+/Library/Ruby/Gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop_for'
+/Library/Ruby/Gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:84:in `_wait_for_changes'
+/Library/Ruby/Gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:42:in `block in setup'
+/Library/Ruby/Gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/internals/thread_pool.rb:6:in `block in add'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"$highlightBg10\": expected selector or at-rule, was \": $highlight;\"\A         on line 64 of /Users/hotbertaa/Documents/GitHub/hotbertaa.github.io/css/sass/portfolio/1/build/theme.scss\A         from line 7 of /Users/hotbertaa/Documents/GitHub/hotbertaa.github.io/css/sass/portfolio/1/desktop.scss\A \A 59: $priceCl10: #FFF;\A 60: $priceBg10: $contrast;\A 61: /////////////////////////////////////////////////////////////////////////////////////\A 62: // highlight //\A 63: $highlightCl10: darken($header,65%)\A 64: $highlightBg10: $highlight;\A 65: /////////////////////////////////////////////////////////////////////////////////////\A 66: // voucher //\A 67: $voucherCl10: $headerCl10;\A 68: $voucherBg10: $buttonBg10;\A 69: /////////////////////////////////////////////////////////////////////////////////////"; }
