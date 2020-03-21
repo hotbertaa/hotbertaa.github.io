@@ -11,7 +11,7 @@ $(function(){
 var lastScrollTop = 0;
 $(window).on('scroll',function(e){
    
-   	$('section').each(function() {
+   	$('.fadeIn').each(function() {
       //var activeColor = $(this).attr('id');
     	if ($(this).isFullyInViewport()) {
      		$(this).removeClass('offscreen').addClass('onscreen');
@@ -144,7 +144,7 @@ if(canUseWebP()){
         $('body').removeClass('noscript');
         setTimeout(function(){ $('body').addClass('loaded'); },400);
     	
-    $('section').each(function() {
+    $('.fadeIn').each(function() {
     if ($(this).isFullyInViewport()) {
       $(this).removeClass('offscreen').addClass('onscreen');
     } else {
