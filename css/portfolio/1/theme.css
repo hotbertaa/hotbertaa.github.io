@@ -23,9 +23,7 @@ header .logo a { color: #07303f; }
 
 #subhead, #subhead a, #intro, #intro .text-muted { color: #FFF !important; }
 
-#head .h3, #head .h3 .text-muted { color: #774dab !important; }
-
-header .logo a small { color: #efa837 !important; }
+header .logo a small, #head .h3, #head .h3 .text-muted { color: #774dab !important; }
 
 #skills, #skills .text-muted, #skills .icon { color: #FFF !important; }
 
@@ -37,13 +35,13 @@ body, header, #head { background-color: #e2f5fc; }
 
 #subhead, #skills .icon { background-color: #1599ca; }
 
-#intro .row .col-md:nth-child(1) .img { background-color: #222A2F; }
+#intro .row .col:nth-child(1) .img { background-color: #222A2F; }
 
-#intro .row .col-md:nth-child(2) .img { background-color: #000; }
+#intro .row .col:nth-child(2) .img { background-color: #000; }
 
-#intro .row .col-md:nth-child(3) .img { background-color: #F0774E; }
+#intro .row .col:nth-child(3) .img { background-color: #F0774E; }
 
-#intro .row .col-md:nth-child(4) .img { background-color: #4C5459; }
+#intro .row .col:nth-child(4) .img { background-color: #4C5459; }
 
 footer nav .top { background-color: #FFF; }
 
