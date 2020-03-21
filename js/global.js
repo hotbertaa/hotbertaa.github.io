@@ -10,7 +10,18 @@ $(function(){
 
 var lastScrollTop = 0;
 $(window).on('scroll',function(e){
-        $('.autohide').show();
+   
+   	$('section').each(function() {
+      //var activeColor = $(this).attr('id');
+    	if ($(this).isFullyInViewport()) {
+     		$(this).removeClass('offscreen').addClass('onscreen');
+    	} else {
+      	$(this).addClass('offscreen')
+    	}
+  	});
+   
+   
+   $('.autohide').show();
 
 
       var _scroll = $(window).scrollTop();   
@@ -97,14 +108,6 @@ $('#menu .close').on('click ', function() {
 });
 
 //$(window).on('resize scroll', function() {
-  $('section').each(function() {
-      //var activeColor = $(this).attr('id');
-    if ($(this).isFullyInViewport()) {
-      $(this).removeClass('offscreen').addClass('onscreen');
-    } else {
-       $(this).addClass('offscreen')
-    }
-  });
 //});
 
 
@@ -140,5 +143,14 @@ if(canUseWebP()){
         */
         $('body').removeClass('noscript');
         setTimeout(function(){ $('body').addClass('loaded'); },400);
+    	
+    $('section').each(function() {
+    if ($(this).isFullyInViewport()) {
+      $(this).removeClass('offscreen').addClass('onscreen');
+    } else {
+       $(this).addClass('offscreen')
+    }
+  });
+    
     });
 })(jQuery)
