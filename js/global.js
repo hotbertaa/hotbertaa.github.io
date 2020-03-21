@@ -1,21 +1,14 @@
-(function($) {
-	$.extend($.expr[':'], {
-		'off-top': function(el) {
-			return $(el).offset().top < $(window).scrollTop();
-		},
-		'off-right': function(el) {
-			return $(el).offset().left + $(el).outerWidth() - $(window).scrollLeft() > $(window).width();
-		},
-		'off-bottom': function(el) {
-			return $(el).offset().top + $(el).outerHeight() - $(window).scrollTop() > $(window).height();
-		},
-		'off-left': function(el) {
-			return $(el).offset().left < $(window).scrollLeft();
-		}
-	});
-})(jQuery);
+$.fn.isInViewport = function() {
+var elementTop = $(this).offset().top;
+var elementBottom = elementTop + $(this).outerHeight();
+var viewportTop = $(window).scrollTop();
+var viewportBottom = viewportTop + $(window).height();
+return elementBottom > viewportTop && elementTop < viewportBottom;
+};
+
 
 $(function(){
+
 var lastScrollTop = 0;
 $(window).on('scroll',function(e){
         $('.autohide').show();
@@ -104,12 +97,16 @@ $('#menu .close').on('click ', function() {
 	return false;
 });
 
-//$(window).scroll(function(){
-  var demo = $('#intro #cards');
-  if( demo.is(':off-screen')){
-    $('#intro #cards').addClass('offscreen');
-  }
-//});
+$(window).on('resize scroll', function() {
+  $('section').each(function() {
+      //var activeColor = $(this).attr('id');
+    if ($(this).isFullyInViewport()) {
+      $(this).removeClass('offscreen').addClass('onscreen');
+    } else {
+       $(this).addClass('offscreen')
+    }
+  });
+});
 
 
 });
