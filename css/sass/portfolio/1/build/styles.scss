@@ -149,6 +149,7 @@ filter: none;
 #intro{
 @include gradientHorzLin2($color1:$subheadBg10, $color2:$bodyCl10);
 }
+#menu header nav
 .scrollr header nav{
 @include gradientHorzLin2($color1:$headerBg9, $color2:$headerBg11);
 }
@@ -174,6 +175,7 @@ background-image: linear-gradient(to left top, transparent 50%, #FFF 50%, #FFF 0
 #skills:before{
 background-image: linear-gradient(to left top, transparent 50%, #FFF 50%, #FFF 0%);
 }
+#menu header #header > .row > nav:before,
 .scrollr header #header > .row > nav:before{
 background-image: linear-gradient(to left top, transparent 50%, $headerBg10 50%, $headerBg10 0%);
 }
