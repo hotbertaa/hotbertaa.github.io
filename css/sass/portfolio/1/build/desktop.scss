@@ -56,12 +56,12 @@ transition-delay: 0.4s;
 ////////////////////////////////////////////////////////////////////////////////////
 // INTRO
 ////////////////////////////////////////////////////////////////////////////////////
-#intro .row .col-md{
+#intro .row .col{
 position: relative;
 bottom: -20px;
 opacity: 0;
 }
-.loaded #intro .row .col-md{
+.loaded #intro .row .col{
 transition: bottom .5s ease, opacity .5s ease;
 bottom: 0;
 opacity: 1;
