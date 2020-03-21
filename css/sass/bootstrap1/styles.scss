@@ -241,10 +241,10 @@ background-image: linear-gradient(to left top, transparent 50%, $headerBg10 50%,
 #book:before{
 background-image: linear-gradient(to left top, transparent 50%, $bodyBg10 50%,  $bodyBg10 0%);
 }
-#head2:after,
+/*#head2:after,
 #head:after{
 background-image: linear-gradient(to right bottom, transparent 50%, $bodyBg10 50%, $bodyBg10 0%);
-}
+}*/
 .page-vouchers #book:before,
 .page-voucher #book:before,
 .page-basket #book:before,
