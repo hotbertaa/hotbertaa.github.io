@@ -294,7 +294,7 @@ z-index: 10;
 
 .page-index #intro .container-lg { padding-top: 10% !important; position: relative; z-index: 1; }
 
-@media only screen and (max-width: 768px) { #intro .container-lg { padding-top: 30% !important; }
+@media only screen and (max-width: 768px) { .page-index #intro .container-lg { padding-top: 0% !important; }
   .page-index #intro .bg { bottom: 70%; } }
 .bc { line-height: 1.1; padding: 0.5rem 1rem; margin: 0; }
 
@@ -414,8 +414,7 @@ header .linkedin .icn { background-size: 100% auto !important; -ms-interpolation
 
 @media only screen and (min-width: 769px) { .page-index #intro #cards { margin-top: -25%; }
   .page-index #intro { padding-top: 80px; padding-bottom: 80px; } }
-.page-index #intro:before { display: none; }
-
+@media only screen and (max-width: 768px) { .page-index #intro:before { display: none; } }
 #skills .icon { line-height: 1; margin: -95px 0 0 -48px; display: inline-block; position: absolute; }
 
 .page-index #skills .icon { margin-top: -125px; }
