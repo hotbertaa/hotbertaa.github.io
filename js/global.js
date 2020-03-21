@@ -16,7 +16,7 @@ $(window).on('scroll',function(e){
     	if ($(this).isFullyInViewport()) {
      		$(this).removeClass('offscreen').addClass('onscreen');
     	} else {
-      	$(this).addClass('offscreen')
+      	$(this).addClass('offscreen');
     	}
   	});
    
@@ -148,7 +148,7 @@ if(canUseWebP()){
     if ($(this).isFullyInViewport()) {
       $(this).removeClass('offscreen').addClass('onscreen');
     } else {
-       $(this).addClass('offscreen')
+       $(this).addClass('offscreen');
     }
   });
     
