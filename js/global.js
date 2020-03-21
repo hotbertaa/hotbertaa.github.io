@@ -1,11 +1,10 @@
-$.fn.isInViewport = function() {
-var elementTop = $(this).offset().top;
-var elementBottom = elementTop + $(this).outerHeight();
-var viewportTop = $(window).scrollTop();
-var viewportBottom = viewportTop + $(window).height();
-return elementBottom > viewportTop && elementTop < viewportBottom;
+$.fn.isFullyInViewport = function() {
+  var elementTop = $(this).offset().top;
+  var elementBottom = elementTop + $(this).outerHeight();
+  var viewportTop = $(window).scrollTop();
+  var viewportBottom = viewportTop + $(window).height();
+  return elementTop >= viewportTop && elementBottom <= viewportBottom;
 };
-
 
 $(function(){
 
@@ -97,7 +96,7 @@ $('#menu .close').on('click ', function() {
 	return false;
 });
 
-$(window).on('resize scroll', function() {
+//$(window).on('resize scroll', function() {
   $('section').each(function() {
       //var activeColor = $(this).attr('id');
     if ($(this).isFullyInViewport()) {
@@ -106,7 +105,7 @@ $(window).on('resize scroll', function() {
        $(this).addClass('offscreen')
     }
   });
-});
+//});
 
 
 });
