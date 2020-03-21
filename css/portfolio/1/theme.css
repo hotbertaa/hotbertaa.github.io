@@ -23,13 +23,11 @@ header .logo a { color: #07303f; }
 
 footer nav #main a, footer nav #sub a { color: #0e6585; }
 
-#subhead, #subhead a, #intro, #intro .text-muted { color: #FFF !important; }
+#skills, #skills .text-muted, #skills .icon, #subhead, #subhead a, #intro, #intro .text-muted { color: #FFF !important; }
 
 header .logo a small, #head .h3, #head .h3 .text-muted { color: #774dab !important; }
 
 #skills .row li .col-auto { color: #FFF; }
-
-#skills, #skills .text-muted, #skills .icon { color: #0e6585 !important; }
 
 body, header, #head { background-color: #e2f5fc; }
 
