@@ -93,6 +93,16 @@ background-color: $subheadBg10;
 background-color: $headerBg9;
 }
 ///////////////////////////////////////////////////////
+footer nav .fab div{
+color: $headerCl10;
+background-color: $headerBg10;
+}
+footer nav #main,
+footer nav #sub{
+color: $highlightCl10;
+background-color: $highlightBg10;
+}
+///////////////////////////////////////////////////////
 #skills .row li{
 background-color: $pluginTitleCl10;
 }

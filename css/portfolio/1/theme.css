@@ -37,6 +37,10 @@ body, header, #head { background-color: #e2f5fc; }
 
 .card-header { background-color: #b4e5f7; }
 
+footer nav .fab div { color: #07303f; background-color: #e2f5fc; }
+
+footer nav #main, footer nav #sub { color: #FFF; background-color: #efa837; }
+
 #skills .row li { background-color: #FFF; }
 
 #subhead, #skills .icon { background-color: #1599ca; }
