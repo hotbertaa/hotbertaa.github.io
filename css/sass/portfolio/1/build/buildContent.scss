@@ -43,9 +43,14 @@ left: 0;
 right: 0;
 bottom: 0;
 opacity: 0.1;
-background-image: url(/images/bg.jpg);
 background-repeat: repeat-x;
 display: block;
+}
+.webp #head .bg:before{
+background-image: url(/images/bg.webp);
+}
+.nowebp #head .bg:before{
+background-image: url(/images/bg.jpg);
 }
 #head:after{
 display: none;
