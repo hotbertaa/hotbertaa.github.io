@@ -1,3 +1,20 @@
+(function($) {
+	$.extend($.expr[':'], {
+		'off-top': function(el) {
+			return $(el).offset().top < $(window).scrollTop();
+		},
+		'off-right': function(el) {
+			return $(el).offset().left + $(el).outerWidth() - $(window).scrollLeft() > $(window).width();
+		},
+		'off-bottom': function(el) {
+			return $(el).offset().top + $(el).outerHeight() - $(window).scrollTop() > $(window).height();
+		},
+		'off-left': function(el) {
+			return $(el).offset().left < $(window).scrollLeft();
+		}
+	});
+})(jQuery);
+
 $(function(){
 var lastScrollTop = 0;
 $(window).on('scroll',function(e){
@@ -87,6 +104,14 @@ $('#menu .close').on('click ', function() {
 	return false;
 });
 
+//$(window).scroll(function(){
+  var demo = $('#intro #cards');
+  if( demo.is(':off-screen')){
+    $('#intro #cards').addClass('offscreen');
+  }
+//});
+
+
 });
 
 
@@ -119,22 +144,5 @@ if(canUseWebP()){
         */
         $('body').removeClass('noscript');
         setTimeout(function(){ $('body').addClass('loaded'); },400);
-    	
-    	var w = Math.max(document.documentElement.clientWidth, window.innerWidth || 0)
-var h = Math.max(document.documentElement.clientHeight, window.innerHeight || 0)
-var d = $(document).scrollTop();
-
-//$.each($("section"),function(){
-    p = $("#intro #cards").position();
-    //vertical
-    if (p.top > h + d || p.top > h - d){
-       $("#intro #cards").addClass('offscreen');
-    }
-    //horizontal
-    if (p.left < 0 - $(this).width() || p.left > w){
-       $("#intro #cards").addClass('offscreen');
-    }
-//});
-    
     });
 })(jQuery)
