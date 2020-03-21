@@ -197,10 +197,10 @@ box-shadow: 0 10px 15px -3px rgba(0,0,0,.1), 0 4px 6px -2px rgba(0,0,0,.05);
 }
 
 #head:before{
-background-image: linear-gradient(to right top, transparent 50%, $subheadBg10 50%, $subheadBg10 0%);
+background-image: linear-gradient(to right bottom, transparent 50%, $subheadBg10 50%, $subheadBg10 0%);
 }
 #head:after{
-background-image: linear-gradient(to left top, transparent 50%, $subheadBg10 50%, $subheadBg10 0%);
+background-image: linear-gradient(to left bottom, transparent 50%, $subheadBg10 50%, $subheadBg10 0%);
 }
 ////////////////////////////////////////////////////////////////////////////////////
 }
