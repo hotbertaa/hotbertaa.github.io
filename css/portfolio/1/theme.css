@@ -25,7 +25,7 @@ header .logo a { color: #07303f; }
 
 #head .h3, #head .h3 .text-muted { color: #774dab !important; }
 
-#skills, #skills .text-muted, #skills .icon { color: #FFF !important; }
+header .logo a small, #skills, #skills .text-muted, #skills .icon { color: #FFF !important; }
 
 body, header, #head { background-color: #e2f5fc; }
 
