@@ -85,8 +85,8 @@ transition-delay: 0.9s;
 transition-delay: 1s;
 }
 
-#intro .row .col-md a{ transition: all .2s ease-in-out; }
-#intro .row .col-md a:hover { transform: scale(1.05); }
+#intro .row .col a{ transition: all .2s ease-in-out; }
+#intro .row .col a:hover { transform: scale(1.05); }
 ////////////////////////////////////////////////////////////////////////////////////
 
 @media only screen and (min-width: 993px) {
