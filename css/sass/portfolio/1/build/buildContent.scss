@@ -35,26 +35,20 @@ background-position: 50%;
 #head .h3 small{
 display: block;
 }
-#head:after{
-display: none;
-}
-/*#head:before{
+#head .bg:before{
 content: '';
-height: auto!important;
-opacity: 0.1;
 position: absolute;
 top: 0;
 left: 0;
 right: 0;
 bottom: 0;
-z-index: 0;
-
+opacity: 0.1;
 background-image: url(/images/bg.jpg);
 background-repeat: repeat-x;
 display: block;
-}*/
-#head .bg{
-opacity: 0.1;
+}
+#head:after{
+display: none;
 }
 ////////////////////////////////////////////////////////////////////////////////////
 
