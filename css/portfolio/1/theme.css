@@ -21,6 +21,8 @@ header nav a { color: #0e6585; }
 
 header .logo a { color: #07303f; }
 
+footer nav #main a, footer nav #sub a { color: #FFF; }
+
 #subhead, #subhead a, #intro, #intro .text-muted { color: #FFF !important; }
 
 header .logo a small, #head .h3, #head .h3 .text-muted { color: #774dab !important; }
@@ -37,9 +39,7 @@ body, header, #head { background-color: #e2f5fc; }
 
 .card-header { background-color: #b4e5f7; }
 
-footer nav .fab div { color: #07303f; background-color: #e2f5fc; }
-
-footer nav #main, footer nav #sub { color: #FFF; background-color: #efa837; }
+footer nav #sub, footer nav #main { background-color: #efa837; }
 
 #skills .row li { background-color: #FFF; }
 

@@ -416,7 +416,7 @@ header .linkedin .icn { background-size: 100% auto !important; -ms-interpolation
 
 #skills .row li .col-auto:after { content: ''; position: absolute; width: 10px; height: 100%; bottom: 0; right: 0; z-index: 10; }
 
-@media only screen and (max-width: 768px) { .page-index #skills .icon { margin-top: -95px; } }
+@media only screen and (max-width: 768px) { .page-index #skills .icon { margin-top: -80px; } }
 footer nav, .display-3, .h1, .h2, .h3, .h4, .h5, header nav { text-transform: inherit !important; }
 
 /* CSS - Peter Roper */

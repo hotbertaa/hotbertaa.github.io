@@ -49,6 +49,10 @@ color: $menuCl10;
 header .logo a{
 color: $headerCl10;
 }
+footer nav #main a,
+footer nav #sub a{
+color: $highlightCl10;
+}
 ///////////////////////////////////////////////////////
 #subhead,
 #subhead a,
@@ -93,13 +97,12 @@ background-color: $subheadBg10;
 background-color: $headerBg9;
 }
 ///////////////////////////////////////////////////////
-footer nav .fab div{
-color: $headerCl10;
-background-color: $headerBg10;
-}
-footer nav #main,
-footer nav #sub{
-color: $highlightCl10;
+//footer nav .fab div{
+//color: $headerCl10;
+//background-color: $headerBg10;
+//}
+footer nav #sub,
+footer nav #main{
 background-color: $highlightBg10;
 }
 ///////////////////////////////////////////////////////
