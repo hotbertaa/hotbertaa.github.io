@@ -396,11 +396,11 @@ header .linkedin .icn { background-size: 100% auto !important; -ms-interpolation
 
 #intro #cards .img { background-size: 100% auto !important; -ms-interpolation-mode: bicubic; image-rendering: optimizeQuality; padding-bottom: 58%; display: block; }
 
-#intro #cards .col-md:nth-child(1) .img { background-size: auto 85% !important; -ms-interpolation-mode: bicubic; image-rendering: optimizeQuality; }
+#intro #cards .col:nth-child(1) .img { background-size: auto 85% !important; -ms-interpolation-mode: bicubic; image-rendering: optimizeQuality; }
 
-#intro #cards .col-md:nth-child(2) .img { background-size: auto 75% !important; -ms-interpolation-mode: bicubic; image-rendering: optimizeQuality; }
+#intro #cards .col:nth-child(2) .img { background-size: auto 75% !important; -ms-interpolation-mode: bicubic; image-rendering: optimizeQuality; }
 
-#intro #cards .col-md:nth-child(3) .img { background-size: auto 90% !important; -ms-interpolation-mode: bicubic; image-rendering: optimizeQuality; }
+#intro #cards .col:nth-child(3) .img { background-size: auto 90% !important; -ms-interpolation-mode: bicubic; image-rendering: optimizeQuality; }
 
 @media only screen and (min-width: 769px) { .page-index #intro #cards { margin-top: -25%; }
   .page-index #intro { padding-top: 80px; padding-bottom: 80px; } }
