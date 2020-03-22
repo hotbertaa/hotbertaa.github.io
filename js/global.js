@@ -9,13 +9,6 @@ return elementTop > viewportTop;
 
 $(function(){
 
-	var elementTop = $('#intro .fadeIn').offset().top;
-	var viewportTop = $(window).scrollTop();
-	var viewportBottom = viewportTop + $(window).height();
-	if(viewportBottom >= elementTop){ 
-    $('#intro ').addClass('onScreen');
-	}
-
 var lastScrollTop = 0;
 $(window).on('scroll',function(e){
    
@@ -114,8 +107,7 @@ $('#menu .close').on('click ', function() {
 	return false;
 });
 
-
-	$('section').each(function() {
+	/*$('section').each(function() {
    		var elementTop = $(this).offset().top;
 			var viewportTop = $(window).scrollTop();
 			if(viewportTop >= elementTop){   		
@@ -123,8 +115,18 @@ $('#menu .close').on('click ', function() {
     	} else {
       	$(this).addClass('offscreen');
     	}
-  }); 
-
+  });*/
+  
+  $('.fadeIn').each(function() {
+  	var viewportTop = $(window).scrollTop();
+		var viewportBottom = viewportTop + $(window).height();
+  	var elementTop = $(this).offset().top;
+		if(viewportBottom >= elementTop){ 
+  	  $(this).parent('section').addClass('onScreen');
+		} else {
+			$(this).parent('section').addClass('offScreen');
+		}
+	});
 
 /*$('.fadeIn').each(function() {
     if ($(this).isInViewport()) {
