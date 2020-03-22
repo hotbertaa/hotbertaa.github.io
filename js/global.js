@@ -110,6 +110,13 @@ $('#menu .close').on('click ', function() {
 //$(window).on('resize scroll', function() {
 //});
 
+$('.fadeIn').each(function() {
+    if ($(this).isInViewport()) {
+      $(this).removeClass('offscreen').addClass('onscreen');
+    } else {
+       $(this).removeClass('onscreen').addClass('offscreen');
+    }
+  });
 
 });
 
@@ -143,14 +150,6 @@ if(canUseWebP()){
         */
         $('body').removeClass('noscript');
         setTimeout(function(){ $('body').addClass('loaded'); },400);
-    	
-    $('.fadeIn').each(function() {
-    if ($(this).isInViewport()) {
-      $(this).removeClass('offscreen').addClass('onscreen');
-    } else {
-       $(this).removeClass('onscreen').addClass('offscreen');
-    }
-  });
     
     });
 })(jQuery)
