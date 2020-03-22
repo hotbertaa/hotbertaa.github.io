@@ -1,9 +1,9 @@
-$.fn.isFullyInViewport = function() {
-  var elementTop = $(this).offset().top;
-  var elementBottom = elementTop + $(this).outerHeight();
-  var viewportTop = $(window).scrollTop();
-  var viewportBottom = viewportTop + $(window).height();
-  return elementTop >= viewportTop && elementBottom <= viewportBottom;
+$.fn.isInViewport = function() {
+var elementTop = $(this).offset().top;
+var elementBottom = elementTop + $(this).outerHeight();
+var viewportTop = $(window).scrollTop();
+var viewportBottom = viewportTop + $(window).height();
+return elementBottom > viewportTop && elementTop < viewportBottom;
 };
 
 $(function(){
@@ -13,10 +13,10 @@ $(window).on('scroll',function(e){
    
    	$('.fadeIn').each(function() {
       //var activeColor = $(this).attr('id');
-    	if ($(this).isFullyInViewport()) {
+    	if ($(this).isInViewport()) {
      		$(this).removeClass('offscreen').addClass('onscreen');
     	} else {
-      	$(this).addClass('offscreen');
+      	$(this).removeClass('onscreen').addClass('offscreen');
     	}
   	});
    
@@ -145,10 +145,10 @@ if(canUseWebP()){
         setTimeout(function(){ $('body').addClass('loaded'); },400);
     	
     $('.fadeIn').each(function() {
-    if ($(this).isFullyInViewport()) {
+    if ($(this).isInViewport()) {
       $(this).removeClass('offscreen').addClass('onscreen');
     } else {
-       $(this).addClass('offscreen');
+       $(this).removeClass('onscreen').addClass('offscreen');
     }
   });
     
