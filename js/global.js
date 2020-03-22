@@ -1,21 +1,23 @@
 
 $(function(){
-
+//////////////////////////////////////////////////
+// WINDOW SCROLL
 var lastScrollTop = 0;
 $(window).on('scroll',function(e){
-   
+	//////////////////////////////////////////////////
+	// onscreen  
    	$('section').each(function() {
    		var elementTop = $(this).offset().top;
 			var viewportTop = $(window).scrollTop();
-			if(viewportTop >= elementTop-150){   		
+			if(viewportTop >= elementTop-200){   		
      		$(this).removeClass('offscreen').addClass('onscreen');
     	} else {
     	}
   	});   
    
    $('.autohide').show();
-
-
+	//////////////////////////////////////////////////
+	//body scroll classes
       var _scroll = $(window).scrollTop();   
       //if (_scroll >= 1){
       if($(this).scrollTop() >= $('#wrap').offset().top){
@@ -34,9 +36,8 @@ $(window).on('scroll',function(e){
             $('body').removeClass("scrollx").removeClass("scrolly").removeClass("scrollz");
             $("#wrap").removeClass("scrollr");  
       }
-
-    	
-    	
+	//////////////////////////////////////////////////
+	// vertical scroll classes
 		//element.addEventListener("scroll", function(){ 
     var st = $(window).scrollTop(); 
     if (st > lastScrollTop){
@@ -50,8 +51,8 @@ $(window).on('scroll',function(e){
 		//}, false);
     
 });
-
-
+//////////////////////////////////////////////////
+// scrollTo
 $('.scrollTo').on('click', function(){
     //$('html,body').animate({scrollTop: $($(this).attr('href')).offset().top},500);
     $('.scrollTo').removeClass('selected');
@@ -68,7 +69,8 @@ $('.scrollTo').on('click', function(){
         return false;
     }
 });
-
+//////////////////////////////////////////////////
+// menu
 $('.menuLink').on('click ', function() {
     //$('#menu').addClass('open');
     var perc;
@@ -92,13 +94,15 @@ $('.menuLink').on('click ', function() {
   }
   return false;
 });
-
+//////////////////////////////////////////////////
+// menu close
 $('#menu .close').on('click ', function() {
 	$('#menu .s, .slide-menu .overlay').fadeOut(250); 
   $('#menu').removeClass('open'); 
 	return false;
 });
-
+//////////////////////////////////////////////////
+// check sections onscreen
   //$('.fadeIn').each(function() {
   	var viewportTop = $(window).scrollTop();
 		var viewportBottom = $(window).height();
@@ -120,8 +124,8 @@ $('#menu .close').on('click ', function() {
 	//});
 
 });
-
-
+//////////////////////////////////////////////////
+// webp
 function canUseWebP() {
     var elem = document.createElement('canvas');
 
@@ -141,7 +145,8 @@ if(canUseWebP()){
      $('body').addClass('nowebp').removeClass('webp');
 }
 });
-
+//////////////////////////////////////////////////
+// noscript / loaded
 (function($){
   'use strict';
     $(window).on('load', function () {
