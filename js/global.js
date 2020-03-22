@@ -120,18 +120,21 @@ $('#menu .close').on('click ', function() {
   //$('.fadeIn').each(function() {
   	var viewportTop = $(window).scrollTop();
 		var viewportBottom = viewportTop + $(window).height();
+  	
   	var introTop = $('#intro .fadeIn').offset().top;
+  	alert(''+viewportBottom+' -- '+introTop+'');
 		if(viewportBottom >= introTop){ 
-  	  $('#intro').addClass('onScreen');
+  	  $('#intro').addClass('onscreen');
 		} else {
-			$('#intro').addClass('offScreen');
+			$('#intro').addClass('offscreen');
 		}
 		
 		var skillsTop = $('#skills .fadeIn').offset().top;
+		alert(''+viewportBottom+' -- '+skillsTop+'');
 		if(viewportBottom >= skillsTop){ 
-  	  $('#skills').addClass('onScreen');
+  	  $('#skills').addClass('onscreen');
 		} else {
-			$('#intro').addClass('offScreen');
+			$('#skills').addClass('offscreen');
 		}
 	//});
 
