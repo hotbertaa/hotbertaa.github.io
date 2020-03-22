@@ -21,7 +21,7 @@ $(window).on('scroll',function(e){
    	$('section').each(function() {
    		var elementTop = $(this).offset().top;
 			var viewportTop = $(window).scrollTop();
-			if(viewportTop >= elementTop){   		
+			if(viewportTop-200 >= elementTop){   		
      		$(this).removeClass('offscreen').addClass('onscreen');
     	} else {
     	}
