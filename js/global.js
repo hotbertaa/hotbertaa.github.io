@@ -9,11 +9,10 @@ return elementTop > viewportTop;
 
 $(function(){
 
-	/*if ($('#intro .fadeIn').visible(true)) {
-		$('#intro .fadeIn').addClass('onScreen');
+	if($('#intro .fadeIn').visible(true)) {
+    $('#intro ').addClass('onScreen');
 	} else {
-		$('#intro .fadeIn').addClass('offScreen');
-	}*/
+	}
 
 var lastScrollTop = 0;
 $(window).on('scroll',function(e){
