@@ -61,32 +61,54 @@ position: relative;
 bottom: -20px;
 opacity: 0;
 }
-.loaded #intro .row .col{
+#intro.onscreen .row .col{
 transition: bottom .5s ease, opacity .5s ease;
 bottom: 0;
 opacity: 1;
 }
-.loaded #intro .row .col:nth-child(1){
+#intro.onscreen .row .col:nth-child(1){
 transition-delay: 0.8s;
 }
-.loaded #intro .row .col:nth-child(2){
+#intro.onscreen .row .col:nth-child(2){
 transition-delay: 1s;
 }
-.loaded #intro .row .col:nth-child(3){
+#intro.onscreen .row .col:nth-child(3){
 transition-delay: 1.2s;
 }
-.loaded #intro .row .col:nth-child(4){
+#intro.onscreen .row .col:nth-child(4){
 transition-delay: 1.4s;
 }
-.loaded #intro .row .col:nth-child(5){
+#intro.onscreen .row .col:nth-child(5){
 transition-delay: 1.6s;
 }
-.loaded #intro .row .col:nth-child(6){
+ #intro.onscreen .row .col:nth-child(6){
 transition-delay: 1.8s;
 }
-
+//////////////////////////////////////////////////
 #intro .row .col a{ transition: all .2s ease-in-out; }
 #intro .row .col a:hover { transform: scale(1.05); }
+////////////////////////////////////////////////////////////////////////////////////
+// INTRO
+////////////////////////////////////////////////////////////////////////////////////
+#skills .row .col{
+position: relative;
+bottom: -20px;
+opacity: 0;
+}
+#skills.onscreen .row .col{
+transition: bottom .5s ease, opacity .5s ease;
+bottom: 0;
+opacity: 1;
+}
+#skills.onscreen .row .col:nth-child(1){
+transition-delay: 0.2s;
+}
+#skills.onscreen .row .col:nth-child(2){
+transition-delay: 0.4s;
+}
+#skills.onscreen .row .col:nth-child(3){
+transition-delay: 0.6s;
+}
 ////////////////////////////////////////////////////////////////////////////////////
 
 @media only screen and (min-width: 993px) {
