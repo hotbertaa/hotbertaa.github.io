@@ -1,24 +1,31 @@
-$.fn.isInViewport = function() {
+/*$.fn.isInViewport = function() {
 var elementTop = $(this).offset().top;
 var elementBottom = elementTop + $(this).outerHeight();
 var viewportTop = $(window).scrollTop();
 var viewportBottom = viewportTop + $(window).height();
 return elementTop > viewportTop && elementTop < viewportBottom;
-};
+};*/
 
 $(function(){
+
+var elementTop = $('#intro .fadeIn').$(this).offset().top;
+var viewportTop = $(window).scrollTop();
+if(elementTop >= viewportTop){
+	$('#intro .fadeIn').addClass('onscreen');
+} else {
+	$('#intro .fadeIn').addClass('offscreen');
+}
 
 var lastScrollTop = 0;
 $(window).on('scroll',function(e){
    
-   	$('.fadeIn').each(function() {
-      //var activeColor = $(this).attr('id');
+   	/*$('.fadeIn').each(function() {
     	if ($(this).isInViewport()) {
      		$(this).removeClass('offscreen').addClass('onscreen');
     	} else {
       	$(this).removeClass('onscreen').addClass('offscreen');
     	}
-  	});
+  	});*/
    
    
    $('.autohide').show();
