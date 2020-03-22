@@ -17,7 +17,7 @@ body .btn-outline-light:hover { color: #0e6585 !important; }
 
 body .btn-light { color: #e2f5fc !important; }
 
-#skills a, #skills .row li, footer nav .top, body, #head .text-muted, #head { color: #07303f !important; }
+#skills .row li, footer nav .top, body, #head .text-muted, #head { color: #07303f !important; }
 
 header nav a { color: #0e6585; }
 
