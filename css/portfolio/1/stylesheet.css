@@ -393,7 +393,11 @@ header .linkedin .icn { background-size: 100% auto !important; -ms-interpolation
 
 #head .h3 small { display: block; }
 
-#head .bg:before { content: ''; position: absolute; top: 0; left: 0; right: 0; bottom: 0; opacity: 0.1; background-image: url(/images/bg.jpg); background-repeat: repeat-x; display: block; }
+#head .bg:before { content: ''; position: absolute; top: 0; left: 0; right: 0; bottom: 0; opacity: 0.1; background-repeat: repeat-x; display: block; }
+
+.webp #head .bg:before { background-image: url(/images/bg.webp); }
+
+.nowebp #head .bg:before { background-image: url(/images/bg.jpg); }
 
 #head:after { display: none; }
 
@@ -404,13 +408,7 @@ header .linkedin .icn { background-size: 100% auto !important; -ms-interpolation
 
 #intro > div { z-index: 10 !important; }
 
-#intro #cards .img { background-size: 100% auto !important; -ms-interpolation-mode: bicubic; image-rendering: optimizeQuality; padding-bottom: 58%; display: block; }
-
-#intro #cards .col:nth-child(1) .img { background-size: auto 85% !important; -ms-interpolation-mode: bicubic; image-rendering: optimizeQuality; }
-
-#intro #cards .col:nth-child(2) .img { background-size: auto 75% !important; -ms-interpolation-mode: bicubic; image-rendering: optimizeQuality; }
-
-#intro #cards .col:nth-child(3) .img { background-size: auto 90% !important; -ms-interpolation-mode: bicubic; image-rendering: optimizeQuality; }
+#intro #cards .img { background-size: auto 100% !important; -ms-interpolation-mode: bicubic; image-rendering: optimizeQuality; padding-bottom: 58%; display: block; }
 
 @media only screen and (min-width: 769px) { .page-index #intro #cards { margin-top: -25%; }
   .page-index #intro { padding-top: 80px; padding-bottom: 80px; } }
@@ -493,23 +491,35 @@ footer nav, .scrollup footer nav { bottom: -127px !important; }
 
 #intro .row .col { position: relative; bottom: -20px; opacity: 0; }
 
-.loaded #intro .row .col { transition: bottom .5s ease, opacity .5s ease; bottom: 0; opacity: 1; }
+#intro.onscreen .row .col { transition: bottom .5s ease, opacity .5s ease; bottom: 0; opacity: 1; }
 
-.loaded #intro .row .col:nth-child(1) { transition-delay: 0.8s; }
+#intro.onscreen .row .col:nth-child(1) { transition-delay: 0.8s; }
 
-.loaded #intro .row .col:nth-child(2) { transition-delay: 1s; }
+#intro.onscreen .row .col:nth-child(2) { transition-delay: 1s; }
 
-.loaded #intro .row .col:nth-child(3) { transition-delay: 1.2s; }
+#intro.onscreen .row .col:nth-child(3) { transition-delay: 1.2s; }
 
-.loaded #intro .row .col:nth-child(4) { transition-delay: 1.4s; }
+#intro.onscreen .row .col:nth-child(4) { transition-delay: 1.4s; }
 
-.loaded #intro .row .col:nth-child(5) { transition-delay: 1.6s; }
+#intro.onscreen .row .col:nth-child(5) { transition-delay: 1.6s; }
 
-.loaded #intro .row .col:nth-child(6) { transition-delay: 1.8s; }
+#intro.onscreen .row .col:nth-child(6) { transition-delay: 1.8s; }
 
 #intro .row .col a { transition: all .2s ease-in-out; }
 
 #intro .row .col a:hover { transform: scale(1.05); }
 
+#skills .row .col { position: relative; bottom: -20px; opacity: 0; }
+
+#skills.onscreen .row .col { transition: bottom .5s ease, opacity .5s ease; bottom: 0; opacity: 1; }
+
+#skills.onscreen .row .col:nth-child(1) { transition-delay: 0.2s; }
+
+#skills.onscreen .row .col:nth-child(2) { transition-delay: 0.4s; }
+
+#skills.onscreen .row .col:nth-child(3) { transition-delay: 0.6s; }
+
 @media only screen and (min-width: 993px) { .scrollz #wrap > header, .scrolly #wrap > header { top: -150px; }
   body #wrap.scrollr > header .logo a { width: 250px; height: 100px; transition: width .5s ease, height .5s ease; } }
+
+/*# sourceMappingURL=stylesheet.css.map */
