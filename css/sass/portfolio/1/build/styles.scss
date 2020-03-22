@@ -39,6 +39,7 @@ color: $bodyBg10!important;
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 // COLOR
 ////////////////////////////////////////////////////////////////////////////////////////////////////
+#menu nav a,
 #intro a,
 #skills .row li,
 footer nav .top,
@@ -59,6 +60,7 @@ footer nav #sub a{
 color: $highlightCl10;
 }
 ///////////////////////////////////////////////////////
+#menu nav,
 #menu section a,
 #skills,
 #skills .text-muted,
@@ -129,6 +131,7 @@ background-color: #F0774E;
 background-color: #4C5459;
 }
 ///////////////////////////////////////////////////////
+#menu nav a,
 footer nav .top{
 background-color: #FFF;
 }
@@ -191,7 +194,6 @@ background-image: linear-gradient(to right bottom, transparent 50%, #FFF 50%, #F
 .scrollr header{
 box-shadow: 0 10px 15px -3px rgba(0,0,0,.1), 0 4px 6px -2px rgba(0,0,0,.05);
 }
-
 ////////////////////////////////////////////////////////////////////////////////////
 
 @media only screen and (max-width: 768px) {
