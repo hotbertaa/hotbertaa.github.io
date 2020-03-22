@@ -1,26 +1,23 @@
-$.fn.isInViewport = function() {
+/*$.fn.isInViewport = function() {
 var elementTop = $(this).offset().top;
 var elementBottom = elementTop + $(this).outerHeight();
 var viewportTop = $(window).scrollTop();
 var viewportBottom = viewportTop + $(window).height();
 //return elementTop > viewportTop && elementTop < viewportBottom;
 return elementTop > viewportTop;
-};
+};*/
 
 $(function(){
 
 var lastScrollTop = 0;
 $(window).on('scroll',function(e){
    
-   	$('.fadeIn').each(function() {
-   	
+   	$('section').each(function() {
    		var elementTop = $(this).offset().top;
 			var viewportTop = $(window).scrollTop();
 			if(viewportTop >= elementTop){   		
-    	//if ($(this).isInViewport()) {
      		$(this).removeClass('offscreen').addClass('onscreen');
     	} else {
-      	$(this).removeClass('onscreen').addClass('offscreen');
     	}
   	});   
    
@@ -110,6 +107,16 @@ $('#menu .close').on('click ', function() {
 	return false;
 });
 
+
+	$('section').each(function() {
+   		var elementTop = $(this).offset().top;
+			var viewportTop = $(window).scrollTop();
+			if(viewportTop >= elementTop){   		
+     		$(this).addClass('onscreen');
+    	} else {
+      	$(this).addClass('offscreen');
+    	}
+  }); 
 
 
 /*$('.fadeIn').each(function() {
