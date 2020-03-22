@@ -9,9 +9,11 @@ return elementTop > viewportTop;
 
 $(function(){
 
-	if($('#intro .fadeIn').visible(true)) {
+	var elementTop = $('#intro .fadeIn').offset().top;
+	var viewportTop = $(window).scrollTop();
+	var viewportBottom = viewportTop + $(window).height();
+	if(viewportBottom >= elementTop){ 
     $('#intro ').addClass('onScreen');
-	} else {
 	}
 
 var lastScrollTop = 0;
