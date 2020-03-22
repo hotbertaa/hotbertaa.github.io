@@ -13,7 +13,11 @@ var lastScrollTop = 0;
 $(window).on('scroll',function(e){
    
    	$('.fadeIn').each(function() {
-    	if ($(this).isInViewport()) {
+   	
+   		var elementTop = $(this).offset().top;
+			var viewportTop = $(window).scrollTop();
+			if(elementTop > viewportTop){   		
+    	//if ($(this).isInViewport()) {
      		$(this).removeClass('offscreen').addClass('onscreen');
     	} else {
       	$(this).removeClass('onscreen').addClass('offscreen');
