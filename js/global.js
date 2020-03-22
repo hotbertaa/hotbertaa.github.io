@@ -119,7 +119,7 @@ $('#menu .close').on('click ', function() {
   
   //$('.fadeIn').each(function() {
   	var viewportTop = $(window).scrollTop();
-		var viewportBottom = viewportTop + $(window).height();
+		var viewportBottom = $(window).height();
   	
   	var introTop = $('#intro .fadeIn').offset().top;
   	alert(''+viewportBottom+' -- '+introTop+'');
