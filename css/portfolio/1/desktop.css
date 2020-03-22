@@ -63,34 +63,28 @@ footer nav, .scrollup footer nav { bottom: -127px !important; }
 
 .loaded #intro.onscreen .row .col { transition: bottom .5s ease, opacity .5s ease; bottom: 0; opacity: 1; }
 
-.loaded #intro.onscreen .row .col:nth-child(1) { transition-delay: 0.8s; }
+.loaded #intro.onscreen .row .col:nth-child(1) { transition-delay: 0.2s; }
 
-.loaded #intro.onscreen .row .col:nth-child(2) { transition-delay: 1s; }
+.loaded #intro.onscreen .row .col:nth-child(2) { transition-delay: 0.4s; }
 
-.loaded #intro.onscreen .row .col:nth-child(3) { transition-delay: 1.2s; }
+.loaded #intro.onscreen .row .col:nth-child(3) { transition-delay: 0.6s; }
 
-.loaded #intro.onscreen .row .col:nth-child(4) { transition-delay: 1.4s; }
+.loaded #intro.onscreen .row .col:nth-child(4) { transition-delay: 0.8s; }
 
-.loaded #intro.onscreen .row .col:nth-child(5) { transition-delay: 1.6s; }
+.loaded #intro.onscreen .row .col:nth-child(5) { transition-delay: 1s; }
 
-.loaded #intro.onscreen .row .col:nth-child(6) { transition-delay: 1.8s; }
-
-.loaded.scrollr #intro.onscreen .row .col:nth-child(1) { transition-delay: 0.1s; }
-
-.loaded.scrollr #intro.onscreen .row .col:nth-child(2) { transition-delay: 0.2s; }
-
-.loaded.scrollr #intro.onscreen .row .col:nth-child(3) { transition-delay: 0.3s; }
-
-.loaded.scrollr #intro.onscreen .row .col:nth-child(4) { transition-delay: 0.4s; }
-
-.loaded.scrollr #intro.onscreen .row .col:nth-child(5) { transition-delay: 0.5s; }
-
-.loaded.scrollr #intro.onscreen .row .col:nth-child(6) { transition-delay: 0.6s; }
+.loaded #intro.onscreen .row .col:nth-child(6) { transition-delay: 1.2s; }
 
 #intro .row .col a { transition: all .2s ease-in-out; }
 
 #intro .row .col a:hover { transform: scale(1.05); }
 
+@media only screen and (min-width: 769px) { .loaded #intro.onscreen .row .col:nth-child(1) { transition-delay: 0.8s; }
+  .loaded #intro.onscreen .row .col:nth-child(2) { transition-delay: 1s; }
+  .loaded #intro.onscreen .row .col:nth-child(3) { transition-delay: 1.2s; }
+  .loaded #intro.onscreen .row .col:nth-child(4) { transition-delay: 1.4s; }
+  .loaded #intro.onscreen .row .col:nth-child(5) { transition-delay: 1.6s; }
+  .loaded #intro.onscreen .row .col:nth-child(6) { transition-delay: 1.8s; } }
 #skills .fadeIn > .col-md { position: relative; bottom: -20px; opacity: 0; }
 
 .loaded #skills.onscreen .fadeIn > .col-md { transition: bottom .5s ease, opacity .5s ease; bottom: 0; opacity: 1; }
