@@ -122,9 +122,9 @@ $('#menu .close').on('click ', function() {
 		var viewportBottom = viewportTop + $(window).height();
   	var elementTop = $(this).offset().top;
 		if(viewportBottom >= elementTop){ 
-  	  $(this).parent('section').addClass('onScreen');
+  	  $(this).closest('section').addClass('onScreen');
 		} else {
-			$(this).parent('section').addClass('offScreen');
+			$(this).closest('section').addClass('offScreen');
 		}
 	});
 
