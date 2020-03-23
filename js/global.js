@@ -7,7 +7,7 @@ $(window).on('scroll',function(e){
 	//////////////////////////////////////////////////
 	// onscreen  
    	$('section').each(function() {
-   		if($(window).width()>="780"){
+   		if($(window).width()>="768"){
     		perc = 450;
   		} else {
     		perc = 200;
