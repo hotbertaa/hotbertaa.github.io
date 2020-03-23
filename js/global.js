@@ -7,9 +7,15 @@ $(window).on('scroll',function(e){
 	//////////////////////////////////////////////////
 	// onscreen  
    	$('section').each(function() {
+   		if($(window).width()>="780"){
+    		perc = 450;
+  		} else {
+    		perc = 200;
+  		}
    		var elementTop = $(this).offset().top;
 			var viewportTop = $(window).scrollTop();
-			if(viewportTop >= elementTop-200){   		
+			
+			if(viewportTop >= elementTop-perc){   		
      		$(this).removeClass('offscreen').addClass('onscreen');
     	} else {
     	}
