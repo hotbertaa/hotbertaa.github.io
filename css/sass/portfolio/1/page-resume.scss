@@ -7,7 +7,9 @@ $ver: 2;
 @import "build/theme.scss";
 @import "../../settings.scss";
 //////////////////////////////////////////////////
-
+p b{
+font-family: 'Roboto';
+}
 body{
 background: #FFF;
 }
