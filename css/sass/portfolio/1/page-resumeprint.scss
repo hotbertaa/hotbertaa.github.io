@@ -7,9 +7,12 @@ $ver: 2;
 @import "build/theme.scss";
 @import "../../settings.scss";
 //////////////////////////////////////////////////
+main{
+font-size: 82%;
+}
 p b{
 font-family: 'Roboto';
-font-size: 115%;
+font-size: 105%;
 }
 
 body{
