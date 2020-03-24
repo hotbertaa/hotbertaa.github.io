@@ -1,0 +1,20 @@
+$sub: default;
+$brand: geronigo;
+$template: template1;
+$style: dark;
+$ver: 2;
+
+@import "build/theme.scss";
+@import "../../settings.scss";
+//////////////////////////////////////////////////
+
+body{
+background: #FFF;
+}
+p b{
+color: #007bff;
+}
+.border,
+.border-bottom{
+border-color: #333!important;
+}
