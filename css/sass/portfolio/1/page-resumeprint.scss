@@ -10,6 +10,9 @@ $ver: 2;
 p b{
 font-family: 'Roboto';
 }
+body{
+background: #FFF;
+}
 a{
 color: $bodyCl10!important;
 }
@@ -18,8 +21,8 @@ p b{
 color: #007bff!important;
 }
 .border{
-border-color: $pluginTitleBg10!important;
+border-color: #444!important;
 }
 .border-bottom{
-border-color: $bodyBg9!important;
+border-color: #DEDEDE!important;
 }

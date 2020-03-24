@@ -1,14 +1,12 @@
 /* CSS - Peter Roper */
 p b { font-family: 'Roboto'; }
 
-body { background: #FFF; }
-
 a { color: #07303f !important; }
 
 p b a, p b { color: #007bff !important; }
 
-.border { border-color: #444 !important; }
+.border { border-color: #1599ca !important; }
 
-.border-bottom { border-color: #DEDEDE !important; }
+.border-bottom { border-color: #b4e5f7 !important; }
 
 /*# sourceMappingURL=page-resume.css.map */
