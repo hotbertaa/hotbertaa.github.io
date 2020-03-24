@@ -3,6 +3,8 @@ body { background: #FFF; }
 
 p b { color: #007bff; }
 
-.border, .border-bottom { border-color: #333 !important; }
+.border { border-color: #444 !important; }
+
+.border-bottom { border-color: #888 !important; }
 
 /*# sourceMappingURL=page-resume.css.map */
