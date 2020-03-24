@@ -5,7 +5,7 @@ body { background: #FFF; }
 
 a { color: #07303f !important; }
 
-p b { color: #007bff; }
+p b a, p b { color: #007bff !important; }
 
 .border { border-color: #444 !important; }
 
