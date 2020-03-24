@@ -3,6 +3,8 @@ p b { font-family: 'Roboto'; }
 
 body { background: #FFF; }
 
+a { color: #07303f !important; }
+
 p b { color: #007bff; }
 
 .border { border-color: #444 !important; }
