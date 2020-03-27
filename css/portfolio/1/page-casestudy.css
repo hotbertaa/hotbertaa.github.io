@@ -5,9 +5,9 @@
 
 #appraisal:before, #study:after { display: block; }
 
-#study { padding-bottom: 80px !important; }
+#study { padding-bottom: 150px !important; }
 
-#appraisal { padding-top: 80px; }
+#appraisal { padding-top: 150px; }
 
 .study-geronigo #study .text-muted, .study-geronigo #study { color: #FFF !important; }
 
