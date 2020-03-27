@@ -1,6 +1,6 @@
 .page-casestudy header { position: relative; }
 
-#overview .img { padding-bottom: 58%; }
+#overview .img { padding-bottom: 58% !important; }
 
 #study { padding-bottom: 80px !important; }
 
