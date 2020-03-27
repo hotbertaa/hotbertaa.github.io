@@ -61,6 +61,7 @@ color: $highlightCl10;
 }
 ///////////////////////////////////////////////////////
 #menu nav,
+#appraisal,
 #skills,
 #skills .text-muted,
 #skills .icon,
@@ -130,6 +131,7 @@ background-color: #F0774E;
 background-color: #4C5459;
 }
 ///////////////////////////////////////////////////////
+#redesign,
 #menu nav a,
 footer nav .top{
 background-color: #FFF;
@@ -158,6 +160,7 @@ filter: none;
 .scrollr header nav{
 @include gradientHorzLin2($color1:$headerBg9, $color2:$headerBg11);
 }
+#appraisal,
 #skills{
 @include gradientVertLin($color1:$pluginTitleBg10, $color2:$bodyCl10);
 }
@@ -186,6 +189,9 @@ background-image: linear-gradient(to left top, transparent 50%, $headerBg10 50%,
 }
 #skills .row li .col-auto:after{
 background-image: linear-gradient(to right bottom, transparent 50%, #FFF 50%, #FFF 0%);
+}
+#appraisal:before{
+background-image: linear-gradient(to left top, transparent 50%, $bodyBg10 50%, $bodyBg10 0%);
 }
 #study:after{
 background-image: linear-gradient(to right bottom, transparent 50%, $bodyBg10 50%, $bodyBg10 0%);
