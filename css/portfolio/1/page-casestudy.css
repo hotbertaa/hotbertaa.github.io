@@ -7,7 +7,7 @@
 
 .page-casestudy main { padding-top: 93px; }
 
-#appraisal { background-color: #FFF; }
+#appraisal > div { background-color: #FFF; }
 
 #appraisal:before, #appraisal:after, #study:after { padding-top: 80px; }
 
