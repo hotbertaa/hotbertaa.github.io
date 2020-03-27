@@ -187,8 +187,8 @@ background-image: linear-gradient(to left top, transparent 50%, $headerBg10 50%,
 #skills .row li .col-auto:after{
 background-image: linear-gradient(to right bottom, transparent 50%, #FFF 50%, #FFF 0%);
 }
-#study{
-background-image: linear-gradient(to right bottom, transparent 50%, $bodyCl10 50%, $bodyCl10 0%);
+#study:after{
+background-image: linear-gradient(to right bottom, transparent 50%, $bodyBg10 50%, $bodyBg10 0%);
 }
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 // BOX SHADOW
