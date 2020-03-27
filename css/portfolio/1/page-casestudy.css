@@ -9,4 +9,8 @@
 
 #appraisal { background-color: #FFF; }
 
+#appraisal:before, #appraisal:after, #study:after { padding-top: 80px; }
+
+#appraisal:before, #appraisal:after, #study:after { display: block; }
+
 /*# sourceMappingURL=page-casestudy.css.map */
