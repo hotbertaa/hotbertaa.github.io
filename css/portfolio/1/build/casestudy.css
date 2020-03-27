@@ -1,6 +1,10 @@
+.page-casestudy header { position: relative; }
+
 #overview .img { padding-bottom: 58%; }
 
-.page-casestudy main { padding-top: 93px; }
+#study { padding-bottom: 80px !important; }
+
+#appraisal:before, #appraisal:after, #study:after { display: block; }
 
 .study-geronigo #study .text-muted, .study-geronigo #study { color: #FFF !important; }
 
@@ -11,9 +15,5 @@
 .study-rezbot #study { background-color: #000000; }
 
 #overview .img, #appraisal > div { background-color: #FFF; }
-
-#study { padding-bottom: 80px !important; }
-
-#appraisal:before, #appraisal:after, #study:after { display: block; }
 
 /*# sourceMappingURL=casestudy.css.map */
