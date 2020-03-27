@@ -41,7 +41,7 @@ color: $bodyBg10!important;
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 #menu nav a,
 #intro a,
-.checklist .row li,
+.checklist .row,
 footer nav .top,
 body,
 #head .text-muted,
@@ -81,7 +81,7 @@ header .logo a small,
 color: $subheadBg10!important;
 }
 ///////////////////////////////////////////////////////
-.checklist .row li .col-auto{
+.checklist .row .col-auto{
 color: $pluginTitleCl10;
 }
 ////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -92,7 +92,7 @@ header,
 #head{
 background-color: $bodyBg10;
 }
-.checklist .row li .col-auto{
+.checklist .row .col-auto{
 background-color: $bodyCl10;
 }
 ///////////////////////////////////////////////////////
@@ -113,7 +113,7 @@ footer nav #main{
 background-color: $highlightBg10;
 }
 ///////////////////////////////////////////////////////
-.checklist .row li{
+.checklist .row{
 background-color: $pluginTitleCl10;
 }
 #subhead,
@@ -190,7 +190,7 @@ background-image: linear-gradient(to left top, transparent 50%, #FFF 50%, #FFF 0
 .scrollr header #header > .row > nav:before{
 background-image: linear-gradient(to left top, transparent 50%, $headerBg10 50%, $headerBg10 0%);
 }
-.checklist .row li .col-auto:after{
+.checklist .row .col-auto:after{
 background-image: linear-gradient(to right bottom, transparent 50%, #FFF 50%, #FFF 0%);
 }
 #appraisal:before{
