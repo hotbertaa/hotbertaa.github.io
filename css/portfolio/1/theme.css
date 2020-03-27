@@ -17,7 +17,7 @@ body .btn-outline-light:hover { color: #0e6585 !important; }
 
 body .btn-light { color: #e2f5fc !important; }
 
-#menu nav a, #intro a, #skills .row li, footer nav .top, body, #head .text-muted, #head { color: #07303f !important; }
+#menu nav a, #intro a, .checklist .row li, footer nav .top, body, #head .text-muted, #head { color: #07303f !important; }
 
 header nav a { color: #0e6585; }
 
@@ -29,11 +29,11 @@ footer nav #main a, footer nav #sub a { color: #0e6585; }
 
 header .logo a small, #head .h3, #head .h3 .text-muted { color: #774dab !important; }
 
-#skills .row li .col-auto { color: #FFF; }
+.checklist .row li .col-auto { color: #FFF; }
 
 body, header, #head { background-color: #e2f5fc; }
 
-#skills .row li .col-auto { background-color: #07303f; }
+.checklist .row li .col-auto { background-color: #07303f; }
 
 #branding { background-color: #774dab; }
 
@@ -41,7 +41,7 @@ body, header, #head { background-color: #e2f5fc; }
 
 footer nav #sub, footer nav #main { background-color: #efa837; }
 
-#skills .row li { background-color: #FFF; }
+.checklist .row li { background-color: #FFF; }
 
 #subhead, #skills .icon { background-color: #1599ca; }
 
@@ -77,7 +77,7 @@ section .bg:after { background: -moz-linear-gradient(top, rgba(255, 255, 255, 0)
 
 #menu header #header > .row > nav:before, .scrollr header #header > .row > nav:before { background-image: linear-gradient(to left top, transparent 50%, #e2f5fc 50%, #e2f5fc 0%); }
 
-#skills .row li .col-auto:after { background-image: linear-gradient(to right bottom, transparent 50%, #FFF 50%, #FFF 0%); }
+.checklist .row li .col-auto:after { background-image: linear-gradient(to right bottom, transparent 50%, #FFF 50%, #FFF 0%); }
 
 #appraisal:before { background-image: linear-gradient(to left top, transparent 50%, #e2f5fc 50%, #e2f5fc 0%); }
 
