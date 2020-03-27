@@ -1,4 +1,6 @@
-.study-geronigo #study { color: #FFF; background-color: #000; }
+.study-geronigo #study .text-muted, .study-geronigo #study { color: #FFF; }
+
+.study-geronigo #study { background-color: #000; }
 
 .page-casestudy main { padding-top: 93px; }
 
