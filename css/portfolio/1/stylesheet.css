@@ -459,7 +459,7 @@ footer nav, .scrollup footer nav { bottom: -127px !important; }
 
 .loaded #head #title b:nth-child(3) { transition-delay: .9s; }
 
-#header > .row > .col:nth-child(2), #header > .row > .col:nth-child(3) > .row > .col:nth-child(1) a { display: none !important; }
+.page-index #header > .row > .col:nth-child(2), .page-index #header > .row > .col:nth-child(3) > .row > .col:nth-child(1) a { display: none !important; }
 
 .scrollr #header > .row > .col:nth-child(2) { display: block !important; }
 

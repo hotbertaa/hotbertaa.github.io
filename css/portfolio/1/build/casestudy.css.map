@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "",
-"sources": [],
+"mappings": "AAAA,sBAAsB,GACpB,KAAK,EAAE,IAAI,EACb,gBAAgB,EAAE,IAAI",
+"sources": ["../../../sass/portfolio/1/build/casestudy.scss"],
 "names": [],
 "file": "casestudy.css"
 }
