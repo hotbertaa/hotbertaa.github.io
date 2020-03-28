@@ -11,11 +11,7 @@
 
 #appraisal { padding-top: 100px; }
 
-.study-geronigo #study { background-color: #222B2F; background: -moz-linear-gradient(-45deg, #222B2F 0%, #07303f 100%); background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #222B2F), color-stop(100%, #07303f)); background: -webkit-linear-gradient(-45deg, #222B2F 0%, #07303f 100%); background: -o-linear-gradient(-45deg, #222B2F 0%, #07303f 100%); background: -ms-linear-gradient(-45deg, #222B2F 0%, #07303f 100%); background: linear-gradient(-45deg, #222B2F 0%, #07303f 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#222B2F', endColorstr='#07303f',GradientType=1 ); }
-
-.study-adventurecards #study { background-color: #000000; background: -moz-linear-gradient(-45deg, #000000 0%, #07303f 100%); background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #000000), color-stop(100%, #07303f)); background: -webkit-linear-gradient(-45deg, #000000 0%, #07303f 100%); background: -o-linear-gradient(-45deg, #000000 0%, #07303f 100%); background: -ms-linear-gradient(-45deg, #000000 0%, #07303f 100%); background: linear-gradient(-45deg, #000000 0%, #07303f 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#07303f',GradientType=1 ); }
-
-.study-rezbot #study { background-color: #F0774E; background: -moz-linear-gradient(-45deg, #F0774E 0%, #07303f 100%); background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #F0774E), color-stop(100%, #07303f)); background: -webkit-linear-gradient(-45deg, #F0774E 0%, #07303f 100%); background: -o-linear-gradient(-45deg, #F0774E 0%, #07303f 100%); background: -ms-linear-gradient(-45deg, #F0774E 0%, #07303f 100%); background: linear-gradient(-45deg, #F0774E 0%, #07303f 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#F0774E', endColorstr='#07303f',GradientType=1 ); }
+#study { background-color: #222B2F; background: -moz-linear-gradient(-45deg, #222B2F 0%, #07303f 100%); background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #222B2F), color-stop(100%, #07303f)); background: -webkit-linear-gradient(-45deg, #222B2F 0%, #07303f 100%); background: -o-linear-gradient(-45deg, #222B2F 0%, #07303f 100%); background: -ms-linear-gradient(-45deg, #222B2F 0%, #07303f 100%); background: linear-gradient(-45deg, #222B2F 0%, #07303f 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#222B2F', endColorstr='#07303f',GradientType=1 ); }
 
 #overview .img { background-color: #FFF; }
 

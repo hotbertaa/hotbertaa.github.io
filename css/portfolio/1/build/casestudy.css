@@ -1,23 +1,23 @@
 /*
 Error: Undefined mixin 'gradientDiagLin'.
-        on line 58 of /Users/hotbertaa/Documents/GitHub/hotbertaa.github.io/css/sass/portfolio/1/build/casestudy.scss, in `gradientDiagLin'
-        from line 58 of /Users/hotbertaa/Documents/GitHub/hotbertaa.github.io/css/sass/portfolio/1/build/casestudy.scss
+        on line 59 of /Users/hotbertaa/Documents/GitHub/hotbertaa.github.io/css/sass/portfolio/1/build/casestudy.scss, in `gradientDiagLin'
+        from line 59 of /Users/hotbertaa/Documents/GitHub/hotbertaa.github.io/css/sass/portfolio/1/build/casestudy.scss
 
-53: // THEME
 54: 
 55: ////////////////////////////////////////////////////////////////////////////////////
-56: .study-geronigo #study{
-57: background-color: #222B2F;
-58: @include gradientDiagLin($color1:#222B2F, $color2:$bodyCl10);
-59: }
-60: .study-adventurecards #study{
-61: background-color: #000000;
-62: @include gradientDiagLin($color1:#000000, $color2:$bodyCl10);
-63: }
+56: //.study-geronigo 
+57: #study{
+58: background-color: #222B2F;
+59: @include gradientDiagLin($color1:#222B2F, $color2:$bodyCl10);
+60: }
+61: //.study-adventurecards #study{
+62: //background-color: #000000;
+63: //@include gradientDiagLin($color1:#000000, $color2:$bodyCl10);
+64: //}
 
 Backtrace:
-/Users/hotbertaa/Documents/GitHub/hotbertaa.github.io/css/sass/portfolio/1/build/casestudy.scss:58:in `gradientDiagLin'
-/Users/hotbertaa/Documents/GitHub/hotbertaa.github.io/css/sass/portfolio/1/build/casestudy.scss:58
+/Users/hotbertaa/Documents/GitHub/hotbertaa.github.io/css/sass/portfolio/1/build/casestudy.scss:59:in `gradientDiagLin'
+/Users/hotbertaa/Documents/GitHub/hotbertaa.github.io/css/sass/portfolio/1/build/casestudy.scss:59
 /Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:348:in `block in visit_mixin'
 /Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/stack.rb:98:in `block in with_mixin'
 /Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/stack.rb:135:in `with_frame'
@@ -73,4 +73,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'gradientDiagLin'.\A         on line 58 of /Users/hotbertaa/Documents/GitHub/hotbertaa.github.io/css/sass/portfolio/1/build/casestudy.scss, in `gradientDiagLin'\A         from line 58 of /Users/hotbertaa/Documents/GitHub/hotbertaa.github.io/css/sass/portfolio/1/build/casestudy.scss\A \A 53: // THEME\A 54: \A 55: ////////////////////////////////////////////////////////////////////////////////////\A 56: .study-geronigo #study{\A 57: background-color: #222B2F;\A 58: @include gradientDiagLin($color1:#222B2F, $color2:$bodyCl10);\A 59: }\A 60: .study-adventurecards #study{\A 61: background-color: #000000;\A 62: @include gradientDiagLin($color1:#000000, $color2:$bodyCl10);\A 63: }"; }
+  content: "Error: Undefined mixin 'gradientDiagLin'.\A         on line 59 of /Users/hotbertaa/Documents/GitHub/hotbertaa.github.io/css/sass/portfolio/1/build/casestudy.scss, in `gradientDiagLin'\A         from line 59 of /Users/hotbertaa/Documents/GitHub/hotbertaa.github.io/css/sass/portfolio/1/build/casestudy.scss\A \A 54: \A 55: ////////////////////////////////////////////////////////////////////////////////////\A 56: //.study-geronigo \A 57: #study{\A 58: background-color: #222B2F;\A 59: @include gradientDiagLin($color1:#222B2F, $color2:$bodyCl10);\A 60: }\A 61: //.study-adventurecards #study{\A 62: //background-color: #000000;\A 63: //@include gradientDiagLin($color1:#000000, $color2:$bodyCl10);\A 64: //}"; }
