@@ -90,7 +90,7 @@
 
 	<!-- CONTENT -->
 	<main id="content">
-
+  <div id="tabs">
 
     <section id="subhead" class="position-sticky fixed-top">
 
@@ -111,15 +111,35 @@
 
   			</div>
   		</div>
+
+      <div class="container-fluid">
+        <div class="container-xl">
+          <div id="olp-wp" class="container-fluid">
+            <ul class="list-unstyled olp border-top container-lg">
+		          <li class="c p-0 m-0"><a href="#tab1" class="tab-link w py-2 px-3 text-decoration-none d-block">Overview</a></li>
+		          <li class="c p-0 m-0"><a href="#tab2" class="tab-link w py-2 px-3 text-decoration-none d-block">Features</a></li>
+		          <li class="c p-0 m-0"><a href="#tab3" class="tab-link w py-2 px-3 text-decoration-none d-block">Appraisal</a></li>
+		          <li class="c p-0 m-0"><a href="#tab4" class="tab-link w py-2 px-3 text-decoration-none d-block">Re Design</a></li>
+	          </ul>
+          </div>
+
+        </div>
+      </div>
+
   	</section>
 
 
-
+<ul class="tabs-menu" style="display:none;">
+  <li><a href="#study" rel="tabs-container" id="tab1">tab1</a></li>
+  <li><a href="#overview" rel="tabs-container" id="tab2">tab2</a></li>
+  <li><a href="#appraisal" rel="tabs-container" id="tab3">tab3</a></li>
+  <li><a href="#redesign" rel="tabs-container" id="tab4">tab4</a></li>
+</ul>
 
 
 
 <!-- STUDY -->
-<section id="study">
+<section id="study" class="tabs-container tabs-open">
 <div class="container-xl py-4 py-md-5">
 
 
@@ -163,7 +183,7 @@
 <!-- Study - END -->
 
 <!-- overview  -->
-<section id="overview" class="pb-5">
+<section id="overview" class="pb-5 tabs-container tabs-open">
 <div class="container-xl py-4 py-md-5 text-center">
 
   <h2 class="h1 mb-2">Features from the first development</h2>
@@ -203,7 +223,7 @@
 <!-- overview - END -->
 
 <!-- Appraisal -->
-<section id="appraisal">
+<section id="appraisal" class="tabs-container tabs-open">
 <div class="container-xl py-4 py-md-5 text-center">
 
   <div class="mb-5">
@@ -331,7 +351,7 @@
 <!-- Apraisal - END -->
 
 <!-- Re Design -->
-<section id="redesign" class="py-5">
+<section id="redesign" class="py-5 tabs-container tabs-open">
 <div class="container-xl py-4 text-center">
 
   <div class="mb-5">
@@ -384,6 +404,7 @@
 </section>
 <!-- Re-Design - END -->
 
+  </div>
 	</main>
 	<!-- CONTENT - END -->
 
