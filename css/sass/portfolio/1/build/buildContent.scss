@@ -109,6 +109,29 @@ margin-top: -25%;
 padding-top: 80px;
 padding-bottom: 80px;
 }
+
+#cards .col a sash{
+width: 120px;
+height: 120px;
+text-align: center;
+overflow: hidden;
+position: absolute;
+top: 0;
+right: 0;
+z-index: 10;
+}
+#cards .col a sash span{
+padding: 8px 10px;
+display: block;
+position: absolute;
+top: 19px;
+left: -43px;
+width: 240px;
+-webkit-transform: rotate(45deg);
+transform: rotate(45deg);
+color: white;
+background-color: #cc0000;
+}
 ////////////////////////////////////////////////////////////////////////////////////
 }
 ////////////////////////////////////////////////////////////////////////////////////
