@@ -41,6 +41,8 @@ body, header, #head { background-color: #e2f5fc; }
 
 .checklist.red .row .col-auto { background-color: #E15554; }
 
+.checklist.red .row .col-auto { background-color: #efa837; }
+
 #branding { background-color: #774dab; }
 
 .card-header { background-color: #b4e5f7; }
