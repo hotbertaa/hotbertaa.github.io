@@ -97,6 +97,23 @@ z-index: 10!important;
 padding-bottom: 58%;
 display: block;
 }
+#cards .col a .sash span{
+padding: 8px 10px;
+font-size: 0.85rem;
+display: block;
+position: absolute;
+top: 19px;
+left: -43px;
+width: 240px;
+-webkit-transform: rotate(45deg);
+transform: rotate(45deg);
+color: white;
+background-color: #E15554;
+}
+#cards .col a .sash.muted span{
+color: $buttonCl10;
+background-color: $buttonBg10;
+}
 ////////////////////////////////////////////////////////////////////////////////////
 
 @media only screen and (min-width: 769px) {
@@ -119,23 +136,6 @@ position: absolute;
 top: 0;
 right: 0;
 z-index: 10;
-}
-#cards .col a .sash span{
-padding: 8px 10px;
-font-size: 0.85rem;
-display: block;
-position: absolute;
-top: 19px;
-left: -43px;
-width: 240px;
--webkit-transform: rotate(45deg);
-transform: rotate(45deg);
-color: white;
-background-color: #E15554;
-}
-#cards .col a .sash.muted span{
-color: $buttonCl10;
-background-color: $buttonBg10;
 }
 ////////////////////////////////////////////////////////////////////////////////////
 }
