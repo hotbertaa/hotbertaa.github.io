@@ -9,7 +9,7 @@ body .btn-primary:hover { color: #0e6585 !important; background-color: #e19112 !
 
 body .btn-outline-primary { color: #0e6585 !important; border-color: #0e6585 !important; }
 
-body .btn-outline-primary:hover { color: #efa837 !important; background-color: #0e6585 !important; border-color: #0e6585 !important; }
+body .btn-outline-primary:hover { color: #FFF !important; background-color: #0e6585 !important; border-color: #0e6585 !important; }
 
 body .btn-outline-light { color: #FFF !important; }
 
