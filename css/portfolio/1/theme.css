@@ -41,7 +41,7 @@ body, header, #head { background-color: #e2f5fc; }
 
 .checklist.red .row .col-auto { background-color: #E15554; }
 
-.checklist.red .row .col-auto { background-color: #efa837; }
+.checklist.yellow .row .col-auto { background-color: #efa837; }
 
 #branding { background-color: #774dab; }
 
