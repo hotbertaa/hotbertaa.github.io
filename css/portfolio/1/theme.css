@@ -17,7 +17,7 @@ body .btn-outline-light:hover { color: #0e6585 !important; }
 
 body .btn-light { color: #e2f5fc !important; }
 
-#menu nav a, #intro a, .checklist .row, footer nav .top, body, #head .text-muted, #head { color: #07303f !important; }
+#subhead .container-fluid a, #menu nav a, #intro a, .checklist .row, footer nav .top, body, #head .text-muted, #head { color: #07303f !important; }
 
 header nav a { color: #0e6585; }
 
@@ -57,7 +57,9 @@ footer nav #sub, footer nav #main { background-color: #efa837; }
 
 #intro .row .col:nth-child(4) .img { background-color: #4C5459; }
 
-#redesign, #menu nav a, footer nav .top { background-color: #FFF; }
+#subhead .container-fluid { background-color: #EDEDED; }
+
+#subhead .container-fluid .selected a, #redesign, #menu nav a, footer nav .top { background-color: #FFF; }
 
 #intro #cards .img { background-position: 50%; }
 
