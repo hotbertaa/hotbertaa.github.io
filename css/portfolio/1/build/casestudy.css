@@ -1,6 +1,8 @@
 #wrap.page-casestudy.scrollr > header, #wrap.page-casestudy > header { position: relative; }
 
-#redesign .img, #start .img, #overview .img { padding-bottom: 58% !important; }
+#redesign .img { padding-bottom: 78% !important; }
+
+#start .img, #overview .img { padding-bottom: 58% !important; }
 
 #appraisal:before, #study:after { display: block; }
 
