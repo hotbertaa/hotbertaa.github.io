@@ -61,7 +61,7 @@ background-color: #000000;
 }
 .study-rezbot #study{
 background-color: #F0774E;
-@include gradientVertLin($color1:#F0774E, $color2:$pluginTitleBg10);
+@include gradientVertLin($color1:#F0774E, $color2:$bodyCl10);
 }
 
 #overview .img{

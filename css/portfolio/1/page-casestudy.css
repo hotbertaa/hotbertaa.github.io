@@ -15,7 +15,7 @@
 
 .study-adventurecards #study { background-color: #000000; }
 
-.study-rezbot #study { background-color: #F0774E; background: -moz-linear-gradient(top, #F0774E 0%, #1599ca 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #F0774E), color-stop(100%, #1599ca)); background: -webkit-linear-gradient(top, #F0774E 0%, #1599ca 100%); background: -o-linear-gradient(top, #F0774E 0%, #1599ca 100%); background: -ms-linear-gradient(top, #F0774E 0%, #1599ca 100%); background: linear-gradient(top, #F0774E 0%, #1599ca 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#F0774E', endColorstr='#1599ca',GradientType=0 ); }
+.study-rezbot #study { background-color: #F0774E; background: -moz-linear-gradient(top, #F0774E 0%, #07303f 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #F0774E), color-stop(100%, #07303f)); background: -webkit-linear-gradient(top, #F0774E 0%, #07303f 100%); background: -o-linear-gradient(top, #F0774E 0%, #07303f 100%); background: -ms-linear-gradient(top, #F0774E 0%, #07303f 100%); background: linear-gradient(top, #F0774E 0%, #07303f 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#F0774E', endColorstr='#07303f',GradientType=0 ); }
 
 #overview .img { background-color: #FFF; }
 
