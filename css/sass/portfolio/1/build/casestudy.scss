@@ -6,7 +6,7 @@ position: relative;
 //start
 ////////////////////////////////////////////////////////////////////////////////////
 #redesign .img{
-padding-bottom: 78%!important;  
+padding-bottom: 78%!important;
 }
 #start .img,
 #overview .img{
@@ -61,6 +61,7 @@ background-color: #000000;
 }
 .study-rezbot #study{
 background-color: #F0774E;
+@include gradientVertLin($color1:#F0774E, $color2:$pluginTitleBg10);
 }
 
 #overview .img{
