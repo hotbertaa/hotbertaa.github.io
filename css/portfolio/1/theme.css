@@ -17,7 +17,7 @@ body .btn-outline-light:hover { color: #0e6585 !important; }
 
 body .btn-light { color: #e2f5fc !important; }
 
-#subhead .container-fluid a, #menu nav a, #intro a, .checklist .row, footer nav .top, body, #head .text-muted, #head { color: #07303f !important; }
+.checklist.muted .row .col-auto, #subhead .container-fluid a, #menu nav a, #intro a, .checklist .row, footer nav .top, body, #head .text-muted, #head { color: #07303f !important; }
 
 header nav a { color: #0e6585; }
 
@@ -34,6 +34,8 @@ header .logo a small, #head .h3, #head .h3 .text-muted { color: #774dab !importa
 body, header, #head { background-color: #e2f5fc; }
 
 .checklist .row .col-auto { background-color: #07303f; }
+
+.checklist.muted .row .col-auto { background-color: #b4e5f7; }
 
 .checklist.green .row .col-auto { background-color: #3BB273; }
 
