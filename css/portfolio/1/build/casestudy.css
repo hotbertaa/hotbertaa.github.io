@@ -1,4 +1,4 @@
-#wrap.page-casestudy.scrollr header, #wrap.page-casestudy header { position: relative; }
+#wrap.page-casestudy.scrollr > header, #wrap.page-casestudy > header { position: relative; }
 
 #overview .img { padding-bottom: 58% !important; }
 

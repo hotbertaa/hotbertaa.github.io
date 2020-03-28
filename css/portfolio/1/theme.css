@@ -7,9 +7,9 @@ body #head .btn-primary { border-color: #e19112 !important; }
 
 body .btn-primary:hover { color: #0e6585 !important; background-color: #e19112 !important; border-color: #e19112 !important; }
 
-body .btn-outline-primary { color: #0e6585 !important; border-color: #efa837 !important; }
+body .btn-outline-primary { color: #0e6585 !important; border-color: #0e6585 !important; }
 
-body .btn-outline-primary:hover { color: #0e6585 !important; background-color: #efa837 !important; border-color: #efa837 !important; }
+body .btn-outline-primary:hover { color: #efa837 !important; background-color: #0e6585 !important; border-color: #0e6585 !important; }
 
 body .btn-outline-light { color: #FFF !important; }
 
