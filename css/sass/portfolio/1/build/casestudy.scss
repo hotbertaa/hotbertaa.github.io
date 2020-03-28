@@ -55,13 +55,15 @@ padding-top: 100px;
 ////////////////////////////////////////////////////////////////////////////////////
 .study-geronigo #study{
 background-color: #222B2F;
+@include gradientDiagLin($color1:#222B2F, $color2:$bodyCl10);
 }
 .study-adventurecards #study{
 background-color: #000000;
+@include gradientDiagLin($color1:#000000, $color2:$bodyCl10);
 }
 .study-rezbot #study{
 background-color: #F0774E;
-@include gradientVertLin($color1:#F0774E, $color2:$bodyCl10);
+@include gradientDiagLin($color1:#F0774E, $color2:$bodyCl10);
 }
 
 #overview .img{
