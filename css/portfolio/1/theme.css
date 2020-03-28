@@ -35,6 +35,10 @@ body, header, #head { background-color: #e2f5fc; }
 
 .checklist .row .col-auto { background-color: #07303f; }
 
+.checklist.green .row .col-auto { background-color: #3BB273; }
+
+.checklist.red .row .col-auto { background-color: #E15554; }
+
 #branding { background-color: #774dab; }
 
 .card-header { background-color: #b4e5f7; }

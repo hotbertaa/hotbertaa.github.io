@@ -96,6 +96,13 @@ background-color: $bodyBg10;
 background-color: $bodyCl10;
 }
 ///////////////////////////////////////////////////////
+.checklist.green .row .col-auto{
+background-color: #3BB273;
+}
+.checklist.red .row .col-auto{
+background-color: #E15554;
+}
+///////////////////////////////////////////////////////
 #branding{
 background-color: $subheadBg10;
 }
