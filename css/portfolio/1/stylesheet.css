@@ -409,7 +409,7 @@ header .linkedin .icn { background-size: 100% auto !important; -ms-interpolation
 @media only screen and (min-width: 769px) { .page-index #intro #cards { margin-top: -25%; }
   .page-index #intro { padding-top: 80px; padding-bottom: 80px; }
   #cards .col a .sash { width: 120px; height: 120px; text-align: center; overflow: hidden; position: absolute; top: 0; right: 0; z-index: 10; }
-  #cards .col a .sash span { padding: 8px 10px; display: block; position: absolute; top: 19px; left: -43px; width: 240px; -webkit-transform: rotate(45deg); transform: rotate(45deg); color: white; background-color: #E15554; }
+  #cards .col a .sash span { padding: 8px 10px; font-size: 0.85rem; display: block; position: absolute; top: 19px; left: -43px; width: 240px; -webkit-transform: rotate(45deg); transform: rotate(45deg); color: white; background-color: #E15554; }
   #cards .col a .sash.muted span { color: #0e6585; background-color: #efa837; } }
 @media only screen and (max-width: 768px) { .page-index #intro:before { display: none; } }
 #skills .icon { line-height: 1; margin: -95px 0 0 -48px; display: inline-block; position: absolute; }
