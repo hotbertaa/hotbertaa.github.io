@@ -8,9 +8,9 @@
 
 #redesign .img span { padding-bottom: 78% !important; }
 
-#start .img, #overview .img span { padding-bottom: 58% !important; }
+#study .img { padding-bottom: 62% !important; }
 
-#study .img { padding-bottom: 52% !important; }
+#start .img, #overview .img span { padding-bottom: 58% !important; }
 
 #appraisal:before, #study:after { display: block; }
 
