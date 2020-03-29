@@ -1,23 +1,23 @@
 /*
-Error: Undefined mixin 'gradientDiagLin'.
-        on line 83 of /Users/hotbertaa/Documents/GitHub/hotbertaa.github.io/css/sass/portfolio/1/build/casestudy.scss, in `gradientDiagLin'
-        from line 83 of /Users/hotbertaa/Documents/GitHub/hotbertaa.github.io/css/sass/portfolio/1/build/casestudy.scss
+Error: Undefined mixin 'backgroundSize'.
+        on line 28 of /Users/hotbertaa/Documents/GitHub/hotbertaa.github.io/css/sass/portfolio/1/build/casestudy.scss, in `backgroundSize'
+        from line 28 of /Users/hotbertaa/Documents/GitHub/hotbertaa.github.io/css/sass/portfolio/1/build/casestudy.scss
 
-78: 
-79: ////////////////////////////////////////////////////////////////////////////////////
-80: //.study-geronigo
-81: #study{
-82: background-color: #222B2F;
-83: @include gradientDiagLin($color1:#222B2F, $color2:$bodyCl10);
-84: }
-85: //.study-adventurecards #study{
-86: //background-color: #000000;
-87: //@include gradientDiagLin($color1:#000000, $color2:$bodyCl10);
-88: //}
+23: }
+24: #study .img,
+25: #start .img,
+26: #overview .img span{
+27: padding-bottom: 58%!important;
+28: @include backgroundSize();
+29: }
+30: ////////////////////////////////////////////////////////////////////////////////////
+31: 
+32: 
+33: 
 
 Backtrace:
-/Users/hotbertaa/Documents/GitHub/hotbertaa.github.io/css/sass/portfolio/1/build/casestudy.scss:83:in `gradientDiagLin'
-/Users/hotbertaa/Documents/GitHub/hotbertaa.github.io/css/sass/portfolio/1/build/casestudy.scss:83
+/Users/hotbertaa/Documents/GitHub/hotbertaa.github.io/css/sass/portfolio/1/build/casestudy.scss:28:in `backgroundSize'
+/Users/hotbertaa/Documents/GitHub/hotbertaa.github.io/css/sass/portfolio/1/build/casestudy.scss:28
 /Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:348:in `block in visit_mixin'
 /Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/stack.rb:98:in `block in with_mixin'
 /Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/stack.rb:135:in `with_frame'
@@ -73,4 +73,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'gradientDiagLin'.\A         on line 83 of /Users/hotbertaa/Documents/GitHub/hotbertaa.github.io/css/sass/portfolio/1/build/casestudy.scss, in `gradientDiagLin'\A         from line 83 of /Users/hotbertaa/Documents/GitHub/hotbertaa.github.io/css/sass/portfolio/1/build/casestudy.scss\A \A 78: \A 79: ////////////////////////////////////////////////////////////////////////////////////\A 80: //.study-geronigo\A 81: #study{\A 82: background-color: #222B2F;\A 83: @include gradientDiagLin($color1:#222B2F, $color2:$bodyCl10);\A 84: }\A 85: //.study-adventurecards #study{\A 86: //background-color: #000000;\A 87: //@include gradientDiagLin($color1:#000000, $color2:$bodyCl10);\A 88: //}"; }
+  content: "Error: Undefined mixin 'backgroundSize'.\A         on line 28 of /Users/hotbertaa/Documents/GitHub/hotbertaa.github.io/css/sass/portfolio/1/build/casestudy.scss, in `backgroundSize'\A         from line 28 of /Users/hotbertaa/Documents/GitHub/hotbertaa.github.io/css/sass/portfolio/1/build/casestudy.scss\A \A 23: }\A 24: #study .img,\A 25: #start .img,\A 26: #overview .img span{\A 27: padding-bottom: 58%!important;\A 28: @include backgroundSize();\A 29: }\A 30: ////////////////////////////////////////////////////////////////////////////////////\A 31: \A 32: \A 33: "; }
