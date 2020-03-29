@@ -9,10 +9,10 @@ Error: Undefined mixin 'backgroundSize'.
 26: #overview .img span{
 27: padding-bottom: 58%!important;
 28: @include backgroundSize();
-29: }
-30: ////////////////////////////////////////////////////////////////////////////////////
-31: 
-32: 
+29: background-repeat: no-repeat;
+30: background-position: 50% 0;
+31: }
+32: ////////////////////////////////////////////////////////////////////////////////////
 33: 
 
 Backtrace:
@@ -73,4 +73,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'backgroundSize'.\A         on line 28 of /Users/hotbertaa/Documents/GitHub/hotbertaa.github.io/css/sass/portfolio/1/build/casestudy.scss, in `backgroundSize'\A         from line 28 of /Users/hotbertaa/Documents/GitHub/hotbertaa.github.io/css/sass/portfolio/1/build/casestudy.scss\A \A 23: }\A 24: #study .img,\A 25: #start .img,\A 26: #overview .img span{\A 27: padding-bottom: 58%!important;\A 28: @include backgroundSize();\A 29: }\A 30: ////////////////////////////////////////////////////////////////////////////////////\A 31: \A 32: \A 33: "; }
+  content: "Error: Undefined mixin 'backgroundSize'.\A         on line 28 of /Users/hotbertaa/Documents/GitHub/hotbertaa.github.io/css/sass/portfolio/1/build/casestudy.scss, in `backgroundSize'\A         from line 28 of /Users/hotbertaa/Documents/GitHub/hotbertaa.github.io/css/sass/portfolio/1/build/casestudy.scss\A \A 23: }\A 24: #study .img,\A 25: #start .img,\A 26: #overview .img span{\A 27: padding-bottom: 58%!important;\A 28: @include backgroundSize();\A 29: background-repeat: no-repeat;\A 30: background-position: 50% 0;\A 31: }\A 32: ////////////////////////////////////////////////////////////////////////////////////\A 33: "; }

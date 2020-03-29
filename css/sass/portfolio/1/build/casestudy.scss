@@ -26,6 +26,8 @@ padding-bottom: 78%!important;
 #overview .img span{
 padding-bottom: 58%!important;
 @include backgroundSize();
+background-repeat: no-repeat;
+background-position: 50% 0;
 }
 ////////////////////////////////////////////////////////////////////////////////////
 

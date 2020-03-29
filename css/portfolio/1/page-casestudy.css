@@ -6,7 +6,7 @@
 @media only screen and (max-width: 768px) { #wrap.page-casestudy > header { display: none !important; } }
 #redesign .img { padding-bottom: 78% !important; }
 
-#study .img, #start .img, #overview .img span { padding-bottom: 58% !important; background-size: 100% auto !important; -ms-interpolation-mode: bicubic; image-rendering: optimizeQuality; }
+#study .img, #start .img, #overview .img span { padding-bottom: 58% !important; background-size: 100% auto !important; -ms-interpolation-mode: bicubic; image-rendering: optimizeQuality; background-repeat: no-repeat; background-position: 50% 0; }
 
 #appraisal:before, #study:after { display: block; }
 
