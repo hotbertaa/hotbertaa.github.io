@@ -147,7 +147,13 @@ padding-bottom: 80px;
 display: none;
 }
 #cards .col .card-text{
-font-size: 1rem;
+font-size: 0.85rem;
+}
+#cards .col a .sash span {
+padding: 4px 10px;
+font-size: 0.65rem;
+top: 15px;
+left: -27px;
 }
 ////////////////////////////////////////////////////////////////////////////////////
 }
