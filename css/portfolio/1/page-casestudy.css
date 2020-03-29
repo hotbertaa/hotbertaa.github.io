@@ -6,6 +6,10 @@
 @media only screen and (max-width: 768px) { #wrap.page-casestudy > header { display: none !important; } }
 .img, .img span { background-size: 100% auto !important; -ms-interpolation-mode: bicubic; image-rendering: optimizeQuality; background-repeat: no-repeat; background-position: 50% 0; }
 
+#start .img { background-position: 50%; }
+
+.study-rezbot #start .col-md:nth-child(3) .img { background-size: auto 100% !important; -ms-interpolation-mode: bicubic; image-rendering: optimizeQuality; }
+
 #redesign .img span { padding-bottom: 78% !important; }
 
 #study .img { padding-bottom: 62% !important; }
