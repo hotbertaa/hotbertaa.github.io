@@ -12,7 +12,7 @@ Error: Undefined mixin 'backgroundSize'.
 24: background-repeat: no-repeat;
 25: background-position: 50% 0;
 26: }
-27: #redesign .img{
+27: #redesign .img span{
 28: padding-bottom: 78%!important;
 
 Backtrace:
@@ -73,4 +73,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'backgroundSize'.\A         on line 23 of /Users/hotbertaa/Documents/GitHub/hotbertaa.github.io/css/sass/portfolio/1/build/casestudy.scss, in `backgroundSize'\A         from line 23 of /Users/hotbertaa/Documents/GitHub/hotbertaa.github.io/css/sass/portfolio/1/build/casestudy.scss\A \A 18: ////////////////////////////////////////////////////////////////////////////////////\A 19: //start\A 20: ////////////////////////////////////////////////////////////////////////////////////\A 21: .img,\A 22: .img span{\A 23: @include backgroundSize();\A 24: background-repeat: no-repeat;\A 25: background-position: 50% 0;\A 26: }\A 27: #redesign .img{\A 28: padding-bottom: 78%!important;"; }
+  content: "Error: Undefined mixin 'backgroundSize'.\A         on line 23 of /Users/hotbertaa/Documents/GitHub/hotbertaa.github.io/css/sass/portfolio/1/build/casestudy.scss, in `backgroundSize'\A         from line 23 of /Users/hotbertaa/Documents/GitHub/hotbertaa.github.io/css/sass/portfolio/1/build/casestudy.scss\A \A 18: ////////////////////////////////////////////////////////////////////////////////////\A 19: //start\A 20: ////////////////////////////////////////////////////////////////////////////////////\A 21: .img,\A 22: .img span{\A 23: @include backgroundSize();\A 24: background-repeat: no-repeat;\A 25: background-position: 50% 0;\A 26: }\A 27: #redesign .img span{\A 28: padding-bottom: 78%!important;"; }

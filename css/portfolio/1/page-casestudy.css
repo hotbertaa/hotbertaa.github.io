@@ -6,7 +6,7 @@
 @media only screen and (max-width: 768px) { #wrap.page-casestudy > header { display: none !important; } }
 .img, .img span { background-size: 100% auto !important; -ms-interpolation-mode: bicubic; image-rendering: optimizeQuality; background-repeat: no-repeat; background-position: 50% 0; }
 
-#redesign .img { padding-bottom: 78% !important; }
+#redesign .img span { padding-bottom: 78% !important; }
 
 #start .img, #overview .img span { padding-bottom: 58% !important; }
 
@@ -20,6 +20,8 @@
 
 @media only screen and (max-width: 768px) { #appraisal { padding-top: 60px; } }
 #study { background-color: #222B2F; background: -moz-linear-gradient(-45deg, #222B2F 0%, #07303f 100%); background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #222B2F), color-stop(100%, #07303f)); background: -webkit-linear-gradient(-45deg, #222B2F 0%, #07303f 100%); background: -o-linear-gradient(-45deg, #222B2F 0%, #07303f 100%); background: -ms-linear-gradient(-45deg, #222B2F 0%, #07303f 100%); background: linear-gradient(-45deg, #222B2F 0%, #07303f 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#222B2F', endColorstr='#07303f',GradientType=1 ); }
+
+#redesign .img span { background-color: #DEDEDE; }
 
 #overview .img { background-color: #FFF; }
 

@@ -24,7 +24,7 @@ display: none!important;
 background-repeat: no-repeat;
 background-position: 50% 0;
 }
-#redesign .img{
+#redesign .img span{
 padding-bottom: 78%!important;
 }
 #start .img,
@@ -89,6 +89,9 @@ padding-top: 60px;
 #study{
 background-color: #222B2F;
 @include gradientDiagLin($color1:#222B2F, $color2:$bodyCl10);
+}
+#redesign .img span{
+background-color: #DEDEDE;
 }
 //.study-adventurecards #study{
 //background-color: #000000;
