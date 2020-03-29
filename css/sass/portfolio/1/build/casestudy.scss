@@ -18,16 +18,21 @@ display: none!important;
 ////////////////////////////////////////////////////////////////////////////////////
 //start
 ////////////////////////////////////////////////////////////////////////////////////
-#redesign .img{
-padding-bottom: 78%!important;
-}
-#study .img,
-#start .img,
-#overview .img span{
-padding-bottom: 58%!important;
+.img,
+.img span,
 @include backgroundSize();
 background-repeat: no-repeat;
 background-position: 50% 0;
+}
+#redesign .img{
+padding-bottom: 78%!important;
+}
+#start .img,
+#overview .img span{
+padding-bottom: 58%!important;
+}
+#study .img{
+padding-bottom: 52%!important;
 }
 ////////////////////////////////////////////////////////////////////////////////////
 
