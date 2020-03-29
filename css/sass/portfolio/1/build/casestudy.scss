@@ -27,6 +27,9 @@ background-position: 50% 0;
 #start .img{
 background-position: 50%;
 }
+.study-geronigo #start .col-md:nth-child(3) .img{
+background-position: 50% 0;
+}
 .study-rezbot #start .col-md:nth-child(3) .img{
 @include backgroundSize($hor:auto,$ver:100%);
 }
