@@ -6,7 +6,7 @@
 @media only screen and (max-width: 768px) { #wrap.page-casestudy > header { display: none !important; } }
 #redesign .img { padding-bottom: 78% !important; }
 
-#start .img, #overview .img span { padding-bottom: 58% !important; }
+#study .img, #start .img, #overview .img span { padding-bottom: 58% !important; }
 
 #appraisal:before, #study:after { display: block; }
 
