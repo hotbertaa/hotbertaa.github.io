@@ -1,6 +1,8 @@
 /* CSS - Peter Roper */
 #wrap.page-casestudy.scrollr > header, #wrap.page-casestudy > header { position: relative; }
 
+.page-casestudy footer nav .top { bottom: 10px; }
+
 @media only screen and (max-width: 768px) { #wrap.page-casestudy > header { display: none !important; } }
 #redesign .img { padding-bottom: 78% !important; }
 
