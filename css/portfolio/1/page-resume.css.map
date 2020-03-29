@@ -1,6 +1,6 @@
 {
 "version": 3,
-"mappings": "AAAA,uBAAuB;ACSvB,GAAG,GACH,WAAW,EAAE,QAAQ,EACrB,SAAS,EAAE,IAAI;;AAEf,CAAC,GACD,KAAK,EAAE,kBAAmB;;AAE1B,UACG,GACH,KAAK,EAAE,kBAAiB;;AAExB,OAAO,GACP,YAAY,EAAE,kBAA0B;;AAExC,cAAc,GACd,YAAY,EAAE,kBAAkB",
+"mappings": "AAAA,uBAAuB;ACSvB,GAAG,GACH,WAAW,EAAE,QAAQ,EACrB,SAAS,EAAE,IAAI;;AAEf,CAAC,GACD,KAAK,EAAE,kBAAmB;;AAE1B,GAAG,GACH,KAAK,EAAE,kBAAiB;;AAExB,OAAO,GACP,YAAY,EAAE,kBAA0B;;AAExC,cAAc,GACd,YAAY,EAAE,kBAAkB",
 "sources": ["../../sass/settings.scss","../../sass/portfolio/1/page-resume.scss"],
 "names": [],
 "file": "page-resume.css"

@@ -3,7 +3,7 @@ p b { font-family: 'Roboto'; font-size: 115%; }
 
 a { color: #07303f !important; }
 
-p b a, p b { color: #007bff !important; }
+p b { color: #007bff !important; }
 
 .border { border-color: #1599ca !important; }
 
