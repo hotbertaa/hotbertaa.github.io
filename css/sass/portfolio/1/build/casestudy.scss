@@ -19,7 +19,7 @@ display: none!important;
 //start
 ////////////////////////////////////////////////////////////////////////////////////
 .img,
-.img span,
+.img span{
 @include backgroundSize();
 background-repeat: no-repeat;
 background-position: 50% 0;

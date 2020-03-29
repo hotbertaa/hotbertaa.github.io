@@ -1,76 +1,26 @@
-/*
-Error: Invalid CSS after "...ackgroundSize()": expected "{", was ";"
-        on line 23 of /Users/hotbertaa/Documents/GitHub/hotbertaa.github.io/css/sass/portfolio/1/build/casestudy.scss
-        from line 10 of /Users/hotbertaa/Documents/GitHub/hotbertaa.github.io/css/sass/portfolio/1/page-casestudy.scss
+/* CSS - Peter Roper */
+#wrap.page-casestudy.scrollr > header, #wrap.page-casestudy > header { position: relative; }
 
-18: ////////////////////////////////////////////////////////////////////////////////////
-19: //start
-20: ////////////////////////////////////////////////////////////////////////////////////
-21: .img,
-22: .img span,
-23: @include backgroundSize();
-24: background-repeat: no-repeat;
-25: background-position: 50% 0;
-26: }
-27: #redesign .img{
-28: padding-bottom: 78%!important;
+.page-casestudy footer nav .top { bottom: 10px; }
 
-Backtrace:
-/Users/hotbertaa/Documents/GitHub/hotbertaa.github.io/css/sass/portfolio/1/build/casestudy.scss:23
-/Users/hotbertaa/Documents/GitHub/hotbertaa.github.io/css/sass/portfolio/1/page-casestudy.scss:10
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308:in `expected'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1238:in `expected'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1233:in `tok!'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:688:in `block'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:681:in `ruleset'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:707:in `block_child'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:700:in `block_contents'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:137:in `stylesheet'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:41:in `parse'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/engine.rb:414:in `_to_tree'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/engine.rb:321:in `to_tree'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:323:in `block in visit_import'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/stack.rb:88:in `block in with_import'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/stack.rb:135:in `with_frame'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/stack.rb:88:in `with_import'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:322:in `visit_import'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `visit'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `block in with_base'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/stack.rb:135:in `with_frame'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `with_base'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `visit'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in `map'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `block in visit'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `visit'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:157:in `visit'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:10:in `visit'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/root_node.rb:36:in `css_tree'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/engine.rb:389:in `_render_with_sourcemap'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/engine.rb:307:in `render_with_sourcemap'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:462:in `update_stylesheet'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:209:in `each'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:443:in `on_file_changed'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:320:in `block in watch'
-/Library/Ruby/Gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/event/config.rb:23:in `call'
-/Library/Ruby/Gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:115:in `_process_changes'
-/Library/Ruby/Gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:19:in `block in loop_for'
-/Library/Ruby/Gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop'
-/Library/Ruby/Gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop_for'
-/Library/Ruby/Gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:84:in `_wait_for_changes'
-/Library/Ruby/Gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:42:in `block in setup'
-/Library/Ruby/Gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/internals/thread_pool.rb:6:in `block in add'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Invalid CSS after \"...ackgroundSize()\": expected \"{\", was \";\"\A         on line 23 of /Users/hotbertaa/Documents/GitHub/hotbertaa.github.io/css/sass/portfolio/1/build/casestudy.scss\A         from line 10 of /Users/hotbertaa/Documents/GitHub/hotbertaa.github.io/css/sass/portfolio/1/page-casestudy.scss\A \A 18: ////////////////////////////////////////////////////////////////////////////////////\A 19: //start\A 20: ////////////////////////////////////////////////////////////////////////////////////\A 21: .img,\A 22: .img span,\A 23: @include backgroundSize();\A 24: background-repeat: no-repeat;\A 25: background-position: 50% 0;\A 26: }\A 27: #redesign .img{\A 28: padding-bottom: 78%!important;"; }
+@media only screen and (max-width: 768px) { #wrap.page-casestudy > header { display: none !important; } }
+.img, .img span { background-size: 100% auto !important; -ms-interpolation-mode: bicubic; image-rendering: optimizeQuality; background-repeat: no-repeat; background-position: 50% 0; }
+
+#redesign .img { padding-bottom: 78% !important; }
+
+#start .img, #overview .img span { padding-bottom: 58% !important; }
+
+#study .img { padding-bottom: 52% !important; }
+
+#appraisal:before, #study:after { display: block; }
+
+#study { padding-bottom: 100px !important; }
+
+#appraisal { padding-top: 100px; }
+
+@media only screen and (max-width: 768px) { #appraisal { padding-top: 60px; } }
+#study { background-color: #222B2F; background: -moz-linear-gradient(-45deg, #222B2F 0%, #07303f 100%); background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #222B2F), color-stop(100%, #07303f)); background: -webkit-linear-gradient(-45deg, #222B2F 0%, #07303f 100%); background: -o-linear-gradient(-45deg, #222B2F 0%, #07303f 100%); background: -ms-linear-gradient(-45deg, #222B2F 0%, #07303f 100%); background: linear-gradient(-45deg, #222B2F 0%, #07303f 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#222B2F', endColorstr='#07303f',GradientType=1 ); }
+
+#overview .img { background-color: #FFF; }
+
+/*# sourceMappingURL=page-casestudy.css.map */
