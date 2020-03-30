@@ -30,6 +30,7 @@ background-position: 50%;
 .study-geronigo #start .col-md:nth-child(3) .img{
 background-position: 50% 0;
 }
+.study-eventplanner #start .col-md:nth-child(2) .img,
 .study-rezbot #start .col-md:nth-child(3) .img{
 @include backgroundSize($hor:auto,$ver:100%);
 }

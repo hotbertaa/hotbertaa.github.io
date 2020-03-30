@@ -10,7 +10,7 @@
 
 .study-geronigo #start .col-md:nth-child(3) .img { background-position: 50% 0; }
 
-.study-rezbot #start .col-md:nth-child(3) .img { background-size: auto 100% !important; -ms-interpolation-mode: bicubic; image-rendering: optimizeQuality; }
+.study-eventplanner #start .col-md:nth-child(2) .img, .study-rezbot #start .col-md:nth-child(3) .img { background-size: auto 100% !important; -ms-interpolation-mode: bicubic; image-rendering: optimizeQuality; }
 
 #redesign .img span { padding-bottom: 78% !important; }
 
