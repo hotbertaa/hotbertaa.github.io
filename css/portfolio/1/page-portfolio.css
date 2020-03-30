@@ -1,0 +1,8 @@
+/* CSS - Peter Roper */
+#wrap.page-portfolio.scrollr > header, #wrap.page-portfolio > header { position: relative; }
+
+.page-portfolio footer nav .top { bottom: 10px; }
+
+@media only screen and (max-width: 768px) { #wrap.page-portfolio > header { display: none !important; } }
+
+/*# sourceMappingURL=page-portfolio.css.map */
