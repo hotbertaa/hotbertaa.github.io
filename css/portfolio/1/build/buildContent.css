@@ -1,23 +1,23 @@
 /*
 Error: Undefined mixin 'backgroundSize'.
-        on line 32 of /Users/hotbertaa/Documents/GitHub/hotbertaa.github.io/css/sass/portfolio/1/build/buildContent.scss, in `backgroundSize'
-        from line 32 of /Users/hotbertaa/Documents/GitHub/hotbertaa.github.io/css/sass/portfolio/1/build/buildContent.scss
+        on line 34 of /Users/hotbertaa/Documents/GitHub/hotbertaa.github.io/css/sass/portfolio/1/build/buildContent.scss, in `backgroundSize'
+        from line 34 of /Users/hotbertaa/Documents/GitHub/hotbertaa.github.io/css/sass/portfolio/1/build/buildContent.scss
 
-27: bottom: 0;
-28: }
-29: 
-30: 
-31: #branding .img{
-32: @include backgroundSize($hor:85%);
-33: padding-bottom: 48%;
-34: }
-35: 
-36: #branding .img{
-37: background-repeat: no-repeat;
+29: bottom: 0;
+30: }
+31: 
+32: 
+33: #branding .img{
+34: @include backgroundSize($hor:85%);
+35: padding-bottom: 48%;
+36: }
+37: 
+38: #branding .img{
+39: background-repeat: no-repeat;
 
 Backtrace:
-/Users/hotbertaa/Documents/GitHub/hotbertaa.github.io/css/sass/portfolio/1/build/buildContent.scss:32:in `backgroundSize'
-/Users/hotbertaa/Documents/GitHub/hotbertaa.github.io/css/sass/portfolio/1/build/buildContent.scss:32
+/Users/hotbertaa/Documents/GitHub/hotbertaa.github.io/css/sass/portfolio/1/build/buildContent.scss:34:in `backgroundSize'
+/Users/hotbertaa/Documents/GitHub/hotbertaa.github.io/css/sass/portfolio/1/build/buildContent.scss:34
 /Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:348:in `block in visit_mixin'
 /Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/stack.rb:98:in `block in with_mixin'
 /Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/stack.rb:135:in `with_frame'
@@ -73,4 +73,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'backgroundSize'.\A         on line 32 of /Users/hotbertaa/Documents/GitHub/hotbertaa.github.io/css/sass/portfolio/1/build/buildContent.scss, in `backgroundSize'\A         from line 32 of /Users/hotbertaa/Documents/GitHub/hotbertaa.github.io/css/sass/portfolio/1/build/buildContent.scss\A \A 27: bottom: 0;\A 28: }\A 29: \A 30: \A 31: #branding .img{\A 32: @include backgroundSize($hor:85%);\A 33: padding-bottom: 48%;\A 34: }\A 35: \A 36: #branding .img{\A 37: background-repeat: no-repeat;"; }
+  content: "Error: Undefined mixin 'backgroundSize'.\A         on line 34 of /Users/hotbertaa/Documents/GitHub/hotbertaa.github.io/css/sass/portfolio/1/build/buildContent.scss, in `backgroundSize'\A         from line 34 of /Users/hotbertaa/Documents/GitHub/hotbertaa.github.io/css/sass/portfolio/1/build/buildContent.scss\A \A 29: bottom: 0;\A 30: }\A 31: \A 32: \A 33: #branding .img{\A 34: @include backgroundSize($hor:85%);\A 35: padding-bottom: 48%;\A 36: }\A 37: \A 38: #branding .img{\A 39: background-repeat: no-repeat;"; }

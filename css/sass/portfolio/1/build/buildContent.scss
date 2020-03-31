@@ -13,9 +13,11 @@ font-size: 60px!important;
 ////////////////////////////////////////////////////////////////////////////////////
 
 
-.video div{
+.video{
 max-width: 880px;
-margin: 0 auto;
+margin: 0 auto 2rem auto;
+}
+.video div{
 padding-bottom: 58%;
 position: relative;
 }
