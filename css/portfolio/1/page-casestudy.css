@@ -12,9 +12,7 @@
 
 .study-eventplanner #start .col-md:nth-child(2) .img, .study-rezbot #start .col-md:nth-child(3) .img { background-size: auto 100% !important; -ms-interpolation-mode: bicubic; image-rendering: optimizeQuality; }
 
-#redesign .img span { padding-bottom: 78% !important; }
-
-#study .img { padding-bottom: 62% !important; }
+#redesign .img span, #study .img { padding-bottom: 62% !important; }
 
 .study-rezbot #study .img { padding-bottom: 54% !important; }
 
