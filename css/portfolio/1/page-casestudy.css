@@ -20,7 +20,7 @@
 
 .study-eventplanner #study .img span, .study-eventplanner #redesign .img span { padding-bottom: 178% !important; }
 
-.study-eventplanner #overview .img { padding-bottom: 0% !important; }
+.study-eventplanner #overview .img { max-width: 395px; margin: 0 auto -100px auto; padding-bottom: 0% !important; }
 
 .study-eventplanner #overview .img span { padding-bottom: 120% !important; }
 
