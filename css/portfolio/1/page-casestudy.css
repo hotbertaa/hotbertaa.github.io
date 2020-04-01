@@ -18,7 +18,7 @@
 
 #start .img, #overview .img span { padding-bottom: 58% !important; }
 
-.study-eventplanner #redesign .img span, .study-eventplanner #study .img { padding-bottom: 120%; }
+.study-eventplanner #redesign .img span, .study-eventplanner #overview .img span { padding-bottom: 120%; }
 
 #appraisal:before, #study:after { display: block; }
 
