@@ -45,8 +45,9 @@ padding-bottom: 54%!important;
 #overview .img span{
 padding-bottom: 58%!important;
 }
+.study-eventplanner #study .img span,
 .study-eventplanner #redesign .img span{
-padding-bottom: 178%!important;  
+padding-bottom: 178%!important;
 }
 .study-eventplanner #overview .img span{
 padding-bottom: 120%!important;
@@ -107,6 +108,7 @@ padding-top: 60px;
 background-color: #222B2F;
 @include gradientDiagLin($color1:#222B2F, $color2:$bodyCl10);
 }
+.study-eventplanner #study .img span,
 #redesign .img span{
 background-color: #DEDEDE;
 }
@@ -118,7 +120,7 @@ background-color: #DEDEDE;
 //background-color: #F0774E;
 //@include gradientDiagLin($color1:#F0774E, $color2:$bodyCl10);
 //}
-
+.study-eventplanner #study .img,
 #overview .img{
 background-color: #FFF;
 }
