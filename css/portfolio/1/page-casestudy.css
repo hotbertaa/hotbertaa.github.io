@@ -20,6 +20,8 @@
 
 .study-eventplanner #study .img span, .study-eventplanner #redesign .img span { padding-bottom: 178% !important; }
 
+.study-eventplanner #overview .img { padding-bottom: 0% !important; }
+
 .study-eventplanner #overview .img span { padding-bottom: 120% !important; }
 
 #appraisal:before, #study:after { display: block; }
