@@ -26,6 +26,8 @@
 
 .study-eventplanner #overview .img span { padding-bottom: 120% !important; }
 
+@media only screen and (max-width: 425px) { .study-eventplanner #study .img { max-width: 305px; } }
+@media only screen and (max-width: 395px) { .study-eventplanner #study .img { max-width: 295px; } }
 #appraisal:before, #study:after { display: block; }
 
 #study { padding-bottom: 100px !important; }
