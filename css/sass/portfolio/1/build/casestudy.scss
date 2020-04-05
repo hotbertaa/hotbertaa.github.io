@@ -138,6 +138,7 @@ padding-top: 60px;
 background-color: #222B2F;
 @include gradientDiagLin($color1:#222B2F, $color2:$bodyCl10);
 }
+.study-rezbotcms #study .img span,
 .study-eventplanner #study .img span,
 #redesign .img span{
 background-color: #DEDEDE;
@@ -150,6 +151,7 @@ background-color: #DEDEDE;
 //background-color: #F0774E;
 //@include gradientDiagLin($color1:#F0774E, $color2:$bodyCl10);
 //}
+.study-rezbotcms #study .img,
 .study-eventplanner #study .img,
 #overview .img{
 background-color: #FFF;
