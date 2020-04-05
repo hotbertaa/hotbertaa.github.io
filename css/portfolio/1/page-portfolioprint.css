@@ -41,6 +41,12 @@
 
 .study-eventplanner #study .img, #overview .img { background-color: #FFF; }
 
+#study, #study .text-muted { color: #222 !important; }
+
+#study { background: #EDEDED !important; }
+
+#study:after { background-image: linear-gradient(to right bottom, transparent 50%, #FFF 50%, #FFF 0%); }
+
 main { font-size: 82%; }
 
 p b { font-family: 'Roboto'; font-size: 105%; }

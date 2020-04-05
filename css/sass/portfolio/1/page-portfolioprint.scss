@@ -9,7 +9,16 @@ $ver: 2;
 //////////////////////////////////////////////////
 @import "build/casestudy.scss";
 //////////////////////////////////////////////////
-
+#study,
+#study .text-muted{
+color: #222!important;
+}
+#study{
+background: #EDEDED!important;
+}
+#study:after{
+background-image: linear-gradient(to right bottom, transparent 50%, #FFF 50%, #FFF 0%);
+}
 //////////////////////////////////////////////////
 main{
 font-size: 82%;
