@@ -47,9 +47,9 @@ section:after { height: 100px; }
 
 .study-rezbotcms #study .img, .study-eventplanner #study .img { max-width: 305px; }
 
-#study, #study .text-muted { color: #222 !important; }
+#intro, #study, #study .text-muted { color: #222 !important; }
 
-#study { background: #DEDEDE !important; }
+#intro, #study { background: #DEDEDE !important; }
 
 #study:after { background-image: linear-gradient(to right bottom, transparent 50%, #FFF 50%, #FFF 0%); }
 
