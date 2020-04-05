@@ -43,7 +43,7 @@
 
 #study, #study .text-muted { color: #222 !important; }
 
-#study { background: #EDEDED !important; }
+#study { background: #DEDEDE !important; }
 
 #study:after { background-image: linear-gradient(to right bottom, transparent 50%, #FFF 50%, #FFF 0%); }
 
