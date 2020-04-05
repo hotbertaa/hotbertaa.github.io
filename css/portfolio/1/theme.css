@@ -25,7 +25,7 @@ header a .icn, header .logo a { color: #07303f; }
 
 footer nav #main a, footer nav #sub a { color: #0e6585; }
 
-#menu nav, #appraisal, #appraisal .text-muted, #study, #study .text-muted, #skills, #skills .text-muted, #skills .icon, #subhead, #subhead a, #intro, #intro .text-muted { color: #FFF !important; }
+#menu nav, #appraisal, #appraisal .text-muted, #study, #study .text-muted, #skills, #skills .text-muted, #skills .icon, #subhead, #subhead a.icn, #intro, #intro .text-muted { color: #FFF !important; }
 
 header .logo a small, #head .h3, #head .h3 .text-muted { color: #774dab !important; }
 
