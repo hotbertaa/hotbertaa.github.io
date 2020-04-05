@@ -51,7 +51,9 @@ main { font-size: 82%; }
 
 p b { font-family: 'Roboto'; font-size: 105%; }
 
-.display-3 { font-size: 2.75rem; }
+.h1 { font-size: 2rem; }
+
+.lead { font-size: 1rem; }
 
 body { background: #FFF; color: #222; }
 
