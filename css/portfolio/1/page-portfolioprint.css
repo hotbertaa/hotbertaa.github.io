@@ -59,7 +59,9 @@ p b { font-family: 'Roboto'; font-size: 105%; }
 
 .lead { font-size: 1rem; }
 
-body { background: #FFF; color: #222; }
+body { background: #FFF; }
+
+body, .text-muted { color: #222 !important; }
 
 a { color: #07303f !important; }
 

@@ -43,7 +43,10 @@ font-size: 1rem;
 //////////////////////////////////////////////////
 body{
 background: #FFF;
-color: #222;
+}
+body,
+.text-muted{
+color: #222!important;
 }
 a{
 color: $bodyCl10!important;
