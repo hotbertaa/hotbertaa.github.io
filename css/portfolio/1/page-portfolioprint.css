@@ -18,13 +18,13 @@
 
 #start .img, #overview .img span { padding-bottom: 58% !important; }
 
-.study-eventplanner #study .img span, .study-eventplanner #redesign .img span { padding-bottom: 178% !important; }
+.study-rezbotcms #study .img span, .study-rezbotcms #redesign .img span, .study-eventplanner #study .img span, .study-eventplanner #redesign .img span { padding-bottom: 178% !important; }
 
 .study-geronigo #redesign .img span { padding-bottom: 98% !important; }
 
-.study-eventplanner #study .img { max-width: 375px; margin: 0 auto -100px auto; padding-bottom: 1rem !important; }
+.study-rezbotcms #study .img, .study-eventplanner #study .img { max-width: 375px; margin: 0 auto -100px auto; padding-bottom: 1rem !important; }
 
-.study-eventplanner #overview .img span { padding-bottom: 120% !important; }
+.study-rezbotcms #overview .img span, .study-eventplanner #overview .img span { padding-bottom: 120% !important; }
 
 @media only screen and (max-width: 425px) { .study-eventplanner #study .img { max-width: 305px; } }
 @media only screen and (max-width: 395px) { .study-eventplanner #study .img { max-width: 265px; } }
