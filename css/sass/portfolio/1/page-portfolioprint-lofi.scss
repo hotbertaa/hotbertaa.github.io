@@ -20,6 +20,18 @@ padding-bottom: 50px!important;
 max-width: 305px;
 }
 //////////////////////////////////////////////////
+#intro,
+#intro .text-muted,
+#study,
+#study .text-muted{
+color: #222!important;
+}
+#intro{
+background: #FFF!important;  
+}
+#study{
+background: #DEDEDE!important;
+}
 #study:after{
 background-image: linear-gradient(to right bottom, transparent 50%, #FFF 50%, #FFF 0%);
 }
@@ -51,6 +63,14 @@ color: $bodyCl10!important;
 p b{
 color: #007bff!important;
 }
+.border{
+border-color: #444!important;
+}
 .border-bottom{
-border-color: #FFF!important;
+border-color: #999!important;
+}
+body .btn-primary{
+color: #FFF!important;
+background-color: #333!important;
+border-color: #333!important;
 }
