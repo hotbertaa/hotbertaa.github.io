@@ -23,6 +23,13 @@ max-width: 305px;
 #study:after{
 background-image: linear-gradient(to right bottom, transparent 50%, #FFF 50%, #FFF 0%);
 }
+#intro,
+#intro .text-muted{
+color: #222!important;
+}
+#intro{
+background: #FFF!important;
+}
 //////////////////////////////////////////////////
 main{
 font-size: 82%;
