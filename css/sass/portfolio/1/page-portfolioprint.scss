@@ -15,6 +15,10 @@ height: 100px;
 #study {
 padding-bottom: 50px!important;
 }
+.study-rezbotcms #study .img,
+.study-eventplanner #study .img{
+max-width: 305px;
+}
 //////////////////////////////////////////////////
 #study,
 #study .text-muted{
