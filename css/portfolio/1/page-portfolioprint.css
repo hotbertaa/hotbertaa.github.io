@@ -41,6 +41,10 @@
 
 .study-eventplanner #study .img, #overview .img { background-color: #FFF; }
 
+section:after { height: 100px; }
+
+#study { padding-bottom: 50px !important; }
+
 #study, #study .text-muted { color: #222 !important; }
 
 #study { background: #DEDEDE !important; }

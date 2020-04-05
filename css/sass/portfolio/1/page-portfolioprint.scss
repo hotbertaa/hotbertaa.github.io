@@ -8,6 +8,13 @@ $ver: 2;
 @import "../../settings.scss";
 //////////////////////////////////////////////////
 @import "build/casestudy.scss";
+
+section:after{
+height: 100px;
+}
+#study {
+padding-bottom: 50px!important;
+}
 //////////////////////////////////////////////////
 #study,
 #study .text-muted{
