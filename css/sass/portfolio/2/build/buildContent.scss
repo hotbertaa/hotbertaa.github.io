@@ -234,6 +234,7 @@ width: 100px;
 height: 100px;
 @include backgroundSize($hor:80%);
 }
+#philosophy .bg:after,
 #developer .bg:after,
 #tools .bg:after{
 opacity: 0.15;

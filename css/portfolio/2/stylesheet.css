@@ -440,7 +440,7 @@ header .linkedin .icn { background-size: 100% auto !important; -ms-interpolation
 
 #tools .icn span { width: 100px; height: 100px; background-size: 80% auto !important; -ms-interpolation-mode: bicubic; image-rendering: optimizeQuality; }
 
-#developer .bg:after, #tools .bg:after { opacity: 0.15; }
+#philosophy .bg:after, #developer .bg:after, #tools .bg:after { opacity: 0.15; }
 
 #philosophy, #philosophy .text-muted, #developer, #developer .text-muted, #tools, #tools .text-muted { color: #FFF !important; }
 
