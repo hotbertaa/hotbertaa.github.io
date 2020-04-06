@@ -450,7 +450,7 @@ header .linkedin .icn { background-size: 100% auto !important; -ms-interpolation
 
 #developer { background-color: #07303f; }
 
-#tools .icn { background-color: #FFF; }
+#portfolio, #tools .icn { background-color: #FFF; }
 
 #tools .icn span { background-position: 50%; background-repeat: no-repeat; }
 
