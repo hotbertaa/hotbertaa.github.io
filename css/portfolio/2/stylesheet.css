@@ -436,11 +436,21 @@ header .linkedin .icn { background-size: 100% auto !important; -ms-interpolation
 .checklist .row .col-auto:after { content: ''; position: absolute; width: 10px; height: 100%; bottom: 0; right: 0; z-index: 10; }
 
 @media only screen and (max-width: 768px) { .page-index #skills .icon, #skills .icon { margin: -80px 0 0 -41px; } }
+#tools .icn { width: auto !important; }
+
 #tools .icn span { width: 100px; height: 100px; background-size: 80% auto !important; -ms-interpolation-mode: bicubic; image-rendering: optimizeQuality; }
 
 #tools .icn { background-color: #FFF; }
 
 #tools .icn span { background-position: 50%; background-repeat: no-repeat; }
+
+#tools #icn3 span, #tools #icn1 span { background-color: #FFF; }
+
+#tools #icn2 span { background-color: #000; }
+
+#tools #icn4 span { background-color: #E91F61; }
+
+#tools #icn5 span { background-color: #1292EC; }
 
 footer nav, .display-3, .h1, .h2, .h3, .h4, .h5, header nav { text-transform: inherit !important; }
 

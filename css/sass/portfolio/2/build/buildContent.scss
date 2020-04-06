@@ -226,6 +226,9 @@ margin: -80px 0 0 -41px;
 }
 
 
+#tools .icn{
+width: auto!important
+}
 #tools .icn span{
 width: 100px;
 height: 100px;
@@ -238,4 +241,17 @@ background-color: #FFF;
 #tools .icn span{
 background-position: 50%;
 background-repeat: no-repeat;
+}
+#tools #icn3 span,
+#tools #icn1 span{
+background-color: #FFF;
+}
+#tools #icn2 span{
+background-color: #000;
+}
+#tools #icn4 span{
+background-color: #E91F61;
+}
+#tools #icn5 span{
+background-color: #1292EC;
 }
