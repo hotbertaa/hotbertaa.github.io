@@ -442,9 +442,9 @@ header .linkedin .icn { background-size: 100% auto !important; -ms-interpolation
 
 #developer .bg:after, #tools .bg:after { opacity: 0.15; }
 
-#philopsophy, #philopsophy .text-muted, #developer, #developer .text-muted, #tools, #tools .text-muted { color: #FFF !important; }
+#philosophy, #philosophy .text-muted, #developer, #developer .text-muted, #tools, #tools .text-muted { color: #FFF !important; }
 
-#philopsophy { background-color: #774dab; }
+#philosophy { background-color: #774dab; }
 
 #tools { background-color: #1599ca; }
 
