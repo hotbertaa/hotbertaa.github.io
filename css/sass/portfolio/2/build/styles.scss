@@ -200,9 +200,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', e
 #intro:after{
 background-image: linear-gradient(to right bottom, transparent 50%, $pluginTitleBg10 50%, $pluginTitleBg10 0%);
 }
-#intro:before{
-background-image: linear-gradient(to left top, transparent 50%, #FFF 50%, #FFF 0%);
-}
+
+.page-index #philopsophy:before,
+.page-index #tools:before,
+#intro:before,
 #skills:before{
 background-image: linear-gradient(to left top, transparent 50%, #FFF 50%, #FFF 0%);
 }
@@ -210,6 +211,7 @@ background-image: linear-gradient(to left top, transparent 50%, #FFF 50%, #FFF 0
 .scrollr header #header > .row > nav:before{
 background-image: linear-gradient(to left top, transparent 50%, $headerBg10 50%, $headerBg10 0%);
 }
+.page-index #philopsophy:after,
 .study-geronigo #study:after,
 .study-eventplanner #study:after,
 .checklist .row .col-auto:after{
