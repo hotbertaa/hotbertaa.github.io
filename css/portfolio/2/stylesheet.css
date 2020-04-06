@@ -449,6 +449,8 @@ header .linkedin .icn { background-size: 100% auto !important; -ms-interpolation
 
 #philosophy .bg:after, #developer .bg:after, #tools .bg:after { opacity: 0.15; }
 
+.page-index #portfolio .study-geronigo .bg:after { opacity: 0.5; }
+
 #philosophy, #philosophy .text-muted, #developer, #developer .text-muted, #tools, #tools .text-muted { color: #FFF !important; }
 
 #philosophy { background-color: #774dab; }
