@@ -444,9 +444,9 @@ header .linkedin .icn { background-size: 100% auto !important; -ms-interpolation
 
 #developer, #developer .text-muted, #tools, #tools .text-muted { color: #FFF !important; }
 
-#tools { background-color: #222; }
+#tools { background-color: #774dab; }
 
-#developer { background-color: #000; }
+#developer { background-color: #5f3d88; }
 
 #tools .icn { background-color: #FFF; }
 
