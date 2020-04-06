@@ -234,7 +234,17 @@ width: 100px;
 height: 100px;
 @include backgroundSize($hor:80%);
 }
+#tools .bg:after{
+opacity: 0.2;
+}
 
+#tools,
+#tools .text-muted{
+color: #FFF!important;
+}
+#tools{
+background-color: #222;
+}
 #tools .icn{
 background-color: #FFF;
 }
