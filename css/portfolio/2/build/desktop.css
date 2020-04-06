@@ -24,7 +24,7 @@
 
 .loaded #head .row { transition-delay: 0.4s; }
 
-#intro .row #cards.col { position: relative; bottom: -20px; opacity: 0; }
+#intro #cards.row .col { position: relative; bottom: -20px; opacity: 0; }
 
 .loaded #intro.onscreen #cards.row .col { transition: bottom .5s ease, opacity .5s ease; bottom: 0; opacity: 1; }
 
