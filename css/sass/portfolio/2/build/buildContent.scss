@@ -119,6 +119,11 @@ padding-top: 125px!important;
 #intro > div{
 z-index: 10!important;
 }
+////////////////////////////////////////////////////////////////////////////////////
+#intro #cards .card{
+border: 0!important;
+background: 0!important;
+}
 #intro #cards .img{
 @include backgroundSize($hor:auto,$ver:100%);
 padding-bottom: 58%;
