@@ -239,17 +239,22 @@ height: 100px;
 opacity: 0.15;
 }
 
+#philopsophy,
+#philopsophy .text-muted,
 #developer,
 #developer .text-muted,
 #tools,
 #tools .text-muted{
 color: #FFF!important;
 }
-#tools{
+#philopsophy{
 background-color: $subheadBg10;
 }
+#tools{
+background-color: $pluginTitleBg10;
+}
 #developer{
-background-color: $subheadBg9;
+background-color: $bodyCl10;
 }
 #tools .icn{
 background-color: #FFF;

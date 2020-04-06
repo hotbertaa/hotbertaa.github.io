@@ -442,11 +442,13 @@ header .linkedin .icn { background-size: 100% auto !important; -ms-interpolation
 
 #developer .bg:after, #tools .bg:after { opacity: 0.15; }
 
-#developer, #developer .text-muted, #tools, #tools .text-muted { color: #FFF !important; }
+#philopsophy, #philopsophy .text-muted, #developer, #developer .text-muted, #tools, #tools .text-muted { color: #FFF !important; }
 
-#tools { background-color: #774dab; }
+#philopsophy { background-color: #774dab; }
 
-#developer { background-color: #5f3d88; }
+#tools { background-color: #1599ca; }
+
+#developer { background-color: #07303f; }
 
 #tools .icn { background-color: #FFF; }
 
