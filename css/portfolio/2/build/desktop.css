@@ -24,38 +24,38 @@
 
 .loaded #head .row { transition-delay: 0.4s; }
 
-#intro .row .col { position: relative; bottom: -20px; opacity: 0; }
+#intro .row #cards.col { position: relative; bottom: -20px; opacity: 0; }
 
-.loaded #intro.onscreen .row .col { transition: bottom .5s ease, opacity .5s ease; bottom: 0; opacity: 1; }
+.loaded #intro.onscreen #cards.row .col { transition: bottom .5s ease, opacity .5s ease; bottom: 0; opacity: 1; }
 
-.loaded #intro.onscreen .row .col:nth-child(1) { transition-delay: 0.2s; }
+.loaded #intro.onscreen #cards.row .col:nth-child(1) { transition-delay: 0.2s; }
 
-.loaded #intro.onscreen .row .col:nth-child(2) { transition-delay: 0.4s; }
+.loaded #intro.onscreen #cards.row .col:nth-child(2) { transition-delay: 0.4s; }
 
-.loaded #intro.onscreen .row .col:nth-child(3) { transition-delay: 0.6s; }
+.loaded #intro.onscreen #cards.row .col:nth-child(3) { transition-delay: 0.6s; }
 
-.loaded #intro.onscreen .row .col:nth-child(4) { transition-delay: 0.8s; }
+.loaded #intro.onscreen #cards.row .col:nth-child(4) { transition-delay: 0.8s; }
 
-.loaded #intro.onscreen .row .col:nth-child(5) { transition-delay: 1s; }
+.loaded #intro.onscreen #cards.row .col:nth-child(5) { transition-delay: 1s; }
 
-.loaded #intro.onscreen .row .col:nth-child(6) { transition-delay: 1.2s; }
+.loaded #intro.onscreen #cards.row .col:nth-child(6) { transition-delay: 1.2s; }
 
-.loaded #intro.onscreen .row .col:nth-child(7) { transition-delay: 1.4s; }
+.loaded #intro.onscreen #cards.row .col:nth-child(7) { transition-delay: 1.4s; }
 
-.loaded #intro.onscreen .row .col:nth-child(8) { transition-delay: 1.6s; }
+.loaded #intro.onscreen #cards.row .col:nth-child(8) { transition-delay: 1.6s; }
 
-#intro .row .col a { transition: all .2s ease-in-out; }
+#intro .row #cards.col a { transition: all .2s ease-in-out; }
 
-#intro .row .col a:hover { transform: scale(1.05); }
+#intro .row #cards.col a:hover { transform: scale(1.05); }
 
-@media only screen and (min-width: 769px) { .loaded #intro.onscreen .row .col:nth-child(1) { transition-delay: 0.8s; }
-  .loaded #intro.onscreen .row .col:nth-child(2) { transition-delay: 1s; }
-  .loaded #intro.onscreen .row .col:nth-child(3) { transition-delay: 1.2s; }
-  .loaded #intro.onscreen .row .col:nth-child(4) { transition-delay: 1.4s; }
-  .loaded #intro.onscreen .row .col:nth-child(5) { transition-delay: 1.6s; }
-  .loaded #intro.onscreen .row .col:nth-child(6) { transition-delay: 1.8s; }
-  .loaded #intro.onscreen .row .col:nth-child(7) { transition-delay: 2s; }
-  .loaded #intro.onscreen .row .col:nth-child(8) { transition-delay: 2.2s; } }
+@media only screen and (min-width: 769px) { .loaded #intro.onscreen #cards.row .col:nth-child(1) { transition-delay: 0.8s; }
+  .loaded #intro.onscreen #cards.row .col:nth-child(2) { transition-delay: 1s; }
+  .loaded #intro.onscreen #cards.row .col:nth-child(3) { transition-delay: 1.2s; }
+  .loaded #intro.onscreen #cards.row .col:nth-child(4) { transition-delay: 1.4s; }
+  .loaded #intro.onscreen #cards.row .col:nth-child(5) { transition-delay: 1.6s; }
+  .loaded #intro.onscreen #cards.row .col:nth-child(6) { transition-delay: 1.8s; }
+  .loaded #intro.onscreen #cards.row .col:nth-child(7) { transition-delay: 2s; }
+  .loaded #intro.onscreen #cards.row .col:nth-child(8) { transition-delay: 2.2s; } }
 #skills .fadeIn > .col-md ul li { position: relative; bottom: -20px; opacity: 0; }
 
 .loaded #skills.onscreen .fadeIn > .col-md ul li { transition: bottom .5s ease, opacity .5s ease; bottom: 0; opacity: 1; }
