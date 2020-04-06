@@ -234,16 +234,22 @@ width: 100px;
 height: 100px;
 @include backgroundSize($hor:80%);
 }
+#developer .bg:after,
 #tools .bg:after{
-opacity: 0.2;
+opacity: 0.15;
 }
 
+#developer,
+#developer .text-muted,
 #tools,
 #tools .text-muted{
 color: #FFF!important;
 }
 #tools{
 background-color: #222;
+}
+#developer{
+background-color: #000;
 }
 #tools .icn{
 background-color: #FFF;
