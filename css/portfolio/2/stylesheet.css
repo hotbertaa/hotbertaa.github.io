@@ -406,11 +406,11 @@ header .linkedin .icn { background-size: 100% auto !important; -ms-interpolation
 @media only screen and (max-width: 768px) { .page-index #head:after { display: block; }
   #head:before, #head:after { display: block; }
   #head:before { top: auto; bottom: 0; left: 0; } }
-.page-index #philosophy:before, .page-index #philosophy:after, .page-index #tools:before, .page-index #intro:after, .page-index #intro:before { display: block; }
+.page-index #portfolio #eventplanner section:before, .page-index #philosophy:before, .page-index #philosophy:after, .page-index #tools:before, .page-index #intro:after, .page-index #intro:before { display: block; }
 
 .page-index #philosophy { padding-bottom: 100px !important; }
 
-.page-index #philosophy, .page-index #tools { padding-top: 100px !important; }
+.page-index #portfolio #eventplanner section:before, .page-index #philosophy, .page-index #tools { padding-top: 100px !important; }
 
 #intro > div { z-index: 10 !important; }
 
