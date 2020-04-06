@@ -438,6 +438,10 @@ header .linkedin .icn { background-size: 100% auto !important; -ms-interpolation
 @media only screen and (max-width: 768px) { .page-index #skills .icon, #skills .icon { margin: -80px 0 0 -41px; } }
 #tools .icn span { width: 100px; height: 100px; background-size: 80% auto !important; -ms-interpolation-mode: bicubic; image-rendering: optimizeQuality; }
 
+#tools .icn { background-color: #FFF; }
+
+#tools .icn span { background-position: 50%; background-repeat: no-repeat; }
+
 footer nav, .display-3, .h1, .h2, .h3, .h4, .h5, header nav { text-transform: inherit !important; }
 
 /* CSS - Peter Roper */
