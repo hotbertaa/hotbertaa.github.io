@@ -410,7 +410,7 @@ header .linkedin .icn { background-size: 100% auto !important; -ms-interpolation
 
 .page-index #philosophy { padding-bottom: 125px !important; }
 
-.page-index #portfolio .study-geronigo section:before, .page-index #portfolio .study-eventplanner section, .page-index #philosophy, .page-index #tools { padding-top: 125px !important; }
+.page-index #portfolio .study-geronigo section, .page-index #portfolio .study-eventplanner section, .page-index #philosophy, .page-index #tools { padding-top: 125px !important; }
 
 #intro > div { z-index: 10 !important; }
 
