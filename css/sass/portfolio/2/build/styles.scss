@@ -1,0 +1,247 @@
+.text-muted{
+color: initial!important;
+opacity: 0.65;
+}
+////////////////////////////////////////////////////////////////////////////////////////////////////
+// BUTTONS
+////////////////////////////////////////////////////////////////////////////////////////////////////
+body .btn-primary{
+color: $buttonCl10!important;
+background-color: $buttonBg10!important;
+border-color: $buttonBg10!important;
+}
+body #head .btn-primary{
+border-color: $buttonBg9!important;
+}
+body .btn-primary:hover{
+color: $buttonCl10!important;
+background-color: $buttonBg9!important;
+border-color: $buttonBg9!important;
+}
+body .btn-outline-primary{
+color: $buttonCl10!important;
+border-color: $buttonCl10!important;
+}
+body .btn-outline-primary:hover{
+color: #FFF!important;
+background-color: $buttonCl10!important;
+border-color: $buttonCl10!important;
+}
+body .btn-outline-light{
+color: #FFF!important;
+}
+body .btn-outline-light:hover{
+color: $buttonCl10!important;
+}
+body .btn-light{
+color: $bodyBg10!important;
+}
+////////////////////////////////////////////////////////////////////////////////////////////////////
+// COLOR
+////////////////////////////////////////////////////////////////////////////////////////////////////
+.checklist.muted .row .col-auto,
+#subhead .container-fluid a,
+#menu nav a,
+#intro .card,
+.checklist .row,
+footer nav .top,
+body,
+#head .text-muted,
+#head{
+color: $bodyCl10!important;
+}
+header nav a{
+color: $menuCl10;
+}
+header a .icn,
+header .logo a{
+color: $headerCl10;
+}
+footer nav #main a,
+footer nav #sub a{
+color: $highlightCl10;
+}
+///////////////////////////////////////////////////////
+#menu nav,
+#appraisal,
+#appraisal .text-muted,
+#study,
+#study .text-muted,
+#skills,
+#skills .text-muted,
+#skills .icon,
+#subhead,
+#subhead a.icn,
+#intro,
+#intro .text-muted{
+color: #FFF!important;
+}
+///////////////////////////////////////////////////////
+header .logo a small,
+#head .h3,
+#head .h3 .text-muted{
+color: $subheadBg10!important;
+}
+///////////////////////////////////////////////////////
+.checklist .row .col-auto{
+color: $pluginTitleCl10;
+}
+////////////////////////////////////////////////////////////////////////////////////////////////////
+// BACKGROUND COLOR
+////////////////////////////////////////////////////////////////////////////////////////////////////
+body,
+header,
+#head{
+background-color: $bodyBg10;
+}
+///////////////////////////////////////////////////////
+.checklist .row .col-auto{
+background-color: $bodyCl10;
+}
+.checklist.muted .row .col-auto{
+background-color: $bodyBg9;
+}
+.checklist.green .row .col-auto{
+background-color: #3BB273;
+}
+.checklist.red .row .col-auto{
+background-color: #E15554;
+}
+.checklist.yellow .row .col-auto{
+background-color: $buttonBg10;
+}
+///////////////////////////////////////////////////////
+#branding{
+background-color: $subheadBg10;
+}
+///////////////////////////////////////////////////////
+.card-header{
+background-color: $headerBg9;
+}
+///////////////////////////////////////////////////////
+//footer nav .fab div{
+//color: $headerCl10;
+//background-color: $headerBg10;
+//}
+footer nav #sub,
+footer nav #main{
+background-color: $highlightBg10;
+}
+///////////////////////////////////////////////////////
+.checklist .row{
+background-color: $pluginTitleCl10;
+}
+#subhead,
+#skills .icon{
+background-color: $pluginTitleBg10;
+}
+///////////////////////////////////////////////////////
+#intro .row .col:nth-child(1) .img{
+background-color: #222A2F;
+}
+#intro .row .col:nth-child(2) .img{
+background-color: #000;
+}
+#intro .row .col:nth-child(3) .img{
+background-color: #F0774E;
+}
+#intro .row .col:nth-child(4) .img{
+background-color: #4C5459;
+}
+///////////////////////////////////////////////////////
+#subhead .container-fluid{
+background-color: #DEDEDE;
+}
+#redesign .img,
+#subhead .container-fluid .selected a,
+#redesign,
+#menu nav a,
+footer nav .top{
+background-color: #FFF;
+}
+////////////////////////////////////////////////////////////////////////////////////////////////////
+// REPEAT & POSITION
+////////////////////////////////////////////////////////////////////////////////////////////////////
+#intro #cards .img{
+background-position: 50%;
+}
+#intro #cards .img{
+background-repeat: no-repeat;
+}
+header #header > .row > nav:before,
+header nav{
+background: 0;
+filter: none;
+}
+////////////////////////////////////////////////////////////////////////////////////////////////////
+// GRADIENTS
+////////////////////////////////////////////////////////////////////////////////////////////////////
+#intro{
+@include gradientHorzLin2($color1:$subheadBg10, $color2:$bodyCl10);
+}
+#menu header nav
+.scrollr header nav{
+@include gradientHorzLin2($color1:$headerBg9, $color2:$headerBg11);
+}
+#appraisal,
+#skills{
+@include gradientVertLin($color1:$pluginTitleBg10, $color2:$bodyCl10);
+}
+///////////////////////////////////////////////////////
+section .bg:after{
+background: -moz-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,0.01) 1%, rgba(255,255,255,1) 100%);
+background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(255,255,255,0.01) 1%,rgba(255,255,255,1) 100%);
+background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(255,255,255,0.01) 1%,rgba(255,255,255,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=0 );
+}
+////////////////////////////////////////////////////////////////////////////////////////////////////
+// TRIANGLES
+////////////////////////////////////////////////////////////////////////////////////////////////////
+#intro:after{
+background-image: linear-gradient(to right bottom, transparent 50%, $pluginTitleBg10 50%, $pluginTitleBg10 0%);
+}
+#intro:before{
+background-image: linear-gradient(to left top, transparent 50%, #FFF 50%, #FFF 0%);
+}
+#skills:before{
+background-image: linear-gradient(to left top, transparent 50%, #FFF 50%, #FFF 0%);
+}
+#menu header #header > .row > nav:before,
+.scrollr header #header > .row > nav:before{
+background-image: linear-gradient(to left top, transparent 50%, $headerBg10 50%, $headerBg10 0%);
+}
+.study-geronigo #study:after,
+.study-eventplanner #study:after,
+.checklist .row .col-auto:after{
+background-image: linear-gradient(to right bottom, transparent 50%, #FFF 50%, #FFF 0%);
+}
+#appraisal:before{
+background-image: linear-gradient(to left top, transparent 50%, $bodyBg10 50%, $bodyBg10 0%);
+}
+#study:after{
+background-image: linear-gradient(to right bottom, transparent 50%, $bodyBg10 50%, $bodyBg10 0%);
+}
+////////////////////////////////////////////////////////////////////////////////////////////////////
+// BOX SHADOW
+////////////////////////////////////////////////////////////////////////////////////////////////////
+.scrollr header{
+box-shadow: 0 10px 15px -3px rgba(0,0,0,.1), 0 4px 6px -2px rgba(0,0,0,.05);
+}
+////////////////////////////////////////////////////////////////////////////////////
+
+@media only screen and (max-width: 768px) {
+
+////////////////////////////////////////////////////////////////////////////////////
+#intro{
+@include gradientVertLin($color1:$subheadBg10, $color2:$bodyCl10);
+}
+
+#head:before{
+background-image: linear-gradient(to right bottom, transparent 50%, $subheadBg10 50%, $subheadBg10 0%);
+}
+#head:after{
+background-image: linear-gradient(to left bottom, transparent 50%, $subheadBg10 50%, $subheadBg10 0%);
+}
+////////////////////////////////////////////////////////////////////////////////////
+}
+////////////////////////////////////////////////////////////////////////////////////

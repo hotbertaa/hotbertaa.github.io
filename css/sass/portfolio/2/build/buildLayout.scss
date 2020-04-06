@@ -1,0 +1,21 @@
+.logo a{
+width: auto!important;
+height: auto!important;
+}
+header .logo a small{
+display: block;
+}
+#header nav a{
+letter-spacing: 2pt;
+}
+
+#wrap > header{
+position: fixed;
+background: 0!important;
+}
+.page-index #head{
+padding-top: 36px;
+}
+header .linkedin .icn{
+@include backgroundSize();
+}

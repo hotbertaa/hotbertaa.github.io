@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACA,2DAKU,GACV,cAAc,EAAE,kBAAiB",
+"sources": ["../../../sass/portfolio/2/build/buildStyling.scss"],
+"names": [],
+"file": "buildStyling.css"
+}
