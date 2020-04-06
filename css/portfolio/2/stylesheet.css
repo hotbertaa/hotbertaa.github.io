@@ -436,7 +436,7 @@ header .linkedin .icn { background-size: 100% auto !important; -ms-interpolation
 .checklist .row .col-auto:after { content: ''; position: absolute; width: 10px; height: 100%; bottom: 0; right: 0; z-index: 10; }
 
 @media only screen and (max-width: 768px) { .page-index #skills .icon, #skills .icon { margin: -80px 0 0 -41px; } }
-#tools .icn { width: 100px; height: 100px; }
+#tools .icn { width: 100px; height: 100px; background-size: 80% auto !important; -ms-interpolation-mode: bicubic; image-rendering: optimizeQuality; }
 
 footer nav, .display-3, .h1, .h2, .h3, .h4, .h5, header nav { text-transform: inherit !important; }
 
