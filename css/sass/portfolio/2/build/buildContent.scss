@@ -100,7 +100,7 @@ left: 0;
 // INTRO
 
 ////////////////////////////////////////////////////////////////////////////////////
-.page-index #portfolio #eventplanner section:before,
+.page-index #portfolio .study-eventplanner section:before,
 .page-index #philosophy:before,
 .page-index #philosophy:after,
 .page-index #tools:before,
@@ -111,7 +111,7 @@ display: block;
 .page-index #philosophy{
 padding-bottom: 100px!important;
 }
-.page-index #portfolio #eventplanner section:before,
+.page-index #portfolio .study-eventplanner section:before,
 .page-index #philosophy,
 .page-index #tools{
 padding-top: 100px!important;
@@ -269,7 +269,7 @@ background-color: $pluginTitleBg10;
 #developer{
 background-color: $bodyCl10;
 }
-#portfolio #eventplanner section{
+#portfolio .study-eventplanner section{
 background-color: #EDEDED;
 }
 #portfolio,

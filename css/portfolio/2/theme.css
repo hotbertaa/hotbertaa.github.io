@@ -81,7 +81,7 @@ section .bg:after { background: -moz-linear-gradient(top, rgba(255, 255, 255, 0)
 
 #intro:after { background-image: linear-gradient(to right bottom, transparent 50%, #1599ca 50%, #1599ca 0%); }
 
-.page-index #portfolio #eventplanner section:before, .page-index #philosophy:before, .page-index #tools:before, #intro:before, #skills:before { background-image: linear-gradient(to left top, transparent 50%, #FFF 50%, #FFF 0%); }
+.page-index #portfolio .study-eventplanner section:before, .page-index #philosophy:before, .page-index #tools:before, #intro:before, #skills:before { background-image: linear-gradient(to left top, transparent 50%, #FFF 50%, #FFF 0%); }
 
 #menu header #header > .row > nav:before, .scrollr header #header > .row > nav:before { background-image: linear-gradient(to left top, transparent 50%, #e2f5fc 50%, #e2f5fc 0%); }
 
