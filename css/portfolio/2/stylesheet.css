@@ -423,7 +423,7 @@ header .linkedin .icn { background-size: 100% auto !important; -ms-interpolation
 #cards .col a .sash.muted span { color: #0e6585; background-color: #efa837; }
 
 @media only screen and (min-width: 769px) { .page-index #intro #cards { margin-top: -10%; }
-  .page-index #intro { padding-top: 125px; padding-bottom: 125px; } }
+  .page-index #intro { padding-top: 125px !important; padding-bottom: 125px !important; } }
 @media only screen and (max-width: 768px) { .page-index #intro:before { display: none; }
   #cards .col .card-text { font-size: 0.85rem; }
   #cards .col a .sash span { padding: 4px 10px; font-size: 0.65rem; top: 15px; left: -27px; } }
