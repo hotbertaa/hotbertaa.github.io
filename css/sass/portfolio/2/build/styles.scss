@@ -198,12 +198,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', e
 // TRIANGLES
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 .page-index #portfolio .study-geronigo section:before,
-.page-index #portfolio .study-eventplanner section:before,
 .page-index #philosophy:before,
 .page-index #tools:before,
 #intro:before,
 #skills:before{
 background-image: linear-gradient(to left top, transparent 50%, #FFF 50%, #FFF 0%);
+}
+.page-index #portfolio .study-eventplanner section:before{
+background-image: linear-gradient(to left top, transparent 50%, $bodyBg11 50%, $bodyBg11 0%);
 }
 #menu header #header > .row > nav:before,
 .scrollr header #header > .row > nav:before{
