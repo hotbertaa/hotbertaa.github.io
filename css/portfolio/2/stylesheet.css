@@ -416,7 +416,7 @@ header .linkedin .icn { background-size: 100% auto !important; -ms-interpolation
 
 #intro #cards .card { border: 0 !important; background: 0 !important; }
 
-#intro #cards .img { background-size: auto 100% !important; -ms-interpolation-mode: bicubic; image-rendering: optimizeQuality; padding-bottom: 68%; display: block; }
+#intro #cards .img { background-size: auto 100% !important; -ms-interpolation-mode: bicubic; image-rendering: optimizeQuality; padding-bottom: 58%; display: block; }
 
 #cards .col a .sash { width: 120px; height: 120px; text-align: center; overflow: hidden; position: absolute; top: 0; right: 0; z-index: 10; }
 
