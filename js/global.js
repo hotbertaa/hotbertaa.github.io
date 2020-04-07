@@ -5,7 +5,7 @@ $(function(){
 var lastScrollTop = 0;
 $(window).on('scroll',function(e){
 	//////////////////////////////////////////////////
-	// onscreen  
+	// onscreen
    	$('section').each(function() {
    		if($(window).width()>="768"){
     		perc = 450;
@@ -14,38 +14,38 @@ $(window).on('scroll',function(e){
   		}
    		var elementTop = $(this).offset().top;
 			var viewportTop = $(window).scrollTop();
-			
-			if(viewportTop >= elementTop-perc){   		
+
+			if(viewportTop >= elementTop-perc){
      		$(this).removeClass('offscreen').addClass('onscreen');
     	} else {
     	}
-  	});   
-   
+  	});
+
    $('.autohide').show();
 	//////////////////////////////////////////////////
 	//body scroll classes
-      var _scroll = $(window).scrollTop();   
+      var _scroll = $(window).scrollTop();
       //if (_scroll >= 1){
       if($(this).scrollTop() >= $('#wrap').offset().top){
         $('body').addClass("scrollx");
         $("#wrap").addClass("scrollr").removeClass('hashLink');
-      } 
+      }
       if($(this).scrollTop() >= $('#wrap').offset().top +125){
         $('body').removeClass("scrollz").addClass("scrolly");
       }
       if($(this).scrollTop() >= $('#wrap').offset().top +400){
         $('body').removeClass("scrolly").addClass("scrollz");
-      } 
+      }
       //else {
       if (_scroll >= 1){
       } else {
             $('body').removeClass("scrollx").removeClass("scrolly").removeClass("scrollz");
-            $("#wrap").removeClass("scrollr");  
+            $("#wrap").removeClass("scrollr");
       }
 	//////////////////////////////////////////////////
 	// vertical scroll classes
-		//element.addEventListener("scroll", function(){ 
-    var st = $(window).scrollTop(); 
+		//element.addEventListener("scroll", function(){
+    var st = $(window).scrollTop();
     if (st > lastScrollTop){
       $('body').removeClass("scrollup").addClass("scrolldown");
     } else if (st == 0){
@@ -55,7 +55,7 @@ $(window).on('scroll',function(e){
     }
     lastScrollTop = st;
 		//}, false);
-    
+
 });
 //////////////////////////////////////////////////
 // scrollTo
@@ -63,11 +63,11 @@ $('.scrollTo').on('click', function(){
     //$('html,body').animate({scrollTop: $($(this).attr('href')).offset().top},500);
     $('.scrollTo').removeClass('selected');
     $(this).addClass('selected');
-    if($(this).parents('.window').length > 0 ){ 
+    if($(this).parents('.window').length > 0 ){
         return true;
     } else {
     	if($($(this).attr('href')).length > 0){
-        $('html,body').animate({scrollTop: $($(this).attr('href')).offset().top -80 }, 'slow');
+        $('html,body').animate({scrollTop: $($(this).attr('href')).offset().top -1 }, 'slow');
         //$('html,body').animate({scrollTop: $($(this).attr('href')).offset().top -210 }, 'slow');
     	}else{
         	console.log($(this).attr('href')+ ' is missing');
@@ -90,12 +90,12 @@ $('.menuLink').on('click ', function() {
     perc = "33%";
   }
   if($('body').hasClass('bootstrap')){
-  	$('#menu .s, .slide-menu .overlay').fadeIn(250); 
-  	$('#menu').addClass('open'); 
+  	$('#menu .s, .slide-menu .overlay').fadeIn(250);
+  	$('#menu').addClass('open');
   } else {
   $('#menu').animate({'width': ''+perc+''},750,function(){
-    $('#menu .s, .slide-menu .overlay').fadeIn(250); 
-  	$('#menu').addClass('open');     
+    $('#menu .s, .slide-menu .overlay').fadeIn(250);
+  	$('#menu').addClass('open');
   });
   }
   return false;
@@ -103,8 +103,8 @@ $('.menuLink').on('click ', function() {
 //////////////////////////////////////////////////
 // menu close
 $('#menu .close').on('click ', function() {
-	$('#menu .s, .slide-menu .overlay').fadeOut(250); 
-  $('#menu').removeClass('open'); 
+	$('#menu .s, .slide-menu .overlay').fadeOut(250);
+  $('#menu').removeClass('open');
 	return false;
 });
 //////////////////////////////////////////////////
@@ -112,17 +112,17 @@ $('#menu .close').on('click ', function() {
   //$('.fadeIn').each(function() {
   	var viewportTop = $(window).scrollTop();
 		var viewportBottom = $(window).height();
-  	
+
   	var introTop = $('#intro .fadeIn').offset().top;
-		if(viewportBottom >= introTop){ 
+		if(viewportBottom >= introTop){
   	  $('#intro').addClass('onscreen');
 		} else {
 			$('#intro').addClass('offscreen');
 		}
-		
+
 		var skillsTop = $('#skills .fadeIn').offset().top;
 
-		if(viewportBottom >= skillsTop){ 
+		if(viewportBottom >= skillsTop){
   	  $('#skills').addClass('onscreen');
 		} else {
 			$('#skills').addClass('offscreen');
@@ -162,6 +162,6 @@ if(canUseWebP()){
         */
         $('body').removeClass('noscript');
         setTimeout(function(){ $('body').addClass('loaded'); },400);
-    
+
     });
 })(jQuery)
