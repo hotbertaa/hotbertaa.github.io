@@ -365,9 +365,9 @@ background-image: url(images/quadnation1.png);
   .nowebp .study-rezbotcms .imgProt4 span{
   background-image: url(/images/em-4.png);
   }
-  /*.study-rezbotcms .imgProt5 span{
+  .study-rezbotcms .imgProt5 span{
   background-image: url(/images/em-1.gif);
-  }*/
+  }
   </style>
   <!-- Re-Design - END -->
   </div>
@@ -382,9 +382,18 @@ background-image: url(images/quadnation1.png);
       <p class="lead text-muted mb-0">Below is a medium fidelity prototype for a conceptual renewal of the Geronigo website.</p>
     </div>
 
-    <!--div class="video rounded-lg shadow"><div class="rounded-lg">
-      <iframe src="https://marvelapp.com/89d7c95/screen/67702163" width="100%" height="100%" frameborder="0" class="rounded-lg"></iframe>
-    </div></div-->
+    <div class="video rounded-lg shadow"><div class="rounded-lg">
+      <iframe src="" data-src="https://marvelapp.com/89d7c95/screen/67702163" width="100%" height="100%" frameborder="0" class="rounded-lg"></iframe>
+    </div></div>
+    <script>
+    function init() {
+    var vidDefer = document.getElementsByTagName('iframe');
+    for (var i=0; i<vidDefer.length; i++) {
+    if(vidDefer[i].getAttribute('data-src')) {
+    vidDefer[i].setAttribute('src',vidDefer[i].getAttribute('data-src'));
+    } } }
+    window.onload = init;
+    </script>
 
     <div class="row justify-content-center">
       <p class="col-100 col-md-auto mb-md-0 mb-s-2"><a href="case-geronigo.html" class="btn btn-primary btn-block btn-lg px-4 link" title="Portfolio">View Case Study <span class="icn">navigate_next</span></a></p>
@@ -477,9 +486,9 @@ background-image: url(images/quadnation1.png);
   .nowebp .study-eventplanner .imgProt4 span{
   background-image: url(/images/ep-prott5.png);
   }
-  /*.study-eventplanner .imgProt5 span{
+  .study-eventplanner .imgProt5 span{
   background-image: url(/images/ep-1.gif);
-  }*/
+  }
   </style>
   <!-- Re-Design - END -->
   </div>
