@@ -203,11 +203,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', e
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 .page-index #portfolio .study-geronigo section:before,
 .page-index #philosophy:before,
-.page-index #tools:before,
 #intro:before,
 #skills:before{
 background-image: linear-gradient(to left top, transparent 50%, #FFF 50%, #FFF 0%);
 }
+.page-index #tools:before,
 .page-index #portfolio .study-eventplanner section:before{
 background-image: linear-gradient(to left top, transparent 50%, #EEF9FD 50%, #EEF9FD 0%);
 }
