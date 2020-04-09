@@ -3,6 +3,10 @@
 
 .page-casestudy footer nav .top { bottom: 10px; }
 
+.flow .img { max-width: 780px; margin: 0 auto; }
+
+.flow .img span { padding-bottom: 82%; background-color: #E2E8F0; }
+
 @media only screen and (max-width: 768px) { #wrap.page-casestudy > header { display: none !important; } }
 .img, .img span { background-size: 100% auto !important; -ms-interpolation-mode: bicubic; image-rendering: optimizeQuality; background-repeat: no-repeat; background-position: 50% 0; }
 
@@ -22,7 +26,7 @@
 
 .study-geronigo #redesign .img span { padding-bottom: 98% !important; }
 
-.study-rezbotcms #study .img, .study-eventplanner #study .img { max-width: 375px; margin: 0 auto -100px auto; padding-bottom: 1rem !important; }
+.study-rezbotcms #study .img, .study-eventplanner #study .img { max-width: 375px; margin: 0 auto -100px auto; padding-bottom: 0 !important; }
 
 .study-rezbotcms #overview .img span, .study-eventplanner #overview .img span { padding-bottom: 120% !important; }
 

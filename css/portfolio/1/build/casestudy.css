@@ -1,23 +1,23 @@
 /*
 Error: Undefined mixin 'backgroundSize'.
-        on line 23 of /Users/hotbertaa/Documents/GitHub/hotbertaa.github.io/css/sass/portfolio/1/build/casestudy.scss, in `backgroundSize'
-        from line 23 of /Users/hotbertaa/Documents/GitHub/hotbertaa.github.io/css/sass/portfolio/1/build/casestudy.scss
+        on line 32 of /Users/hotbertaa/Documents/GitHub/hotbertaa.github.io/css/sass/portfolio/1/build/casestudy.scss, in `backgroundSize'
+        from line 32 of /Users/hotbertaa/Documents/GitHub/hotbertaa.github.io/css/sass/portfolio/1/build/casestudy.scss
 
-18: ////////////////////////////////////////////////////////////////////////////////////
-19: //start
-20: ////////////////////////////////////////////////////////////////////////////////////
-21: .img,
-22: .img span{
-23: @include backgroundSize();
-24: background-repeat: no-repeat;
-25: background-position: 50% 0;
-26: }
-27: #start .img{
-28: background-position: 50%;
+27: ////////////////////////////////////////////////////////////////////////////////////
+28: //start
+29: ////////////////////////////////////////////////////////////////////////////////////
+30: .img,
+31: .img span{
+32: @include backgroundSize();
+33: background-repeat: no-repeat;
+34: background-position: 50% 0;
+35: }
+36: #start .img{
+37: background-position: 50%;
 
 Backtrace:
-/Users/hotbertaa/Documents/GitHub/hotbertaa.github.io/css/sass/portfolio/1/build/casestudy.scss:23:in `backgroundSize'
-/Users/hotbertaa/Documents/GitHub/hotbertaa.github.io/css/sass/portfolio/1/build/casestudy.scss:23
+/Users/hotbertaa/Documents/GitHub/hotbertaa.github.io/css/sass/portfolio/1/build/casestudy.scss:32:in `backgroundSize'
+/Users/hotbertaa/Documents/GitHub/hotbertaa.github.io/css/sass/portfolio/1/build/casestudy.scss:32
 /Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:348:in `block in visit_mixin'
 /Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/stack.rb:98:in `block in with_mixin'
 /Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/stack.rb:135:in `with_frame'
@@ -73,4 +73,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'backgroundSize'.\A         on line 23 of /Users/hotbertaa/Documents/GitHub/hotbertaa.github.io/css/sass/portfolio/1/build/casestudy.scss, in `backgroundSize'\A         from line 23 of /Users/hotbertaa/Documents/GitHub/hotbertaa.github.io/css/sass/portfolio/1/build/casestudy.scss\A \A 18: ////////////////////////////////////////////////////////////////////////////////////\A 19: //start\A 20: ////////////////////////////////////////////////////////////////////////////////////\A 21: .img,\A 22: .img span{\A 23: @include backgroundSize();\A 24: background-repeat: no-repeat;\A 25: background-position: 50% 0;\A 26: }\A 27: #start .img{\A 28: background-position: 50%;"; }
+  content: "Error: Undefined mixin 'backgroundSize'.\A         on line 32 of /Users/hotbertaa/Documents/GitHub/hotbertaa.github.io/css/sass/portfolio/1/build/casestudy.scss, in `backgroundSize'\A         from line 32 of /Users/hotbertaa/Documents/GitHub/hotbertaa.github.io/css/sass/portfolio/1/build/casestudy.scss\A \A 27: ////////////////////////////////////////////////////////////////////////////////////\A 28: //start\A 29: ////////////////////////////////////////////////////////////////////////////////////\A 30: .img,\A 31: .img span{\A 32: @include backgroundSize();\A 33: background-repeat: no-repeat;\A 34: background-position: 50% 0;\A 35: }\A 36: #start .img{\A 37: background-position: 50%;"; }
