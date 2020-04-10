@@ -5,7 +5,7 @@
 
 .flow .img { max-width: 780px; margin: 0 auto; }
 
-.flow .img span { padding-bottom: 82% !important; background-color: #E2E8F0 !important; }
+#redesign .flow .img span, .study-eventplanner #redesign .flow .img span { padding-bottom: 82% !important; background-color: #E2E8F0 !important; }
 
 @media only screen and (max-width: 768px) { #wrap.page-casestudy > header { display: none !important; } }
 .img, .img span { background-size: 100% auto !important; -ms-interpolation-mode: bicubic; image-rendering: optimizeQuality; background-repeat: no-repeat; background-position: 50% 0; }
