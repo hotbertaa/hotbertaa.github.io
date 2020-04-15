@@ -408,11 +408,11 @@ header .linkedin .icn { background-size: 100% auto !important; -ms-interpolation
   .page-index #head:after { display: block; }
   #head:before, #head:after { display: block; }
   #head:before { top: auto; bottom: 0; left: 0; } }
-.page-index #portfolio .study-geronigo section:before, .page-index #portfolio .study-eventplanner section:before, .page-index #philosophy:before, .page-index #philosophy:after, .page-index #tools:before, .page-index #intro:after, .page-index #intro:before { display: block; }
+.page-index #portfolio .study-football section:before, .page-index #portfolio .study-geronigo section:before, .page-index #portfolio .study-eventplanner section:before, .page-index #philosophy:before, .page-index #philosophy:after, .page-index #tools:before, .page-index #intro:after, .page-index #intro:before { display: block; }
 
 .page-index #philosophy { padding-bottom: 125px !important; }
 
-.page-index #portfolio .study-geronigo section, .page-index #portfolio .study-eventplanner section, .page-index #philosophy, .page-index #tools { padding-top: 125px !important; }
+.page-index #portfolio .study-football section, .page-index #portfolio .study-geronigo section, .page-index #portfolio .study-eventplanner section, .page-index #philosophy, .page-index #tools { padding-top: 125px !important; }
 
 #intro > div { z-index: 10 !important; }
 
@@ -430,7 +430,7 @@ header .linkedin .icn { background-size: 100% auto !important; -ms-interpolation
   .page-index #intro { padding-top: 125px !important; padding-bottom: 125px !important; } }
 @media only screen and (min-width: 1469px) { .page-index #intro #cards { margin-top: -10%; } }
 @media only screen and (max-width: 768px) { .page-index #philosophy { padding-bottom: 50px !important; }
-  .page-index #portfolio .study-geronigo section, .page-index #portfolio .study-eventplanner section, .page-index #philosophy, .page-index #tools { padding-top: 50px !important; }
+  .page-index #portfolio .study-football section, .page-index #portfolio .study-geronigo section, .page-index #portfolio .study-eventplanner section, .page-index #philosophy, .page-index #tools { padding-top: 50px !important; }
   .page-index #intro:before { display: none; }
   #cards .col .card-text { font-size: 0.85rem; }
   #cards .col a .sash span { padding: 4px 10px; font-size: 0.65rem; top: 15px; left: -27px; } }
