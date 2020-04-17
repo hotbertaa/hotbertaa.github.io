@@ -222,7 +222,7 @@ background-image: linear-gradient(to left top, transparent 50%, $headerBg10 50%,
 background-image: linear-gradient(to right bottom, transparent 50%, #FFF 50%, #FFF 0%);
 }
 #intro:after{
-background-image: linear-gradient(to right bottom, transparent 50%, #subheadBg10 50%, $subheadBg10 0%);
+background-image: linear-gradient(to right bottom, transparent 50%, $subheadBg10 50%, $subheadBg10 0%);
 }
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 // BOX SHADOW
