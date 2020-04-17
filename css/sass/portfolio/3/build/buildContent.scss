@@ -121,7 +121,7 @@ display: block;
 .page-index #intro{
 padding-bottom: 125px!important;
 }
-#links:before,
+#links,
 .page-index #rezbot,
 .page-index #intro{
 padding-top: 125px!important;
@@ -173,7 +173,7 @@ background-color: $buttonBg10;
 @media only screen and (max-width: 768px) {
 
 ////////////////////////////////////////////////////////////////////////////////////
-#links:before,
+#links,
 .page-index #rezbot,
 .page-index #intro{
 padding-top: 50px!important;
