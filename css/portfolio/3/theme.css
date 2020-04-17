@@ -25,15 +25,15 @@ header a .icn, header .logo a { color: #07303f; }
 
 footer nav #main a, footer nav #sub a { color: #0e6585; }
 
+#head, #head .text-muted, #head nav a, #head nav .selected, #intro .card, #menu nav, #appraisal, #appraisal .text-muted, #study, #study .text-muted, #skills, #skills .text-muted, #skills .icon, #subhead, #subhead a.icn, #intro, #intro .text-muted { color: #FFF !important; }
+
+header .logo a small { color: #774dab !important; }
+
+.checklist .row .col-auto { color: #FFF; }
+
 #links .lead, #portfolio .lead { color: #094257 !important; }
 
 #portfolio .status .col-md div, #portfolio .h1 a, .READMOREjs a, #links .h3, #portfolio .h3 { color: #0e6585; }
-
-#head, #head .text-muted, #head nav a, #head nav .selected, #intro .card, #menu nav, #appraisal, #appraisal .text-muted, #study, #study .text-muted, #skills, #skills .text-muted, #skills .icon, #subhead, #subhead a.icn, #intro, #intro .text-muted { color: #FFF !important; }
-
-#head .h3, #head .h3 .text-muted, header .logo a small { color: #774dab !important; }
-
-.checklist .row .col-auto { color: #FFF; }
 
 #study .border-top { border-color: #020d11 !important; }
 
@@ -93,7 +93,7 @@ header #header > .row > nav:before, header nav { background: 0; filter: none; }
 
 #skills { background: -moz-linear-gradient(top, #1599ca 0%, #07303f 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #1599ca), color-stop(100%, #07303f)); background: -webkit-linear-gradient(top, #1599ca 0%, #07303f 100%); background: -o-linear-gradient(top, #1599ca 0%, #07303f 100%); background: -ms-linear-gradient(top, #1599ca 0%, #07303f 100%); background: linear-gradient(top, #1599ca 0%, #07303f 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1599ca', endColorstr='#07303f',GradientType=0 ); }
 
-#head { background: -moz-linear-gradient(left, #774dab 0%, #10769c 100%); background: -webkit-gradient(linear, left top, right top, color-stop(0%, #774dab), color-stop(100%, #10769c)); background: -webkit-linear-gradient(left, #774dab 0%, #10769c 100%); background: -o-linear-gradient(left, #774dab 0%, #10769c 100%); background: -ms-linear-gradient(left, #774dab 0%, #10769c 100%); background: linear-gradient(to right, #774dab 0%, #10769c 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#774dab', endColorstr='#10769c',GradientType=1 ); }
+#head { background: -moz-linear-gradient(left, #10769c 0%, #774dab 100%); background: -webkit-gradient(linear, left top, right top, color-stop(0%, #10769c), color-stop(100%, #774dab)); background: -webkit-linear-gradient(left, #10769c 0%, #774dab 100%); background: -o-linear-gradient(left, #10769c 0%, #774dab 100%); background: -ms-linear-gradient(left, #10769c 0%, #774dab 100%); background: linear-gradient(to right, #10769c 0%, #774dab 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#10769c', endColorstr='#774dab',GradientType=1 ); }
 
 section .bg:after { background: -moz-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.01) 1%, white 100%); background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.01) 1%, white 100%); background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.01) 1%, white 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=0 ); }
 

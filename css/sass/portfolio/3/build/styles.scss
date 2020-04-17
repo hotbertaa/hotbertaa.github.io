@@ -53,27 +53,19 @@ body,
 #head{
 color: $bodyCl10!important;
 }
+///////////////////////////////////////////////////////
 header nav a{
 color: $menuCl10;
 }
+///////////////////////////////////////////////////////
 header a .icn,
 header .logo a{
 color: $headerCl10;
 }
+///////////////////////////////////////////////////////
 footer nav #main a,
 footer nav #sub a{
 color: $highlightCl10;
-}
-#links .lead,
-#portfolio .lead{
-color: darken($pluginTitleBg9,15%)!important;
-}
-#portfolio .status .col-md div,
-#portfolio .h1 a,
-.READMOREjs a,
-#links .h3,
-#portfolio .h3{
-color: darken($pluginTitleBg9,5%);
 }
 ///////////////////////////////////////////////////////
 #head,
@@ -96,14 +88,25 @@ color: darken($pluginTitleBg9,5%);
 color: #FFF!important;
 }
 ///////////////////////////////////////////////////////
-#head .h3,
-#head .h3 .text-muted,
+//#head .h3,
+//#head .h3 .text-muted,
 header .logo a small{
 color: $subheadBg10!important;
 }
 ///////////////////////////////////////////////////////
 .checklist .row .col-auto{
 color: $pluginTitleCl10;
+}
+#links .lead,
+#portfolio .lead{
+color: darken($pluginTitleBg9,15%)!important;
+}
+#portfolio .status .col-md div,
+#portfolio .h1 a,
+.READMOREjs a,
+#links .h3,
+#portfolio .h3{
+color: darken($pluginTitleBg9,5%);
 }
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 // BORDER COLOR
@@ -228,7 +231,7 @@ filter: none;
 @include gradientVertLin($color1:$pluginTitleBg10, $color2:$bodyCl10);
 }
 #head{
-@include gradientHorzLin2($color1:$subheadBg10, $color2:$pluginTitleBg9);
+@include gradientHorzLin2($color1:$pluginTitleBg9, $color2:$subheadBg10);
 }
 ///////////////////////////////////////////////////////
 section .bg:after{
