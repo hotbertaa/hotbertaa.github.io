@@ -204,9 +204,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', e
 .page-index #tools:before,
 //.page-index #portfolio .study-geronigo section:before,
 .page-index #philosophy:before,
-#intro:before,
 #skills:before{
 background-image: linear-gradient(to left top, transparent 50%, #FFF 50%, #FFF 0%);
+}
+#intro:before{
+background-image: linear-gradient(to left top, transparent 50%, $pluginTitleBg10 50%, $pluginTitleBg10 0%);
 }
 .page-index #portfolio .study-football section:before,
 .page-index #portfolio .study-eventplanner section:before{
@@ -216,16 +218,11 @@ background-image: linear-gradient(to left top, transparent 50%, #EEF9FD 50%, #EE
 .scrollr header #header > .row > nav:before{
 background-image: linear-gradient(to left top, transparent 50%, $headerBg10 50%, $headerBg10 0%);
 }
-#intro:after,
-.page-index #philosophy:after,
 .checklist .row .col-auto:after{
 background-image: linear-gradient(to right bottom, transparent 50%, #FFF 50%, #FFF 0%);
 }
-#appraisal:before{
-background-image: linear-gradient(to left top, transparent 50%, $bodyBg10 50%, $bodyBg10 0%);
-}
-#study:after{
-background-image: linear-gradient(to right bottom, transparent 50%, $bodyBg10 50%, $bodyBg10 0%);
+#intro:after{
+background-image: linear-gradient(to right bottom, transparent 50%, #subheadBg10 50%, $subheadBg10 0%);
 }
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 // BOX SHADOW
