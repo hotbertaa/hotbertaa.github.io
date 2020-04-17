@@ -107,6 +107,26 @@ $('#menu .close').on('click ', function() {
   $('#menu').removeClass('open');
 	return false;
 });
+
+$('.READMOREjs').off('click');
+$('.READMOREjs').on('click', function(e) {
+  e.preventDefault();
+  var next = $(this).next();
+  var parentID = $(this).parent().attr('id');
+  $(this).animate({scrollTop: $("body").offset().top},500);
+  $('#'+parentID+' .cancel').trigger('click');// close all add resources
+  if($(this).hasClass('open')===false){
+    $('.READMOREjs').removeClass('open');
+    $(this).parent().addClass('selected');
+    $(next).show().addClass('open');
+    $(this).addClass('open');
+  } else {
+    $(this).parent().removeClass('selected');
+    $(next).hide().removeClass('open');
+    $(this).removeClass('open');
+  }
+  return false;
+});
 //////////////////////////////////////////////////
 // check sections onscreen
   //$('.fadeIn').each(function() {
