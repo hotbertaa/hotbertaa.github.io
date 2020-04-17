@@ -155,6 +155,10 @@ background-color: $pluginTitleBg9;
 background-color: darken($pluginTitleBg9,5%);
 }
 ///////////////////////////////////////////////////////
+#portfolio .status .col-md:first-of-type div{
+background-color: lighten($subheadBg10,25%)!important;
+}
+///////////////////////////////////////////////////////
 .checklist.green .row .col-auto{
 background-color: #3BB273;
 }
