@@ -121,10 +121,10 @@ border-color: darken($bodyBg9,5%)!important;
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 // BACKGROUND COLOR
 ////////////////////////////////////////////////////////////////////////////////////////////////////
+//#head,
 #rezbot .READMOREjs a,
 body,
-header,
-//#head{
+header{
 background-color: $bodyBg10;
 }
 .checklist.muted .row .col-auto{
@@ -137,6 +137,11 @@ background-color: lighten($bodyBg9,5%)!important;
 background-color: $bodyCl10;
 }
 ///////////////////////////////////////////////////////
+.checklist .row{
+background-color: $pluginTitleCl10;
+}
+#subhead,
+#skills .icon,
 #developer .checklist .row .col-auto{
 background-color: $pluginTitleBg10;
 }
@@ -164,14 +169,6 @@ background-color: $headerBg9;
 footer nav #sub,
 footer nav #main{
 background-color: $highlightBg10;
-}
-///////////////////////////////////////////////////////
-.checklist .row{
-background-color: $pluginTitleCl10;
-}
-#subhead,
-#skills .icon{
-background-color: $pluginTitleBg10;
 }
 ///////////////////////////////////////////////////////
 #intro .row .col:nth-child(1) .img{
