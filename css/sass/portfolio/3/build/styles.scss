@@ -28,10 +28,11 @@ background-color: $buttonCl10!important;
 border-color: $buttonCl10!important;
 }
 body .btn-outline-light{
-color: #FFF!important;
+color: darken($pluginTitleBg9,5%)!important;
+border-color: darken($bodyBg9,5%)!important;
 }
 body .btn-outline-light:hover{
-color: $buttonCl10!important;
+color: $pluginTitleBg9!important;
 }
 body .btn-light{
 color: $bodyBg10!important;
