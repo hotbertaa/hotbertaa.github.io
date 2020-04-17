@@ -61,8 +61,11 @@ footer nav #main a,
 footer nav #sub a{
 color: $highlightCl10;
 }
+.lead{
+color: $pluginTitleBg9!important;
+}
 .h3{
-color: $pluginTitleBg9;
+color: darken($pluginTitleBg9,10%);
 }
 ///////////////////////////////////////////////////////
 #head nav .selected,
