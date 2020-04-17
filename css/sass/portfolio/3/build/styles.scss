@@ -105,9 +105,13 @@ border-color: darken($bodyCl10,10%)!important;
 #intro .border-top{
 border-color: darken($bodyCl10,5%)!important;
 }
+#rezbot .READMOREjs.border-top{
+border-color: darken($bodyBg9,5%)!important;
+}
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 // BACKGROUND COLOR
 ////////////////////////////////////////////////////////////////////////////////////////////////////
+#rezbot .READMOREjs a,
 body,
 header,
 #head{
@@ -169,6 +173,7 @@ background-color: #4C5459;
 #subhead .container-fluid{
 background-color: #DEDEDE;
 }
+.READMOREjs a,
 #links,
 #redesign .video,
 #redesign .img,

@@ -39,7 +39,9 @@ header .logo a small, #head .h3, #head .h3 .text-muted { color: #774dab !importa
 
 #intro .border-top { border-color: #041f28 !important; }
 
-body, header, #head { background-color: #e2f5fc; }
+#rezbot .READMOREjs.border-top { border-color: #9dddf5 !important; }
+
+#rezbot .READMOREjs a, body, header, #head { background-color: #e2f5fc; }
 
 #head nav .selected { background-color: #10769c; }
 
@@ -73,7 +75,7 @@ footer nav #sub, footer nav #main { background-color: #efa837; }
 
 #subhead .container-fluid { background-color: #DEDEDE; }
 
-#links, #redesign .video, #redesign .img, #subhead .container-fluid .selected a, #redesign, #menu nav a, footer nav .top { background-color: #FFF; }
+.READMOREjs a, #links, #redesign .video, #redesign .img, #subhead .container-fluid .selected a, #redesign, #menu nav a, footer nav .top { background-color: #FFF; }
 
 #redesign .img span { background-color: #DEDEDE; }
 
