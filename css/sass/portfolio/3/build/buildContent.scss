@@ -113,7 +113,6 @@ left: 0;
 
 ////////////////////////////////////////////////////////////////////////////////////
 .page-index #rezbot:before,
-.page-index #tools:before,
 .page-index #intro:after,
 .page-index #intro:before{
 display: block;
@@ -122,8 +121,7 @@ display: block;
 padding-bottom: 125px!important;
 }
 .page-index #rezbot,
-.page-index #intro,
-.page-index #tools{
+.page-index #intro{
 padding-top: 125px!important;
 }
 .page-index #rezbot .container-xl,
@@ -174,8 +172,7 @@ background-color: $buttonBg10;
 
 ////////////////////////////////////////////////////////////////////////////////////
 .page-index #rezbot,
-.page-index #intro,
-.page-index #tools{
+.page-index #intro{
 padding-top: 50px!important;
 }
 .page-index #intro:before{
@@ -273,9 +270,6 @@ color: #FFF!important;
 }
 #philosophy{
 background-color: $subheadBg10;
-}
-#tools{
-background-color: $pluginTitleBg10;
 }
 #portfolio #rezbot{
 background-color: $bodyBg10;
