@@ -416,7 +416,7 @@ header .linkedin .icn { background-size: 100% auto !important; -ms-interpolation
 
 .page-index #rezbot, .page-index #intro, .page-index #tools { padding-top: 125px !important; }
 
-.page-index #rezbot > div, #intro > div { position: relative; z-index: 10 !important; }
+.page-index #rezbot .container-xl, #intro > div { position: relative; z-index: 10 !important; }
 
 #cards .card { border: 0 !important; background: 0 !important; }
 
