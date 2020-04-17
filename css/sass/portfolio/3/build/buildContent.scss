@@ -56,6 +56,9 @@ background-position: 50%;
 // HEAD
 
 ////////////////////////////////////////////////////////////////////////////////////
+.page-index #head{
+padding-top: 36px;
+}
 #head .h3 small{
 display: block;
 }
@@ -66,7 +69,8 @@ top: 0;
 left: 0;
 right: 0;
 bottom: 0;
-opacity: 0.1;
+//opacity: 0.1;
+opacity: 0.075;
 background-repeat: repeat-x;
 display: block;
 }
@@ -85,6 +89,9 @@ opacity: 0.5;
 #head nav a.selected,
 #head nav a:hover{
 opacity: 1;
+}
+#head .bg:after{
+display: none;
 }
 ////////////////////////////////////////////////////////////////////////////////////
 

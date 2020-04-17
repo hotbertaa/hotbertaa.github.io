@@ -375,11 +375,7 @@ header .logo a small { display: block; }
 
 #wrap > header { position: fixed; background: 0 !important; }
 
-.page-index #head { padding-top: 36px; }
-
 header .linkedin .icn { background-size: 100% auto !important; -ms-interpolation-mode: bicubic; image-rendering: optimizeQuality; }
-
-#head .bg { display: none; }
 
 @media only screen and (min-width: 768px) { header { display: none; } }
 .icon { line-height: 1; margin: -95px 0 15px -48px; display: inline-block; position: absolute; }
@@ -399,9 +395,11 @@ header .linkedin .icn { background-size: 100% auto !important; -ms-interpolation
 
 #branding .img { background-repeat: no-repeat; background-position: 50%; }
 
+.page-index #head { padding-top: 36px; }
+
 #head .h3 small { display: block; }
 
-#head .bg:before { content: ''; position: absolute; top: 0; left: 0; right: 0; bottom: 0; opacity: 0.1; background-repeat: repeat-x; display: block; }
+#head .bg:before { content: ''; position: absolute; top: 0; left: 0; right: 0; bottom: 0; opacity: 0.075; background-repeat: repeat-x; display: block; }
 
 .webp #head .bg:before { background-image: url(/images/bg.webp); }
 
@@ -412,6 +410,8 @@ header .linkedin .icn { background-size: 100% auto !important; -ms-interpolation
 #head nav a { opacity: 0.5; }
 
 #head nav a.selected, #head nav a:hover { opacity: 1; }
+
+#head .bg:after { display: none; }
 
 @media only screen and (max-width: 768px) { .page-index #head { padding-bottom: 40px !important; }
   .page-index #head:after { display: block; }
