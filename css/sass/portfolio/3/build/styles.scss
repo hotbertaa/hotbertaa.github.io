@@ -42,7 +42,7 @@ color: $bodyBg10!important;
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 // COLOR
 ////////////////////////////////////////////////////////////////////////////////////////////////////
-#head nav a,
+//#head nav a,
 .checklist.muted .row .col-auto,
 #subhead .container-fluid a,
 #menu nav a,
@@ -76,6 +76,9 @@ color: darken($pluginTitleBg9,15%)!important;
 color: darken($pluginTitleBg9,5%);
 }
 ///////////////////////////////////////////////////////
+#head,
+#head .text-muted,
+#head nav a,
 #head nav .selected,
 #intro .card,
 #menu nav,
@@ -93,9 +96,9 @@ color: darken($pluginTitleBg9,5%);
 color: #FFF!important;
 }
 ///////////////////////////////////////////////////////
-header .logo a small,
 #head .h3,
-#head .h3 .text-muted{
+#head .h3 .text-muted,
+header .logo a small{
 color: $subheadBg10!important;
 }
 ///////////////////////////////////////////////////////
@@ -121,7 +124,7 @@ border-color: darken($bodyBg9,5%)!important;
 #rezbot .READMOREjs a,
 body,
 header,
-#head{
+//#head{
 background-color: $bodyBg10;
 }
 .checklist.muted .row .col-auto{
@@ -130,16 +133,20 @@ background-color: $bodyBg9;
 #portfolio .status .col-md:first-of-type div{
 background-color: lighten($bodyBg9,5%)!important;
 }
-///////////////////////////////////////////////////////
-#head nav .selected{
-background-color: $pluginTitleBg9;
-}
 .checklist .row .col-auto{
 background-color: $bodyCl10;
 }
+///////////////////////////////////////////////////////
 #developer .checklist .row .col-auto{
 background-color: $pluginTitleBg10;
 }
+#head nav .selected{
+background-color: $pluginTitleBg9;
+}
+#head{
+background-color: darken($pluginTitleBg9,5%);
+}
+///////////////////////////////////////////////////////
 .checklist.green .row .col-auto{
 background-color: #3BB273;
 }

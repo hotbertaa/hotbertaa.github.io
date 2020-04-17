@@ -19,3 +19,7 @@ padding-top: 36px;
 header .linkedin .icn{
 @include backgroundSize();
 }
+
+#head .bg{
+display: none;
+}
