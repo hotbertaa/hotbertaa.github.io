@@ -10,13 +10,7 @@
 @media only screen and (max-width: 768px) { #wrap.page-casestudy > header { display: none !important; } }
 .img, .img span { background-size: 100% auto !important; -ms-interpolation-mode: bicubic; image-rendering: optimizeQuality; background-repeat: no-repeat; background-position: 50% 0; }
 
-#start .img { background-position: 50%; }
-
-.study-geronigo #start .col-md:nth-child(3) .img { background-position: 50% 0; }
-
-.study-eventplanner #start .col-md:nth-child(2) .img, .study-rezbot #start .col-md:nth-child(3) .img { background-size: auto 100% !important; -ms-interpolation-mode: bicubic; image-rendering: optimizeQuality; }
-
-#redesign .img span, #study .img { padding-bottom: 62% !important; }
+#redesign .img span, #study .img span { padding-bottom: 62% !important; }
 
 .study-rezbot #study .img { padding-bottom: 54% !important; }
 
