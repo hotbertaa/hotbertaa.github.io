@@ -61,10 +61,12 @@ footer nav #main a,
 footer nav #sub a{
 color: $highlightCl10;
 }
-.lead{
+#links .lead,
+#portfolio .lead{
 color: $pluginTitleBg9!important;
 }
-.h3{
+#links .h3,
+#portfolio .h3{
 color: darken($pluginTitleBg9,10%);
 }
 ///////////////////////////////////////////////////////
