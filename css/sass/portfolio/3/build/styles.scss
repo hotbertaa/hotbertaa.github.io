@@ -227,6 +227,9 @@ filter: none;
 #skills{
 @include gradientVertLin($color1:$pluginTitleBg10, $color2:$bodyCl10);
 }
+#head{
+@include gradientHorzLin2($color1:$subheadBg10, $color2:$pluginTitleBg9);
+}
 ///////////////////////////////////////////////////////
 section .bg:after{
 background: -moz-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,0.01) 1%, rgba(255,255,255,1) 100%);
