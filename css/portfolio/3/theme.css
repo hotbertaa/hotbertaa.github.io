@@ -83,7 +83,7 @@ header #header > .row > nav:before, header nav { background: 0; filter: none; }
 
 section .bg:after { background: -moz-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.01) 1%, white 100%); background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.01) 1%, white 100%); background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.01) 1%, white 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=0 ); }
 
-#study { background: -moz-linear-gradient(top, #222B2F 0%, #07303f 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #222B2F), color-stop(100%, #07303f)); background: -webkit-linear-gradient(top, #222B2F 0%, #07303f 100%); background: -o-linear-gradient(top, #222B2F 0%, #07303f 100%); background: -ms-linear-gradient(top, #222B2F 0%, #07303f 100%); background: linear-gradient(top, #222B2F 0%, #07303f 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#222B2F', endColorstr='#07303f',GradientType=0 ); }
+#study { background: -moz-linear-gradient(top, #020d11 0%, #07303f 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #020d11), color-stop(100%, #07303f)); background: -webkit-linear-gradient(top, #020d11 0%, #07303f 100%); background: -o-linear-gradient(top, #020d11 0%, #07303f 100%); background: -ms-linear-gradient(top, #020d11 0%, #07303f 100%); background: linear-gradient(top, #020d11 0%, #07303f 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#020d11', endColorstr='#07303f',GradientType=0 ); }
 
 .page-index #tools:before, .page-index #philosophy:before, #skills:before { background-image: linear-gradient(to left top, transparent 50%, #FFF 50%, #FFF 0%); }
 
@@ -93,7 +93,7 @@ section .bg:after { background: -moz-linear-gradient(top, rgba(255, 255, 255, 0)
 
 .checklist .row .col-auto:after { background-image: linear-gradient(to right bottom, transparent 50%, #FFF 50%, #FFF 0%); }
 
-#intro:after { background-image: linear-gradient(to right bottom, transparent 50%, #222B2F 50%, #222B2F 0%); }
+#intro:after { background-image: linear-gradient(to right bottom, transparent 50%, #020d11 50%, #020d11 0%); }
 
 .scrollr header { box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05); }
 
