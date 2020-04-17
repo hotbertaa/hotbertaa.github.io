@@ -231,7 +231,7 @@ filter: none;
 @include gradientVertLin($color1:$pluginTitleBg10, $color2:$bodyCl10);
 }
 #head{
-@include gradientHorzLin2($color1:$pluginTitleBg9, $color2:$subheadBg10);
+@include gradientHorzLin2($color1:$subheadBg10, $color2:darken($pluginTitleBg9,5%));
 }
 ///////////////////////////////////////////////////////
 section .bg:after{
