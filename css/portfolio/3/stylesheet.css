@@ -406,6 +406,10 @@ header .linkedin .icn { background-size: 100% auto !important; -ms-interpolation
 
 #head:after { display: none; }
 
+#head .nav a { opacity: 0.5; }
+
+#head .nav a.selected, #head .nav a:hover { opacity: 1; }
+
 @media only screen and (max-width: 768px) { .page-index #head { padding-bottom: 40px !important; }
   .page-index #head:after { display: block; }
   #head:before, #head:after { display: block; }
