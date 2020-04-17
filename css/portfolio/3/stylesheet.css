@@ -418,9 +418,9 @@ header .linkedin .icn { background-size: 100% auto !important; -ms-interpolation
 
 #intro > div { z-index: 10 !important; }
 
-#intro #cards .card { border: 0 !important; background: 0 !important; }
+#cards .card { border: 0 !important; background: 0 !important; }
 
-#intro #cards .img { background-size: auto 100% !important; -ms-interpolation-mode: bicubic; image-rendering: optimizeQuality; padding-bottom: 58%; display: block; }
+#cards .img { background-size: auto 100% !important; -ms-interpolation-mode: bicubic; image-rendering: optimizeQuality; padding-bottom: 58%; display: block; }
 
 #cards .col a .sash { width: 120px; height: 120px; text-align: center; overflow: hidden; position: absolute; top: 0; right: 0; z-index: 10; }
 
@@ -428,9 +428,6 @@ header .linkedin .icn { background-size: 100% auto !important; -ms-interpolation
 
 #cards .col a .sash.muted span { color: #0e6585; background-color: #efa837; }
 
-@media only screen and (min-width: 769px) { .page-index #intro #cards { margin-top: -15%; }
-  .page-index #intro { padding-top: 125px !important; padding-bottom: 125px !important; } }
-@media only screen and (min-width: 1469px) { .page-index #intro #cards { margin-top: -10%; } }
 @media only screen and (max-width: 768px) { .page-index #philosophy { padding-bottom: 50px !important; }
   .page-index #portfolio .study-football section, .page-index #portfolio .study-geronigo section, .page-index #portfolio .study-eventplanner section, .page-index #philosophy, .page-index #tools { padding-top: 50px !important; }
   .page-index #intro:before { display: none; }
