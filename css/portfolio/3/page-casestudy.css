@@ -5,7 +5,7 @@
 
 .READMOREjs { position: relative; }
 
-.READMOREjs a { position: absolute; top: 8px; left: 30px; }
+.READMOREjs a { margin-left: -85px; position: absolute; top: 8px; left: 50%; }
 
 .flow .img { max-width: 780px; margin: 0 auto; }
 

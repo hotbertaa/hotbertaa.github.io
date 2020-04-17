@@ -110,7 +110,6 @@ $('#menu .close').on('click ', function() {
 
 //$('.READMOREjs').off('click');
 $('.READMOREjs').on('click', function(){
-  e.preventDefault();
   var next = $(this).next();
   var parentID = $(this).parent().attr('id');
   $(this).animate({scrollTop: $("body").offset().top},500);
