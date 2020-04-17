@@ -128,7 +128,7 @@ background-color: $bodyBg10;
 background-color: $bodyBg9;
 }
 #portfolio .status .col-md:first-of-type div{
-background-color: $bodyBg9!important;
+background-color: lighten($bodyBg9,5%)!important;
 }
 ///////////////////////////////////////////////////////
 #head nav .selected{
