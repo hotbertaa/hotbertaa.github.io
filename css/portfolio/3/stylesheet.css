@@ -477,7 +477,7 @@ header .linkedin .icn { background-size: 100% auto !important; -ms-interpolation
 
 footer nav, .display-3, .h1, .h2, .h3, .h4, .h5, header nav { text-transform: inherit !important; }
 
-body .btn-outline-light { font-family: Poppins; font-weight: normal; }
+body .btn-outline-light { font-family: Poppins; font-weight: normal; text-transform: inherit; }
 
 /* CSS - Peter Roper */
 body #wrap.scrollr > header { transition: background .5s ease; background: #e2f5fc !important; }
