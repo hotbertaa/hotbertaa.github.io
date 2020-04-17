@@ -108,13 +108,12 @@ $('#menu .close').on('click ', function() {
 	return false;
 });
 
-$('.READMOREjs').off('click');
-$('.READMOREjs').on('click', function(e) {
+//$('.READMOREjs').off('click');
+$('.READMOREjs').on('click', function(){
   e.preventDefault();
   var next = $(this).next();
   var parentID = $(this).parent().attr('id');
   $(this).animate({scrollTop: $("body").offset().top},500);
-  $('#'+parentID+' .cancel').trigger('click');// close all add resources
   if($(this).hasClass('open')===false){
     $('.READMOREjs').removeClass('open');
     $(this).parent().addClass('selected');
