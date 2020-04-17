@@ -461,9 +461,7 @@ header .linkedin .icn { background-size: 100% auto !important; -ms-interpolation
 
 #tools { background-color: #1599ca; }
 
-#developer { background-color: #07303f; }
-
-#portfolio .study-geronigo section { background-color: #e2f5fc; }
+#portfolio #rezbot { background-color: #e2f5fc; }
 
 #portfolio, #tools .icn { background-color: #FFF; }
 
