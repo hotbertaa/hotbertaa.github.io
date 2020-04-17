@@ -29,7 +29,7 @@ footer nav #main a, footer nav #sub a { color: #0e6585; }
 
 #portfolio .h1 a, .READMOREjs a, #links .h3, #portfolio .h3 { color: #0e6585; }
 
-#head nav .selected, #intro .card, #menu nav, #appraisal, #appraisal .text-muted, #study, #study .text-muted, #skills, #skills .text-muted, #skills .icon, #subhead, #subhead a.icn, #intro, #intro .text-muted { color: #FFF !important; }
+#portfolio .status .col-md:first-of-type div, #head nav .selected, #intro .card, #menu nav, #appraisal, #appraisal .text-muted, #study, #study .text-muted, #skills, #skills .text-muted, #skills .icon, #subhead, #subhead a.icn, #intro, #intro .text-muted { color: #FFF !important; }
 
 header .logo a small, #head .h3, #head .h3 .text-muted { color: #774dab !important; }
 
@@ -41,17 +41,17 @@ header .logo a small, #head .h3, #head .h3 .text-muted { color: #774dab !importa
 
 #portfolio .status .col-md div, .READMOREjs.border-bottom { border-color: #9dddf5 !important; }
 
-#portfolio .status .col-md:first-of-type div { color: #FFF; background-color: #9dddf5 !important; }
-
 #rezbot .READMOREjs a, body, header, #head { background-color: #e2f5fc; }
+
+.checklist.muted .row .col-auto { background-color: #b4e5f7; }
+
+#portfolio .status .col-md:first-of-type div { background-color: #9dddf5 !important; }
 
 #head nav .selected { background-color: #10769c; }
 
 .checklist .row .col-auto { background-color: #07303f; }
 
 #developer .checklist .row .col-auto { background-color: #1599ca; }
-
-.checklist.muted .row .col-auto { background-color: #b4e5f7; }
 
 .checklist.green .row .col-auto { background-color: #3BB273; }
 
@@ -77,7 +77,7 @@ footer nav #sub, footer nav #main { background-color: #efa837; }
 
 #subhead .container-fluid { background-color: #DEDEDE; }
 
-.READMOREjs a, #links, #subhead .container-fluid .selected a, #menu nav a, footer nav .top { background-color: #FFF; }
+#portfolio .status .col-md div, .READMOREjs a, #links, #subhead .container-fluid .selected a, #menu nav a, footer nav .top { background-color: #FFF; }
 
 #redesign .video, #redesign .img, #redesign .img span { background-color: #E2E8F0; }
 

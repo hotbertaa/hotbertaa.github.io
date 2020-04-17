@@ -75,6 +75,7 @@ color: darken($pluginTitleBg9,15%)!important;
 color: darken($pluginTitleBg9,5%);
 }
 ///////////////////////////////////////////////////////
+#portfolio .status .col-md:first-of-type div,
 #head nav .selected,
 #intro .card,
 #menu nav,
@@ -114,10 +115,6 @@ border-color: darken($bodyCl10,5%)!important;
 .READMOREjs.border-bottom{
 border-color: darken($bodyBg9,5%)!important;
 }
-#portfolio .status .col-md:first-of-type div{
-color: #FFF;
-background-color: darken($bodyBg9,5%)!important;
-}
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 // BACKGROUND COLOR
 ////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -126,6 +123,12 @@ body,
 header,
 #head{
 background-color: $bodyBg10;
+}
+.checklist.muted .row .col-auto{
+background-color: $bodyBg9;
+}
+#portfolio .status .col-md:first-of-type div{
+background-color: darken($bodyBg9,5%)!important;
 }
 ///////////////////////////////////////////////////////
 #head nav .selected{
@@ -136,9 +139,6 @@ background-color: $bodyCl10;
 }
 #developer .checklist .row .col-auto{
 background-color: $pluginTitleBg10;
-}
-.checklist.muted .row .col-auto{
-background-color: $bodyBg9;
 }
 .checklist.green .row .col-auto{
 background-color: #3BB273;
@@ -183,6 +183,7 @@ background-color: #4C5459;
 #subhead .container-fluid{
 background-color: #DEDEDE;
 }
+#portfolio .status .col-md div,
 .READMOREjs a,
 #links,
 #subhead .container-fluid .selected a,
