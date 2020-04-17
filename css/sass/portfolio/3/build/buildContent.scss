@@ -112,6 +112,7 @@ left: 0;
 // INTRO
 
 ////////////////////////////////////////////////////////////////////////////////////
+.page-index #rezbot:before,
 .page-index #tools:before,
 .page-index #intro:after,
 .page-index #intro:before{
@@ -120,10 +121,12 @@ display: block;
 .page-index #intro{
 padding-bottom: 125px!important;
 }
+.page-index #rezbot,
 .page-index #intro,
 .page-index #tools{
 padding-top: 125px!important;
 }
+.page-index #rezbot > div,
 #intro > div{
 z-index: 10!important;
 }
@@ -169,6 +172,7 @@ background-color: $buttonBg10;
 @media only screen and (max-width: 768px) {
 
 ////////////////////////////////////////////////////////////////////////////////////
+.page-index #rezbot,
 .page-index #intro,
 .page-index #tools{
 padding-top: 50px!important;
