@@ -63,11 +63,11 @@ color: $highlightCl10;
 }
 #links .lead,
 #portfolio .lead{
-color: $pluginTitleBg9!important;
+color: darken($pluginTitleBg9,10%)!important;
 }
 #links .h3,
 #portfolio .h3{
-color: darken($pluginTitleBg9,10%);
+color: darken($pluginTitleBg9,5%);
 }
 ///////////////////////////////////////////////////////
 #head nav .selected,
