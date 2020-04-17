@@ -81,13 +81,13 @@ header #header > .row > nav:before, header nav { background: 0; filter: none; }
 
 section .bg:after { background: -moz-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.01) 1%, white 100%); background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.01) 1%, white 100%); background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.01) 1%, white 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=0 ); }
 
-.page-index #tools:before, .page-index #portfolio .study-geronigo section:before, .page-index #philosophy:before, #intro:before, #skills:before { background-image: linear-gradient(to left top, transparent 50%, #FFF 50%, #FFF 0%); }
+.page-index #tools:before, .page-index #philosophy:before, #intro:before, #skills:before { background-image: linear-gradient(to left top, transparent 50%, #FFF 50%, #FFF 0%); }
 
 .page-index #portfolio .study-football section:before, .page-index #portfolio .study-eventplanner section:before { background-image: linear-gradient(to left top, transparent 50%, #EEF9FD 50%, #EEF9FD 0%); }
 
 #menu header #header > .row > nav:before, .scrollr header #header > .row > nav:before { background-image: linear-gradient(to left top, transparent 50%, #e2f5fc 50%, #e2f5fc 0%); }
 
-#intro:after, .page-index #philosophy:after, .study-geronigo #study:after, .study-eventplanner #study:after, .checklist .row .col-auto:after { background-image: linear-gradient(to right bottom, transparent 50%, #FFF 50%, #FFF 0%); }
+#intro:after, .page-index #philosophy:after, .checklist .row .col-auto:after { background-image: linear-gradient(to right bottom, transparent 50%, #FFF 50%, #FFF 0%); }
 
 #appraisal:before { background-image: linear-gradient(to left top, transparent 50%, #e2f5fc 50%, #e2f5fc 0%); }
 
