@@ -11,9 +11,9 @@ body .btn-outline-primary { color: #0e6585 !important; border-color: #0e6585 !im
 
 body .btn-outline-primary:hover { color: #FFF !important; background-color: #0e6585 !important; border-color: #0e6585 !important; }
 
-body .btn-outline-light { color: #0e6585 !important; border-color: #9dddf5 !important; }
+body .btn-outline-light { color: #9dddf5 !important; background-color: #FFF !important; border-color: #9dddf5 !important; }
 
-body .btn-outline-light:hover { color: #10769c !important; }
+body .btn-outline-light:hover { color: #10769c !important; background-color: #FFF !important; }
 
 body .btn-light { color: #e2f5fc !important; }
 
