@@ -104,6 +104,9 @@ header,
 background-color: $bodyBg10;
 }
 ///////////////////////////////////////////////////////
+#head nav .selected{
+background-color: $bodyCl11;
+}
 .checklist .row .col-auto{
 background-color: $bodyCl10;
 }
@@ -123,18 +126,10 @@ background-color: #E15554;
 background-color: $buttonBg10;
 }
 ///////////////////////////////////////////////////////
-#head nav .selected{
-background-color: $subheadBg10;
-}
-///////////////////////////////////////////////////////
 .card-header{
 background-color: $headerBg9;
 }
 ///////////////////////////////////////////////////////
-//footer nav .fab div{
-//color: $headerCl10;
-//background-color: $headerBg10;
-//}
 footer nav #sub,
 footer nav #main{
 background-color: $highlightBg10;
