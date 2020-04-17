@@ -13,7 +13,7 @@
 
 #portfolio .status .icn { float: right; }
 
-#portfolio .status .col div { border-width: 2px; }
+#portfolio .status .col-md div { border-width: 2px; }
 
 .flow .img { max-width: 880px; margin: 0 auto; }
 

@@ -110,11 +110,11 @@ border-color: darken($bodyCl10,10%)!important;
 #intro .border-top{
 border-color: darken($bodyCl10,5%)!important;
 }
-#portfolio .status .col div,
+#portfolio .status .col-md div,
 .READMOREjs.border-bottom{
 border-color: darken($bodyBg9,5%)!important;
 }
-#portfolio .status .col:first-of-type div{
+#portfolio .status .col-md:first-of-type div{
 color: #FFF;
 background-color: darken($bodyBg9,5%)!important;
 }
