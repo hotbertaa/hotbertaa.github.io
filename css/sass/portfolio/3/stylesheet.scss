@@ -1,0 +1,24 @@
+$sub: default;
+$brand: geronigo;
+$template: template1;
+$style: dark;
+$ver: 2;
+
+@import "build/theme.scss";
+@import "../../settings.scss";
+//////////////////////////////////////////////////
+@import "../../components/fontfaces.scss";
+@import "../../components/loaders.scss";
+@import "../../components/menuSlide.scss";
+@import "../../components/popup.scss";
+@import "../../components/olp.scss";
+//////////////////////////////////////////////////
+@import "../../bootstrap1/buildLayout.scss";
+@import "../../bootstrap1/buildContent.scss";
+@import "../../bootstrap1/buildStyling.scss";
+
+@import "build/buildLayout.scss";
+@import "build/buildContent.scss";
+@import "build/buildStyling.scss";
+
+@import "desktop.scss";

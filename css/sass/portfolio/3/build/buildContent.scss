@@ -1,0 +1,341 @@
+.icon{
+line-height: 1;
+margin: -95px 0 15px -48px;
+display: inline-block;
+position: absolute;
+}
+.icon .icn{
+width: 60px!important;
+height: 60px!important;
+line-height: 60px!important;
+font-size: 60px!important;
+}
+////////////////////////////////////////////////////////////////////////////////////
+@media (min-width: 768px){
+.row-cols-md-7 > * {
+    flex: 0 0 14.2857142%;
+    max-width: 14.2857142%;
+}
+}
+
+.video{
+max-width: 880px;
+margin: 0 auto 3rem auto;
+}
+.video div{
+padding-bottom: 58%;
+position: relative;
+}
+.video iframe{
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+}
+
+
+#branding .img{
+@include backgroundSize($hor:85%);
+padding-bottom: 48%;
+}
+
+#branding .img{
+background-repeat: no-repeat;
+background-position: 50%;
+}
+
+
+
+////////////////////////////////////////////////////////////////////////////////////
+
+// HEAD
+
+////////////////////////////////////////////////////////////////////////////////////
+#head .h3 small{
+display: block;
+}
+#head .bg:before{
+content: '';
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+opacity: 0.1;
+background-repeat: repeat-x;
+display: block;
+}
+.webp #head .bg:before{
+background-image: url(/images/bg.webp);
+}
+.nowebp #head .bg:before{
+background-image: url(/images/bg.jpg);
+}
+#head:after{
+display: none;
+}
+////////////////////////////////////////////////////////////////////////////////////
+
+@media only screen and (max-width: 768px) {
+
+////////////////////////////////////////////////////////////////////////////////////
+.page-index #head{
+padding-bottom: 40px!important;
+}
+.page-index #head:after{
+display: block
+}
+#head:before,
+#head:after{
+display: block;
+}
+#head:before{
+top: auto;
+bottom: 0;
+left: 0;
+}
+////////////////////////////////////////////////////////////////////////////////////
+}
+////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////
+
+// INTRO
+
+////////////////////////////////////////////////////////////////////////////////////
+.page-index #portfolio .study-football section:before,
+.page-index #portfolio .study-geronigo section:before,
+.page-index #portfolio .study-eventplanner section:before,
+.page-index #philosophy:before,
+.page-index #philosophy:after,
+.page-index #tools:before,
+.page-index #intro:after,
+.page-index #intro:before{
+display: block;
+}
+.page-index #philosophy{
+padding-bottom: 125px!important;
+}
+.page-index #portfolio .study-football section,
+.page-index #portfolio .study-geronigo section,
+.page-index #portfolio .study-eventplanner section,
+.page-index #philosophy,
+.page-index #tools{
+padding-top: 125px!important;
+}
+#intro > div{
+z-index: 10!important;
+}
+////////////////////////////////////////////////////////////////////////////////////
+#intro #cards .card{
+border: 0!important;
+background: 0!important;
+}
+#intro #cards .img{
+@include backgroundSize($hor:auto,$ver:100%);
+padding-bottom: 58%;
+display: block;
+}
+#cards .col a .sash{
+width: 120px;
+height: 120px;
+text-align: center;
+overflow: hidden;
+position: absolute;
+top: 0;
+right: 0;
+z-index: 10;
+}
+#cards .col a .sash span{
+padding: 8px 10px;
+font-size: 0.85rem;
+display: block;
+position: absolute;
+top: 19px;
+left: -43px;
+width: 240px;
+-webkit-transform: rotate(45deg);
+transform: rotate(45deg);
+color: white;
+background-color: #E15554;
+}
+#cards .col a .sash.muted span{
+color: $buttonCl10;
+background-color: $buttonBg10;
+}
+////////////////////////////////////////////////////////////////////////////////////
+
+@media only screen and (min-width: 769px) {
+
+////////////////////////////////////////////////////////////////////////////////////
+.page-index #intro #cards{
+margin-top: -15%;
+}
+.page-index #intro{
+padding-top: 125px!important;
+padding-bottom: 125px!important;
+}
+////////////////////////////////////////////////////////////////////////////////////
+}
+////////////////////////////////////////////////////////////////////////////////////
+
+@media only screen and (min-width: 1469px) {
+
+////////////////////////////////////////////////////////////////////////////////////
+.page-index #intro #cards{
+margin-top: -10%;
+}
+////////////////////////////////////////////////////////////////////////////////////
+}
+////////////////////////////////////////////////////////////////////////////////////
+
+@media only screen and (max-width: 768px) {
+
+////////////////////////////////////////////////////////////////////////////////////
+.page-index #philosophy{
+padding-bottom: 50px!important;
+}
+.page-index #portfolio .study-football section,
+.page-index #portfolio .study-geronigo section,
+.page-index #portfolio .study-eventplanner section,
+.page-index #philosophy,
+.page-index #tools{
+padding-top: 50px!important;
+}
+.page-index #intro:before{
+display: none;
+}
+#cards .col .card-text{
+font-size: 0.85rem;
+}
+#cards .col a .sash span {
+padding: 4px 10px;
+font-size: 0.65rem;
+top: 15px;
+left: -27px;
+}
+////////////////////////////////////////////////////////////////////////////////////
+}
+////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+
+////////////////////////////////////////////////////////////////////////////////////
+
+// SKILLS
+
+////////////////////////////////////////////////////////////////////////////////////
+#skills .icon{
+line-height: 1;
+margin: -95px 0 0 -48px;
+display: inline-block;
+position: absolute;
+}
+.page-index #skills .icon{
+margin-top: -125px;
+}
+.page-about #skills{
+padding-top: 80px;
+}
+.page-about #skills:before{
+display: block;
+}
+
+.checklist .row .col-auto{
+padding-right: 20px!important;
+position: relative;
+}
+.checklist .row .col-auto:after{
+content: '';
+position: absolute;
+width: 10px;
+height: 100%;
+//margin-bottom: -1px;
+bottom: 0;
+right: 0;
+z-index: 10;
+}
+////////////////////////////////////////////////////////////////////////////////////
+
+@media only screen and (max-width: 768px) {
+
+////////////////////////////////////////////////////////////////////////////////////
+.page-index #skills .icon,
+#skills .icon{
+margin: -80px 0 0 -41px;
+}
+////////////////////////////////////////////////////////////////////////////////////
+}
+
+
+#tools .icn{
+width: 100%!important
+}
+#tools .icn span{
+width: 100%;
+padding-bottom: 100%;
+@include backgroundSize($hor:80%);
+}
+#philosophy .bg:after,
+#developer .bg:after,
+#tools .bg:after{
+opacity: 0.15;
+}
+.page-index #portfolio .study-geronigo .bg:after{
+opacity: 0.5;
+}
+
+#philosophy,
+#philosophy .text-muted,
+#developer,
+#developer .text-muted,
+#tools,
+#tools .text-muted{
+color: #FFF!important;
+}
+#philosophy{
+background-color: $subheadBg10;
+}
+#tools{
+background-color: $pluginTitleBg10;
+}
+#developer{
+background-color: $bodyCl10;
+}
+#portfolio .study-geronigo section{
+background-color: $bodyBg10;
+}
+#portfolio,
+#tools .icn{
+background-color: #FFF;
+}
+#tools .icn span{
+background-position: 50%;
+background-repeat: no-repeat;
+}
+#tools #icn3 span,
+#tools #icn1 span{
+background-color: #FFF;
+}
+#tools #icn2 span{
+background-color: #000;
+}
+#tools #icn4 span{
+background-color: #E91F61;
+}
+#tools #icn5 span{
+background-color: #1292EC;
+}
+#tools #icn6 span{
+background-color: #FFB447;
+}
+#tools #icn7 span{
+background-color: #7FBAFB;
+}
