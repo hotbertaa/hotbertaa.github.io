@@ -39,7 +39,9 @@ header .logo a small, #head .h3, #head .h3 .text-muted { color: #774dab !importa
 
 #intro .border-top { border-color: #041f28 !important; }
 
-.READMOREjs.border-bottom { border-color: #9dddf5 !important; }
+#portfolio .status .col div, .READMOREjs.border-bottom { border-color: #9dddf5 !important; }
+
+#portfolio .status .col:first-of-type div { color: #FFF; background-color: #9dddf5 !important; }
 
 #rezbot .READMOREjs a, body, header, #head { background-color: #e2f5fc; }
 
