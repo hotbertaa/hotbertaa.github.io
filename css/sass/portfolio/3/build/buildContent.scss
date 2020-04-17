@@ -79,11 +79,11 @@ background-image: url(/images/bg.jpg);
 #head:after{
 display: none;
 }
-#head .nav a{
+#head nav a{
 opacity: 0.5;
 }
-#head .nav a.selected,
-#head .nav a:hover{
+#head nav a.selected,
+#head nav a:hover{
 opacity: 1;
 }
 ////////////////////////////////////////////////////////////////////////////////////
