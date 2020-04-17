@@ -9,6 +9,8 @@
 
 #portfolio .img1 { padding-bottom: 62%; }
 
+#portfolio .h1 a { font-size: 1em; }
+
 .flow .img { max-width: 780px; margin: 0 auto; }
 
 .flow .img span { padding-bottom: 82%; background-color: #E2E8F0; }
