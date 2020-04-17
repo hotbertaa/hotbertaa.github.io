@@ -31,7 +31,9 @@ header .logo a small, #head .h3, #head .h3 .text-muted { color: #774dab !importa
 
 .checklist .row .col-auto { color: #FFF; }
 
-#study .border-top, #intro .border-top { border-color: #041f28 !important; }
+#study .border-top { border-color: #020d11 !important; }
+
+#intro .border-top { border-color: #041f28 !important; }
 
 body, header, #head { background-color: #e2f5fc; }
 
