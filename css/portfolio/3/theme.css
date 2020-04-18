@@ -1,85 +1,120 @@
-/*
-Error: Invalid CSS after "background-color: ": expected expression (e.g. 1px, bold), was ";"
-        on line 191 of /Users/hotbertaa/Documents/GitHub/hotbertaa.github.io/css/sass/portfolio/3/build/styles.scss
-        from line 12 of /Users/hotbertaa/Documents/GitHub/hotbertaa.github.io/css/sass/portfolio/3/theme.scss
+/* CSS - Peter Roper */
+.text-muted { color: initial !important; opacity: 0.65; }
 
-186: }
-187: #intro .row .col:nth-child(2) .img{
-188: background-color: #F0774E;
-189: }
-190: #intro .row .col:nth-child(3) .img{
-191: background-color: ;
-192: }
-193: #intro .row .col:nth-child(4) .img{
-194: background-color: #4C5459;
-195: }
-196: #intro .row .col:nth-child(5) .img{
+body .btn-primary { color: #0e6585 !important; background-color: #efa837 !important; border-color: #efa837 !important; }
 
-Backtrace:
-/Users/hotbertaa/Documents/GitHub/hotbertaa.github.io/css/sass/portfolio/3/build/styles.scss:191
-/Users/hotbertaa/Documents/GitHub/hotbertaa.github.io/css/sass/portfolio/3/theme.scss:12
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308:in `expected'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/script/lexer.rb:240:in `expected!'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/script/parser.rb:855:in `assert_expr'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/script/parser.rb:68:in `parse'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1164:in `sass_script'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1002:in `value!'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:807:in `block in try_declaration'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1284:in `rethrow'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:820:in `try_declaration'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:743:in `declaration_or_ruleset'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:708:in `block_child'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:697:in `block_contents'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:689:in `block'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:681:in `ruleset'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:707:in `block_child'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:700:in `block_contents'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:137:in `stylesheet'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:41:in `parse'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/engine.rb:414:in `_to_tree'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/engine.rb:321:in `to_tree'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:323:in `block in visit_import'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/stack.rb:88:in `block in with_import'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/stack.rb:135:in `with_frame'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/stack.rb:88:in `with_import'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:322:in `visit_import'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `visit'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `block in with_base'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/stack.rb:135:in `with_frame'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `with_base'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `visit'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in `map'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `block in visit'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `visit'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:157:in `visit'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:10:in `visit'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/root_node.rb:36:in `css_tree'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/engine.rb:389:in `_render_with_sourcemap'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/engine.rb:307:in `render_with_sourcemap'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:462:in `update_stylesheet'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:209:in `each'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:443:in `on_file_changed'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:320:in `block in watch'
-/Library/Ruby/Gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/event/config.rb:23:in `call'
-/Library/Ruby/Gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:115:in `_process_changes'
-/Library/Ruby/Gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:19:in `block in loop_for'
-/Library/Ruby/Gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop'
-/Library/Ruby/Gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop_for'
-/Library/Ruby/Gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:84:in `_wait_for_changes'
-/Library/Ruby/Gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:42:in `block in setup'
-/Library/Ruby/Gems/2.3.0/gems/sass-listen-4.0.0/lib/sass-listen/internals/thread_pool.rb:6:in `block in add'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Invalid CSS after \"background-color: \": expected expression (e.g. 1px, bold), was \";\"\A         on line 191 of /Users/hotbertaa/Documents/GitHub/hotbertaa.github.io/css/sass/portfolio/3/build/styles.scss\A         from line 12 of /Users/hotbertaa/Documents/GitHub/hotbertaa.github.io/css/sass/portfolio/3/theme.scss\A \A 186: }\A 187: #intro .row .col:nth-child(2) .img{\A 188: background-color: #F0774E;\A 189: }\A 190: #intro .row .col:nth-child(3) .img{\A 191: background-color: ;\A 192: }\A 193: #intro .row .col:nth-child(4) .img{\A 194: background-color: #4C5459;\A 195: }\A 196: #intro .row .col:nth-child(5) .img{"; }
+body #head .btn-primary { border-color: #e19112 !important; }
+
+body .btn-primary:hover { color: #0e6585 !important; background-color: #e19112 !important; border-color: #e19112 !important; }
+
+body .btn-outline-primary { color: #0e6585 !important; border-color: #0e6585 !important; }
+
+body .btn-outline-primary:hover { color: #FFF !important; background-color: #0e6585 !important; border-color: #0e6585 !important; }
+
+body .btn-outline-light { color: #10769c !important; background-color: #FFF !important; border-color: #9dddf5 !important; }
+
+body .btn-outline-light:hover { color: #1599ca !important; background-color: #FFF !important; }
+
+body .btn-light { color: #e2f5fc !important; }
+
+#head nav a, .checklist.muted .row .col-auto, #subhead .container-fluid a, #menu nav a, .checklist .row, footer nav .top, body, #head .text-muted, #head { color: #07303f !important; }
+
+header nav a { color: #0e6585; }
+
+header a .icn, #menu header a .icn, header .logo a { color: #07303f !important; }
+
+footer nav #main a, footer nav #sub a { color: #0e6585; }
+
+#intro .card, #menu nav, #appraisal, #appraisal .text-muted, #study, #study .text-muted, #skills, #skills .text-muted, #skills .icon, #subhead, #subhead a.icn, #about, #about .text-muted, #intro, #intro .text-muted { color: #FFF !important; }
+
+#head .h3, #head .h3 .text-muted, header .logo a small { color: #774dab !important; }
+
+.checklist .row .col-auto { color: #FFF; }
+
+#links .lead, #portfolio .lead { color: #094257 !important; }
+
+#portfolio .status .col-md div, #portfolio .h1 a, .READMOREjs a, #links .h3, #portfolio .h3 { color: #0e6585; }
+
+#head nav .selected { color: #0e6585; }
+
+#study .border-top { border-color: #020d11 !important; }
+
+#intro .border-top { border-color: #041f28 !important; }
+
+#portfolio .status .col-md div, .READMOREjs.border-bottom { border-color: #9dddf5 !important; }
+
+#head, #rezbot .READMOREjs a, body, header { background-color: #e2f5fc; }
+
+.checklist.muted .row .col-auto { background-color: #b4e5f7; }
+
+#portfolio .status .col-md:first-of-type div { background-color: #cbedfa !important; }
+
+.checklist .row .col-auto { background-color: #07303f; }
+
+.checklist .row { background-color: #FFF; }
+
+#subhead, #skills .icon, #developer .checklist .row .col-auto { background-color: #1599ca; }
+
+#portfolio .status .col-md:first-of-type div { color: #5f3d88; background-color: #ebe5f3 !important; border-color: #dcd0ea !important; }
+
+.checklist.green .row .col-auto { background-color: #3BB273; }
+
+.checklist.red .row .col-auto { background-color: #E15554; }
+
+#head nav .selected, .checklist.yellow .row .col-auto { background-color: #efa837; }
+
+.card-header { background-color: #b4e5f7; }
+
+footer nav #sub, footer nav #main { background-color: #efa837; }
+
+#intro .row .col:nth-child(1) .img { background-color: #222A2F; }
+
+#intro .row .col:nth-child(2) .img { background-color: #F0774E; }
+
+#intro .row .col:nth-child(3) .img { background-color: #0E75C3; }
+
+#intro .row .col:nth-child(4) .img { background-color: #4C5459; }
+
+#intro .row .col:nth-child(5) .img { background-color: #000; }
+
+#intro .row .col:nth-child(6) .img { background-color: #375257; }
+
+#subhead .container-fluid { background-color: #DEDEDE; }
+
+#portfolio .status .col-md div, .READMOREjs a, #links, #subhead .container-fluid .selected a, #menu nav a, footer nav .top { background-color: #FFF; }
+
+#redesign .video, #redesign .img, #redesign .img span { background-color: #E2E8F0; }
+
+#intro #cards .img { background-position: 50%; }
+
+#intro #cards .img { background-repeat: no-repeat; }
+
+header #header > .row > nav:before, header nav { background: 0; filter: none; }
+
+#about, #intro { background: -moz-linear-gradient(left, #774dab 0%, #07303f 100%); background: -webkit-gradient(linear, left top, right top, color-stop(0%, #774dab), color-stop(100%, #07303f)); background: -webkit-linear-gradient(left, #774dab 0%, #07303f 100%); background: -o-linear-gradient(left, #774dab 0%, #07303f 100%); background: -ms-linear-gradient(left, #774dab 0%, #07303f 100%); background: linear-gradient(to right, #774dab 0%, #07303f 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#774dab', endColorstr='#07303f',GradientType=1 ); }
+
+#menu header nav, .scrollr header nav { background: -moz-linear-gradient(left, #b4e5f7 0%, #e2f5fc 100%); background: -webkit-gradient(linear, left top, right top, color-stop(0%, #b4e5f7), color-stop(100%, #e2f5fc)); background: -webkit-linear-gradient(left, #b4e5f7 0%, #e2f5fc 100%); background: -o-linear-gradient(left, #b4e5f7 0%, #e2f5fc 100%); background: -ms-linear-gradient(left, #b4e5f7 0%, #e2f5fc 100%); background: linear-gradient(to right, #b4e5f7 0%, #e2f5fc 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4e5f7', endColorstr='#e2f5fc',GradientType=1 ); }
+
+#skills { background: -moz-linear-gradient(top, #1599ca 0%, #07303f 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #1599ca), color-stop(100%, #07303f)); background: -webkit-linear-gradient(top, #1599ca 0%, #07303f 100%); background: -o-linear-gradient(top, #1599ca 0%, #07303f 100%); background: -ms-linear-gradient(top, #1599ca 0%, #07303f 100%); background: linear-gradient(top, #1599ca 0%, #07303f 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1599ca', endColorstr='#07303f',GradientType=0 ); }
+
+section .bg:after { background: -moz-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.01) 1%, white 100%); background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.01) 1%, white 100%); background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.01) 1%, white 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=0 ); }
+
+#study { background: -moz-linear-gradient(top, #020d11 0%, #07303f 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #020d11), color-stop(100%, #07303f)); background: -webkit-linear-gradient(top, #020d11 0%, #07303f 100%); background: -o-linear-gradient(top, #020d11 0%, #07303f 100%); background: -ms-linear-gradient(top, #020d11 0%, #07303f 100%); background: linear-gradient(top, #020d11 0%, #07303f 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#020d11', endColorstr='#07303f',GradientType=0 ); }
+
+#about:before, #intro:before, .page-index #rezbot:before, .page-index #philosophy:before, #skills:before { background-image: linear-gradient(to left top, transparent 50%, #FFF 50%, #FFF 0%); }
+
+#eventplanner:before, #links:before { background-image: linear-gradient(to left top, transparent 50%, #e2f5fc 50%, #e2f5fc 0%); }
+
+#menu header #header > .row > nav:before, .scrollr header #header > .row > nav:before { background-image: linear-gradient(to left top, transparent 50%, #e2f5fc 50%, #e2f5fc 0%); }
+
+#intro:after, .checklist .row .col-auto:after { background-image: linear-gradient(to right bottom, transparent 50%, #FFF 50%, #FFF 0%); }
+
+#about:after { background-image: linear-gradient(to right bottom, transparent 50%, #020d11 50%, #020d11 0%); }
+
+.scrollz #head, .scrolly #head, .scrollr header { box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05); }
+
+@media only screen and (max-width: 768px) { #about, #intro { background: -moz-linear-gradient(top, #774dab 0%, #07303f 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #774dab), color-stop(100%, #07303f)); background: -webkit-linear-gradient(top, #774dab 0%, #07303f 100%); background: -o-linear-gradient(top, #774dab 0%, #07303f 100%); background: -ms-linear-gradient(top, #774dab 0%, #07303f 100%); background: linear-gradient(top, #774dab 0%, #07303f 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#774dab', endColorstr='#07303f',GradientType=0 ); }
+  #head:before { background-image: linear-gradient(to right bottom, transparent 50%, #774dab 50%, #774dab 0%); }
+  #head:after { background-image: linear-gradient(to left bottom, transparent 50%, #774dab 50%, #774dab 0%); } }
+
+/*# sourceMappingURL=theme.css.map */
