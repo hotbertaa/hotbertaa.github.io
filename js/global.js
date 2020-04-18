@@ -67,13 +67,13 @@ $('.scrollTo').on('click', function(){
         return true;
     } else {
     	if($($(this).attr('href')).length > 0){
-        top = '-1';
-        if($(this).attr('href')=="#portfolio"){ top = '-150'; }
-        if($(this).attr('href')=="#geronigo"){ top = '10'; }
-        if($(this).attr('href')=="#rezbot"){ top = '80'; }
-        if($(this).attr('href')=="#about"){ top = '80'; }
-        if($(this).attr('href')=="#study"){ top = '-100'; }
-        $('html,body').animate({scrollTop: $($(this).attr('href')).offset().top top }, 'slow');
+        topx = '-1';
+        if($(this).attr('href')=="#portfolio"){ topx = '-150'; }
+        if($(this).attr('href')=="#geronigo"){ topx = '10'; }
+        if($(this).attr('href')=="#rezbot"){ topx = '80'; }
+        if($(this).attr('href')=="#about"){ topx = '80'; }
+        if($(this).attr('href')=="#study"){ topx = '-100'; }
+        $('html,body').animate({scrollTop: $($(this).attr('href')).offset().top ''+topx+'' }, 'slow');
         //$('html,body').animate({scrollTop: $($(this).attr('href')).offset().top -210 }, 'slow');
     	}else{
         	console.log($(this).attr('href')+ ' is missing');
