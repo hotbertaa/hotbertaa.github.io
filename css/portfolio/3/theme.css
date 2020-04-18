@@ -17,7 +17,7 @@ body .btn-outline-light:hover { color: #1599ca !important; background-color: #FF
 
 body .btn-light { color: #e2f5fc !important; }
 
-.checklist.muted .row .col-auto, #subhead .container-fluid a, #menu nav a, .checklist .row, footer nav .top, body, #head .text-muted, #head { color: #07303f !important; }
+#head nav a, .checklist.muted .row .col-auto, #subhead .container-fluid a, #menu nav a, .checklist .row, footer nav .top, body, #head .text-muted, #head { color: #07303f !important; }
 
 header nav a { color: #0e6585; }
 
