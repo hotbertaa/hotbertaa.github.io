@@ -437,7 +437,7 @@ header .linkedin .icn { background-size: 100% auto !important; -ms-interpolation
 @media only screen and (max-width: 768px) { #eventplanner, #links, .page-index #rezbot, #about { padding-top: 50px !important; }
   .page-index #intro { padding-top: 0 !important; }
   #about, .page-index #intro { padding-bottom: 50px !important; }
-  #about:before, .page-index #intro:before { display: none; }
+  .page-index #intro:before { display: none; }
   #cards .col .card-text { font-size: 0.85rem; }
   #cards .col a .sash span { padding: 4px 10px; font-size: 0.65rem; top: 15px; left: -27px; } }
 #skills .icon { line-height: 1; margin: -95px 0 0 -48px; display: inline-block; position: absolute; }
