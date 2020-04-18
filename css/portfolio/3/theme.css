@@ -81,7 +81,7 @@ footer nav #sub, footer nav #main { background-color: #efa837; }
 
 #subhead .container-fluid { background-color: #DEDEDE; }
 
-.scrollr .wrap, #portfolio .status .col-md div, .READMOREjs a, #links, #subhead .container-fluid .selected a, #menu nav a, footer nav .top { background-color: #FFF; }
+.scrollr.wrap, #portfolio .status .col-md div, .READMOREjs a, #links, #subhead .container-fluid .selected a, #menu nav a, footer nav .top { background-color: #FFF; }
 
 #redesign .video, #redesign .img, #redesign .img span { background-color: #E2E8F0; }
 
