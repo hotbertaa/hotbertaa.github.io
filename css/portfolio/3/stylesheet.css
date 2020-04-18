@@ -415,11 +415,11 @@ header .linkedin .icn { background-size: 100% auto !important; -ms-interpolation
   .page-index #head:after { display: block; }
   #head:before, #head:after { display: block; }
   #head:before { top: auto; bottom: 0; left: 0; } }
-#links:before, #about:before, #about:after, .page-index #rezbot:before, .page-index #intro:after, .page-index #intro:before { display: block; }
+#links:before, #eventplanner:before, #about:before, #about:after, .page-index #rezbot:before, .page-index #intro:after, .page-index #intro:before { display: block; }
 
 #about, .page-index #intro { padding-bottom: 125px !important; }
 
-#about, #links, .page-index #rezbot, .page-index #intro { padding-top: 125px !important; }
+#eventplanner, #about, #links, .page-index #rezbot, .page-index #intro { padding-top: 125px !important; }
 
 .page-index #rezbot .container-xl, #intro > div { position: relative; z-index: 10 !important; }
 
@@ -434,7 +434,7 @@ header .linkedin .icn { background-size: 100% auto !important; -ms-interpolation
 #cards .col a .sash.muted span { color: #0e6585; background-color: #efa837; }
 
 @media only screen and (min-width: 769px) { .page-index #intro #cards { margin-top: -15%; } }
-@media only screen and (max-width: 768px) { #links, .page-index #rezbot, #about, .page-index #intro { padding-top: 50px !important; }
+@media only screen and (max-width: 768px) { #eventplanner, #links, .page-index #rezbot, #about, .page-index #intro { padding-top: 50px !important; }
   #about, .page-index #intro { padding-bottom: 50px !important; }
   #about:before, .page-index #intro:before { display: none; }
   #cards .col .card-text { font-size: 0.85rem; }

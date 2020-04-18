@@ -127,6 +127,7 @@ left: 0;
 
 ////////////////////////////////////////////////////////////////////////////////////
 #links:before,
+#eventplanner:before,
 #about:before,
 #about:after,
 .page-index #rezbot:before,
@@ -138,6 +139,7 @@ display: block;
 .page-index #intro{
 padding-bottom: 125px!important;
 }
+#eventplanner,
 #about,
 #links,
 .page-index #rezbot,
@@ -201,6 +203,7 @@ margin-top: -15%;
 @media only screen and (max-width: 768px) {
 
 ////////////////////////////////////////////////////////////////////////////////////
+#eventplanner,
 #links,
 .page-index #rezbot,
 #about,

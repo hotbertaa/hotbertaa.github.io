@@ -261,6 +261,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', e
 #skills:before{
 background-image: linear-gradient(to left top, transparent 50%, #FFF 50%, #FFF 0%);
 }
+#eventplanner:before,
 #links:before{
 background-image: linear-gradient(to left top, transparent 50%, $bodyBg10 50%, $bodyBg10 0%);
 }

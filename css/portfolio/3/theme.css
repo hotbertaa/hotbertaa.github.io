@@ -99,7 +99,7 @@ section .bg:after { background: -moz-linear-gradient(top, rgba(255, 255, 255, 0)
 
 #about:before, #intro:before, .page-index #rezbot:before, .page-index #philosophy:before, #skills:before { background-image: linear-gradient(to left top, transparent 50%, #FFF 50%, #FFF 0%); }
 
-#links:before { background-image: linear-gradient(to left top, transparent 50%, #e2f5fc 50%, #e2f5fc 0%); }
+#eventplanner:before, #links:before { background-image: linear-gradient(to left top, transparent 50%, #e2f5fc 50%, #e2f5fc 0%); }
 
 #menu header #header > .row > nav:before, .scrollr header #header > .row > nav:before { background-image: linear-gradient(to left top, transparent 50%, #e2f5fc 50%, #e2f5fc 0%); }
 
