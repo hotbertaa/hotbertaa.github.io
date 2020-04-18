@@ -109,9 +109,9 @@ section .bg:after { background: -moz-linear-gradient(top, rgba(255, 255, 255, 0)
 
 #menu header #header > .row > nav:before, .scrollr header #header > .row > nav:before { background-image: linear-gradient(to left top, transparent 50%, #e2f5fc 50%, #e2f5fc 0%); }
 
-.checklist .row .col-auto:after { background-image: linear-gradient(to right bottom, transparent 50%, #FFF 50%, #FFF 0%); }
+#intro:after, .checklist .row .col-auto:after { background-image: linear-gradient(to right bottom, transparent 50%, #FFF 50%, #FFF 0%); }
 
-#about:after, #intro:after { background-image: linear-gradient(to right bottom, transparent 50%, #020d11 50%, #020d11 0%); }
+#about:after { background-image: linear-gradient(to right bottom, transparent 50%, #020d11 50%, #020d11 0%); }
 
 .scrollz #head, .scrolly #head, .scrollr header { box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05); }
 

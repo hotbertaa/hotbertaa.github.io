@@ -277,11 +277,11 @@ background-image: linear-gradient(to left top, transparent 50%, $bodyBg10 50%, $
 .scrollr header #header > .row > nav:before{
 background-image: linear-gradient(to left top, transparent 50%, $headerBg10 50%, $headerBg10 0%);
 }
+#intro:after,
 .checklist .row .col-auto:after{
 background-image: linear-gradient(to right bottom, transparent 50%, #FFF 50%, #FFF 0%);
 }
-#about:after,
-#intro:after{
+#about:after{
 background-image: linear-gradient(to right bottom, transparent 50%, darken($bodyCl10,10%) 50%, darken($bodyCl10,10%) 0%);
 }
 ////////////////////////////////////////////////////////////////////////////////////////////////////
