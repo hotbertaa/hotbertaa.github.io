@@ -73,7 +73,7 @@ $('.scrollTo').on('click', function(){
         if($(this).attr('href')=="#rezbot"){ top = '80'; }
         if($(this).attr('href')=="#about"){ top = '80'; }
         if($(this).attr('href')=="#study"){ top = '-100'; }
-        $('html,body').animate({scrollTop: $($(this).attr('href')).offset().top ''+top+'' }, 'slow');
+        $('html,body').animate({scrollTop: $($(this).attr('href')).offset().top top }, 'slow');
         //$('html,body').animate({scrollTop: $($(this).attr('href')).offset().top -210 }, 'slow');
     	}else{
         	console.log($(this).attr('href')+ ' is missing');
