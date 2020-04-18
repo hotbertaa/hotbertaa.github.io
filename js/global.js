@@ -68,9 +68,9 @@ $('.scrollTo').on('click', function(){
     } else {
     	if($($(this).attr('href')).length > 0){
         if($(this).attr('href')=="#portfolio"){ $('html,body').animate({scrollTop: $($(this).attr('href')).offset().top -150 }, 'slow'); }
-        if($(this).attr('href')=="#geronigo"){ $('html,body').animate({scrollTop: $($(this).attr('href')).offset().top 10 }, 'slow'); }
-        if($(this).attr('href')=="#rezbot"){ $('html,body').animate({scrollTop: $($(this).attr('href')).offset().top 80 }, 'slow'); }
-        if($(this).attr('href')=="#about"){ $('html,body').animate({scrollTop: $($(this).attr('href')).offset().top 80 }, 'slow'); }
+        if($(this).attr('href')=="#geronigo"){ $('html,body').animate({scrollTop: $($(this).attr('href')).offset().top +10 }, 'slow'); }
+        if($(this).attr('href')=="#rezbot"){ $('html,body').animate({scrollTop: $($(this).attr('href')).offset().top +80 }, 'slow'); }
+        if($(this).attr('href')=="#about"){ $('html,body').animate({scrollTop: $($(this).attr('href')).offset().top +80 }, 'slow'); }
         if($(this).attr('href')=="#study"){ $('html,body').animate({scrollTop: $($(this).attr('href')).offset().top -100 }, 'slow'); }
         else {
           $('html,body').animate({scrollTop: $($(this).attr('href')).offset().top -1 }, 'slow');
