@@ -206,9 +206,11 @@ margin-top: -15%;
 #eventplanner,
 #links,
 .page-index #rezbot,
-#about,
-.page-index #intro{
+#about{
 padding-top: 50px!important;
+}
+.page-index #intro{
+padding-top: 0!important;
 }
 #about,
 .page-index #intro{
