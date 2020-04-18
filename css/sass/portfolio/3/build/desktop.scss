@@ -19,15 +19,15 @@ left: 0;
 right: 0;
 z-index: 100;
 }
-.scrollz #head > div,
-.scrolly #head > div{
+.scrollz #head > .container-lg,
+.scrolly #head > .container-lg{
 padding-top: 1rem!important;
 padding-bottom: 1rem!important;
 }
 .scrollz #head .bg,
-.scrollz #head .row,
+.scrollz #head .container-xl,
 .scrolly #head .bg,
-.scrolly #head .row{
+.scrolly #head .container-xl{
 display: none;
 }
 ////////////////////////////////////////////////////////////////////////////////////
