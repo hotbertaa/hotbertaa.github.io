@@ -21,7 +21,7 @@ body .btn-light { color: #e2f5fc !important; }
 
 header nav a { color: #0e6585; }
 
-.scrollr header a .icn, header .logo a { color: #07303f !important; }
+.scrollr header a .icn, #menu header a .icn, header .logo a { color: #07303f !important; }
 
 footer nav #main a, footer nav #sub a { color: #0e6585; }
 
