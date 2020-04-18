@@ -85,6 +85,8 @@ header a .icn,
 #skills .icon,
 #subhead,
 #subhead a.icn,
+#about,
+#about .text-muted,
 #intro,
 #intro .text-muted{
 color: #FFF!important;
@@ -228,6 +230,7 @@ filter: none;
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 // GRADIENTS
 ////////////////////////////////////////////////////////////////////////////////////////////////////
+#about,
 #intro{
 @include gradientHorzLin2($color1:$subheadBg10, $color2:$bodyCl10);
 }
@@ -260,6 +263,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 // TRIANGLES
 ////////////////////////////////////////////////////////////////////////////////////////////////////
+#about:before,
 #intro:before,
 .page-index #rezbot:before,
 .page-index #philosophy:before,
@@ -276,6 +280,7 @@ background-image: linear-gradient(to left top, transparent 50%, $headerBg10 50%,
 .checklist .row .col-auto:after{
 background-image: linear-gradient(to right bottom, transparent 50%, #FFF 50%, #FFF 0%);
 }
+#about:after,
 #intro:after{
 background-image: linear-gradient(to right bottom, transparent 50%, darken($bodyCl10,10%) 50%, darken($bodyCl10,10%) 0%);
 }
@@ -292,6 +297,7 @@ box-shadow: 0 10px 15px -3px rgba(0,0,0,.1), 0 4px 6px -2px rgba(0,0,0,.05);
 @media only screen and (max-width: 768px) {
 
 ////////////////////////////////////////////////////////////////////////////////////
+#about,
 #intro{
 @include gradientVertLin($color1:$subheadBg10, $color2:$bodyCl10);
 }

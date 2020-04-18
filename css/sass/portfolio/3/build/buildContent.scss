@@ -127,14 +127,18 @@ left: 0;
 
 ////////////////////////////////////////////////////////////////////////////////////
 #links:before,
+#about:before,
+#about:after,
 .page-index #rezbot:before,
 .page-index #intro:after,
 .page-index #intro:before{
 display: block;
 }
+#about,
 .page-index #intro{
 padding-bottom: 125px!important;
 }
+#about,
 #links,
 .page-index #rezbot,
 .page-index #intro{
@@ -189,12 +193,15 @@ background-color: $buttonBg10;
 ////////////////////////////////////////////////////////////////////////////////////
 #links,
 .page-index #rezbot,
+#about,
 .page-index #intro{
 padding-top: 50px!important;
 }
+#about,
 .page-index #intro{
 padding-bottom: 50px!important;
 }
+#about:before,
 .page-index #intro:before{
 display: none;
 }
