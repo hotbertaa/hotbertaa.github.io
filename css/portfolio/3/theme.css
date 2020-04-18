@@ -21,11 +21,11 @@ body .btn-light { color: #e2f5fc !important; }
 
 header nav a { color: #0e6585; }
 
-.scrollr header a .icn, #menu header a .icn, header .logo a { color: #07303f !important; }
+header a .icn, #menu header a .icn, header .logo a { color: #07303f !important; }
 
 footer nav #main a, footer nav #sub a { color: #0e6585; }
 
-header a .icn, #head nav .selected, #intro .card, #menu nav, #appraisal, #appraisal .text-muted, #study, #study .text-muted, #skills, #skills .text-muted, #skills .icon, #subhead, #subhead a.icn, #about, #about .text-muted, #intro, #intro .text-muted { color: #FFF !important; }
+#head nav .selected, #intro .card, #menu nav, #appraisal, #appraisal .text-muted, #study, #study .text-muted, #skills, #skills .text-muted, #skills .icon, #subhead, #subhead a.icn, #about, #about .text-muted, #intro, #intro .text-muted { color: #FFF !important; }
 
 #head .h3, #head .h3 .text-muted, header .logo a small { color: #774dab !important; }
 
@@ -110,7 +110,7 @@ section .bg:after { background: -moz-linear-gradient(top, rgba(255, 255, 255, 0)
 .scrollz #head, .scrolly #head, .scrollr header { box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05); }
 
 @media only screen and (max-width: 768px) { #about, #intro { background: -moz-linear-gradient(top, #774dab 0%, #07303f 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #774dab), color-stop(100%, #07303f)); background: -webkit-linear-gradient(top, #774dab 0%, #07303f 100%); background: -o-linear-gradient(top, #774dab 0%, #07303f 100%); background: -ms-linear-gradient(top, #774dab 0%, #07303f 100%); background: linear-gradient(top, #774dab 0%, #07303f 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#774dab', endColorstr='#07303f',GradientType=0 ); }
-  #head:before { background-image: linear-gradient(to right bottom, transparent 50%, #FFF 50%, #FFF 0%); }
-  #head:after { background-image: linear-gradient(to left bottom, transparent 50%, #FFF 50%, #FFF 0%); } }
+  #head:before { background-image: linear-gradient(to right bottom, transparent 50%, #774dab 50%, #774dab 0%); }
+  #head:after { background-image: linear-gradient(to left bottom, transparent 50%, #774dab 50%, #774dab 0%); } }
 
 /*# sourceMappingURL=theme.css.map */
