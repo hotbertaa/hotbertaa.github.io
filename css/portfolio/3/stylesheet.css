@@ -399,7 +399,7 @@ header .linkedin .icn { background-size: 100% auto !important; -ms-interpolation
 
 #head .h3 small { display: block; }
 
-#head .bg:before { content: ''; position: absolute; top: 0; left: 0; right: 0; bottom: 0; opacity: 0.075; background-repeat: repeat-x; display: block; }
+#head .bg:before { content: ''; position: absolute; top: 0; left: 0; right: 0; bottom: 0; opacity: 0.1; background-repeat: repeat-x; display: block; }
 
 .webp #head .bg:before { background-image: url(/images/bg.webp); }
 
