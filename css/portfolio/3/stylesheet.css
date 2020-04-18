@@ -526,6 +526,8 @@ footer nav, .scrollup footer nav { bottom: -127px !important; }
 
 .scrollr #header > .row > .col:nth-child(2) { display: block !important; }
 
+.scrollr .wrap { padding-top: 286px !important; }
+
 @media only screen and (min-width: 768px) { .scrollz #head, .scrolly #head { padding: 0; position: fixed; top: 0; left: 0; right: 0; z-index: 100; }
   .scrollz #head > .container-lg, .scrolly #head > .container-lg { padding-top: 1rem !important; padding-bottom: 1rem !important; }
   .scrollz #head .bg, .scrollz #head .container-xl, .scrolly #head .bg, .scrolly #head .container-xl { display: none; }
