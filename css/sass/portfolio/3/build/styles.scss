@@ -72,7 +72,6 @@ color: $highlightCl10;
 //#head,
 //#head .text-muted,
 //#head nav a,
-#head nav .selected,
 #intro .card,
 #menu nav,
 #appraisal,
@@ -110,6 +109,10 @@ color: darken($pluginTitleBg9,15%)!important;
 #links .h3,
 #portfolio .h3{
 color: darken($pluginTitleBg9,5%);
+}
+///////////////////////////////////////////////////////
+#head nav .selected{
+color: $buttonCl10;
 }
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 // BORDER COLOR
@@ -151,9 +154,6 @@ background-color: $pluginTitleCl10;
 #developer .checklist .row .col-auto{
 background-color: $pluginTitleBg10;
 }
-#head nav .selected{
-background-color: $pluginTitleBg9;
-}
 ///////////////////////////////////////////////////////
 #portfolio .status .col-md:first-of-type div{
 color: $subheadBg9;
@@ -167,6 +167,7 @@ background-color: #3BB273;
 .checklist.red .row .col-auto{
 background-color: #E15554;
 }
+#head nav .selected,
 .checklist.yellow .row .col-auto{
 background-color: $buttonBg10;
 }
