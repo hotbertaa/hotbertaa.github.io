@@ -67,7 +67,7 @@ $('.scrollTo').on('click', function(){
         return true;
     } else {
     	if($($(this).attr('href')).length > 0){
-        topx = '-1';
+        var topx = '-1';
         if($(this).attr('href')=="#portfolio"){ topx = '-150'; }
         if($(this).attr('href')=="#geronigo"){ topx = '10'; }
         if($(this).attr('href')=="#rezbot"){ topx = '80'; }
