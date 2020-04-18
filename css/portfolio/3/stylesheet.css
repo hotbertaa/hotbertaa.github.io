@@ -409,6 +409,8 @@ header .linkedin .icn { background-size: 100% auto !important; -ms-interpolation
 
 #head nav a { opacity: 0.5; }
 
+#head nav .selected { border-width: 1px; border-style: solid; font-family: Roboto; }
+
 #head nav a.selected, #head nav a:hover { opacity: 1; }
 
 @media only screen and (max-width: 768px) { .page-index #head { padding-bottom: 40px !important; }

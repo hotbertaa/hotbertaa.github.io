@@ -112,7 +112,7 @@ color: darken($pluginTitleBg9,5%);
 }
 ///////////////////////////////////////////////////////
 #head nav .selected{
-color: $buttonCl10;
+color: $buttonCl10!important;
 }
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 // BORDER COLOR
@@ -126,6 +126,9 @@ border-color: darken($bodyCl10,5%)!important;
 #portfolio .status .col-md div,
 .READMOREjs.border-bottom{
 border-color: darken($bodyBg9,5%)!important;
+}
+#head nav .selected{
+border-color: buttonBg9!important;
 }
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 // BACKGROUND COLOR

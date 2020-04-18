@@ -35,13 +35,15 @@ footer nav #main a, footer nav #sub a { color: #0e6585; }
 
 #portfolio .status .col-md div, #portfolio .h1 a, .READMOREjs a, #links .h3, #portfolio .h3 { color: #0e6585; }
 
-#head nav .selected { color: #0e6585; }
+#head nav .selected { color: #0e6585 !important; }
 
 #study .border-top { border-color: #020d11 !important; }
 
 #intro .border-top { border-color: #041f28 !important; }
 
 #portfolio .status .col-md div, .READMOREjs.border-bottom { border-color: #9dddf5 !important; }
+
+#head nav .selected { border-color: buttonBg9 !important; }
 
 #head, #rezbot .READMOREjs a, body, header { background-color: #e2f5fc; }
 
