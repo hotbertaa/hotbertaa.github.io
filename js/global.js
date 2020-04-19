@@ -68,8 +68,9 @@ $('.scrollTo').on('click', function(){
     } else {
     	if($($(this).attr('href')).length > 0){
         if($(this).attr('href')=="#intro"){ $('html,body').animate({scrollTop: $($(this).attr('href')).offset().top -120 }, 'slow'); }
-        else if($(this).attr('href')=="#geronigo"){ $('html,body').animate({scrollTop: $($(this).attr('href')).offset().top -60 }, 'slow'); }
-        else if($(this).attr('href')=="#rezbot"){ $('html,body').animate({scrollTop: $($(this).attr('href')).offset().top +10 }, 'slow'); }
+        else if($(this).attr('href')=="#geronigo"){ $('nav a').removeClass('selected'); $('nav a:nth-child(2)').addClass('selected'); $('html,body').animate({scrollTop: $($(this).attr('href')).offset().top -60 }, 'slow'); }
+        else if($(this).attr('href')=="#rezbot"){ $('nav a').removeClass('selected'); $('nav a:nth-child(3)').addClass('selected'); $('html,body').animate({scrollTop: $($(this).attr('href')).offset().top +10 }, 'slow'); }
+        else if($(this).attr('href')=="#eventplanner"){ $('nav a').removeClass('selected'); $('nav a:nth-child(4)').addClass('selected'); $('html,body').animate({scrollTop: $($(this).attr('href')).offset().top +10 }, 'slow'); }
         else if($(this).attr('href')=="#about"){ $('html,body').animate({scrollTop: $($(this).attr('href')).offset().top +10 }, 'slow'); }
         else if($(this).attr('href')=="#study"){ $('html,body').animate({scrollTop: $($(this).attr('href')).offset().top -50 }, 'slow'); }
         else {
