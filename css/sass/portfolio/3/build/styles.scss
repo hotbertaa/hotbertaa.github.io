@@ -112,7 +112,7 @@ color: darken($pluginTitleBg9,5%);
 }
 ///////////////////////////////////////////////////////
 #head nav .selected{
-color: $buttonCl10!important;
+border-color: $buttonCl10!important;
 }
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 // BORDER COLOR
@@ -206,7 +206,7 @@ background-color: #375257;
 #subhead .container-fluid{
 background-color: #DEDEDE;
 }
-.scrollr.wrap,
+#wrap.scrollr,
 #portfolio .status .col-md div,
 .READMOREjs a,
 #links,
