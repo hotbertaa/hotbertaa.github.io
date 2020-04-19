@@ -35,7 +35,7 @@ footer nav #main a, footer nav #sub a { color: #0e6585; }
 
 #portfolio .status .col-md div, #portfolio .h1 a, .READMOREjs a, #links .h3, #portfolio .h3 { color: #0e6585; }
 
-#head nav .selected { border-color: #0e6585 !important; }
+#head nav .selected { color: #0e6585 !important; }
 
 #study .border-top { border-color: #020d11 !important; }
 
