@@ -5,16 +5,15 @@ display: none!important;
 .scrollr #header > .row > .col:nth-child(2){
 display: block!important;
 }
-.scrollz #wrap,
-.scrolly #wrap{
-padding-top: 400px!important;
-}
 ////////////////////////////////////////////////////////////////////////////////////
 
 @media only screen and (min-width: 768px) {
 
 ////////////////////////////////////////////////////////////////////////////////////
-
+.scrollz #wrap,
+.scrolly #wrap{
+padding-top: 400px!important;
+}
 .scrollz #head,
 .scrolly #head{
 padding: 0;
