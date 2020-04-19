@@ -2,9 +2,9 @@
 
 .scrollr #header > .row > .col:nth-child(2) { display: block !important; }
 
-#wrap.scrollr { padding-top: 400px !important; }
+.scrollz #wrap, .scrolly #wrap { padding-top: 400px !important; }
 
-@media only screen and (min-width: 768px) { .scrollr #head, .scrollz #head, .scrolly #head { padding: 0; position: fixed; top: 0; left: 0; right: 0; z-index: 100; }
+@media only screen and (min-width: 768px) { .scrollz #head, .scrolly #head { padding: 0; position: fixed; top: 0; left: 0; right: 0; z-index: 100; }
   .scrollz #head > .container-lg, .scrolly #head > .container-lg { padding-top: 1rem !important; padding-bottom: 1rem !important; }
   .scrollz #head .bg, .scrollz #head .container-xl, .scrolly #head .bg, .scrolly #head .container-xl { display: none; }
   /*#head .display-3, #head .h3, #head .lead, #head .row{ position: relative; opacity: 0; } #head .h3, #head .lead{ left: -100px; } #head .display-3{ top: -100px; } #head .row{ bottom: -50px; } .loaded #head .h3, .loaded #head .lead{ transition: left .5s ease, opacity .5s ease; left: 0; opacity: 1; } .loaded #head .display-3{ transition: top .5s ease, opacity .5s ease; top: 0; opacity: 1; } .loaded #head .row{ transition: bottom .5s ease, opacity .5s ease; bottom: 0; opacity: 1; } .loaded #head .display-3{ transition-delay: 0.1s; } .loaded #head .h3{ transition-delay: 0.2s; } .loaded #head .lead{ transition-delay: 0.3s; } .loaded #head .row{ transition-delay: 0.4s; }*/
