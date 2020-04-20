@@ -31,8 +31,8 @@ display: block;
 }
 #portfolio .h1 a small:before{
 content: '';
-width: 35px;
-height: 45px;
+width: 25px;
+height: 60px;
 @include backgroundSize();
 background-image: url(/images/arrow1.png);
 }

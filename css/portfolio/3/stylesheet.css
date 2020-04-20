@@ -389,7 +389,7 @@ header .linkedin .icn { background-size: 100% auto !important; -ms-interpolation
 
 @media (min-width: 1168px) { #portfolio .h1 a { position: relative; }
   #portfolio .h1 a small { position: absolute; top: -36px; right: -60px; display: block; }
-  #portfolio .h1 a small:before { content: ''; width: 35px; height: 45px; background-size: 100% auto !important; -ms-interpolation-mode: bicubic; image-rendering: optimizeQuality; background-image: url(/images/arrow1.png); } }
+  #portfolio .h1 a small:before { content: ''; width: 25px; height: 60px; background-size: 100% auto !important; -ms-interpolation-mode: bicubic; image-rendering: optimizeQuality; background-image: url(/images/arrow1.png); } }
 @media (min-width: 768px) { .row-cols-md-7 > * { flex: 0 0 14.2857142%; max-width: 14.2857142%; } }
 .video { max-width: 880px; margin: 0 auto 3rem auto; }
 

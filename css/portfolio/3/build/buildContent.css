@@ -6,8 +6,8 @@ Error: Undefined mixin 'backgroundSize'.
 31: }
 32: #portfolio .h1 a small:before{
 33: content: '';
-34: width: 35px;
-35: height: 45px;
+34: width: 25px;
+35: height: 60px;
 36: @include backgroundSize();
 37: background-image: url(/images/arrow1.png);
 38: }
@@ -87,4 +87,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'backgroundSize'.\A         on line 36 of /Users/hotbertaa/Documents/GitHub/hotbertaa.github.io/css/sass/portfolio/3/build/buildContent.scss, in `backgroundSize'\A         from line 36 of /Users/hotbertaa/Documents/GitHub/hotbertaa.github.io/css/sass/portfolio/3/build/buildContent.scss\A \A 31: }\A 32: #portfolio .h1 a small:before{\A 33: content: '';\A 34: width: 35px;\A 35: height: 45px;\A 36: @include backgroundSize();\A 37: background-image: url(/images/arrow1.png);\A 38: }\A 39: ////////////////////////////////////////////////////////////////////////////////////\A 40: }\A 41: ////////////////////////////////////////////////////////////////////////////////////"; }
+  content: "Error: Undefined mixin 'backgroundSize'.\A         on line 36 of /Users/hotbertaa/Documents/GitHub/hotbertaa.github.io/css/sass/portfolio/3/build/buildContent.scss, in `backgroundSize'\A         from line 36 of /Users/hotbertaa/Documents/GitHub/hotbertaa.github.io/css/sass/portfolio/3/build/buildContent.scss\A \A 31: }\A 32: #portfolio .h1 a small:before{\A 33: content: '';\A 34: width: 25px;\A 35: height: 60px;\A 36: @include backgroundSize();\A 37: background-image: url(/images/arrow1.png);\A 38: }\A 39: ////////////////////////////////////////////////////////////////////////////////////\A 40: }\A 41: ////////////////////////////////////////////////////////////////////////////////////"; }
