@@ -3,5 +3,6 @@
   /* Safari, Android, iOS */ }
 @font-face { font-family: Poppins; font-display: swap; src: local("Poppins Regular"), local("Poppins-Regular"), url("/fonts/poppins/poppins-v9-latin-regular.woff2") format("woff2"), url("/fonts/poppins/poppins-v9-latin-regular.woff") format("woff"), url("/fonts/poppins/Poppins-Regular.ttf") format("truetype");
   /* Safari, Android, iOS */ }
+@font-face { font-family: Indie Flower; font-display: swap; src: local("Indie Flower"), local("Indie Flower"), url("/fonts/Indie_Flower/IndieFlower-Regular.ttf") format("truetype"); }
 
 /*# sourceMappingURL=fontfaces.css.map */
