@@ -115,6 +115,62 @@
 <section id="resource">
 <div class="container-lg py-4 py-md-5">
 
+https://gist.github.com/ericandrewlewis/95239573dc97c0e86714
+
+aws ec2 create-key-pair --key-name aws.peter2 --query 'KeyMaterial' --output text > ~/.ssh/aws.peter.pem
+
+chmod 400 /Users/hotbertaa/japanportrait.pem
+
+ssh ec2-user@ec2-18-180-101-131.ap-northeast-1.compute.amazonaws.com -i "/Users/hotbertaa/japanportrait.pem"
+
+sudo mkdir -p /sites/japanportrait.com/public
+
+
+cd /sites/japanportrait.com/public
+sudo wget https://wordpress.org/latest.tar.gz
+sudo tar zxf latest.tar.gz
+cd wordpress
+sudo cp -rpf * ../
+cd ../
+sudo rm -rf wordpress/ latest.tar.gz
+
+sudo chown -R nginx:nginx /sites/japanportrait.com/public
+
+sudo open -a TextEdit /etc/nginx/nginx.conf
+
+ssh -i ".pem" ec2-user@ec2-18-180-101-131.ap-northeast-1.compute.amazonaws.com
+
+
+LOGIN
+ssh -i /Users/hotbertaa/japanportrait.pem ubuntu@13.114.26.49
+
+
+
+DNS - cloudflare.com >
+AWS - ROUTE 53 > registered domains > name servers
+
+
+
+
+
+
+ssh -i /Users/hotbertaa/japanportrait.pem ubuntu@54.95.244.233
+
+
+
+DB credentials
+
+h: japanportrait.cuua0bnbe7kw.ap-northeast-1.rds.amazonaws.com
+db: japanportrait
+u: admin
+p: P0rtra1t365
+
+ssh -i /Users/hotbertaa/japanportrait.pem ubuntu@13.114.106.129
+cd /var/www/html/japanportrait
+git pull
+
+
+
 <p class="h4">SASS Information</p>
 <div class="mb-5" style="white-space: pre-wrap;">
 sudo sass --style compact --watch "/Users/hotbertaa/Documents/GitHub/hotbertaa.github.io/css/sass":"/Users/hotbertaa/Documents/GitHub/hotbertaa.github.io/css"
