@@ -486,11 +486,15 @@ header .linkedin .icn { background-size: 100% auto !important; -ms-interpolation
 
 #tools #icn4 span { background-color: #E91F61; }
 
+#tools #icn4a span { background-color: #F69832; }
+
 #tools #icn5 span { background-color: #1292EC; }
 
 #tools #icn6 span { background-color: #FFB447; }
 
 #tools #icn7 span { background-color: #7FBAFB; }
+
+#tools #icn8 { background-color: #7FBAFB; }
 
 footer nav, .display-3, .h1, .h2, .h3, .h4, .h5, header nav { text-transform: inherit !important; }
 
