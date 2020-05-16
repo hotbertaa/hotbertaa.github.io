@@ -124,15 +124,15 @@ $('#menu .close').on('click ', function() {
 //$('.READMOREjs').off('click');
 $('.READMOREjs div a:first-of-type').on('click', function(){
   var next = $(this).parent().next();
-  var parentID = $(this).parent().attr('id');
+  var parentID = $(this).parent().parent().attr('id');
   $(this).animate({scrollTop: $("body").offset().top},500);
   if($(this).hasClass('open')===false){
     $('.READMOREjs').removeClass('open');
-    $(this).parent().addClass('selected');
+    $(this).parent().parent().addClass('selected');
     $(next).show().addClass('open');
     $(this).addClass('open');
   } else {
-    $(this).parent().removeClass('selected');
+    $(this).parent().parent().removeClass('selected');
     $(next).hide().removeClass('open');
     $(this).removeClass('open');
   }
