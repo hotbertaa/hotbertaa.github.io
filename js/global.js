@@ -122,8 +122,8 @@ $('#menu .close').on('click ', function() {
 });
 
 //$('.READMOREjs').off('click');
-$('.READMOREjs').on('click', function(){
-  var next = $(this).next();
+$('.READMOREjs a:first-of-type').on('click', function(){
+  var next = $(this).parent().next();
   var parentID = $(this).parent().attr('id');
   $(this).animate({scrollTop: $("body").offset().top},500);
   if($(this).hasClass('open')===false){
