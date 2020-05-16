@@ -5,7 +5,7 @@
 
 .READMOREjs { position: relative; }
 
-.READMOREjs a { margin-left: -85px; position: absolute; top: 32px; left: 50%; }
+.READMOREjs > div { margin-left: -185px; position: absolute; top: 32px; left: 50%; }
 
 #portfolio .img1 { padding-bottom: 62%; }
 
