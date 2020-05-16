@@ -122,7 +122,7 @@ $('#menu .close').on('click ', function() {
 });
 
 //$('.READMOREjs').off('click');
-$('.READMOREjs a:first-of-type').on('click', function(){
+$('.READMOREjs div a:first-of-type').on('click', function(){
   var next = $(this).parent().next();
   var parentID = $(this).parent().attr('id');
   $(this).animate({scrollTop: $("body").offset().top},500);
