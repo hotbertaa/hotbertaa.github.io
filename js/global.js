@@ -123,7 +123,7 @@ $('#menu .close').on('click ', function() {
 
 //$('.READMOREjs').off('click');
 $('.READMOREjs div a:first-of-type').on('click', function(){
-  var next = $(this).parent().next();
+  var next = $(this).parent().parent().next();
   var parentID = $(this).parent().parent().attr('id');
   $(this).animate({scrollTop: $("body").offset().top},500);
   if($(this).hasClass('open')===false){
