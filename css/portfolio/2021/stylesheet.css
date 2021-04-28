@@ -19,8 +19,8 @@ text-align: left;
 line-height: 29px;
 letter-spacing: 0em;
 }
-.h2 b,
-.h3 b{
+h2 b,
+h3 b{
 font-family: 'Zilla Slab Highlight', cursive;
 }
 #header p b{
@@ -35,7 +35,7 @@ font-weight: 500;
 line-height: 29px;
 letter-spacing: 0.12em;
 }
-#header p.h2 span{
+#header h2 span{
 width: 120px;
 font-size: 24px;
 font-style: italic;
