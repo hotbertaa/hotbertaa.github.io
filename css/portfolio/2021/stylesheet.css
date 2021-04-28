@@ -81,6 +81,11 @@ vertical-align: middle;
 padding-left: 120px;
 }
 /*////////// Experiences //////////*/
+#bio .img{
+width: 96px;
+height: 96px;
+display: block;
+}
 #experiences .img{
   height: 220px;
 display: block;
