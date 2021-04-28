@@ -32,15 +32,22 @@ line-height: 29px;
 letter-spacing: 0.12em;
 }
 #header h2 span{
-width: 120px;
 font-size: 24px;
 font-style: italic;
 font-weight: 400;
-text-align: right;
 }
 #header h2 b{
 font-size: 68px;
-font-style: normal;
-font-weight: 700;
 line-height: 82px;
+/*font-style: normal;
+font-weight: 700;*/
+}
+#header h2 em,
+#header h5 em{
+width: 120px;
+text-align: right;
+}
+#header h5 b{
+  font-size: 32px;
+  line-height: 40px;
 }
