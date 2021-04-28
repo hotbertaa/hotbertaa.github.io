@@ -40,10 +40,10 @@ li{
 font-size: 18px!important;
 line-height: 26px!important;
 }
-li small,
-p small{
+small{
 font-size: 14px!important;
 line-height: 18px!important;
+display: block;
 }
 #header p{
 font-size: 24px!important;
