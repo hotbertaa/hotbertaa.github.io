@@ -23,7 +23,19 @@ letter-spacing: 0em;
 .h3 b{
 font-family: 'Zilla Slab Highlight', cursive;
 }
-#header .h2 span{
+#header p b{
+font-size: 24px;
+font-weight: 700;
+line-height: 29px;
+letter-spacing: 0.12em;
+}
+#header p em{
+font-size: 24px;
+font-weight: 500;
+line-height: 29px;
+letter-spacing: 0.12em;
+}
+#header p.h2 span{
 width: 120px;
 font-size: 24px;
 font-style: italic;
