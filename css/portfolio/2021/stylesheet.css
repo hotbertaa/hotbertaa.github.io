@@ -97,4 +97,8 @@ display: block;
 }
 #early-years > .col{
 width: 272px!important;
+overflow: hidden;
+}
+#early-years > .col .col{
+float: left;
 }
