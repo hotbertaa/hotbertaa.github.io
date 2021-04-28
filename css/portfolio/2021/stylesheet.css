@@ -23,7 +23,7 @@ letter-spacing: 0em;
 }
 .h2 b,
 .h3 b{
-font-family: 'Zilla Slab Highlight';
+font-family: 'Zilla Slab Highlight'!importants;
 }
 #header .h2 span{
 width: 120px;
