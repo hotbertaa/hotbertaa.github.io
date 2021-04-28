@@ -41,6 +41,6 @@ width: 120px;
 text-align: right;
 }
 #header h5 b{
-font-size: 32px;
-line-height: 40px;
+font-size: 32px!important;
+line-height: 40px!important;
 }
