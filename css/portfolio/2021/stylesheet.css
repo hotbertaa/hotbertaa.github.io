@@ -30,6 +30,11 @@ h5 em{
 opacity: 68%;
 }
 /*////////// HEADER //////////*/
+#header h2 em,
+#header h5 em{
+font-size: 24px;
+line-height: 30px;
+}
 header nav{
 float: right;
 }
