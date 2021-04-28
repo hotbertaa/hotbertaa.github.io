@@ -4,3 +4,10 @@ color: #242B2E;
 #header{
 background-color: #EBC040;
 }
+header nav{
+background-color: #242B2E;
+color: #FFF;
+}
+header nav a{
+color: #EBC040;
+}
