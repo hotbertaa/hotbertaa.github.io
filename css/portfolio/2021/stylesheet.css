@@ -24,21 +24,21 @@ font-weight: 700;*/
 }
 h4{
 font-size: 38px!important;
-line-height: 50px!important;
+line-height: 44px!important;
 }
 h5{
 font-size: 32px!important;
-line-height: 40px!important;
+line-height: 38px!important;
 }
 .subtitle{
 font-size: 28px!important;
-line-height: 36px!important;
+line-height: 34px!important;
 }
 .subtitle small,
 p,
 li{
 font-size: 18px!important;
-line-height: 26px!important;
+line-height: 24px!important;
 }
 li small,
 p small{
