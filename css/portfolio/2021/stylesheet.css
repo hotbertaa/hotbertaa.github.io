@@ -38,9 +38,15 @@ font-size: 24px;
 font-style: italic;
 font-weight: 400;
 }
-#header h2 b{
+h2 b{
 font-size: 68px;
 line-height: 82px;
+/*font-style: normal;
+font-weight: 700;*/
+}
+h3 b{
+font-size: 38px;
+line-height: 48px;
 /*font-style: normal;
 font-weight: 700;*/
 }
