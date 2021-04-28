@@ -95,10 +95,11 @@ display: block;
   width: 100%;
   overflow-x: scroll;
 }
-#early-years > .col{
+#early-years > .colx{
 width: 272px!important;
 overflow: hidden;
+float: left;
 }
-#early-years > .col .col{
+#early-years > .colx .colx{
 float: left;
 }
