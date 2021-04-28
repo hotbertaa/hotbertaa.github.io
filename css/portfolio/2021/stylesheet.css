@@ -7,8 +7,7 @@ body{
   font-family: 'Zilla Slab';
 }
 
-p{
-font-family: Zilla Slab;
+p b{
 font-size: 24px;
 font-style: italic;
 font-weight: 700;
@@ -16,8 +15,24 @@ line-height: 29px;
 letter-spacing: 0.12em;
 text-align: left;
 }
-.h2{
+.h2 span{
+
+line-height: 29px;
+letter-spacing: 0em;
+
+}
+.h2 b,
+.h3 b{
 font-family: 'Zilla Slab Highlight';
+}
+#header .h2 span{
+width: 120px;
+font-size: 24px;
+font-style: italic;
+font-weight: 400;
+text-align: right;
+
+}
 font-size: 24px;
 font-style: italic;
 font-weight: 700;
