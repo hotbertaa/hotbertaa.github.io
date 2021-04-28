@@ -11,6 +11,9 @@ color: #FFF;
 header nav a{
 color: #EBC040;
 }
+h5 em{
+opacity: 68%;
+}
 .img{
   background-color: #EEE;
 }
