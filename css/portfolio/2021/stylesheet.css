@@ -4,8 +4,12 @@
   /* Safari, Android, iOS */ }
 
 body{
-/*font-family: 'Zilla Slab';*/
-font-family: 'Zilla Slab Highlight', cursive;
+font-family: 'Zilla Slab';
+
+}
+h2 b,
+h3 b{
+  font-family: 'Zilla Slab Highlight', cursive!important;
 }
 
 p b{
@@ -15,13 +19,6 @@ font-weight: 700;
 line-height: 29px;
 letter-spacing: 0.12em;
 text-align: left;
-}
-.h2 span{
-line-height: 29px;
-letter-spacing: 0em;
-}
-body{
-
 }
 #header p b{
 font-size: 24px;
@@ -41,4 +38,10 @@ font-size: 24px;
 font-style: italic;
 font-weight: 400;
 text-align: right;
+}
+#header h2 b{
+font-size: 68px;
+font-style: normal;
+font-weight: 700;
+line-height: 82px;
 }
