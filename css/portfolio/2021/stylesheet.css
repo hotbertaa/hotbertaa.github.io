@@ -10,36 +10,6 @@ h2 b,
 h3 b{
 font-family: 'Zilla Slab Highlight'!important;
 }
-/*////////// HEADER //////////*/
-header nav{
-float: right;
-}
-header nav h1{
-font-family: 'Lato';
-font-size: 28px;
-font-weight: 900;
-}
-header section{
-clear: both;
-}
-p b{
-font-size: 24px;
-font-style: italic;
-font-weight: 700;
-line-height: 29px;
-letter-spacing: 0.12em;
-text-align: left;
-}
-#header p {
-font-size: 24px;
-line-height: 30px;
-letter-spacing: 0.12em;
-}
-#header h2 span{
-font-size: 24px;
-font-style: italic;
-font-weight: 400;
-}
 h2 b{
 font-size: 68px;
 line-height: 82px;
@@ -52,6 +22,30 @@ line-height: 48px;
 /*font-style: normal;
 font-weight: 700;*/
 }
+h5{
+font-size: 32px!important;
+line-height: 40px!important;
+}
+h5 em{
+opacity: 68%;
+}
+/*////////// HEADER //////////*/
+header nav{
+float: right;
+}
+header nav h1{
+font-family: 'Lato';
+font-size: 28px;
+font-weight: 900;
+}
+header section{
+clear: both;
+}
+#header p{
+font-size: 24px;
+line-height: 30px;
+letter-spacing: 0.12em;
+}
 #header h2 em,
 #header h5 em{
 width: 120px;
@@ -63,8 +57,4 @@ vertical-align: middle;
 }
 #header h5{
 padding-left: 120px;
-}
-#header h5 b{
-font-size: 32px!important;
-line-height: 40px!important;
 }
