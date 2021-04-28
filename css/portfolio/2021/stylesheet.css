@@ -8,7 +8,7 @@ font-family: 'Zilla Slab';
 }
 h2 b,
 h3 b{
-font-family: 'Zilla Slab Highlight', cursive!important;
+font-family: 'Zilla Slab Highlight'!important;
 }
 
 p b{
@@ -19,16 +19,9 @@ line-height: 29px;
 letter-spacing: 0.12em;
 text-align: left;
 }
-#header p b{
+#header p {
 font-size: 24px;
-font-weight: 700;
-line-height: 29px;
-letter-spacing: 0.12em;
-}
-#header p em{
-font-size: 24px;
-font-weight: 500;
-line-height: 29px;
+line-height: 30px;
 letter-spacing: 0.12em;
 }
 #header h2 span{
@@ -48,6 +41,6 @@ width: 120px;
 text-align: right;
 }
 #header h5 b{
-  font-size: 32px;
-  line-height: 40px;
+font-size: 32px;
+line-height: 40px;
 }
