@@ -5,11 +5,10 @@
 
 body{
 font-family: 'Zilla Slab';
-
 }
 h2 b,
 h3 b{
-  font-family: 'Zilla Slab Highlight', cursive!important;
+font-family: 'Zilla Slab Highlight', cursive!important;
 }
 
 p b{
