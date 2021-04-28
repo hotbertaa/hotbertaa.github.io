@@ -87,21 +87,3 @@ padding-left: 120px;
 display: block;
 }
 /*////////// Biography //////////*/
-#early-years{
-width: 100%;
-overflow-x: scroll;
-}
-#early-years > .colx{
-width: 336px!important;
-overflow: hidden;
-float: left;
-}
-#early-years > .colx .colx{
-  width: 220px;
-float: left;
-}
-#early-years > .colx .colx.img{
-width: 96px;
-height: 96px;
-display: block;
-}
