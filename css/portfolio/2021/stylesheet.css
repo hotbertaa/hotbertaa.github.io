@@ -90,3 +90,11 @@ display: block;
   height: 220px;
 display: block;
 }
+
+#early-years{
+  width: 100%;
+  overflow-x: scroll;
+}
+#early-years > .col{
+width: 272px!important;
+}
