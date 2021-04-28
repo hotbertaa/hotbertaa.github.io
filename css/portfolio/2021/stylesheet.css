@@ -92,3 +92,14 @@ background-size: auto 100%;
 display: block;
 }
 /*////////// Biography //////////*/
+.scroller{
+  white-space: nowrap;
+  overflow-x: scroll;
+}
+.scroller .colx{
+  width: 320px;
+  display: inline-block;
+}
+.scroller .colx p{
+  white-space: pre-wrap;
+}
