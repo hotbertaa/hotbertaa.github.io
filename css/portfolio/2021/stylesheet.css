@@ -10,7 +10,7 @@ h2 b,
 h3 b{
 font-family: 'Zilla Slab Highlight'!important;
 }
-
+/*////////// HEADER //////////*/
 header nav{
 float: right;
 }
@@ -19,7 +19,9 @@ font-family: 'Lato';
 font-size: 28px;
 font-weight: 900;
 }
-
+header section{
+clear: both;
+}
 p b{
 font-size: 24px;
 font-style: italic;
