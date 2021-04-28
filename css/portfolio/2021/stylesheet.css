@@ -19,8 +19,7 @@ text-align: left;
 line-height: 29px;
 letter-spacing: 0em;
 }
-h2 b,
-h3 b{
+body{
 font-family: 'Zilla Slab Highlight', cursive;
 }
 #header p b{
