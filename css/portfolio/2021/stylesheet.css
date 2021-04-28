@@ -4,7 +4,8 @@
   /* Safari, Android, iOS */ }
 
 body{
-font-family: 'Zilla Slab';
+/*font-family: 'Zilla Slab';*/
+font-family: 'Zilla Slab Highlight', cursive;
 }
 
 p b{
@@ -20,7 +21,7 @@ line-height: 29px;
 letter-spacing: 0em;
 }
 body{
-font-family: 'Zilla Slab Highlight', cursive;
+
 }
 #header p b{
 font-size: 24px;
