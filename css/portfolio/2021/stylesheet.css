@@ -51,6 +51,9 @@ font-size: 24px!important;
 line-height: 30px!important;
 letter-spacing: 0.12em;
 }
+h5 b{
+  font-weight: 600!important;
+}
 /*////////// HEADER //////////*/
 #header h2 em,
 #header h5 em{
