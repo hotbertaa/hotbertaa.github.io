@@ -19,6 +19,7 @@ font-weight: 700;*/
 h3 b{
 font-size: 58px;
 line-height: 70px;
+font-weight: 400!important;
 /*font-style: normal;
 font-weight: 700;*/
 }
@@ -52,7 +53,7 @@ line-height: 30px!important;
 letter-spacing: 0.12em;
 }
 h5 b{
-  font-weight: 600!important;
+  font-weight: 500!important;
 }
 /*////////// HEADER //////////*/
 #header h2 em,
