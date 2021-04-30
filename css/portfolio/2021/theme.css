@@ -1,19 +1,29 @@
 body{
+background-color: #F5F5F5;
+}
+#gallery a{
 color: #242B2E;
 }
-header{
-background-color: #EBC040;
-}
-header nav{
-background-color: #242B2E;
+header nav a{
 color: #FFF;
 }
-header nav a{
-color: #EBC040;
-}
+h4 em,
 h5 em{
 opacity: 68%;
 }
 .img{
-  background-color: #EEE;
+background-color: #EEE;
+}
+.page-story #gallery:hover .img{
+background-color: #EEE!important;
+}
+#project{
+background-color: #FFF;
+}
+.scroller::-webkit-scrollbar-thumb {
+background-color: rgba(0, 0, 0, 0.2);
+}
+#gallery:hover,
+.page-story #gallery:hover{
+background-color: #D5D5D5;
 }

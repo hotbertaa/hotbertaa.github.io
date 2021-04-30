@@ -1,106 +1,110 @@
-/* CSS - Peter Roper */
-@font-face { font-family: 'Material Icons'; font-style: normal; font-weight: 400; font-display: swap; src: url(https://fonts.gstatic.com/s/materialicons/v38/flUhRq6tzZclQEJ-Vdg-IuiaDsNY.eot) format("eot"), url(https://fonts.gstatic.com/s/materialicons/v38/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2) format("woff2"), url(https://fonts.gstatic.com/s/materialicons/v38/flUhRq6tzZclQEJ-Vdg-IuiaDsNa.woff) format("woff"), url(https://fonts.gstatic.com/s/materialicons/v38/flUhRq6tzZclQEJ-Vdg-IuiaDsNZ.ttf) format("ttf"); font-feature-settings: 'liga'; }
-@font-face { font-family: Poppins; font-display: swap; src: local("Poppins Regular"), local("Poppins-Regular"), url("/fonts/poppins/poppins-v9-latin-regular.woff2") format("woff2"), url("/fonts/poppins/poppins-v9-latin-regular.woff") format("woff"), url("/fonts/poppins/Poppins-Regular.ttf") format("truetype");
-  /* Safari, Android, iOS */ }
-
 body{
 font-family: 'Zilla Slab';
 }
-h2 b,
-h3 b{
-font-family: 'Zilla Slab Highlight'!important;
-}
-h2 b{
-font-size: 68px;
-line-height: 80px;
-/*font-style: normal;
-font-weight: 700;*/
-}
-h3 b{
-font-size: 58px;
-line-height: 70px;
-font-weight: 400!important;
-/*font-style: normal;
-font-weight: 700;*/
-}
-h4{
-font-size: 38px!important;
-line-height: 44px!important;
-}
-h5{
-font-size: 32px!important;
-line-height: 38px!important;
-}
-.subtitle{
-font-size: 28px!important;
-line-height: 34px!important;
-}
-h3 small,
-.subtitle small,
-p,
-li{
-font-size: 18px!important;
-line-height: 26px!important;
-}
-small{
-font-size: 16px!important;
-line-height: 20px!important;
-display: block;
-}
-#header p{
-font-size: 24px!important;
-line-height: 30px!important;
-letter-spacing: 0.12em;
-}
-h5 b{
-  font-weight: 500!important;
-}
-/*////////// HEADER //////////*/
-#header h2 em,
-#header h5 em{
-font-size: 24px;
-line-height: 30px;
-}
-header nav{
-float: right;
-}
 header nav h1{
 font-family: 'Lato';
-font-size: 28px;
 font-weight: 900;
 }
-header section{
-clear: both;
+.display-4,
+#intro .h2,
+#gallery .h4,
+h1 b,
+h2 b,
+h3 b,
+h4 b,
+h5 b,
+.subtitle{
+font-family: 'Zilla Slab Highlight'!important;
+font-weight: 600;
 }
-#header h2 em,
-#header h5 em{
-width: 120px;
-text-align: right;
-vertical-align: bottom;
+dt{
+  font-weight: 400;
 }
-#header h5 em{
-vertical-align: middle;
+p,
+li{
+font-size: 18px;
+line-height: 26px;
 }
-#header h5{
-padding-left: 120px;
+small{
+font-size: 16px;
+line-height: 20px;
+display: block;
 }
-
+.tag{
+  line-height: 16px;
+  font-size: 14px;
+}
+/*////////// HEADER //////////*/
+.icn{
+  font-family: "Material Icons" !important;
+  font-size: 24px;
+  width: 24px;
+  line-height: 24px;
+  font-weight: normal !important;
+  font-feature-settings: 'liga';
+  text-transform: initial;
+  text-indent: 0 !important;
+  overflow: hidden;
+}
+/*////////// HEADER //////////*/
 .img{
-padding-bottom: 68%;
+padding-bottom: 58%;
 background-position: 50%;
 background-repeat: no-repeat;
 background-size: auto 100%;
 display: block;
+}
+.tag .icn{
+  font-size: 16px;
+  width: 16px;
+  line-height: 16px;
+}
+
+#skills{
+
+width: 400px;
+list-style-type: none;
+}
+#skills li{
+line-height: 22px;
+  font-size: 16px;
 }
 /*////////// Biography //////////*/
 .scroller{
   white-space: nowrap;
   overflow-x: scroll;
 }
-.scroller .colx{
+.scroller .item{
   width: 320px;
   display: inline-block;
+  vertical-align: top;
 }
-.scroller .colx p{
-  white-space: pre-wrap;
+#gallery .h4,
+#gallery small{
+display: block;
+}
+.page-story .scroller .item{
+width: 148px;
+}
+.page-story #gallery .h4,
+.page-story #gallery small{
+display: none;
+}
+.page-story #gallery:hover .scroller .item{
+width: 320px;
+}
+.page-story #gallery:hover .h4,
+.page-story #gallery:hover small{
+display: block;
+}
+.page-story{
+padding-bottom: 200px;
+}
+.scroller::-webkit-scrollbar {
+height: 8px;
+}
+.scroller::-webkit-scrollbar-track {
+}
+.scroller::-webkit-scrollbar-thumb {
+border-radius: 100px;
 }
