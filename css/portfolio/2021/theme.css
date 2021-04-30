@@ -20,6 +20,7 @@ background-color: #EEE!important;
 #project{
 background-color: #FFF;
 }
+.scroller .img,
 .scroller::-webkit-scrollbar-thumb {
 background-color: rgba(0, 0, 0, 0.2);
 }
