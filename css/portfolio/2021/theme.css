@@ -1,11 +1,28 @@
 body{
+color: #07303f;
 background-color: #F5F5F5;
 }
-#gallery a{
-color: #242B2E;
+header h1,
+header h1 a{
+  color: #07303f!important;
+}
+header nav{
+color: #774dab!important;
+}
+header nav b{
+  color: #1599ca!important;
 }
 header nav a{
 color: #FFF;
+}
+#skills li{
+  background-color: #efa837;
+}
+header{
+background-color: #e2f5fc;
+}
+#screens{
+background-color: #b4e5f7;
 }
 h4 em,
 h5 em{
@@ -27,4 +44,14 @@ background-color: rgba(0, 0, 0, 0.2);
 #gallery:hover,
 .page-story #gallery:hover{
 background-color: #D5D5D5;
+}
+#gallery{
+
+    background: -moz-linear-gradient(left, #774dab 0%, #07303f 100%);
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%, #774dab), color-stop(100%, #07303f));
+    background: -webkit-linear-gradient(left, #774dab 0%, #07303f 100%);
+    background: -o-linear-gradient(left, #774dab 0%, #07303f 100%);
+    background: -ms-linear-gradient(left, #774dab 0%, #07303f 100%);
+    background: linear-gradient(to right, #774dab 0%, #07303f 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#774dab', endColorstr='#07303f',GradientType=1 );
 }

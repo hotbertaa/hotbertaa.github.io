@@ -6,8 +6,7 @@ font-family: 'Lato';
 font-weight: 900;
 }
 .display-4,
-#intro .h2,
-#gallery .h4,
+/*#gallery .h4,*/
 h1 b,
 h2 b,
 h3 b,
@@ -75,9 +74,9 @@ line-height: 22px;
   overflow-x: scroll;
 }
 .scroller .item{
-  width: 320px;
+  width: 300px;
   display: inline-block;
-  vertical-align: top;
+  vertical-align: middle;
 }
 #gallery .h4,
 #gallery small{
@@ -85,6 +84,9 @@ display: block;
 }
 .page-story .scroller .item{
 width: 148px;
+}
+.page-story .scroller .item.selected{
+width: 198px;
 }
 .page-story #gallery .h4,
 .page-story #gallery small{
