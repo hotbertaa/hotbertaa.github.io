@@ -6,17 +6,12 @@ header h1,
 header h1 a{
   color: #07303f!important;
 }
-header nav{
-color: #774dab!important;
-}
-header nav b{
-  color: #1599ca!important;
-}
 header nav a{
 color: #FFF;
 }
 #skills li{
-  background-color: #efa837;
+color: #07303f!important;
+background-color: #b4e5f7
 }
 header{
 background-color: #e2f5fc;
