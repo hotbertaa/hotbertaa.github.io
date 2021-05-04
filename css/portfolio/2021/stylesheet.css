@@ -107,17 +107,17 @@ width: 148px;
 .page-story .scroller .item.selected{
 width: 198px;
 }
-.page-story #gallery .h4,
-.page-story #gallery .h5,
-.page-story #gallery small{
+#gallery .h4,
+#gallery .h5,
+#gallery small{
 display: none;
 }
 .page-story #gallery:hover .scroller .item{
 width: 320px;
 }
-.page-story #gallery:hover .h5,
-.page-story #gallery:hover .h4,
-.page-story #gallery:hover small{
+#gallery:hover .h5,
+#gallery:hover .h4,
+#gallery:hover small{
 display: block;
 }
 .scroller::-webkit-scrollbar {
