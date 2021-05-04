@@ -1,6 +1,16 @@
 body{
-font-family: 'Zilla Slab';
+  font-family: "Segoe UI", system-ui, Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'!important;
 }
+#intro h1 b{
+  font-size: 55px;
+  font-weight: 700;
+}
+#intro h2{
+  font-weight: 400;
+}
+/*body{
+font-family: 'Zilla Slab';
+}*/
 header nav h1{
 font-family: 'Lato';
 font-weight: 900;
@@ -13,7 +23,7 @@ h3 b,
 h4 b,
 h5 b,
 .subtitle{
-font-family: 'Zilla Slab Highlight'!important;
+/*font-family: 'Zilla Slab Highlight'!important;*/
 font-weight: 600;
 }
 dt{
