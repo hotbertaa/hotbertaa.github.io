@@ -8,12 +8,12 @@ body{
 #intro h2{
   font-weight: 400;
 }
-/*body{
+em{
 font-family: 'Zilla Slab';
-}*/
+}
+.h1 b,
 header nav h1{
-font-family: 'Lato';
-font-weight: 900;
+font-weight: 700!important;
 }
 .display-4,
 /*#gallery .h4,*/
@@ -108,12 +108,14 @@ width: 148px;
 width: 198px;
 }
 .page-story #gallery .h4,
+.page-story #gallery .h5,
 .page-story #gallery small{
 display: none;
 }
 .page-story #gallery:hover .scroller .item{
 width: 320px;
 }
+.page-story #gallery:hover .h5,
 .page-story #gallery:hover .h4,
 .page-story #gallery:hover small{
 display: block;
