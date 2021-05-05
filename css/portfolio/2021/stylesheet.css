@@ -65,6 +65,11 @@ display: block;
   width: 16px;
   line-height: 16px;
 }
+.linkedin .icn{
+background-size: 100% auto;
+text-indent: -5000px!important;
+text-align: left;
+}
 /*////////////////////////////// skills //////////////////////////////*/
 #skills{
 list-style-type: none;
@@ -128,6 +133,11 @@ border-width: 0;
 
 }
 @media only screen and (max-width : 768px) {
+  #intro .linkedin{
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  }
   #intro h2{
   font-size: 1rem!important;
   }
