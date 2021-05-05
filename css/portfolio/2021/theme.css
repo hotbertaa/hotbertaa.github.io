@@ -1,5 +1,7 @@
 body{
 color: #07303f;
+}
+.page-story{
 background-color: #F5F5F5;
 }
 header h1,
@@ -14,7 +16,6 @@ color: #FFF;
 color: #07303f!important;
 /*background-color: #e2f5fc;*/
 }
-.page-index,
 header{
 background-color: #FFF;
 }
