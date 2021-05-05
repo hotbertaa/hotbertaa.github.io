@@ -8,9 +8,6 @@ font-family: "Segoe UI", system-ui, Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Ca
 em{
 font-family: 'Zilla Slab';
 }
-#intro h1 b{
-font-size: 55px;
-}
 p,
 li{
 line-height: 26px;
@@ -70,7 +67,6 @@ display: block;
 }
 /*////////////////////////////// skills //////////////////////////////*/
 #skills{
-width: 400px;
 list-style-type: none;
 }
 #skills li{
@@ -132,6 +128,9 @@ border-width: 0;
 
 }
 @media only screen and (max-width : 768px) {
+  #intro h2{
+  font-size: 1rem!important;
+  }
   #on-show .col{
   padding: 1rem 0!important;
   }
@@ -141,6 +140,12 @@ border-width: 0;
 }
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
+  #skills{
+  width: 400px;
+  }
+  #intro h1 b{
+  font-size: 55px;
+  }
   #on-show .col{
   border-width: 0 0 0 1px;
   }
