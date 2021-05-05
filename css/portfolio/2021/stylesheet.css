@@ -1,3 +1,6 @@
+.page-story{
+padding-bottom: 246px;
+}
 body{
   font-family: "Segoe UI", system-ui, Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'!important;
 }
@@ -35,13 +38,13 @@ font-size: 18px;
 line-height: 26px;
 }
 small{
-font-size: 16px;
-line-height: 20px;
+font-size: 14px;
+line-height: 18px;
 display: block;
 }
 .tag{
   line-height: 16px;
-  font-size: 14px;
+  font-size: 12px;
 }
 /*////////// HEADER //////////*/
 .icn{
