@@ -1,53 +1,46 @@
 .page-index{
 padding-bottom: 246px;
 }
+/*////////////////////////////// font //////////////////////////////*/
 body{
-  font-family: "Segoe UI", system-ui, Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'!important;
-}
-#intro h1 b{
-  font-size: 55px;
-  font-weight: 700;
-}
-#intro h2{
-  font-weight: 400;
+font-family: "Segoe UI", system-ui, Roboto, Ubuntu, 'Helvetica Neue', Oxygen, Cantarell, Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'!important;
 }
 em{
 font-family: 'Zilla Slab';
 }
+#intro h1 b{
+font-size: 55px;
+}
+p,
+li{
+line-height: 26px;
+font-size: 18px;
+}
+dd,
+small{
+line-height: 20px;
+font-size: 14px;
+display: block;
+}
+#intro h1 b,
 .h1 b,
 header nav h1{
 font-weight: 700!important;
 }
 .display-4,
-/*#gallery .h4,*/
 h1 b,
 h2 b,
 h3 b,
 h4 b,
 h5 b,
 .subtitle{
-/*font-family: 'Zilla Slab Highlight'!important;*/
 font-weight: 600;
 }
+#intro h2,
 dt{
-  font-weight: 400;
+font-weight: 400;
 }
-p,
-li{
-font-size: 18px;
-line-height: 26px;
-}
-dd,
-small{
-  line-height: 20px;
-font-size: 14px;
-display: block;
-}
-.tag{
-  line-height: 16px;
-  font-size: 12px;
-}
-/*////////// HEADER //////////*/
+/*////////////////////////////// elements //////////////////////////////*/
 .icn{
   font-family: "Material Icons" !important;
   font-size: 24px;
@@ -59,7 +52,6 @@ display: block;
   text-indent: 0 !important;
   overflow: hidden;
 }
-/*////////// HEADER //////////*/
 .img{
 padding-bottom: 58%;
 background-position: 50%;
@@ -67,12 +59,16 @@ background-repeat: no-repeat;
 background-size: auto 100%;
 display: block;
 }
+.tag{
+  line-height: 16px;
+  font-size: 12px;
+}
 .tag .icn{
   font-size: 16px;
   width: 16px;
   line-height: 16px;
 }
-
+/*////////////////////////////// skills //////////////////////////////*/
 #skills{
 width: 400px;
 list-style-type: none;
@@ -81,18 +77,18 @@ list-style-type: none;
 line-height: 22px;
   font-size: 16px;
 }
-/*////////// Biography //////////*/
+/*////////////////////////////// scroller //////////////////////////////*/
 .scroller{
-  white-space: nowrap;
-  overflow-x: scroll;
+white-space: nowrap;
+overflow-x: scroll;
 }
 .scroller .item{
-  width: 300px;
-  display: inline-block;
-  vertical-align: middle;
+width: 240px;
+display: inline-block;
+vertical-align: middle;
 }
 .scroller .item .img{
-  position: relative;
+position: relative;
 }
 .scroller .item .img em{
 margin: -12px 0 0 -43px;
@@ -101,25 +97,11 @@ top: 50%;
 left: 50%;
 text-align:center;
 }
-#gallery .h4,
-#gallery small{
-display: block;
-}
 .page-story .scroller .item{
 width: 148px;
 }
 .page-story .scroller .item.selected{
 width: 198px;
-}
-#gallery .h4,
-#gallery .h5,
-#gallery small{
-display: none;
-}
-#gallery:hover .h5,
-#gallery:hover .h4,
-#gallery:hover small{
-display: block;
 }
 .scroller::-webkit-scrollbar {
 height: 8px;
@@ -129,8 +111,13 @@ height: 8px;
 .scroller::-webkit-scrollbar-thumb {
 border-radius: 100px;
 }
-
-
+/*////////////////////////////// gallery //////////////////////////////*/
+#gallery .h4,
+#gallery .h5,
+#gallery small{
+display: none;
+}
+/*////////////////////////////// on show //////////////////////////////*/
 #on-show .col{
 border-color: rgba(0, 0, 0, 0.12);
 border-width: 1px 0 0 0;
@@ -139,6 +126,7 @@ border-style: solid;
 #on-show .col:first-of-type{
 border-width: 0;
 }
+/*////////////////////////////// responsive //////////////////////////////*/
 /* Extra Small Devices, Phones */
 @media only screen and (min-width : 348px) {
 
@@ -159,12 +147,20 @@ border-width: 0;
   .page-story{
   padding-bottom: 200px;
   }
+  .scroller .item{
+  width: 300px;
+  }
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
   .page-story #gallery:hover .scroller .item{
   width: 320px;
+  }
+  #gallery:hover .h5,
+  #gallery:hover .h4,
+  #gallery:hover small{
+  display: block;
   }
 }
 
