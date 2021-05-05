@@ -37,9 +37,10 @@ li{
 font-size: 18px;
 line-height: 26px;
 }
+dd,
 small{
+  line-height: 20px;
 font-size: 14px;
-line-height: 18px;
 display: block;
 }
 .tag{
