@@ -116,9 +116,6 @@ width: 198px;
 #gallery small{
 display: none;
 }
-.page-story #gallery:hover .scroller .item{
-width: 320px;
-}
 #gallery:hover .h5,
 #gallery:hover .h4,
 #gallery:hover small{
@@ -166,7 +163,9 @@ border-width: 0;
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
-
+  .page-story #gallery:hover .scroller .item{
+  width: 320px;
+  }
 }
 
 /* Large Devices, Wide Screens */
