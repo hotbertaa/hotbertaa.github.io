@@ -181,13 +181,16 @@ border-width: 0;
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
+  .page-story #gallery .scroller .item{
+  transition: width .4s ease; width: 240px !important;
+  }
   .page-story #gallery:hover .scroller .item{
-  width: 320px;
+  transition: width .4s ease; width: 320px !important;
   }
   #gallery:hover .h5,
   #gallery:hover .h4,
   #gallery:hover small{
-  display: block;
+  transition: display .6s ease; display: block !important;
   }
 }
 
