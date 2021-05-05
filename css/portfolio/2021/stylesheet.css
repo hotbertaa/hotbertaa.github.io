@@ -132,7 +132,7 @@ border-width: 0;
   font-size: 1rem!important;
   }
   #mockup{
-  width: 100%;
+  width: 100%!important;
   }
   #on-show .col{
   padding: 1rem 0!important;
