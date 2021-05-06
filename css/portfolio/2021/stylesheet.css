@@ -176,10 +176,10 @@ vertical-align: top;
   width: 400px;
   }*/
   #intro .row .col-md{
-    width: 67%!important;
+    width: 62%!important;
   }
   #intro .row .col-md:last-of-type{
-    width: 33%!important;
+    width: 38%!important;
   }
   #intro h1 b{
   font-size: 55px;
