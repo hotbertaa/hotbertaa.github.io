@@ -83,6 +83,12 @@ line-height: 22px;
 white-space: nowrap;
 overflow-x: scroll;
 }
+.scroller p,
+.scroller ul,
+.scroller li{
+  white-space: normal;
+  vertical-align: top;
+}
 .scroller .item{
 width: 240px;
 display: inline-block;
@@ -128,6 +134,16 @@ border-style: solid!important;
 #on-show .col:first-of-type{
 border-width: 0!important;
 }
+
+#intro .row .col-md{
+  width: 67%!important;
+}
+#intro .row .col-md:last-of-type{
+  width: 33%!important;
+}
+#intro .scroller .item{
+vertical-align: top;
+}
 /*////////////////////////////// responsive //////////////////////////////*/
 /* Extra Small Devices, Phones */
 @media only screen and (min-width : 348px) {
@@ -163,9 +179,9 @@ border-width: 0!important;
 }
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
-  #skills{
+  /*#skills{
   width: 400px;
-  }
+  }*/
   #intro h1 b{
   font-size: 55px;
   }
