@@ -14,7 +14,17 @@ color: #FFF;
 }
 #skills li{
 color: #07303f!important;
-/*background-color: #e2f5fc;*/
+}
+#personas .row,
+#personas .col-md,
+#on-show .col{
+border-color: rgba(0, 0, 0, 0.12)!important;
+}
+#personas .row,
+#personas .row .card,
+#personas .row .card li{
+/*background-color: #e2f5fc!important;*/
+background-color: #E2E8F0!important;
 }
 header{
 background-color: #FFF;
@@ -41,7 +51,6 @@ background-color: rgba(0, 0, 0, 0.2);
 background-color: #D5D5D5;
 }
 #gallery{
-
     background: -moz-linear-gradient(left, #774dab 0%, #07303f 100%);
     background: -webkit-gradient(linear, left top, right top, color-stop(0%, #774dab), color-stop(100%, #07303f));
     background: -webkit-linear-gradient(left, #774dab 0%, #07303f 100%);
