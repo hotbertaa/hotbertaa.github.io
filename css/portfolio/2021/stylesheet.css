@@ -186,7 +186,10 @@ border-width: 0!important;
   .page-story #gallery .scroller .item{
   transition: width .4s ease; width: 240px !important;
   }
-  .page-story #gallery:hover .scroller .item{
+  .page-index #gallery .scroller .item{
+  transition: width .4s ease; width: 280px !important;
+  }
+  #gallery:hover .scroller .item{
   transition: width .4s ease; width: 320px !important;
   }
   #gallery:hover .h5,
