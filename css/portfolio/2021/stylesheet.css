@@ -172,7 +172,7 @@ vertical-align: top;
 }
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
-  #iterations .order-1{
+  #iterations .col-md.order-1{
     min-width: 68%!important;
   }
   #intro .row .col-md{
