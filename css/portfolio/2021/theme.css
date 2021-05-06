@@ -7,7 +7,6 @@ background-color: #F5F5F5;
 header h1,
 header h1 a{
 color: #07303f!important;
-
 }
 header nav a{
 color: #FFF;
@@ -15,11 +14,15 @@ color: #FFF;
 #skills li{
 color: #07303f!important;
 }
+#competitor .table th,
+#competitor .table td,
+#competitor .table,
 #personas .row,
 #personas .col-md,
 #on-show .col{
 border-color: rgba(0, 0, 0, 0.12)!important;
 }
+#competitor .table,
 #personas .row,
 #personas .row .card,
 #personas .row .card li{
