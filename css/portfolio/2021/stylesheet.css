@@ -119,13 +119,15 @@ border-radius: 100px;
 display: none;
 }
 /*////////////////////////////// on show //////////////////////////////*/
+#personas .col-md,
 #on-show .col{
-border-color: rgba(0, 0, 0, 0.12);
-border-width: 1px 0 0 0;
-border-style: solid;
+border-color: rgba(0, 0, 0, 0.12)!important;
+border-width: 1px 0 0 0!important;
+border-style: solid!important;
 }
+#personas .col-md:first-of-type,
 #on-show .col:first-of-type{
-border-width: 0;
+border-width: 0!important;
 }
 /*////////////////////////////// responsive //////////////////////////////*/
 /* Extra Small Devices, Phones */
@@ -168,8 +170,9 @@ border-width: 0;
   #intro h1 b{
   font-size: 55px;
   }
+  #personas .col-md,
   #on-show .col{
-  border-width: 0 0 0 1px;
+  border-width: 0 0 0 1px!important;
   }
   .page-story{
   padding-bottom: 200px;
